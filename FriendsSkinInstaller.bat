@@ -51,14 +51,19 @@ goto:start
 
 :copy
 echo.
-if not exist friends.custom.css (echo  friends.costum.css not found, make sure it's in the same directory as this installer. && echo. && goto:start)
+if not exist friends.custom.css (echo  friends.custom.css not found, make sure it's in the same directory as this installer. && echo. && goto:start)
 
 echo Checking for Steam directory...
 for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do (
     if %%E==SteamPath set SteamPath=%%G
+    if %%E==FriendsSkin set FriendsSkin=%%G
+
 )
 
 if exist "%SteamPath%" (echo Steam directory found! && echo.) else (echo Steam directory not found. && echo Confirm Steam is installed and try running this file as administrator. && pause && goto:eof)
+
+if [%FriendsSkin%]==[] echo No Friends Skin found... && set FriendsPath=%SteamPath%/clientui/friends.custom.css
+if not [%FriendsSkin%]==[] set FriendsPath=%SteamPath%/clientui/friends.custom.css
 
 echo Checking for write access to Steam directory...
 
@@ -66,8 +71,7 @@ mkdir "%SteamPath%/tmp"
 if exist "%SteamPath%/tmp" (rmdir "%SteamPath%/tmp" && echo Success! && echo.) else (echo Write access denied, try running this file as administrator. && pause && goto:eof)
 
 echo Copying Steam Friends Skin to Steam directory...
-if [%FriendsSkin%]==[] (
-    copy /Y friends.custom.css "%FriendsPath%" >nul
+    copy /Y friends.custom.css "%FriendsPath%"
 )
 if not [%FriendsSkin%]==[] copy /Y friends.custom.css "%FriendsPath%" >nul
 echo.
