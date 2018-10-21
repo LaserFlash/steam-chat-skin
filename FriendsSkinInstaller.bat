@@ -10,13 +10,16 @@ echo If you have any questions, Leave a message on our Discord: https://discord.
 echo.
 echo.
 echo -------------------------------------------
-echo 	HOW TO INSTALL
-echo 1. Update friends.custom.
-echo 2. Copy friends.custom to Steam Directory.
-echo 3. Install the Friends Skin for Steam.
+echo 	       HOW TO INSTALL
+echo 1. Download EnableNewSteamFriendsSkin.exe
+echo 2. Update to the latest version.
+echo 3. Copy friends.custom to Steam Directory.
+echo 4. Install the Friends Skin for Steam.
 echo -------------------------------------------
 echo.
 echo.
+
+https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases/download/1.1/EnableNewSteamFriendsSkin.exe
 
 echo Checking for Steam directory...
 for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do if %%E==SteamPath set SteamPath=%%G
@@ -26,26 +29,34 @@ echo.
 
 :start
 echo Choose an option:
-echo 1. Update friends.custom.
-echo 2. Copy friends.custom to Steam Directory.
-echo 3. Install Friends Skin.
-echo 4. Exit.
+echo 1. Download EnableNewSteamFriendsSkin.exe
+echo 2. Update to latest version.
+echo 3. Copy friends.custom to Steam Directory.
+echo 4. Install Friends Skin.
+echo 5. Exit.
 echo.
 set /p choice= Your choice: 
-if %choice%==1 goto:update
-if %choice%==2 goto:copy
-if %choice%==3 goto:install
-if %choice%==4 goto:eof
+if %choice%==1 goto:download
+if %choice%==2 goto:update
+if %choice%==3 goto:copy
+if %choice%==4 goto:install
+if %choice%==5 goto:eof
 echo Invalid selection, please try again.
+goto:start
+
+:download
+echo.
+echo Downloading File to current folder... 
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases/download/1.1/EnableNewSteamFriendsSkin.exe', 'EnableNewSteamFriendsSkin.exe')}Catch{Write-Warning $($error[0]);pause}"
+echo EnableNewSteamFriendsSkin.exe has been downloaded succesfully.
+echo.
 goto:start
 
 :update
 echo.
 echo Updating Files to current folder... 
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/README.md', 'README.md')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/friends.custom.css', 'friends.custom.css')}Catch{Write-Warning $($error[0]);pause}"
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/EnableNewSteamFriendsSkin.exe', 'EnableNewSteamFriendsSkin.exe')}Catch{Write-Warning $($error[0]);pause}"
-echo friends.custom.css has been updated.
+echo friends.custom.css has been updated succesfully.
 echo.
 goto:start
 
