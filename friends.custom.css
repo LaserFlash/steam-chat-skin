@@ -58,7 +58,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 .title-area-highlight {
    height: 1px;
-   background: steelblue !important;
+   background: red !important;
    -webkit-mask: none !important;
    opacity: 1 !important;
    transition: 0 !important;
