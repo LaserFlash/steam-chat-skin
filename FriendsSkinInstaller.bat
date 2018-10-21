@@ -18,6 +18,12 @@ echo -------------------------------------------
 echo.
 echo.
 
+echo Checking for Steam directory...
+for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do if %%E==SteamPath set SteamPath=%%G
+
+if exist "%SteamPath%" (echo Steam directory found! && echo.) else (echo Steam directory not found. && echo Confirm Steam is installed and try running this file as administrator. && pause && goto:eof)
+echo.
+
 :start
 echo Choose an option:
 echo 1. Update friends.custom.
@@ -75,6 +81,32 @@ EnableNewSteamFriendsSkin.exe
 popd
 echo succesfully installed!
 echo Steam will now restart to apply changes.
+goto:restartsteam
+
+:restartsteam
+echo.
+echo Restarting Steam...
+TASKLIST | FIND /I "steam" >nul 2>&1
+IF ERRORLEVEL 0 ( start /b /w " " "%SteamPath%/Steam.exe" -shutdown )
+goto:LOOP
+
+:startsteam
+echo.
+start /b " " "%SteamPath%/Steam.exe"
+goto:pause
+
+:LOOP
+TASKLIST | FIND /I "steam" >nul 2>&1
+IF ERRORLEVEL 1 (
+  GOTO startsteam
+) ELSE (
+  TIMEOUT /T 3 >nul 2>&1
+  GOTO LOOP
+)
+
+:pause
+Pause&Exit
+
 echo.
 echo You can now close the installer.
 echo.
