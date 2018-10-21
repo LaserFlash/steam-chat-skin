@@ -52,13 +52,17 @@ test-test
 	display:none!important;
 }
 
-/* CHAAAAAAAAAT */
+/* Chat */
+
+html.client_chat_frame body, html.web_chat_frame body {
+    background: #1e1e1f !important;
+}
 
 .title-area-highlight {
-   height: 24px;
-   background: none !important;
+   height: 1px;
+   background: steelblue !important;
    -webkit-mask: none !important;
-   opacity: 0;
+   opacity: 1 !important;
    transition: 0 !important;
    pointer-events: none;
    user-select: none;
@@ -492,6 +496,8 @@ margin-top: 2px !important;
 /** Group BUTTON CSS **/
 /* changes color of background of groups button */
 .friendsListSectionTitle {
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 5px !important;
     background-color: #151515 !important;}
     /* friends removing height */
     .friendlistListContainer {min-height: 0px !important;}
