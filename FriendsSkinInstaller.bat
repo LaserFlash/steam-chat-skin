@@ -36,7 +36,9 @@ goto:start
 :update
 echo.
 echo Updating Files to current folder... 
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-dark-mode/master/SteamDarkModeTool.bat',    'SteamDarkModeTool.bat')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/README.md', 'README.md')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/friends.custom.css', 'friends.custom.css')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/EnableNewSteamFriendsSkin.exe', 'EnableNewSteamFriendsSkin.exe')}Catch{Write-Warning $($error[0]);pause}"
 echo friends.custom.css updated.
 echo.
 goto:start
