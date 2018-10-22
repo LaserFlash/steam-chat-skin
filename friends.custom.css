@@ -393,7 +393,7 @@ margin-top: 2px !important;
    margin-right: 4px;
    cursor: default;
    padding: 0px;
-   border-raduis; 4px !important;
+   border-radius: 4px !important;
    flex-direction: row;
    width: 180px;  /* update k_chatTabWidth in chattabs.tsx if this width changes */
    height: 43px;
