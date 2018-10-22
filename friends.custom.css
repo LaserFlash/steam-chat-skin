@@ -393,8 +393,7 @@ margin-top: 2px !important;
    margin-right: 4px;
    cursor: default;
    padding: 0px;
-   border-top-left-radius: 2px;
-   border-top-right-radius: 2px;
+   border-raduis; 4px !important;
    flex-direction: row;
    width: 180px;  /* update k_chatTabWidth in chattabs.tsx if this width changes */
    height: 43px;
@@ -405,8 +404,8 @@ margin-top: 2px !important;
 
 .chatWindow .chatHeader {
    flex-shrink: 0;
-   background: #2e2e2f !important;
-   min-height: 2px !important; /* 1 or 2 pixels */
+   background: #1e1e1f !important;
+   min-height: 4px !important; /* 1 or 2 pixels */
 }
 
 .chatWindow {
