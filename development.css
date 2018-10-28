@@ -814,6 +814,13 @@ margin-top: 0px !important;
     z-index: 1 !important;
 }
 
+.CompactFriendsList .friend .avatarHolder {
+    height: 24px;
+    width: 24px;
+    transform: scale(1, 1) translateX(0px);
+    top: -2px !important;
+}
+
 /* Online */
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
     background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
@@ -863,8 +870,4 @@ margin-top: 0px !important;
     transition: color .32s ease-in-out;
     margin-top: 3px !important;
     text-shadow: 1px 1px 2px #0006;
-}
-
-.MemberListColumn .friend.online .avatarHolder .avatarStatus {
-    background-color: none !important;
 }
