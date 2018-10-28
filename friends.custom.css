@@ -48,6 +48,36 @@
 
 /* Chat */
 
+body
+{
+	margin: 0px;
+    padding: 0px;
+}
+
+.friendlist
+{
+	display: flex;
+	flex-direction: column;
+    height: calc(100% - 24px);
+}
+
+.fullheight
+{
+    height: 100%;
+}
+
+.chat_main
+{
+	width: 100%;
+	height: 100%;
+
+	background-color: transparent !important;
+	color: transparent !important;
+
+	font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+	overflow: hidden;
+}
+
 html.client_chat_frame body, html.web_chat_frame body {
     background: #1e1e1f !important;
 }
@@ -142,11 +172,6 @@ pointer-events: none;
 user-select: none;
 }
 
-.friendGroup.taggedGroup, .friendGroup.gameGroup {
-    border-top: 0.5px solid rgba(143, 143, 143, 0.25);
-    margin-top: 0px !important;
-}
-
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
 border-top: 4px !important;
 background: linear-gradient( to bottom, rgba( 72, 87, 112, 0.2 ) 0, rgba( 67, 73, 83, 0 ) 320px );
@@ -161,54 +186,6 @@ background: linear-gradient( to bottom, rgba( 0, 0, 0, 0 ) 0, rgba( 67, 73, 83, 
 margin-top: 0px !important;
 }
 
-.friendGroup.taggedGroup {
-border-top: 0px !important;
-}
-.friendGroup.gameGroup {
-border-top: 0px !important;
-}
-
-.friendGroup.gameGroup:not( .otherGamesGroup ) .friend {
-padding: 2px 0px 2px 12px !important;
-}
-
-.friend .avatarHolder img.avatar {
-border: 0px !important;
-box-shadow: none !important;
-border-radius: 30px !important;
-margin-top: 2px !important;
-}
-
-.ChatTabContent .avatarHolder .avatar {
-   width: 41px;
-   height: auto;
-   margin-top: 2px;
-   margin-left: 5px;
-}
-
-.CompactFriendsList .friend .labelHolder {
-    height: 24px;
-    margin: 0px;
-    margin-left: 18px !important;
-    margin-top: 0px !important;
-}
-
-
-.ChatTabContent .avatarHolder .avatarStatus {
-   display: block;
-   position: absolute;
-   right: 0px !important;
-   top: 2px !important;
-   bottom: 0px !important; 
-   left: 35px !important;
-   height: 0px !important;
-   width: 0px !important;
-   border-style: solid !important;
-   border-radius: 40px !important;
-   margin-top: 1px !important;
-   z-index: 4;
-}
-
 .friendlistListContainer {
    position: relative;
    overflow-y: auto;
@@ -217,56 +194,6 @@ margin-top: 2px !important;
    flex-grow: 1;
    background: #1e1e1f !important;
    min-height: 32px;
-}
-
-
-.friendlistListContainer .friend .avatarHolder .avatarStatus {
-   display: block;
-   position: absolute;
-   right: 0px !important;
-   top: 3px !important;
-   bottom: 0px !important; 
-   left: 30px !important;
-   height: 0px !important;
-   width: 0px !important;
-   border-style: solid !important;
-   border-radius: 40px !important;
-}
-
-.CompactFriendsList .friend .avatarHolder img.avatar {
-    height: 90% !important;
-}
-
-.ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
-    display: block;
-    position: absolute;
-    right: none !important;
-    top: none !important;
-    bottom: none !important;
-    left: 23px !important;
-    height: 0px !important;
-    width: 0px !important;
-    border-style: solid !important;
-    border-radius: 40px !important;
-}
-
-.compactQuickAccess .FavoriteFriend_GameIcon {
-    width: 17px !important;
-    height: 17px !important;
-    border-radius: 4px !important;
-}
-
-.CompactFriendsList .friend .avatarHolder .avatarStatus {
-   display: block;
-   position: absolute;
-   right: none !important;
-   top: none !important;
-   bottom: none !important; 
-   left: 27px !important;
-   height: 0px !important;
-   width: 0px !important;
-   border-style: solid !important;
-   border-radius: 40px !important;
 }
 
 .confirmInviteRequestContainer .confirmInviteButton
@@ -343,23 +270,15 @@ margin-top: 2px !important;
    filter: none !important;
 }
 
-.singlewindow .currentUserContainer .labelHolder.twoLine .statusAndName,
-.singlewindow .currentUserContainer .labelHolder.twoLine,
-.currentUserContainer .labelHolder.twoLine
-{
-   margin-right: 10px;
-   margin-top: 7px !important;
-}
-
 .friendListFooter {
    position: relative;
-   min-height: 0px !important;
-   background-color: none !important;
+   min-height: 20px !important;
+   background-color: #151515 !important;
    flex-shrink: 0;
 }
 
 .window_resize_grip {
-   background-image: none !important;
+   background-image: url( "../../images/sharedui/chrome/resizehandleicon.png" ) !important;
 }
 
 .titleBarContainer.ChatTabs {
@@ -436,6 +355,19 @@ margin-top: 2px !important;
 
 .VoiceToggle {
    background: #2e2e2f !important;
+   border-radius: 4px !important;
+   border: 1px solid #1b1c20 !important;
+}
+
+.chatSubmitButton.EmoticonPickerButton, .chatSubmitButton.EmbedButton {
+    flex: 0;
+    min-width: 46px;
+    position: relative;
+    color: #c9c9c9;
+    margin: 0px;
+    margin-top: 0px;
+    max-width: 46px;
+    max-height: 46px !important;
 }
 
 .ChatMessageEntryVoice {
@@ -452,7 +384,7 @@ margin-top: 2px !important;
     display: flex;
     flex-direction: column;
     margin-left: 8px;
-    box-shadow: #555 0px 0px 4px inset !important;
+    box-shadow: none !important;
     transition-property: width, max-width, min-width, border-radius, background-position;
     transition-duration: .3s, .3s, .3s, .6s;
     background: none !important;
@@ -467,6 +399,27 @@ margin-top: 2px !important;
    outline: 0px !important;
 }
 
+.chatTextarea {
+    resize: vertical !important;
+    margin-right: 4px;
+    height: 42px;
+    min-height: 42px !important;
+    max-height: 200px !important;
+    background-color: transparent;
+    box-shadow: inset 0px 0px 4px transparent;
+    outline-width: 0px;
+    color: #aaa;
+    border: 0px solid transparent;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Motiva Sans", Arial, Helvetica, sans-serif;
+    padding: 4px 4px 4px 8px;
+    /* flex: 6; */
+    flex-shrink: 1;
+    width: 100%;
+    min-width: 164px;
+}
+
 .chatSubmitButton.disabled, .chatSubmitButton.EmbedButton,
 .chatSubmitButton.EmoticonPickerButton {
    background: #2e2e2f !important;
@@ -476,14 +429,21 @@ margin-top: 2px !important;
    border: 1px solid rgb( 27, 28, 32 );
    margin-top: 2px;
    border-radius: 4px !important;
+   background-color: #1e1e1f !important;
 }
 
 .chatEntryActionsGroup {
     padding: 2px;
     border-radius: 4px !important;
-    box-shadow: #555 0px 0px 4px inset !important;
-    background-color: none !important;
+    box-shadow: none !important;
+    background-color: transparent !important;
     margin-left: 8px;
+}
+
+.VoiceToggle.Inactive:hover,
+.chatSubmitButton.EmbedButton:hover,
+.chatSubmitButton.EmoticonPickerButton:hover {
+  background-color: #151515 !important;
 }
 
 /** Group BUTTON CSS **/
@@ -514,7 +474,7 @@ margin-top: 2px !important;
     color: #b7ccd5;
 }
 
-.friendSearchInput[type="text"] {
+.friendSearchInput {
     width: 100%;
     height: 100%;
     background-color: #2a2a2a !important;
@@ -548,63 +508,6 @@ margin-top: 2px !important;
     transition: opacity .4s ease-in-out;
 }
 
-.CompactFriendsList .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    height: 16px !important;
-    margin-left: -40px !important;
-}
-
-.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend, .CompactFriendsList .friendGroup .SteamPlayerGroupFooter, .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    height: 40px !important;
-    margin: 2px 0px 2px 0px;
-    padding: 4px 0px 4px 12px;
-    transition: all .21s ease-in-out;
-}
-
-.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
-    padding: 4px 0px 4px 44px;
-    height: 40px !important;
-}
-
-.friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    height: 24px;
-    border-left: 1px solid #74859b;
-    border-bottom: 1px solid #74859b;
-    margin-top: -5px;
-    border-bottom-left-radius: 6px;
-    margin-left: -32px !important;
-}
-
-.friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    width: 0px !important;
-    margin-left: 0px !important;
-    border-width: 0px !important;
-}
-
-.friend.firstInGroup .SteamPlayerGroupLines {
-    height: 0px !important;
-    margin-top: 0px !important;
-    border-left: 0px solid #74859b !important;
-    border-top: 0px solid #74859b !important;
-    border-top-left-radius: 0px !important;
-}
-
-.friend .avatarHolder, .SteamPlayerGroupFooter .SteamPlayerGroupFooterCount {
-    height: 36px !important;
-    margin: 0px 0px;
-    transform: none !important;
-    transition-property: transform;
-    transition-duration: 0.34s;
-    transition-timing-function: cubic-bezier(0.42, 0, 0.19, 2.28);
-    flex-direction: row;
-    flex-shrink: 0;
-}
-
-.friendGroup .SteamPlayerGroupFooter {
-    height: 16px;
-    display: none !important;
-    padding-top: 0;
-}
-
 .ExpandPlusMinus {
     width: 10px;
     display: none !important;
@@ -622,6 +525,8 @@ margin-top: 2px !important;
     margin-right: 3px;
     margin-left: 2px;
 }
+
+/* Chat Body */
 
 .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
     background-color: #cde2;
@@ -642,11 +547,93 @@ margin-top: 2px !important;
     overflow: hidden;
     text-overflow: clip;
     margin-left: 12px !important;
-    margin-top: 4px;
+    margin-top: 4px !important;
     display: flex;
     flex-direction: row;
     transition: color .2s ease-in-out;
     cursor: pointer;
+}
+
+.SteamPlayerGroupFooterCount .count {
+    width: 100%;
+    display: table-cell;
+    line-height: 16px;
+    font-size: 16px;
+    text-align: center;
+    overflow: hidden;
+    color: #91c257;
+    margin-top: -40px !important;
+    margin-left: -45px !important;
+    display: none !important;
+}
+
+.friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    width: 9px;
+    margin-left: -10px;
+    border-width: 1px;
+    display: none !important;
+}
+
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+    padding: 2px 0px 6px 12px !important;
+}
+
+.SteamPlayerGroupFooterLabel {
+    flex: 1 0 auto;
+    align-self: center;
+    vertical-align: middle;
+    height: initial;
+    margin-left: 8px;
+    color: rgba(145, 194, 87, 0.5);
+    font-size: 12px;
+    -webkit-mask: linear-gradient(to right, black 85%, rgba(0, 0, 0, 0.15) 100%);
+}
+
+/* Chat windows avatars */
+
+.chatTab .avatarHolder {
+    height: 100%;
+    transform: scale(0.86, 0.86) translateX(0px) !important;
+    border-radius: 0px;
+}
+
+.chatTab:not(.active) .ChatTabContent .avatarHolder .avatar {
+    -webkit-mask: linear-gradient(to bottom, black 0px, rgba(0, 0, 0, 0.4) 80%, rgba(0, 0, 0, 0.2) 90%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 40px !important;
+}
+
+.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
+    width: 42px !important;
+}
+
+.ChatTabContent .avatarHolder .avatarStatus {
+    height: 12px !important;
+    z-index: 4;
+    width: 13px !important;
+    border-radius: 40px !important;
+    margin-top: -12px !important;
+    margin-left: 31px !important;
+}
+
+.friend .avatarHolder img.avatar {
+    border: 1px solid #1e1e1f !important;
+    height: calc( 100% - 2px);
+    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
+    transition: filter .24s ease-in-out;
+    border-radius: 40px !important;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.friendGroup.taggedGroup, .friendGroup.gameGroup {
+    border-top: 0px solid rgba(143, 143, 143, 0.25) !important;
+    margin-top: 0px !important;
 }
 
 .ChatRoomGroupAvatar {
@@ -682,6 +669,7 @@ margin-top: 2px !important;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     flex-direction: row;
+    margin-left: 2px !important;
     width: 180px;
     height: 44px !important;
     flex: 1;
@@ -709,6 +697,7 @@ margin-top: 2px !important;
 .chatRoomMembers {
     flex: 1;
     user-select: none;
+    height: 2000px !important;
     cursor: default;
     border-left: 0px solid #22252b !important;
     border-right: 0px solid rgba(34, 37, 43, 0) !important;
@@ -767,4 +756,111 @@ margin-top: 2px !important;
 .ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
     bottom: 1px !important;
     border-radius: 4px !important;
+}
+
+/* Avatar Status */
+
+/* Online */
+.friend.online .avatarHolder .avatarStatus {
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
+    border-radius: 40px !important;
+    top: 26px !important;
+    bottom: 0px !important;
+    left: 25px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+/* ingame */
+.friend.ingame .avatarHolder .avatarStatus {
+    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%);
+    border-radius: 40px !important;
+    top: 26px !important;
+    bottom: 0px !important;
+    left: 25px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+/* Away */
+.friend.awayOrSnooze .avatarHolder .avatarStatus {
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
+    -webkit-mask: none !important;;
+    -webkit-mask-size: 0px !important;;
+    mask: none !important;;
+    mask-size: 0px !important;;
+    opacity: .75;
+    border-radius: 40px !important;
+    top: 26px !important;
+    bottom: 0px !important;
+    left: 25px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+/* Offline */
+.friend.offline .avatarHolder .avatarStatus {
+    background: #7a7a7a !important;
+    border-radius: 40px !important;
+    top: 26px !important;
+    bottom: 0px !important;
+    left: 25px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+}
+
+/* Online */
+.CompactFriendsList .friend .avatarHolder .avatarStatus {
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
+    border-radius: 40px !important;
+    top: 15px !important;
+    bottom: 0px !important;
+    left: 18px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+}
+
+/* compact game icon */
+
+.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
+    padding: 4px 0px 4px 15px !important;
+}
+
+.CompactFriendsList .FriendInGameIcon {
+    margin-left: -12px;
+    line-height: 22px;
+    width: 36px;
+    height: 26px;
+    border-top-right-radius: 4px !important;
+    border-bottom-right-radius: 4px !important;
+    z-index: 0;
+    margin-right: 8px;
+    margin-top: 0px !important;
+    background-color: #cde2;
+    background-color: transparent;
+    flex-shrink: 0;
+    box-shadow: 0px !important;
+}
+
+.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
+    width: 24px;
+    height: 24px;
+    margin-top: 0px !important;
+}
+
+.ChatTabs.compactView .chatTabGroupName {
+    font-size: 12px;
+    margin-top: 5px !important;
+}
+
+.chatTabGroupName {
+    transition: color .32s ease-in-out;
+    margin-top: 3px !important;
+    text-shadow: 1px 1px 2px #0006;
 }
