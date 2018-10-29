@@ -82,6 +82,16 @@ html.client_chat_frame body, html.web_chat_frame body {
     background: #1e1e1f !important;
 }
 
+.socialTabSearchContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+    padding-top: 10px !important;
+}
+
 .title-area-highlight {
    height: 1px !important;
    background: #555555 !important;
@@ -770,6 +780,7 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
+    border: 1px transparent !important;
 }
 
 /* ingame */
@@ -782,6 +793,7 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
+    border: 1px transparent !important;
 }
 
 /* Away */
@@ -799,6 +811,7 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
+    border: 1px transparent !important;
 }
 
 /* Offline */
@@ -812,13 +825,7 @@ margin-top: 0px !important;
     height: 12px !important;
     width: 12px !important;
     z-index: 1 !important;
-}
-
-.CompactFriendsList .friend .avatarHolder {
-    height: 24px;
-    width: 24px;
-    transform: scale(1, 1) translateX(0px);
-    top: -2px !important;
+    border: 1px transparent !important;
 }
 
 /* Online */
@@ -831,6 +838,7 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
+    border: 1px transparent !important;
 }
 
 /* compact game icon */
