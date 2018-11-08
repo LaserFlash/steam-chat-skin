@@ -49,6 +49,124 @@
 
 /* Chat */
 
+
+
+/* dialog buttons background */
+button.DialogButton, .DialogOnOffToggle_Option:hover:not( .Active ) {background: #4c4c4c;}
+.DialogOnOffToggle_Control {background: #343434!important}
+/* right click areas at friends chat */
+.contextMenu {
+	border: none !important;
+    background: radial-gradient(ellipse farthest-corner at 50% 0%, #1a1a1a 0%, #1a1a1a 50%, #1a1a1a 100%)!important;
+    box-shadow: none!important;
+    border-radius: 4px !important;
+}
+.contextMenu .contextMenuItem:hover, .contextMenu .contextMenuItem.active {
+    background: #272727!important;
+    border-radius: 4px !important;
+}
+
+.contextMenu .contextMenuItem {
+    border-top: 0px !important;
+}
+
+.contextMenuContents.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
+    width: 40px;
+    height: 42px !important;
+}
+  
+.contextMenuContents.ChatTabs .ChatTabContent .avatarHolder {
+    flex-direction: row;
+    height: 42px !important;
+} 
+
+.contextMenuContents.ChatTabs .contextMenuItem {
+    padding: 0;
+    min-height: 42px !important;
+}
+
+.contextMenuContents.ChatTabs.CompactFriendsList .friend .labelHolder {
+    margin-top: 20px !important;
+    margin-left: -2px !important; 
+}
+
+.contextMenuContents .chatTab .ChatTabContent {
+    padding-top: 2px;
+    min-height: 50px !important;
+    padding-bottom: 0px;
+    padding-left: 2px; 
+}
+
+.contextMenuContents.ChatTabs .ChatTabContent .avatarStatus {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 40px;
+    height: 100%;
+    margin-left: 12px !important;
+    margin-top: 18px !important;
+}
+
+.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus {
+    width: 13px !important;
+    height: 13px !important;
+    border-radius: 40px;
+    height: 100%;
+    margin-left: 12px !important;
+    margin-top: 18px !important;
+}
+
+/* hover selected buttons */
+button.DialogButton.Primary:hover {
+    background: rgb(81, 23, 189)!important;
+    border-radius: 4px !important;
+}
+button.DialogButton:hover {
+    background: #252424!important;
+    border-radius: 4px !important;
+}
+
+/* boxes settings */
+._DialogTextInputBase, ._DialogInputContainer {
+    background: #262626!important;
+}
+.DialogDropDownMenu._DialogInputContainer {
+    border: none!important;
+    background: #262626!important;
+}
+/* box hover inside */
+.DialogDropDownMenu_Item:hover {
+    background: #383838!important;
+    border-radius: 4px !important;
+}
+
+/* more stuff */
+button.DialogButton:active, button.DialogButton:active:hover {
+    background: #272727!important;
+    border-radius: 4px !important;
+}
+
+.chatTabSelector {
+    margin-top: 0px;
+    background-color: transparent !important;
+    width: 44px !important;
+    height: 44x;
+    flex-shrink: 0;
+    -webkit-app-region: no-drag;
+    z-index: 3;
+    border-radius: 25px !important;
+    position: relative;
+    border: 0px !important;
+    border-bottom-width: none !important;
+    box-shadow: none !important;
+    background: transparent !important;
+}
+
+.chatTabSelector:hover {
+    background: #2e2e2f !important;
+    border-radius: 25px !important;
+    cursor: pointer; 
+}
+
 body
 {
 	margin: 0px;
@@ -363,12 +481,13 @@ margin-top: 0px !important;
    border-radius: 4px !important;
 }
 
-.chatEntryControls {
+.chatentry_chatEntryControls_2O_X7 {
     position: relative;
     display: flex;
     flex-direction: row;
     flex: 1;
-    background-color: #1b1c20;
+    border-radius: 4px !important;
+    background-color: #151515 !important;
     box-shadow: none !important;
     outline-width: 0px;
     color: #aaa;
@@ -422,7 +541,7 @@ margin-top: 0px !important;
    outline: 0px !important;
 }
 
-.chatTextarea {
+.chatentry_chatTextarea_3e__5 {
     resize: vertical !important;
     margin-right: 4px;
     height: 42px;
@@ -455,7 +574,7 @@ margin-top: 0px !important;
    background-color: #1e1e1f !important;
 }
 
-.chatEntryActionsGroup {
+.chatentry_chatEntryActionsGroup_15mWd {
     padding: 2px;
     border-radius: 4px !important;
     box-shadow: none !important;
@@ -616,6 +735,7 @@ margin-top: 0px !important;
 
 .chatTab .avatarHolder {
     height: 100%;
+    width: 25% !important;
     transform: scale(0.86, 0.86) translateX(0px) !important;
     border-radius: 0px;
 }
@@ -647,13 +767,6 @@ margin-top: 0px !important;
     cursor: pointer;
 }
 
-
-
-
-
-
-
-
 .friendGroup.taggedGroup, .friendGroup.gameGroup {
     border-top: 0px solid rgba(143, 143, 143, 0.25) !important;
     margin-top: 0px !important;
@@ -663,7 +776,7 @@ margin-top: 0px !important;
     flex-shrink: 0;
     width: 56px;
     height: 56px;
-    border-radius: 50%;
+    border-radius: 40px !important;
     border: 2px solid #2e2e2f !important;
     background-color: none !important;
     box-shadow: none !important;
