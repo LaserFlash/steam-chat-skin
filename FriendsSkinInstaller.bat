@@ -19,7 +19,7 @@ echo -------------------------------------------
 echo.
 echo.
 
-https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases/download/1.1/EnableNewSteamFriendsSkin.exe
+https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases/download/1.2-beta/EnableNewSteamFriendsSkinBETA.2.exe
 
 echo Checking for Steam directory...
 for /f "tokens=1,2*" %%E in ('reg query HKEY_CURRENT_USER\Software\Valve\Steam\') do if %%E==SteamPath set SteamPath=%%G
