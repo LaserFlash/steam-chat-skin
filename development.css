@@ -49,7 +49,39 @@
 
 /* Chat */
 
+.title-area-icon .SVGIcon_Minimize {
+  width: 20px !important;
+  height: 18px !important;
+  margin-top: -2px;
+  margin-left: 4px; }
 
+.title-area-icon .SVGIcon_Maximize {
+  width: 20px !important;
+  height: 18px !important;
+  margin-top: -2px;
+  margin-left: 4px; }
+
+.title-area-icon .SVGIcon_X_Line {
+  width: 20px !important;
+  height: 18px !important;
+  margin-top: -2px;
+  margin-left: 4px;
+  }
+
+.title-area-icon .SVGIcon_X_Line:hover {
+   background: red !important;
+   width: 20px !important;
+   margin-top: -2px !important;
+   margin-left: 4px !important;
+   height: 18px !important;
+}
+
+.title-area-icon .SVGIcon_SingleWindowToggle {
+    width: 20px;
+    height: 18px;
+    margin-top: -2px;
+    margin-left: 4px;
+}
 
 /* dialog buttons background */
 button.DialogButton, .DialogOnOffToggle_Option:hover:not( .Active ) {background: #4c4c4c;}
@@ -212,7 +244,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .title-area-highlight {
-   height: 1px !important;
+   height: 0px !important;
    background: #555555 !important;
    -webkit-mask: none !important;
    opacity: 1 !important;
