@@ -55,11 +55,25 @@
   margin-top: -2px;
   margin-left: 4px; }
 
+.title-area-icon .SVGIcon_Minimize:hover {
+  width: 20px;
+  height: 18px;
+  background: #555 !important;
+  margin-top: -2px !important;
+  margin-left: 4px !important; }
+
 .title-area-icon .SVGIcon_Maximize {
   width: 20px !important;
   height: 18px !important;
   margin-top: -2px;
   margin-left: 4px; }
+
+.title-area-icon .SVGIcon_Maximize:hover {
+  width: 20px !important;
+  height: 18px !important;
+  background: #555 !important;
+  margin-top: -2px !important;
+  margin-left: 4px !important; }
 
 .title-area-icon .SVGIcon_X_Line {
   width: 20px !important;
@@ -69,18 +83,26 @@
   }
 
 .title-area-icon .SVGIcon_X_Line:hover {
-   background: red !important;
-   width: 20px !important;
-   margin-top: -2px !important;
-   margin-left: 4px !important;
-   height: 18px !important;
+  background: red !important;
+  width: 20px !important;
+  margin-top: -2px !important;
+  margin-left: 4px !important;
+  height: 18px !important;
 }
 
 .title-area-icon .SVGIcon_SingleWindowToggle {
-    width: 20px;
-    height: 18px;
-    margin-top: -2px;
-    margin-left: 4px;
+  width: 20px !important;
+  height: 18px !important;
+  margin-top: -2px;
+  margin-left: 4px;
+}
+
+.title-area-icon .SVGIcon_SingleWindowToggle:hover {
+  width: 20px !important;
+  height: 18px !important;
+  background: #555 !important;
+  margin-top: -2px !important;
+  margin-left: 4px !important;
 }
 
 /* dialog buttons background */
