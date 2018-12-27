@@ -45,7 +45,7 @@ goto:start
 :download
 echo.
 echo Downloading File to current folder... 
-    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases/download/1.2/EnableNewSteamFriendsSkin.exe', 'EnableNewSteamFriendsSkin.exe')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://github.com/PhantomGamers/EnableNewSteamFriendsSkin/releases/download/1.2-beta/EnableNewSteamFriendsSkinBETA.3.exe', 'EnableNewSteamFriendsSkin.exe')}Catch{Write-Warning $($error[0]);pause}"
 echo EnableNewSteamFriendsSkin.exe has been downloaded succesfully.
 echo.
 goto:start
@@ -54,7 +54,10 @@ goto:start
 echo.
 echo Updating Files to current folder... 
     powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/README.md', 'README.md')}Catch{Write-Warning $($error[0]);pause}"
-echo friends.custom.css has been updated succesfully.
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/development.css', 'development.css')}Catch{Write-Warning $($error[0]);pause}"
+    powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/AikoMidori/steam-friends-skin/master/friends.custom.css', 'friends.custom.css')}Catch{Write-Warning $($error[0]);pause}"
+
+echo all files have been updated succesfully.
 echo.
 goto:start
 
