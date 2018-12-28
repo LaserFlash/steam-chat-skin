@@ -1,3 +1,10 @@
+:root{
+
+    --online: 93, 178, 254;
+    --ingame: 130, 186, 0;
+    --offline: 139, 139, 139;
+  }
+
 /* button */ 
 ::-webkit-scrollbar-button {
 	height: 25px!important; 
@@ -51,86 +58,132 @@
 
 /* Close, Minimize, Maximize and full buttons. */
 .title-area-icon .SVGIcon_Minimize {
-  width: 20px !important;
-  height: 18px !important;
-  margin-top: -2px;
-  margin-left: 4px; }
-
+    width: 22px !important;
+    height: 20px !important;
+    margin-top: -2px;
+    margin-left: -4px !important; }
+  
 .title-area-icon .SVGIcon_Minimize:hover {
-  width: 20px !important;
-  height: 18px !important;
-  background: rgb(43, 43, 43) !important;
-  margin-top: -2px !important;
-  margin-left: 4px !important; }
-
+    width: 22px !important;
+    height: 20px !important;
+    background: rgb(43, 43, 43) !important;
+    margin-top: -2px !important;
+    margin-left: -4px !important; }
+  
 .title-area-icon .SVGIcon_Maximize {
-  width: 20px !important;
-  height: 18px !important;
-  margin-top: -2px;
-  margin-left: 4px; }
+    width: 22px !important;
+    height: 20px !important;
+    margin-top: -2px;
+    margin-left: 0px !important; }
 
+.title-area-icon .SVGIcon_Restore {
+    width: 22px !important;
+    height: 20px !important;
+    margin-top: -2px;
+    margin-left: 0px !important; 
+}
+
+.title-area-icon .SVGIcon_Restore:hover {
+    width: 22px !important;
+    height: 20px !important;
+    background: rgb(43, 43, 43) !important;
+    margin-top: -2px;
+    margin-left: 0px !important; 
+}
+  
 .title-area-icon .SVGIcon_Maximize:hover {
-  width: 20px !important;
-  height: 18px !important;
-  background: rgb(43, 43, 43) !important;
-  margin-top: -2px !important;
-  margin-left: 4px !important; }
-
+    width: 22px !important;
+    height: 20px !important;
+    background: rgb(43, 43, 43) !important;
+    margin-top: -2px !important;
+    margin-left: 0px !important; }
+  
 .title-area-icon .SVGIcon_X_Line {
-  width: 20px !important;
-  height: 18px !important;
-  margin-top: -2px;
-  margin-left: 4px;
+    height: 20px !important;
+    width: 22px !important;
+    margin-top: -2px;
+    margin-left: 4px !important;
+    }
+  
+.title-area-icon .SVGIcon_X_Line:hover {
+    background: red !important;
+    width: 22px !important;
+    margin-top: -2px !important;
+    margin-left: 4px !important;
+    height: 20px !important;
+  }
+  
+.title-area-icon .SVGIcon_SingleWindowToggle {
+    width: 22px !important;
+    height: 20px !important;
+    margin-top: -2px;
+    margin-left: -5px !important;
+  }
+  
+.title-area-icon .SVGIcon_SingleWindowToggle:hover {
+    width: 22px !important;
+    height: 20px !important;
+    background: rgb(58, 58, 58) !important;
+    margin-top: -2px !important;
+    margin-left: -5px !important;
   }
 
-.title-area-icon .SVGIcon_X_Line:hover {
-  background: red !important;
-  width: 20px !important;
-  margin-top: -2px !important;
-  margin-left: 4px !important;
-  height: 18px !important;
+.chat_main.singlewindow .ChatTabs .title-area-icon .SVGIcon_SingleWindowToggle {
+    display: block;
+    margin-top: 0px !important;
 }
 
-.title-area-icon .SVGIcon_SingleWindowToggle {
-  width: 20px !important;
-  height: 18px !important;
-  margin-top: -2px;
-  margin-left: 4px;
-  display: none !important;
+.ChatTabs .title-area-icon:hover .SVGIcon_SingleWindowToggle .leftBox {
+    transform: none !important; 
 }
 
-.title-area-icon .SVGIcon_SingleWindowToggle:hover {
-  width: 20px !important;
-  height: 18px !important;
-  background: rgb(58, 58, 58) !important;
-  margin-top: -2px !important;
-  margin-left: 4px !important;
-  display: none !important;
+.title-area-icon .SVGIcon_SingleWindowToggle .leftBox {
+    transition: none !important 
 }
 
 .title-area-icon .SVGIcon_X_Line line {
-    stroke: #cacaca !important;
-    stroke-width: 24px;
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
 }
 
 .title-area-icon .SVGIcon_Maximize line {
-    stroke: #cacaca !important;
+    stroke: #ffffff !important;
     display: none !important;
-    stroke-width: 24px;
+    stroke-width: 10px !important;
 }
 
 .title-area-icon .SVGIcon_Maximize rect {
-    stroke: #cacaca !important;
-    stroke-width: 24px;
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
+}
+
+.title-area-icon .SVGIcon_Restore rect {
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
+}
+
+.title-area-icon .SVGIcon_Restore polyline {
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
 }
 
 .title-area-icon .SVGIcon_Minimize line {
-    stroke: #cacaca !important;
-    stroke-width: 24px;
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
 }
 
+.title-area-icon .SVGIcon_SingleWindowToggle rect {
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
+  }
+
+.title-area-icon .SVGIcon_SingleWindowToggle line {
+    stroke: #ffffff !important;
+    stroke-width: 10px !important;
+  }
+
 .SVGIcon_Button {
-    fill: #cacaca !important;
+    fill: #ffffff !important;
     overflow: visible;
     width: 100%;
     height: 100%;
@@ -520,7 +573,7 @@ margin-top: 0px !important;
 
 .friendListHeaderContainer {
     background-color: #151515 !important;
-    border-bottom: 1px !important;
+    border-bottom: 0px !important;
     border-bottom-color: #000 !important;
     border-bottom-style: solid !important;
 }
@@ -869,8 +922,8 @@ margin-top: 0px !important;
 
 .friend .avatarHolder img.avatar {
     border: 1px solid #1e1e1f !important;
-    height: calc( 100% - 2px);
-    box-shadow: 2px 2px 8px 1px rgba(0, 0, 0, 0.3);
+
+    box-shadow: none !important;
     transition: filter .24s ease-in-out;
     border-radius: 40px !important;
     cursor: pointer;
@@ -1003,6 +1056,13 @@ margin-top: 0px !important;
     border-radius: 4px !important;
 }
 
+/* adds line under avatar */
+.friendListHeaderContainer .title-area {
+    border-bottom-color: #4a4a4a !important;
+    border-bottom: 0px;
+    border-bottom-style: solid !important;
+}
+
 /* Avatar Status */
 
 /* Online */
@@ -1015,7 +1075,9 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
-    border: 1px transparent !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
 }
 
 /* ingame */
@@ -1028,7 +1090,9 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
-    border: 1px transparent !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
 }
 
 /* Away */
@@ -1046,7 +1110,9 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
-    border: 1px transparent !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
 }
 
 /* Offline */
@@ -1060,7 +1126,9 @@ margin-top: 0px !important;
     height: 12px !important;
     width: 12px !important;
     z-index: 1 !important;
-    border: 1px transparent !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
 }
 
 /* Online */
@@ -1414,4 +1482,77 @@ button.DialogButton.copyVoiceLogsButton {
 .FriendPicker_SuggestedFriend {
     cursor: pointer;
     border-radius: 4px !important;
+}
+
+/* mini profile */
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
+    background: #1e1e1f !important;
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfileBackground_3gfFJ {
+    background: #1e1e1f !important;
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfileBackgroundBlur_G000o {
+    border-radius: 4px !important;
+    opacity: 0 !important; 
+    display: none !important;
+    background: #1e1e1f !important;
+}
+      
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--ingame)) !important;
+    border-radius: 4px !important;
+}
+    
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--online)) !important;
+    border-radius: 4px !important;
+}
+    
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_nickname_1W3dU,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_persona_1Z3Ey,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {  
+    color: rgb(var(--online)) !important;
+    border-radius: 4px !important;
+}
+    
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
+    background: rgb(var(--online)) !important;
+    border-radius: 4px !important;
+}
+      
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
+    background: rgb(var(--ingame)) !important;
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfile_s5zcg{
+    border: 0px solid black !important;
+    border-radius: 4px !important;
+}
+
+/* Chat Devider Fullscreen */
+.singleWindowDivider {
+    width: 1px !important;
+    height: calc( 100%);
+    background-color: #151515 !important;
+    min-width: 1px !important;
+    cursor: ew-resize;
+    border: 0px !important;
+    border-top: 0px !important;
+    border-bottom: 0px !important;
+    z-index: 12;
+}
+
+.chatDialogs {
+    position: relative;
+    flex-grow: 1;
+    min-height: 0;
+    background: #1e1e1f !important;
 }
