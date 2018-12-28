@@ -32,11 +32,11 @@
 ::-webkit-scrollbar-thumb {
 	background-color: #151515 !important;
     border: 0px solid #1e1e1f !important;
-    border-radius: 4px!important;
+    border-radius: 0px!important;
 }
 ::-webkit-scrollbar-thumb:hover {
-	background-color: #272727 !important;
-	border-radius: 4px!important;
+	background-color: #101010 !important;
+	border-radius: 0px!important;
 }
 /* makes scrollbar wider */
 ::-webkit-scrollbar {
@@ -59,7 +59,7 @@
 .title-area-icon .SVGIcon_Minimize:hover {
   width: 20px !important;
   height: 18px !important;
-  background: #555 !important;
+  background: rgb(43, 43, 43) !important;
   margin-top: -2px !important;
   margin-left: 4px !important; }
 
@@ -72,7 +72,7 @@
 .title-area-icon .SVGIcon_Maximize:hover {
   width: 20px !important;
   height: 18px !important;
-  background: #555 !important;
+  background: rgb(43, 43, 43) !important;
   margin-top: -2px !important;
   margin-left: 4px !important; }
 
@@ -102,10 +102,45 @@
 .title-area-icon .SVGIcon_SingleWindowToggle:hover {
   width: 20px !important;
   height: 18px !important;
-  background: #555 !important;
+  background: rgb(58, 58, 58) !important;
   margin-top: -2px !important;
   margin-left: 4px !important;
   display: none !important;
+}
+
+.title-area-icon .SVGIcon_X_Line line {
+    stroke: #cacaca !important;
+    stroke-width: 24px;
+}
+
+.title-area-icon .SVGIcon_Maximize line {
+    stroke: #cacaca !important;
+    display: none !important;
+    stroke-width: 24px;
+}
+
+.title-area-icon .SVGIcon_Maximize rect {
+    stroke: #cacaca !important;
+    stroke-width: 24px;
+}
+
+.title-area-icon .SVGIcon_Minimize line {
+    stroke: #cacaca !important;
+    stroke-width: 24px;
+}
+
+.SVGIcon_Button {
+    fill: #cacaca !important;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    max-width: 320px;
+    max-height: 320px; 
+}
+
+.ModalPosition_TopBar {
+    height: 0px !important;
+    background: #555 !important;
 }
 
 /* dialog buttons background */
@@ -270,7 +305,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 .title-area-highlight {
    height: 0px !important;
-   background: #555555 !important;
+   background: #555 !important;
    -webkit-mask: none !important;
    opacity: 1 !important;
    transition: 0 !important;
@@ -484,7 +519,10 @@ margin-top: 0px !important;
 }
 
 .friendListHeaderContainer {
-   background-color: #1E1E1F !important;
+    background-color: #151515 !important;
+    border-bottom: 1px !important;
+    border-bottom-color: #000 !important;
+    border-bottom-style: solid !important;
 }
 
 .statusHeaderGlow {
@@ -673,10 +711,11 @@ margin-top: 0px !important;
     color: #b7ccd5;
 }
 
-.friendSearchInput {
+.friendSearchInput[type="text"] {
     width: 100%;
     height: 100%;
-    background-color: #2a2a2a !important;
+    background-color: #1e1e1f !important;
+    padding-left: 12px !important;
     border-radius: 4px !important;
     box-shadow: none !important;
     border: 0px solid transparent;
@@ -693,6 +732,10 @@ margin-top: 0px !important;
     background-position: 6px 4px;
 }
 
+.friendSearchInput {
+    padding-left: 12px !important;
+}
+
 .chatRoomListContainer {
     background: #151515 !important;
     flex-shrink: 0;
@@ -705,6 +748,15 @@ margin-top: 0px !important;
     opacity: 1;
     margin-left: -4px !important;
     transition: opacity .4s ease-in-out;
+}
+
+.socialListTab {
+    background: #151515 !important;
+}
+
+.activeTab .TabSearchButton:hover {
+    opacity: 1;
+    background: #1e1e1f !important;
 }
 
 .ExpandPlusMinus {
