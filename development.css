@@ -1056,7 +1056,7 @@ margin-top: 0px !important;
     border-radius: 4px !important;
 }
 
-/* adds line under avatar */
+/* Adds line under avatar */
 .friendListHeaderContainer .title-area {
     border-bottom-color: #4a4a4a !important;
     border-bottom: 0px;
@@ -1065,7 +1065,8 @@ margin-top: 0px !important;
 
 /* Avatar Status */
 
-.ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
+/* QuickAccess avatar status  */
+.friend.quickAccessFriend .avatarHolder .avatarStatus {
     border-radius: 40px !important;
     margin-top: -13px !important;
     margin-left: 35px !important;
@@ -1077,16 +1078,18 @@ margin-top: 0px !important;
     border-color: #1e1e1f !important;
 }
 
-
+/* Compact friend spacing */
 .CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
     height: 30px !important;
 
 }
 
+/* Compact game name spacing */
 .CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
     margin-top: -4px !important;
 }
 
+/* Compact QuickAccess avatar status  */
 .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
     border-radius: 40px !important;
     margin-top: -13px !important;
@@ -1096,7 +1099,7 @@ margin-top: 0px !important;
     z-index: 1 !important;
     border: 2px !important;
     border-style: solid !important;
-    border-color: #1e1e1f !important;
+    border-color: #151515 !important;
 }
 
 /* Online */
@@ -1125,7 +1128,6 @@ margin-top: 0px !important;
     height: 12px !important;
     width: 12px !important;
     border: 2px !important;
-    z-index: 1 !important;
     border-style: solid !important;
     border-color: #1e1e1f !important;
 }
@@ -1166,7 +1168,7 @@ margin-top: 0px !important;
     border-color: #1e1e1f !important;
 }
 
-/* Online */
+/* Compact avatar status. */
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
     background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
     border-radius: 40px !important;
@@ -1176,7 +1178,9 @@ margin-top: 0px !important;
     right: 0px !important;
     height: 12px !important;
     width: 12px !important;
-    border: 1px transparent !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
 }
 
 /* compact game icon */
