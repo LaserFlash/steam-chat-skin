@@ -1066,12 +1066,9 @@ margin-top: 0px !important;
 /* Avatar Status */
 
 .ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
-    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
     border-radius: 40px !important;
     margin-top: -13px !important;
-    bottom: 0px !important;
     margin-left: 35px !important;
-    right: 0px !important;
     height: 12px !important;
     width: 12px !important;
     z-index: 1 !important;
@@ -1081,9 +1078,30 @@ margin-top: 0px !important;
 }
 
 
+.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
+    height: 30px !important;
+
+}
+
+.CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
+    margin-top: -4px !important;
+}
+
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    margin-left: 15px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
+}
+
 /* Online */
 .friend.online .avatarHolder .avatarStatus {
-    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important;
     border-radius: 40px !important;
     top: 26px !important;
     bottom: 0px !important;
@@ -1098,7 +1116,7 @@ margin-top: 0px !important;
 
 /* ingame */
 .friend.ingame .avatarHolder .avatarStatus {
-    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%);
+    background: linear-gradient(to bottom, #8cd61d 0%, #a1f410 30%, #a1f410 70%, #8cd61d 100%) !important;
     border-radius: 40px !important;
     top: 26px !important;
     bottom: 0px !important;
@@ -1107,13 +1125,14 @@ margin-top: 0px !important;
     height: 12px !important;
     width: 12px !important;
     border: 2px !important;
+    z-index: 1 !important;
     border-style: solid !important;
     border-color: #1e1e1f !important;
 }
 
 /* Away */
 .friend.awayOrSnooze .avatarHolder .avatarStatus {
-    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%) !important;
     -webkit-mask: none !important;;
     -webkit-mask-size: 0px !important;;
     mask: none !important;;
