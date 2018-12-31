@@ -1065,6 +1065,22 @@ margin-top: 0px !important;
 
 /* Avatar Status */
 
+.ChatTabContent .avatarHolder .avatarStatus, .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    bottom: 0px !important;
+    margin-left: 35px !important;
+    right: 0px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: #1e1e1f !important;
+}
+
+
 /* Online */
 .friend.online .avatarHolder .avatarStatus {
     background: linear-gradient(to bottom, #6dcff6 0%, #6dcff6 30%, #6dcff6 70%, #6dcff6 100%);
