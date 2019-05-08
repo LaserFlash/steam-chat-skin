@@ -380,6 +380,10 @@
     margin-top: 0px !important; 
 }
 
+.groupName .gameGroupContainer .groupIcon {
+    border-radius: 15px !important;
+}
+
 .ChatTabs .title-area {
     margin-bottom: -4px !important;
     background: rgb(var(--header)) !important;
@@ -912,7 +916,8 @@ border-bottom: 0px !important;
 /* Chat Body */
 
 .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
-    display: none !important;
+    /* display: none !important; */
+    margin-right: -10px !important;
 }
 
 .friendGroup .groupName {
