@@ -149,6 +149,10 @@
     margin-left: -4px !important; 
 }
 
+.insetshadow_FriendsListInsetShadowCtn_1S167 {
+    display: none!important;
+}
+
 .friendStatusHover.ingame:hover,
 .friendStatusHover.ingame.Friend_ContextMenuActive {
     background-color: rgb(var(--hoverstatus)) !important; }
@@ -165,6 +169,51 @@
 .friend.awayOrSnooze .labelHolder {
     opacity: 1 !important;
 }
+
+.online .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--online)) !important;
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important; }
+
+.ingame .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--ingame)) !important;
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important; }
+
+.ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important; }
+
+.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important; } 
+
+.golden .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important; }
+
+.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important; }
   
 .title-area-icon .SVGIcon_Minimize:hover {
     width: 22px !important;
@@ -217,6 +266,10 @@
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
     padding-left: 0px !important;
     padding-top: 6px !important;
+}
+
+.ContextMenuButton {
+    margin-left: 5px !important;
 }
 
 .TabSearchButton .ColorSelector {
@@ -813,7 +866,7 @@ border-bottom: 0px !important;
 }
 
 .emoticon_NewEmoticonIndicator_3NVON .emoticon_NewEmoticonCircle_3mNrG {
-    background-color: darkred !important;
+    display:none!important;
 }
 
 /** Group BUTTON CSS **/
