@@ -1493,6 +1493,15 @@ button.DialogButton.copyVoiceLogsButton {
     border-radius: 4px !important;
 }
 
+.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
+    background: transparent !important;
+    top: 10px !important;}
+
+.miniprofile_miniProfileBackgroundBlur_G000o {
+    display: none !important;
+}
+
 .contextmenu_contextMenuItem_CBC-y {
     border-top: 0px !important;
     background:rgb(var(--header)) !important;
@@ -1504,7 +1513,6 @@ button.DialogButton.copyVoiceLogsButton {
 }
 
 .contextMenuGameTitle{
-    background: transparent !important;
     background:rgb(var(--header)) !important;
 }
 
@@ -1514,12 +1522,6 @@ button.DialogButton.copyVoiceLogsButton {
 
 .contextmenu_contextMenu_3_a2Z{
     background: rgb(var(--header)) !important;}
-
-.miniprofile_miniProfileBackgroundBlur_G000o {
-    border-radius: 4px !important;
-    display: none !important;
-    background: transparent !important;
-}
       
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
