@@ -49,7 +49,7 @@ END OF LINE.
     LITTLE CIRCLE STATUS (DEFAULT)
     --------------------------------------------------------------*/
 
-    .online .steamavatar_avatarStatus_1Pwr6 {
+    /*.online .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--online)) !important;
     border-radius: 50px !important;
     width: 20px !important;
