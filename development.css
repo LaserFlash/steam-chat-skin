@@ -98,56 +98,56 @@ END OF LINE.
     AROUND AVATAR STATUS
     --------------------------------------------------------------*/
 
-   /*.online .steamavatar_avatarStatus_1Pwr6 {
-   background: rgb(var(--online)) !important;
-   border-radius: 50px !important;
-   width: 92px !important;
-   height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
-   z-index: 1 !important;}
+    /*.online .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--online)) !important;
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -3px !important;
+    top: -3px !important;
+    z-index: 1 !important;}
 
-   .ingame .steamavatar_avatarStatus_1Pwr6 {
-   background: rgb(var(--ingame)) !important;
-   border-radius: 50px !important;
-   width: 92px !important;
-   height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
-   z-index: 1 !important;}
+    .ingame .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--ingame)) !important;
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -3px !important;
+    top: -3px !important;
+    z-index: 1 !important;}
 
-   .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
-   border-radius: 50px !important;
-   width: 92px !important;
-   height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
-   z-index: 1 !important;}
+    .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -3px !important;
+    top: -3px !important;
+    z-index: 1 !important;}
 
-   .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
-   background: rgb(var(--snooze)) !important;
-   border-radius: 50px !important;
-   width: 92px !important;
-   height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
-   z-index: 1 !important;}
+    .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -3px !important;
+    top: -3px !important;
+    z-index: 1 !important;}
 
-   .golden .steamavatar_avatarStatus_1Pwr6 {
-   border-radius: 50px !important;
-   width: 92px !important;
-   height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
-   z-index: 1 !important;}
+    .golden .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -3px !important;
+    top: -3px !important;
+    z-index: 1 !important;}
 
-   .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
-   border-radius: 50px !important;
-   width: 92px !important;
-   height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
-   z-index: 1 !important;}
+    .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 92px !important;
+    height: 92px !important;
+    left: -3px !important;
+    top: -3px !important;
+    z-index: 1 !important;}
 
 /* WARNING !!!!!!!!!!Do not Change the code below this line!!!!!!!!!! */
 /*-----------------------------------------------------------------------------------------*/
@@ -183,18 +183,25 @@ END OF LINE.
 /* thumb normal and hover state */
 ::-webkit-scrollbar-thumb {
 	background-color: rgb(var(--scrollbar)) !important;
-    border: 0px !important;
-    border-radius: 0px !important;
+    border-right: 3px solid rgb(var(--friendlist)) !important;
+    border-left: 2px solid rgb(var(--friendlist)) !important;
+    border-top: 2px solid rgb(var(--friendlist)) !important;
+    border-bottom: 2px solid rgb(var(--friendlist)) !important;
+    border-radius: 20px !important;;
 }
 
 ::-webkit-scrollbar-thumb:hover {
 	background-color: rgb(var(--scrollbar)) !important;
-	border-radius: 0px !important;
+    border-right: 3px solid rgb(var(--friendlist)) !important;
+    border-left: 2px solid rgb(var(--friendlist)) !important;
+    border-top: 2px solid rgb(var(--friendlist)) !important;
+    border-bottom: 2px solid rgb(var(--friendlist)) !important;
+    border-radius: 20px !important;;
 }
 
 /* makes scrollbar wider */
 ::-webkit-scrollbar {
-    width: 18px !important;
+    width: 15px !important;
 }
 
 /* disables scroll bar at settings */
@@ -1009,7 +1016,7 @@ border-bottom: 0px !important;
 
 .ChatRoomGroupAvatar {
     border-radius: 40px !important;
-    border: 2px solid #2e2e2f !important;
+    border: 1px solid rgb(var(--footer)) !important;
     background-color: none !important;
     box-shadow: none !important;
 }
@@ -1083,6 +1090,10 @@ border-bottom: 0px !important;
 .ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
     bottom: 1px !important;
     border-radius: 4px !important;
+}
+
+.ChatRoomListGroupItem:hover {
+    background: rgb(var(--friendlist)) !important;
 }
 
 /* Avatar Status */
