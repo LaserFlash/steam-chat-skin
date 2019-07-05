@@ -222,19 +222,6 @@ END OF LINE.
     display: none!important;
 }
 
-.friendStatusHover.ingame:hover,
-.friendStatusHover.ingame.Friend_ContextMenuActive {
-    background-color: rgb(var(--hoverstatus)) !important; }
-    
-.friendStatusHover.online:hover,
-.friendStatusHover.online.Friend_ContextMenuActive {
-    background-color: rgb(var(--hoverstatus)) !important; }
-    
-.friendStatusHover.offline:hover,
-.friendStatusHover.offline.Friend_ContextMenuActive {
-    background-color: rgb(var(--hoverstatus)) !important; }
-
-
 .friend.awayOrSnooze .labelHolder {
     opacity: 1 !important;
 }
@@ -261,18 +248,6 @@ END OF LINE.
 
 .currentUserContainer .personanameandstatus_playerName_1uxaf{
     color: rgb(var(--selfstatus)) !important;
-}
-
-.offline .personanameandstatus_playerName_1uxaf {
-    color: rgb(var(--offline)) !important;
-}
-
-.offline .personanameandstatus_richPresenceLabel_3Q6g1 {
-    color: rgb(var(--offline)) !important;
-} 
-
-.offline .personanameandstatus_statusAndName_9U-hi {
-    filter: none !important;
 }
 
 .friendsListSectionTitle .SVGIcon_NewChatGroup line {
@@ -303,9 +278,6 @@ END OF LINE.
 }
 
 .recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
-    color: rgb(var(--listtext)) !important; }
-
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName{
     color: rgb(var(--listtext)) !important; }
 
 .title-area-icon .SVGIcon_Restore {
@@ -561,17 +533,6 @@ html.client_chat_frame body, html.web_chat_frame body {
     background: rgb(var(--footer)) !important;
 }
 
-/* Game playing status */
-.friendGroup .SteamPlayerGroupFooter {
-    margin-top: -20px !important;
-}
-
-/* Game playing status */
-.CompactFriendsList .friendGroup .SteamPlayerGroupFooter {
-    margin-top: -8px !important;
-    margin-left: 5px !important;
-}
-
 .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
     height: 0px !important;
 }
@@ -634,16 +595,6 @@ border-bottom: 0px !important;
 
 .singleWindowFocusBar {
     background: none !important;
-}
-
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
-    border-top: 4px !important;
-    margin-top: 0px !important;
-}
-
-.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
-    border-top: none !important;
-    margin-top: 0px !important;
 }
 
 .friendlistListContainer {
@@ -929,10 +880,6 @@ border-bottom: 0px !important;
     color: rgb(var(--icon)) !important;
     margin-top: 1px !important;
     transform: none !important;
-}
-
-.friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
-    display: none !important;
 }
 
 .friendGroup .groupName {
