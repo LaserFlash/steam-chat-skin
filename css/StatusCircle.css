@@ -234,12 +234,20 @@ LITTLE CIRCLE STATUS (DEFAULT)
     display: none !important;
 }
 
-.friendlistListContainer .friend .avatarHolder .avatarStatus, .CompactFriendsList .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
+.friendlistListContainer .friend .avatarHolder .avatarStatus {
     left: 20px !important;
     top: 20px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
     height: 15px !important;
     width: 15px !important;
+}
+
+.CompactFriendsList .friend .avatarHolder .avatarStatus {
+    left: 10px !important;
+    top: 10px !important;
+    border: 2px solid rgb(var(--friendlist)) !important;
+    height: 10px !important;
+    width: 10px !important;
 }
 
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
