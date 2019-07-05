@@ -71,6 +71,16 @@ LITTLE CIRCLE STATUS (DEFAULT)
     z-index: 2 !important;
 }
 
+.offline .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--offline)) !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;
+}
+
 /* Game playing status */
 .friendGroup .SteamPlayerGroupFooter {
     margin-top: -20px !important;
@@ -199,6 +209,27 @@ LITTLE CIRCLE STATUS (DEFAULT)
     border-color: rgb(var(--friendlist)) !important;
 }
 
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    margin-left: 15px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(var(--friendlist)) !important;
+}
+
+/* QuickAcces Game Icon */
+.compactQuickAccess .FavoriteFriend_GameIcon {
+    border-radius: 10px !important;
+    bottom: 1px !important;
+    right: 20px !important;
+    width: 17px !important;
+    height: 17px !important;
+}
+
 /* ConetextMenu avatar status  */
 .contextMenuContents.ChatTabs .ChatTabContent .avatarStatus {
     width: 13px !important;
@@ -237,8 +268,8 @@ LITTLE CIRCLE STATUS (DEFAULT)
     left: 20px !important;
     top: 20px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
-    height: 20px !important;
-    width: 20px !important;
+    height: 15px !important;
+    width: 15px !important;
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
