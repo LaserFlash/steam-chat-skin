@@ -21,7 +21,7 @@
 LITTLE CIRCLE STATUS (DEFAULT)
 --------------------------------------------------------------*/
 
-.miniprofile_avatarStatus {
+.online .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--online)) !important;
     border-radius: 50px !important;
     width: 20px !important;
@@ -234,13 +234,12 @@ LITTLE CIRCLE STATUS (DEFAULT)
     display: none !important;
 }
 
-.friend .avatarHolder .avatarStatus {
+.friendlistListContainer .friend .avatarHolder .avatarStatus, .CompactFriendsList .friend .avatarHolder .avatarStatus, .FriendNotificationsDialog .friend .avatarHolder .avatarStatus {
     left: 20px !important;
     top: 20px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
     height: 15px !important;
     width: 15px !important;
-    width: 2px !important;
 }
 
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
