@@ -245,8 +245,8 @@ LITTLE CIRCLE STATUS (DEFAULT)
     left: 15px !important;
     top: 15px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
-    height: 15px !important;
-    width: 15px !important;
+    height: 10px !important;
+    width: 10px !important;
 }
 
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
