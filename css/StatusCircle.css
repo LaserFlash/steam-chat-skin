@@ -116,7 +116,6 @@ LITTLE CIRCLE STATUS (DEFAULT)
     background-color: rgb(var(--hoverstatus)) !important;
 }
 
-
 /* Chat windows avatars */
 
 .chatTab .avatarHolder {
@@ -238,16 +237,16 @@ LITTLE CIRCLE STATUS (DEFAULT)
     left: 20px !important;
     top: 20px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
-    height: 15px !important;
-    width: 15px !important;
+    height: 20px !important;
+    width: 20px !important;
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
-    left: 10px !important;
-    top: 10px !important;
+    left: 15px !important;
+    top: 15px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
-    height: 10px !important;
-    width: 10px !important;
+    height: 15px !important;
+    width: 15px !important;
 }
 
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
