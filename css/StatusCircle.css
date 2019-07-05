@@ -81,6 +81,42 @@ LITTLE CIRCLE STATUS (DEFAULT)
     margin-left: 5px !important;
 }
 
+.friendGroup.offlineFriends .groupName .groupCount, .friendGroup.onlineFriends .groupName .groupCount, .friendGroup .groupName .groupCount.collapsed {
+    display: none !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName, .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName{
+    color: rgb(var(--listtext)) !important; 
+}
+
+.offline .personanameandstatus_playerName_1uxaf {
+    color: rgb(var(--offline)) !important;
+}
+
+.offline .personanameandstatus_richPresenceLabel_3Q6g1 {
+    color: rgb(var(--offline)) !important;
+} 
+
+.offline .personanameandstatus_statusAndName_9U-hi {
+    filter: none !important;
+}
+
+.friendStatusHover.ingame:hover,
+.friendStatusHover.ingame.Friend_ContextMenuActive {
+    background-color: rgb(var(--hoverstatus)) !important;
+}
+    
+.friendStatusHover.online:hover,
+.friendStatusHover.online.Friend_ContextMenuActive {
+    background-color: rgb(var(--hoverstatus)) !important;
+}
+    
+.friendStatusHover.offline:hover,
+.friendStatusHover.offline.Friend_ContextMenuActive {
+    background-color: rgb(var(--hoverstatus)) !important;
+}
+
+
 /* Chat windows avatars */
 
 .chatTab .avatarHolder {
