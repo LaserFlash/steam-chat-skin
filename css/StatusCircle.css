@@ -53,14 +53,14 @@ LITTLE CIRCLE STATUS (DEFAULT)
 
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--snooze)) !important;
+    -webkit-mask: none !important;
     border-radius: 50px !important;
-    border-radius: 50px !important;
-    width: 20px !important;
-    height: 20px !important;
-    left: 60px !important;
-    border: 2px solid rgb(var(--header)) !important;
-    z-index: 2 !important;
-} 
+    width: 92px !important;
+    height: 92px !important;
+    left: -1px !important;
+    top: -1px !important;
+    z-index: 1 !important;
+}
 
 .golden .steamavatar_avatarStatus_1Pwr6 {
     border-radius: 50px !important;
