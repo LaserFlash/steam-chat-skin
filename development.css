@@ -40,6 +40,112 @@
     --hoverstatus: 238,238,238, 0.5;
 */}
 
+===== COSTUMIZABLE AVATAR AND STATUS =====
+
+    /*--------------------------------------------------------------
+    LITTLE CIRCLE STATUS (DEFAULT)
+    --------------------------------------------------------------*/
+
+    .online .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--online)) !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    .ingame .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--ingame)) !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    border-radius: 50px !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;} 
+
+    .golden .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    /*--------------------------------------------------------------
+    AROUND AVATAR STATUS
+    --------------------------------------------------------------*/
+
+   /*.online .steamavatar_avatarStatus_1Pwr6 {
+   background: rgb(var(--online)) !important;
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .ingame .steamavatar_avatarStatus_1Pwr6 {
+   background: rgb(var(--ingame)) !important;
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+   background: rgb(var(--snooze)) !important;
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .golden .steamavatar_avatarStatus_1Pwr6 {
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
 /* WARNING !!!!!!!!!!Do not Change the code below this line!!!!!!!!!! */
 /*-----------------------------------------------------------------------------------------*/
 /* WARNING !!!!!!!!!!Do not Change the code below this line!!!!!!!!!! */
