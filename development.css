@@ -369,18 +369,6 @@ END OF LINE.
     border-radius: 4px !important;
 }
 
-.ChatRoomSpeaker .speaker .speakerStatus, .ChatMsgSlashEmote .speaker .speakerStatus {
-    width: 10px !important;
-    border-radius: 50% !important;
-    height: 10px !important;
-    margin-top: 12px !important;
-    margin-left: -8px !important;
-    margin-right: 8px !important;
-    border: 2px !important;
-    border-style: solid !important;
-    border-color: rgb(var(--friendlist)) !important;
-}
-
 .timeDivision .preHorizDivider {
     display: none !important;
 }
