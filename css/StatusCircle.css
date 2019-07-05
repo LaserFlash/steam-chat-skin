@@ -21,7 +21,7 @@
 LITTLE CIRCLE STATUS (DEFAULT)
 --------------------------------------------------------------*/
 
-.online .steamavatar_avatarStatus_1Pwr6 {
+.miniprofile_avatarStatus {
     background: rgb(var(--online)) !important;
     border-radius: 50px !important;
     width: 20px !important;
