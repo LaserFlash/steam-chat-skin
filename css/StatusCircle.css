@@ -1,4 +1,7 @@
 :root {
+    --header: 21, 21, 21;
+    --friendlist: 30, 30, 31;
+    --footer: 21, 21, 21;
     --online: 93, 178, 254;
     --snooze: 93, 178, 255;
     --offline: 145, 145, 145;
@@ -105,6 +108,18 @@ LITTLE CIRCLE STATUS (DEFAULT)
 
 .ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
     border-radius: 50% !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerStatus, .ChatMsgSlashEmote .speaker .speakerStatus {
+    width: 10px !important;
+    border-radius: 50% !important;
+    height: 10px !important;
+    margin-top: 12px !important;
+    margin-left: -8px !important;
+    margin-right: 8px !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(var(--friendlist)) !important;
 }
 
 /* QuickAccess avatar status  */
