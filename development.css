@@ -173,6 +173,15 @@
     box-shadow: none !important;
 }
 
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+    border-top: 4px !important;
+    margin-top: 0px !important;
+}
+
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+    border-top: none !important;
+    margin-top: 0px !important;
+}
 .unreadFriend .FriendMessageCount {
     box-shadow: none !important;
     border-radius: 40px !important;
