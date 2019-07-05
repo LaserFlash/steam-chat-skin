@@ -58,3 +58,126 @@ LITTLE CIRCLE STATUS (DEFAULT)
     border: 2px solid rgb(var(--header)) !important;
     z-index: 2 !important;
 }
+
+/* Chat windows avatars */
+
+.chatTab .avatarHolder {
+    width: 25% !important;
+    transform: scale(0.86, 0.86) translateX(0px) !important;
+}
+
+.chatTab:not(.active) .ChatTabContent .avatarHolder .avatar {
+    border-radius: 40px !important;
+}
+
+.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
+    width: 42px !important;
+}
+
+.ChatTabContent .avatarHolder .avatarStatus {
+    height: 12px !important;
+    width: 13px !important;
+    border-radius: 40px !important;
+    margin-top: -12px !important;
+    margin-left: 31px !important;
+}
+
+.friend .avatarHolder img.avatar {
+    border: 1px solid rgb(var(--friendlist)) !important;
+    box-shadow: none !important;
+    border-radius: 40px !important;
+}
+
+.ChatRoomGroupAvatar {
+    border-radius: 40px !important;
+    border: 1px solid rgb(var(--footer)) !important;
+    background-color: none !important;
+    box-shadow: none !important;
+}
+
+.currentUserAvatar {
+    border-radius: 30px !important;
+}
+
+.currentUserAvatar:hover {
+    filter: none !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerAvatar, .ChatMsgSlashEmote .speaker .speakerAvatar {
+    border-radius: 50% !important;
+}
+
+/* QuickAccess avatar status  */
+.friend.quickAccessFriend .avatarHolder .avatarStatus {
+    border-radius: 40px !important;
+    margin-top: -13px !important;
+    margin-left: 35px !important;
+    height: 12px !important;
+    width: 12px !important;
+    z-index: 1 !important;
+    border: 2px !important;
+    border-style: solid !important;
+    border-color: rgb(var(--friendlist)) !important;
+}
+
+/* ConetextMenu avatar status  */
+.contextMenuContents.ChatTabs .ChatTabContent .avatarStatus {
+    width: 13px !important;
+    height: 13px !important;
+    margin-left: 12px !important;
+    margin-top: 18px !important;
+}
+
+.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus {
+    width: 13px !important;
+    height: 13px !important;
+    margin-left: 12px !important;
+    margin-top: 18px !important;
+}
+
+.contextMenuContents.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
+    height: 42px !important;
+}
+  
+.contextMenuContents.ChatTabs .ChatTabContent .avatarHolder {
+    height: 42px !important;
+} 
+
+/* Avatar */
+.Dialog_EditNickName .friend .avatarMedium, .Dialog_ChangePersonaName .friend .avatarMedium {
+    box-shadow: none !important;
+    border-radius: 40px !important;
+}
+
+/* removes Avatar status in settings */
+.voiceSelfHeader .friend .avatarHolder .avatarStatus {
+    display: none !important;
+}
+
+.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar, .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
+    margin-top: 0px !important;
+}
+
+/* mini profile */
+
+.miniprofile_avatarStatus {
+    display: none !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG img {
+    border-radius: 50px !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG{
+    border-radius: 50px !important;
+}
+    
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
+    background: rgb(var(--online)) !important;
+    border-radius: 4px !important;
+}
+      
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
+    background: rgb(var(--ingame)) !important;
+    border-radius: 4px !important;
+}
