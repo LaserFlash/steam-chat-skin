@@ -1,1 +1,189 @@
+/* IMPORT CSS FROM GITHUB ( AUTO UPDATE ) */
 @import url('https://aikomidori.github.io/steam-friends-skin/development.css');
+
+/*
+===== IMPORTANT  =====
+CHANGE STEAM CHAT SKIN APPEARENCE FOR THIS TO WORK
+NOTE: ONLY USE 1 AT THE TIME.
+
+===== COSTMIZZABLE THEMES =====
+*/
+:root {
+    /* Dark Mode (Default) */
+    --header: 21, 21, 21;
+    --friendlist: 30, 30, 31;
+    --footer: 21, 21, 21;
+    --scrollbar: 21, 21, 21;
+    --unreadmessage: 0 ,255, 0;
+    --text: 255, 255, 255;
+    --listtext: 255, 255, 255;
+    --icon: 255, 255, 255;
+    --caption: 255, 255, 255;
+    --captionhover: 30, 30, 31;
+    --online: 93, 178, 254;
+    --snooze: 93, 178, 255;
+    --offline: 145, 145, 145;
+    --ingame: 130, 186, 0;
+    --selfstatus: 93, 178, 254;
+    --hoverstatus: 21, 21, 21, 0.5;
+
+    /*Light Mode*/
+    /*--header: 238,238,238;
+    --friendlist: 215, 215, 215;
+    --footer: 238, 238, 238;
+    --scrollbar: 238, 238, 238;
+    --unreadmessage: 0 ,255, 0;
+    --text: 0, 0, 0;
+    --listtext: 0, 0, 0;
+    --icon: 0, 0, 0;
+    --caption: 0, 0 ,0;
+    --online: 93, 178, 254;
+    --snooze: 93, 178, 255;
+    --offline: 0, 0, 0;
+    --ingame: 130, 186, 0;
+    --selfstatus: 0, 0, 0;
+    --hoverstatus: 238,238,238, 0.5;
+
+    /*The make-it-yourself mode! */
+    /*--header: 0, 0, 0;
+    --friendlist: 0, 0, 0;
+    --footer: 0, 0, 0;
+    --scrollbar: 0, 0, 0;
+    --unreadmessage: 0, 0, 0;
+    --text: 0, 0, 0;
+    --listtext: 0, 0, 0;
+    --icon: 0, 0, 0;
+    --caption: 0, 0, 0;
+    --online: 0, 0, 0;
+    --snooze: 0, 0, 0;
+    --offline: 0, 0, 0;
+    --ingame: 0, 0, 0;
+    --selfstatus: 0, 0, 0;
+    --hoverstatus: 0, 0, 0, 0.3;
+*/}
+
+/*-------------------------------------------------------------------------------------------
+END OF LINE.
+
+===== COSTUMIZABLE AVATAR AND STATUS =====
+
+    /*--------------------------------------------------------------
+    LITTLE CIRCLE STATUS (DEFAULT)
+    --------------------------------------------------------------*/
+
+    .online .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--online)) !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    .ingame .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--ingame)) !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+    background: rgb(var(--snooze)) !important;
+    border-radius: 50px !important;
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;} 
+
+    .golden .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;}
+
+    /*--------------------------------------------------------------
+    AROUND AVATAR STATUS
+    --------------------------------------------------------------*/
+
+   /*.online .steamavatar_avatarStatus_1Pwr6 {
+   background: rgb(var(--online)) !important;
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .ingame .steamavatar_avatarStatus_1Pwr6 {
+   background: rgb(var(--ingame)) !important;
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+   background: rgb(var(--snooze)) !important;
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .golden .steamavatar_avatarStatus_1Pwr6 {
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+   .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
+   border-radius: 50px !important;
+   width: 92px !important;
+   height: 92px !important;
+   left: -3px !important;
+   top: -3px !important;
+   z-index: 1 !important;}
+
+
+/*-------------------------------------------------------------------------------------------
+END OF LINE.*/
+
+/*
+===== CREDITS  =====
+SHIINA
+DISCORD: https://discord.gg/UZvkvkh Shiina♪#5778
+GITHUB: https://github.com/AikoMidori/steam-friends-skin
+===== TROUBLESHOOTER =====
+IF YOU NEED ANY HELP DON'T HESISTATE TO ASK ME ON DISCORD!
+-------------------------------------------------------------------------------------------
+© 2019 All Rights Reserved. Created by Shiina♪
+
+END OF LINE.
+*/
