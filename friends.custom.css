@@ -67,11 +67,11 @@ END OF LINE.
 
 ===== COSTUMIZABLE AVATAR AND STATUS =====
 
-    /*--------------------------------------------------------------
+    --------------------------------------------------------------
     LITTLE CIRCLE STATUS (DEFAULT)
     --------------------------------------------------------------*/
 
-    .online .steamavatar_avatarStatus_1Pwr6 {
+    /*.online .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--online)) !important;
     border-radius: 50px !important;
     width: 20px !important;
@@ -120,13 +120,13 @@ END OF LINE.
     AROUND AVATAR STATUS
     --------------------------------------------------------------*/
 
-   /*.online .steamavatar_avatarStatus_1Pwr6 {
+   .online .steamavatar_avatarStatus_1Pwr6 {
    background: rgb(var(--online)) !important;
    border-radius: 50px !important;
    width: 92px !important;
    height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
+   left: -1px !important;
+   top: -1px !important;
    z-index: 1 !important;}
 
    .ingame .steamavatar_avatarStatus_1Pwr6 {
@@ -134,16 +134,16 @@ END OF LINE.
    border-radius: 50px !important;
    width: 92px !important;
    height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
+   left: -1px !important;
+   top: -1px !important;
    z-index: 1 !important;}
 
    .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
    border-radius: 50px !important;
    width: 92px !important;
    height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
+   left: -1px !important;
+   top: -1px !important;
    z-index: 1 !important;}
 
    .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
@@ -151,24 +151,24 @@ END OF LINE.
    border-radius: 50px !important;
    width: 92px !important;
    height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
+   left: -1px !important;
+   top: -1px !important;
    z-index: 1 !important;}
 
    .golden .steamavatar_avatarStatus_1Pwr6 {
    border-radius: 50px !important;
    width: 92px !important;
    height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
+   left: -1px !important;
+   top: -1px !important;
    z-index: 1 !important;}
 
    .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
    border-radius: 50px !important;
    width: 92px !important;
    height: 92px !important;
-   left: -3px !important;
-   top: -3px !important;
+   left: -1px !important;
+   top: -1px !important;
    z-index: 1 !important;}
 
 
