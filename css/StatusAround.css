@@ -52,6 +52,7 @@ AROUND AVATAR STATUS
 
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
     background: rgb(var(--snooze)) !important;
+    -webkit-mask: none !important;
     border-radius: 50px !important;
     width: 92px !important;
     height: 92px !important;
