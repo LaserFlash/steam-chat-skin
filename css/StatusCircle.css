@@ -62,6 +62,16 @@ LITTLE CIRCLE STATUS (DEFAULT)
     z-index: 2 !important;
 }
 
+/* Game playing status */
+.friendGroup .SteamPlayerGroupFooter {
+    margin-top: -20px !important;
+}
+
+.CompactFriendsList .friendGroup .SteamPlayerGroupFooter {
+    margin-top: -8px !important;
+    margin-left: 5px !important;
+}
+
 /* Chat windows avatars */
 
 .chatTab .avatarHolder {
