@@ -177,7 +177,7 @@ END OF LINE.
 /* background behind scrollbar */
 ::-webkit-scrollbar-track {
     background-color: rgb(var(--friendlist)) !important;
-    border-radius: 4px !important;
+    border-radius: 20px !important;
 }
 
 /* thumb normal and hover state */
