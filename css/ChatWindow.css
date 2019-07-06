@@ -6,8 +6,36 @@
 CHAT WINDOW
 --------------------------------------------------------------*/
 
+/* Compact chat tab group name */
 .ChatTabs.compactView .chatTabGroupName {
     margin-top: 5px !important;
+}
+
+/* Chat tab title */
+.ChatTabs .title-area {
+    margin-bottom: -4px !important;
+    background: rgb(var(--header)) !important;
+    height: 52px !important;
+}
+
+/* Time stamp divider */
+.timeDivision .preHorizDivider {
+    display: none !important;
+}
+
+/* Time stamp divider */
+.timeDivision .horizDivider {
+    display: none !important;
+}
+
+.msg.timeDivision {
+    font-size: 15px !important;
+    color: white !important;
+    display: none !important;
+}
+
+.ChatTabs .title-area-icon:hover .SVGIcon_SingleWindowToggle .leftBox {
+    transform: none !important; 
 }
 
 .chatTabGroupName {
@@ -222,23 +250,6 @@ button.DialogButton:active, button.DialogButton:active:hover {
     display:none!important;
 }
 
-.chatRoomListContainer {
-    background: rgb(var(--footer)) !important;
-    transition: all .5s ease-in-out !important;
-}
-
-.socialListTab .tabLabel {
-    color: rgb(var(--text)) !important;
-}
-
-.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle{
-    color: rgb(var(--text))
-}
-
-.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName{
-    color: rgb(var(--text))
-}
-
 /* Chat Body */
 
 .chatTab .chatTabHighlight {
@@ -278,6 +289,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
     overflow: visible !important;
 }
 
+/* Group Chat Window Avatar Row */
 .displayRow {
     height: 100% !important;
 }
@@ -311,12 +323,6 @@ button.DialogButton:active, button.DialogButton:active:hover {
     bottom: 1px !important;
     border-radius: 4px !important;
 }
-
-
-/* END */
-
-/* ------------------------------------------------------------------- */
-
 
 /* Chat Divider Fullscreen */
 .singleWindowDivider {

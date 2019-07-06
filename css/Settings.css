@@ -48,6 +48,7 @@ button.DialogButton.Primary {
     border-radius: 4px !important;
 }
 
+/* Puch To Talk Option Background */
 ._DialogSection.pushToTalkSection .PPTSoundOption {
     background-color: transparent !important;
 }
@@ -140,10 +141,12 @@ button.DialogButton.copyVoiceLogsButton {
     border-radius: 4px !important;
 }
 
+/* Search Hover */
 ._DialogTextInputBase:not( disabled ):hover {
     border-radius: 4px !important;
 }
 
+/* Search Input Box */
 ._DialogTextInputBase, ._DialogInputContainer {
     background: rgb(var(--header)) !important;
     border-radius: 4px !important;
