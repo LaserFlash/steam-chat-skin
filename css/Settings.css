@@ -48,6 +48,10 @@ button.DialogButton.Primary {
     border-radius: 4px !important;
 }
 
+._DialogSection.pushToTalkSection .PPTSoundOption {
+    background-color: transparent !important;
+}
+
 /* notification Check Boxes */
 .DialogCheckbox {
     box-shadow: none !important;
