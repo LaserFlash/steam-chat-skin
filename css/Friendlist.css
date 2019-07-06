@@ -23,7 +23,7 @@ FRIENDLIST
   
 .title-area-icon .SVGIcon_Minimize:hover {
     width: 22px !important;
-    height: 20px !im        portant;
+    height: 20px !important;
     background: rgb(var(--captionhover)) !important;
     margin-top: -2px !important;
     margin-left: -4px !important; 
@@ -271,4 +271,59 @@ FRIENDLIST
 .ModalPosition_TopBar {
     height: 0px !important;
     background: #555 !important;
+}
+
+.chat_main
+{
+	background-color: transparent !important;
+	color: transparent !important;
+}
+
+html.client_chat_frame body, html.web_chat_frame body {
+    background: rgb(var(--footer)) !important;
+}
+
+
+.currentUserContainer {
+border-bottom: 0px !important;
+}
+
+.friendListInsetShadowBottom {
+    background: 0px !important;
+}
+
+.friendListInsetShadowTop {
+    background: none !important;
+}
+
+.friendListInsetShadowBottom {
+    background: none !important;
+}
+
+.singleWindowFocusBar {
+    background: none !important;
+}
+
+.friendlistListContainer {
+    background: rgb(var(--friendlist)) !important;
+}
+
+.confirmInviteRequestContainer .confirmInviteButton {
+    border-radius:  4px !important;
+}
+
+.confirmInviteRequestContainer .cancelAddFriends {
+    border-radius:  4px !important;
+}
+
+.confirmInviteRequestContainer .cancelAddFriends .SVGIcon_Arrow polyline {
+    border-radius:  4px !important;
+}
+
+.confirmInviteRequestContainer .cancelAddFriends:hover .SVGIcon_Arrow polyline {
+    border-radius:  4px !important;
+}
+
+.confirmInviteRequestContainer {
+    border-radius:  4px !important;
 }
