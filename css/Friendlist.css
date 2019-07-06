@@ -705,3 +705,8 @@ html.client_chat_frame body, html.web_chat_frame body {
 .ChatUnreadMessageIndicator .chatUnreadCircle {
     background: none !important;
 }
+
+/* Group name count */
+.friendGroup .groupName .groupCount {
+    display: none !important;
+}
