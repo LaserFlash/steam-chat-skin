@@ -261,8 +261,8 @@ DISCORD STATUS (DEFAULT)
     left: 20px !important;
     top: 20px !important;
     border: 2px solid rgb(var(--friendlist)) !important;
-    height: 15px !important;
-    width: 15px !important;
+    height: 10px !important;
+    width: 10px !important;
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {

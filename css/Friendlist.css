@@ -663,14 +663,6 @@ html.client_chat_frame body, html.web_chat_frame body {
     margin-right: -10px !important;
 }
 
-/* Shows amount of people in group */
-.friendGroup .groupName .groupCount {
-    opacity: 1 !important;
-    color: rgb(var(--icon)) !important;
-    margin-top: 1px !important;
-    transform: none !important;
-}
-
 /* Group name in friendlist */
 .friendGroup .groupName {
     margin-left: 12px !important;
