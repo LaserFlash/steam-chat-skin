@@ -357,20 +357,45 @@ border-bottom: 0px !important;
     padding: 4px 0px 4px 15px !important;
 }
 
+/* Compact Friend Game Icon FriendList */
 .CompactFriendsList .FriendInGameIcon {
     display: none !important;
 }
 
+/* Friend Game Icon FriendList */
 .FriendInGameIcon {
     display: none !important;
 }
 
-.ChatTabs.compactView .chatTabGroupName {
-    margin-top: 5px !important;
+/* Friends Seacrbar 'Friends Text' */
+.socialListTab .tabLabel {
+    color: rgb(var(--text)) !important;
 }
 
-.chatTabGroupName {
-    margin-top: 3px !important;
+/* Search Button in Searchbar */
+.friendsTabButtonsContainer .TabSearchButton {
+    border-radius: 50px !important;
+    height: 26px !important;
+}
+
+/* Footer "Group Chats" Text Color */
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle{
+    color: rgb(var(--text))
+}
+
+/* Changes name color in QuickAcces */
+.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName{
+    color: rgb(var(--text))
+}
+
+/* Background SearchTab */
+.socialListTab {
+    background: rgb(var(--friendlist)) !important;
+}
+
+/* Hide + and - For Group Names on Friendlist */
+.ExpandPlusMinus {
+    display: none !important;
 }
 
 /* Friend Searchbar Input */
@@ -382,9 +407,20 @@ border-bottom: 0px !important;
     background-image: none !important;
 }
 
-/* Friend Searchbar*/
+/* Friend Searchbar */
 .friendSearchInput {
     padding-left: 12px !important;
+}
+
+/* Friend Searchbar Background */
+.activeTab {
+    background-color: rgb(var(--header)) !important;
+    box-shadow: none !important;
+}
+
+/* Friend Searchbar Hover */
+.activeTab .TabSearchButton:hover {
+    background: rgb(var(--header)) !important;
 }
 
 /** Group BUTTON CSS **/
@@ -396,7 +432,8 @@ border-bottom: 0px !important;
 }
 
 /* friends removing height */
-.friendlistListContainer {min-height: 0px !important;
+.friendlistListContainer {
+    min-height: 0px !important;
 }
 
 /* remaking heights */
@@ -405,7 +442,9 @@ border-bottom: 0px !important;
     max-height: 900px !important;
 }
 
+/* Group Chats Background */
 .chatRoomListContainer {
+    background: rgb(var(--footer)) !important;
     z-index: 20;height: 900px!important;
     max-height: 900px !important;
     width: 100% !important;
@@ -435,6 +474,16 @@ border-bottom: 0px !important;
 /* add hover effect when hovering group invites */
 .clanInviteContainer:hover {
     background-color: rgb(var(--header)) !important;
+}
+
+/* Compact friend spacing */
+.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
+    height: 30px !important;
+}
+
+/* Compact game name spacing */
+.CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
+    margin-top: -4px !important;
 }
 
 /* mini profile */
