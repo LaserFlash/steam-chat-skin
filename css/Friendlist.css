@@ -6,6 +6,29 @@
 FRIENDLIST
 --------------------------------------------------------------*/
 
+.title-area-highlight {
+    display: none !important;;
+}
+
+.friendListHeaderContainer {
+    background-color: rgb(var(--header)) !important;
+    border-bottom: 0px !important;
+}
+
+.friendListFooter {
+    display: none !important;
+    min-height: 20px !important;
+    background-color: rgb(var(--footer)) !important;
+}
+
+.window_resize_grip {
+    margin-right: -50px !important;
+}
+
+.statusHeaderGlow {
+    opacity: 0 !important; /* 0/1 to turn on/off */
+ }
+
 /* Close, Minimize, Maximize and full buttons. */
 .title-area-icon .SVGIcon_Minimize {
     width: 22px !important;
@@ -328,7 +351,27 @@ border-bottom: 0px !important;
     border-radius:  4px !important;
 }
 
+/* compact game icon */
 
+.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
+    padding: 4px 0px 4px 15px !important;
+}
+
+.CompactFriendsList .FriendInGameIcon {
+    display: none !important;
+}
+
+.FriendInGameIcon {
+    display: none !important;
+}
+
+.ChatTabs.compactView .chatTabGroupName {
+    margin-top: 5px !important;
+}
+
+.chatTabGroupName {
+    margin-top: 3px !important;
+}
 
 /* mini profile */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
@@ -376,4 +419,70 @@ border-bottom: 0px !important;
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {  
     color: rgb(var(--online)) !important;
     border-radius: 4px !important;
+}
+
+/* context menu's */
+
+.contextmenu_contextMenuItem_CBC-y {
+    border-top: 0px !important;
+    background:rgb(var(--header)) !important;
+}
+
+.contextmenu_contextMenuItem_CBC-y:hover{
+    background: rgb(var(--friendlist)) !important;
+    border-radius: 4px !important;
+}
+
+.contextMenuGameTitle{
+    background:rgb(var(--header)) !important;
+}
+
+.contextMenuSectionContent{
+    background:rgb(var(--header)) !important;
+}
+
+.contextmenu_contextMenu_3_a2Z{
+    background: rgb(var(--header)) !important;
+}
+
+:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    fill: rgb(var(--icon)) !important;
+}
+
+.ContextMenuButton .SVGIcon_DownArrowContextMenu {
+    padding-left: 0px !important;
+    padding-top: 6px !important;
+}
+
+.ContextMenuButton {
+    margin-left: 5px !important;
+}
+
+.contextMenu {
+	border: none !important;
+    background: radial-gradient(ellipse farthest-corner at 50% 0%, #1a1a1a 0%, #1a1a1a 50%, #1a1a1a 100%) !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+.contextMenu .contextMenuItem:hover, .contextMenu .contextMenuItem.active {
+    background: #272727 !important;
+    border-radius: 4px !important;
+}
+
+.contextMenu .contextMenuItem {
+    border-top: 0px !important;
+}
+
+.contextMenuContents.ChatTabs .contextMenuItem {
+    min-height: 42px !important;
+}
+
+.contextMenuContents.ChatTabs.CompactFriendsList .friend .labelHolder {
+    margin-top: 20px !important;
+    margin-left: -2px !important; 
+}
+
+.contextMenuContents .chatTab .ChatTabContent {
+    min-height: 50px !important;
 }
