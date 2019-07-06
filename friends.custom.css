@@ -1,15 +1,5 @@
-/*
 /* ===== IMPORTANT  =====
 /* CHANGE STEAM CHAT SKIN APPEARENCE.
-/*
-IMPORT CSS FROM GITHUB ( AUTO UPDATE ) DO NOT DISABLE! */
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Friendlist.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/ChatWindow.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Settings.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Scrollbar.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Colors.css');
-/*-------------------------------------------------------------------------------------------
-/* END OF LINE.
 /*
 /*
 /*
@@ -23,7 +13,7 @@ IMPORT CSS FROM GITHUB ( AUTO UPDATE ) DO NOT DISABLE! */
 /*
 /*
 /*
-/* ===== COSTMIZZABLE THEMES =====
+/* ===== COSTMIZABLE THEMES =====
 /*
 /* ===== DARK MODE ===== */
 @import url('https://aikomidori.github.io/steam-friends-skin/css/DarkMode.css');
