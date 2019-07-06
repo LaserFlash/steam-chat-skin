@@ -641,6 +641,6 @@ border-bottom: 0px !important;
     display: none !important;
 }
 
-.friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    padding: 2px 0px 6px 12px !important;
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+    padding: 6px 0px 6px 12px !important;
 }
