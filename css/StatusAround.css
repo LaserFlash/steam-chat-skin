@@ -1,3 +1,7 @@
+/* ===== DO NOT CHANGE THIS ===== */
+*{  box-shadow: none !important;
+    text-shadow: none !important;}
+
 :root {
     --header: 21, 21, 21;
     --friendlist: 30, 30, 31;
@@ -59,13 +63,13 @@ AROUND AVATAR STATUS
     left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
-}
+} 
 
 .golden .steamavatar_avatarStatus_1Pwr6 {
     border-radius: 50px !important;
     width: 92px !important;
     height: 92px !important;
-    left: -1px !important
+    left: -1px !important;
     top: -1px !important;
     z-index: 1 !important;
 }
@@ -217,6 +221,15 @@ AROUND AVATAR STATUS
     border: 2px !important;
     border-style: solid !important;
     border-color: rgb(var(--friendlist)) !important;
+}
+
+/* QuickAcces Game Icon */
+.FavoriteFriend_GameIcon {
+    border-radius: 10px !important;
+    bottom: 0px !important;
+    right: 30px !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 /* QuickAcces Game Icon */

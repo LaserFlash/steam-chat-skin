@@ -1,3 +1,7 @@
+/* ===== DO NOT CHANGE THIS ===== */
+*{  box-shadow: none !important;
+    text-shadow: none !important;}
+
 :root {
     --header: 21, 21, 21;
     --friendlist: 30, 30, 31;
@@ -63,6 +67,15 @@ LITTLE CIRCLE STATUS (DEFAULT)
 }
 
 .golden .steamavatar_avatarStatus_1Pwr6 {
+    border-radius: 50px !important;
+    width: 20px !important;
+    height: 20px !important;
+    left: 60px !important;
+    border: 2px solid rgb(var(--header)) !important;
+    z-index: 2 !important;
+}
+
+.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
     border-radius: 50px !important;
     width: 20px !important;
     height: 20px !important;
@@ -209,6 +222,15 @@ LITTLE CIRCLE STATUS (DEFAULT)
     border: 2px !important;
     border-style: solid !important;
     border-color: rgb(var(--friendlist)) !important;
+}
+
+/* QuickAcces Game Icon */
+.FavoriteFriend_GameIcon {
+    border-radius: 10px !important;
+    bottom: 0px !important;
+    right: 30px !important;
+    width: 20px !important;
+    height: 20px !important;
 }
 
 /* QuickAcces Game Icon */
