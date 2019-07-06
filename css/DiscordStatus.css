@@ -139,10 +139,10 @@ DISCORD STATUS (DEFAULT)
     height: 12px !important;
     width: 13px !important;
     border-radius: 40px !important;
-    margin-top: -14px !important;
-    margin-left: 39px !important;
-    z-index 4 !important;
-    border: 2px solid #2e2e2f !important;
+    margin-top: -12px !important;
+    margin-left: 31px !important;
+    background: 1px solid rgb(var(--friendlist)) !important;
+    z-index: 4 !important;
 }
 
 .friend .avatarHolder img.avatar {
