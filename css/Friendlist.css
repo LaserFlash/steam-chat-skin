@@ -327,3 +327,53 @@ border-bottom: 0px !important;
 .confirmInviteRequestContainer {
     border-radius:  4px !important;
 }
+
+
+
+/* mini profile */
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
+    background: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfile_s5zcg{
+    border: 0px solid black !important;
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_gameLogo_2B0di {
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfileBackground_3gfFJ {
+    background: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+}
+
+.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
+    background: transparent !important;
+    top: 10px !important;}
+
+.miniprofile_miniProfileBackgroundBlur_G000o {
+    display: none !important;
+}
+      
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--ingame)) !important;
+    border-radius: 4px !important;
+}
+    
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+    color: rgb(var(--online)) !important;
+    border-radius: 4px !important;
+}
+    
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_nickname_1W3dU,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_persona_1Z3Ey,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {  
+    color: rgb(var(--online)) !important;
+    border-radius: 4px !important;
+}
