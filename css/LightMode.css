@@ -1,10 +1,13 @@
-@import url('https://aikomidori.github.io/steam-friends-skin/development.css');
+@import url('https://aikomidori.github.io/steam-friends-skin/css/Friendlist.css');
+@import url('https://aikomidori.github.io/steam-friends-skin/css/ChatWindow.css');
+@import url('https://aikomidori.github.io/steam-friends-skin/css/Settings.css');
+@import url('https://aikomidori.github.io/steam-friends-skin/css/Scrollbar.css');
 
 :root {
 
     /* Light Mode */
 
---header: 238,238,238;
+    --header: 238,238,238;
     --friendlist: 215, 215, 215;
     --footer: 238, 238, 238;
     --scrollbar: 238, 238, 238;
@@ -13,6 +16,7 @@
     --listtext: 0, 0, 0;
     --icon: 0, 0, 0;
     --caption: 0, 0 ,0;
+    --captionhover: 30, 30, 31;
     --online: 93, 178, 254;
     --snooze: 93, 178, 255;
     --offline: 0, 0, 0;
