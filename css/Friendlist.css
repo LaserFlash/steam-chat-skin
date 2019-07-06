@@ -10,6 +10,11 @@ FRIENDLIST
     display: none !important;;
 }
 
+/* Your Friendslist Name Centered */
+.currentUserContainer .labelHolder {
+    margin-bottom: 5px !important;
+}
+
 .friendListHeaderContainer {
     background-color: rgb(var(--header)) !important;
     border-bottom: 0px !important;
@@ -383,11 +388,6 @@ border-bottom: 0px !important;
     color: rgb(var(--text))
 }
 
-/* Changes name color in QuickAcces */
-.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName{
-    color: rgb(var(--text))
-}
-
 /* Background SearchTab */
 .socialListTab {
     background: rgb(var(--friendlist)) !important;
@@ -414,13 +414,18 @@ border-bottom: 0px !important;
 
 /* Friend Searchbar Background */
 .activeTab {
-    background-color: rgb(var(--header)) !important;
+    background-color: rgb(var(--friendlist)) !important;
     box-shadow: none !important;
 }
 
 /* Friend Searchbar Hover */
 .activeTab .TabSearchButton:hover {
     background: rgb(var(--header)) !important;
+}
+
+/* Changes name color in QuickAcces */
+.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName{
+    color: rgb(var(--text))
 }
 
 /** Group BUTTON CSS **/
@@ -598,4 +603,35 @@ border-bottom: 0px !important;
 
 .contextMenuContents .chatTab .ChatTabContent {
     min-height: 50px !important;
+}
+
+.gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
+    /* display: none !important; */
+    margin-right: -10px !important;
+}
+
+.friendGroup .groupName .groupCount {
+    opacity: 1 !important;
+    color: rgb(var(--icon)) !important;
+    margin-top: 1px !important;
+    transform: none !important;
+}
+
+.friendGroup .groupName {
+    margin-left: 12px !important;
+    margin-top: 4px !important;
+}
+
+.SteamPlayerGroupFooterCount .count {
+    margin-top: -40px !important;
+    margin-left: -45px !important;
+    display: none !important;
+}
+
+.friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
+    display: none !important;
+}
+
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+    padding: 2px 0px 6px 12px !important;
 }
