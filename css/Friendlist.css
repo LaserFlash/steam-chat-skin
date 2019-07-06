@@ -28,7 +28,7 @@ FRIENDLIST
 
 /* removes lines between groups in friendlist */
 .friendGroup.taggedGroup, .friendGroup.gameGroup {
-    border-top: 0px solid rgba(143, 143, 143, 0.25) !important;
+    border-top: 0px !important;
     margin-top: 0px !important;
 }
 
