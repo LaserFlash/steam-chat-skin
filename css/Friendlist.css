@@ -373,6 +373,70 @@ border-bottom: 0px !important;
     margin-top: 3px !important;
 }
 
+/* Friend Searchbar Input */
+.friendSearchInput[type="text"] {
+    background-color: rgb(var(--header)) !important;
+    padding-left: 12px !important;
+    border-radius: 50px !important;
+    box-shadow: none !important;
+    background-image: none !important;
+}
+
+/* Friend Searchbar*/
+.friendSearchInput {
+    padding-left: 12px !important;
+}
+
+/** Group BUTTON CSS **/
+/* changes color of background of groups button */
+.friendsListSectionTitle {
+    border-top-left-radius: 0px !important;
+    border-top-right-radius: 0px !important;
+    background-color: rgb(var(--footer)) !important;
+}
+
+/* friends removing height */
+.friendlistListContainer {min-height: 0px !important;
+}
+
+/* remaking heights */
+.chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {
+    height: 900px !important;
+    max-height: 900px !important;
+}
+
+.chatRoomListContainer {
+    z-index: 20;height: 900px!important;
+    max-height: 900px !important;
+    width: 100% !important;
+}
+
+/* little arrow for groups making selectable area bigger */
+.ToggleGroupChatList {
+    display: inline-block!important;
+    position: relative !important;
+    z-index: 11 !important;
+    padding-right: 27em !important;
+    margin-right: -27em !important;
+}
+
+/* hidding little arrow */
+.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
+    visibility: hidden !important;
+}
+
+/* makes groups be able to uncollapse to height 0 */
+.chatRoomListContainer[style="height: 0px; max-height: 0px; min-height: 0px;"] {
+    height: 0px !important;
+    max-height: 0px !important;
+    min-height: 0px !important;
+}
+
+/* add hover effect when hovering group invites */
+.clanInviteContainer:hover {
+    background-color: rgb(var(--header)) !important;
+}
+
 /* mini profile */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
     background: rgb(var(--header)) !important;
