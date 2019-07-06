@@ -26,6 +26,12 @@ FRIENDLIST
     background-color: rgb(var(--footer)) !important;
 }
 
+/* removes lines between groups in friendlist */
+.friendGroup.taggedGroup, .friendGroup.gameGroup {
+    border-top: 0px solid rgba(143, 143, 143, 0.25) !important;
+    margin-top: 0px !important;
+}
+
 .window_resize_grip {
     margin-right: -50px !important;
 }
@@ -301,8 +307,7 @@ FRIENDLIST
     background: #555 !important;
 }
 
-.chat_main
-{
+.chat_main {
 	background-color: transparent !important;
 	color: transparent !important;
 }
@@ -310,7 +315,6 @@ FRIENDLIST
 html.client_chat_frame body, html.web_chat_frame body {
     background: rgb(var(--footer)) !important;
 }
-
 
 .currentUserContainer {
 border-bottom: 0px !important;
@@ -434,6 +438,11 @@ border-bottom: 0px !important;
     border-top-left-radius: 0px !important;
     border-top-right-radius: 0px !important;
     background-color: rgb(var(--footer)) !important;
+}
+
+/* Changes Group Chats Groups Hover Color */
+.ChatRoomListGroupItem:hover {
+    background: rgb(var(--friendlist)) !important;
 }
 
 /* friends removing height */
