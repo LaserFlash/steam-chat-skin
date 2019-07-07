@@ -113,6 +113,23 @@ button.DialogButton:active, button.DialogButton:active:hover {
    background: none !important;
 }
 
+/* emoticon picker hover in chat*/
+.emoticon_hover_content {
+    background-color: #2e2e2f !important;
+    border: 1px solid #2e2e2f !important;
+    border-radius: 4px !important;
+}
+
+/* emoticon picker hover in chat (removes arrow)*/
+.emoticon_hover_arrow.right {
+    display: none !important
+}
+
+/* emoticon picker hover in chat (removes arrow)*/
+.emoticon_hover_arrow.left {
+    display: none !important
+}
+
 .ScrollToBottomButton > span {
     border-radius: 5px !important;
     background: rgb(var(--footer)) !important;
