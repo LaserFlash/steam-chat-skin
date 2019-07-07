@@ -16,6 +16,10 @@ FRIENDLIST
     margin-bottom: 5px !important;
 }
 
+.compactView .socialListTab {
+    height: 28px !important;
+}
+
 /* Friendlist header background */
 .friendListHeaderContainer {
     background-color: rgb(var(--header)) !important;
