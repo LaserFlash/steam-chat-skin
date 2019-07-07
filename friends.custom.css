@@ -3,12 +3,15 @@
 /*
 /*
 /*
-/* ===== COSTUMIZABLE AVATAR STATUS =====
+/* ===== COSTUMIZABLE AVATAR + STATUS =====
 /*
 /* DISCORD STATUS */
 @import url('https://aikomidori.github.io/steam-friends-skin/css/DiscordStatus.css');
 /*
-/* BORDER STATUS */
+/* ROUND BORDER STATUS */
+/* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
+/*
+/* SQUARE BORDER STATUS */
 /* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
 /*
 /*
@@ -25,7 +28,8 @@
 /*
 /* ===== CREDITS  =====
 /* SHIINA♪
-/* DISCORD: https://discord.gg/UZvkvkh Shiina♪#5778
+/* K.A.Z ( CONTRIBUTOR )
+/* DISCORD: https://discord.gg/UZvkvkh
 /* GITHUB: https://github.com/AikoMidori/
 /* -------------------------------------------------------------------------------------------
 /* © 2019 All Rights Reserved. Created by Shiina♪
