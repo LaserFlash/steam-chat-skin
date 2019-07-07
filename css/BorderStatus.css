@@ -131,7 +131,7 @@ BORDER STATUS
 }
 
 .ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
-    width: 42px !important;
+    width: 41px !important;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus {
@@ -287,8 +287,8 @@ BORDER STATUS
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
-    left: -3px !important;
-    top: -3px !important;
+    left: -1px !important;
+    top: -1px !important;
     height: 26px !important;
     width: 26px !important;
 }
