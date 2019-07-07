@@ -275,7 +275,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .chatTabList .chatTab:not(.active) {
-    box-shadow: inset 0px -2px 3px #00000025 !important;
+    background: #191919 !important;
 }
 
 .chatRoomGroupHeader {
