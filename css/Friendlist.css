@@ -504,8 +504,8 @@ html.client_chat_frame body, html.web_chat_frame body {
     display: inline-block!important;
     position: relative !important;
     z-index: 11 !important;
-    padding-right: 27em !important;
-    margin-right: -27em !important;
+    padding-right: 10em !important;
+    margin-right: -10em !important;
 }
 
 /* hidding little arrow */

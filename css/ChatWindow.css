@@ -18,6 +18,11 @@ CHAT WINDOW
     height: 52px !important;
 }
 
+/* Dragbar mouse curson */
+.voiceRoomDragBar {
+    cursor: default !important;
+}
+
 /* Time stamp divider */
 .timeDivision .preHorizDivider {
     display: none !important;
@@ -157,7 +162,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .chatEntry {
-    padding-bottom: 4px !important;
+    padding-bottom: 0px !important;
 }
 
 .emoticon_EmoticonSelector_177nw {
