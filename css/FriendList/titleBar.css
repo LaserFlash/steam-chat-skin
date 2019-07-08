@@ -59,13 +59,22 @@
 }
 
 /* ======================-==== Icon Stroke Style ============================ */
-.SVGIcon_SingleWindowToggle line, .SVGIcon_SingleWindowToggle rect,
-.SVGIcon_Minimize line,
-.SVGIcon_Maximize line, .SVGIcon_Maximize rect,
-.SVGIcon_Restore line, .SVGIcon_Restore rect,
-.SVGIcon_X_Line line {
-  stroke: rgb(var(--caption)) !important;
+
+.singleWindowToggle line, .singleWindowToggle rect,
+.minimizeButton line,
+.maximizeButton line, .maximizeButton rect,
+.restoreButton line, .restoreButton rect,
+.closeButton line {
+  stroke: rgb(var(--offline)) !important;
   stroke-width: 24px;
+}
+
+.singleWindowToggle:hover line, .singleWindowToggle:hover rect,
+.minimizeButton:hover line,
+.maximizeButton:hover line, .maximizeButton:hover rect,
+.restoreButton:hover line, .restoreButton:hover rect,
+.closeButton:hover line {
+  stroke: rgb(var(--caption)) !important;
 }
 
 /* ======================-==== Hover Background ============================= */
