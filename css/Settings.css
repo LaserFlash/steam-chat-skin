@@ -176,3 +176,65 @@ button.DialogButton.copyVoiceLogsButton {
 .FriendPicker_SuggestedFriend {
     border-radius: 4px !important;
 }
+
+/* Dialog ON - OFF Button background */
+.DialogOnOffToggle_Control {
+    background: transparent !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog OFF Button active */
+.DialogOnOffToggle_Option.Off.Active {
+    border-radius: 20px !important;
+    background: #2e2e2f !important;
+}
+
+/* Dialog Button active */
+.DialogOnOffToggle_Option.Active {
+    border-radius: 20px !important;
+    color: white !important;
+}
+
+/* Dialog Button */
+.DialogOnOffToggle_Option {
+    width: 30px !important;
+    margin-left: 5px !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog OFF Button hover */
+.DialogOnOffToggle_Option.Off:hover {
+    width: 30px !important;
+    margin-left: 5px !important;
+    color: white !important;
+    background: #2e2e2f !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog ON Button hover */
+.DialogOnOffToggle_Option.On:hover {
+    width: 30px !important;
+    margin-left: 5px !important;
+    color: white !important;
+    background: #2d73ff !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog ON Button active */
+.DialogOnOffToggle_Option.Active {
+    width: 30px !important;
+    margin-left: 5px !important;
+    color: white !important;
+    background: #2d73ff !important;
+    border-radius: 20px !important;
+}
+
+/* Slider grabber */
+.DialogSlider_Grabber {
+    background: #2e2e2f !important;
+}
+
+/* Slider value */
+.DialogSlider_Value {
+    background: #2d73ff !important;
+}
