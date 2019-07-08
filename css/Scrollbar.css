@@ -1,6 +1,5 @@
 /* ===== DO NOT CHANGE THIS ===== */
-@import url('https://aikomidori.github.io/steam-friends-skin/css/DarkMode.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/LightMode.css');
+
 
 /*--------------------------------------------------------------
 SCROLLBAR
@@ -8,8 +7,8 @@ SCROLLBAR
 
 /* button */
 ::-webkit-scrollbar-button {
-	height: 25px !important; 
-	border-radius: 0px !important; 
+	height: 25px !important;
+	border-radius: 0px !important;
 	border: 0px !important;
 }
 
@@ -20,7 +19,7 @@ SCROLLBAR
 }
 
 /* Up */
-::-webkit-scrollbar-button:vertical:decrement { 
+::-webkit-scrollbar-button:vertical:decrement {
     display: none !important;
 }
 

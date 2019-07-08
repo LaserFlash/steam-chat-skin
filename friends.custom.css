@@ -6,7 +6,7 @@
 /* ===== COSTUMIZABLE AVATAR + STATUS =====
 /*
 /* DISCORD STATUS */
-@import url('https://aikomidori.github.io/steam-friends-skin/css/DiscordStatus.css');
+@import 'css/DiscordStatus.css';
 /*
 /* ROUND BORDER STATUS */
 /* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
@@ -19,7 +19,7 @@
 /* ===== COSTMIZABLE THEMES =====
 /*
 /* ===== DARK MODE ===== */
-@import url('https://aikomidori.github.io/steam-friends-skin/css/DarkMode.css');
+@import 'css/DarkMode.css';
 /*
 /* ===== LIGHT MODE ===== */
 /* @import url('https://aikomidori.github.io/steam-friends-skin/css/LightMode.css');

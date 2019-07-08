@@ -1,8 +1,8 @@
 /* ===== DO NOT CHANGE THIS ===== */
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Friendlist.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/ChatWindow.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Settings.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/Scrollbar.css');
+@import 'Friendlist.css';
+@import 'ChatWindow.css';
+@import 'Settings.css';
+@import 'Scrollbar.css';
 *{box-shadow: none !important;
 text-shadow: none !important;}
 
