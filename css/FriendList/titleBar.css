@@ -1,0 +1,91 @@
+/* ========================================================================== */
+/* Title Area - This is the top of the window holding the window controls */
+/* ========================================================================== */
+/* Apply to SingleWindowToggle, Minimize, Maximize, Close */
+.title-area-icon {
+  /* Sets icon sizes */
+  width: 22px !important;
+  height: 20px !important;
+  /* Centre svg icons in the container */
+  align-items: center !important;
+  /* Change cursor to a hand */
+  cursor: pointer !important;
+}
+
+/* Apply to Minimize, Maximize, Close */
+/* setup for proper vertical centering */
+.title-bar-actions .title-area-icon {
+  display: flex !important;
+}
+
+/* ================================ Padding ================================= */
+/* Give the actions some padding, makes the trigger areas larger */
+.title-area-icon {
+  padding-bottom: 2px !important;
+  padding-top: 2px !important;
+  padding-right: 2px !important;
+  padding-left: 2px !important;
+}
+
+/* =========================== Action Locations ============================= */
+/* Place actions against the very side of the window */
+.title-bar-actions {
+  right: 0px !important;
+}
+
+/* Attach Chat Toggle */
+.singleWindowToggle {
+  top: 0px !important;
+  right: 78px !important;
+}
+
+/* Position all icons in centre of their container */
+.SVGIcon_SingleWindowToggle,
+.SVGIcon_Minimize,
+.SVGIcon_Maximize, .SVGIcon_Restore,
+.SVGIcon_X_Line {
+  display: block !important;
+  margin: 0 auto !important;
+}
+
+/* Center the AttachChatToggle Icon vertically */
+.SVGIcon_SingleWindowToggle {
+  margin-top: 3px !important;
+}
+
+/* Center the Minimise Icon vertically */
+.SVGIcon_Minimize {
+  margin-bottom: 8px !important;
+}
+
+/* ======================-==== Icon Stroke Style ============================ */
+.SVGIcon_SingleWindowToggle line, .SVGIcon_SingleWindowToggle rect,
+.SVGIcon_Minimize line,
+.SVGIcon_Maximize line, .SVGIcon_Maximize rect,
+.SVGIcon_Restore line, .SVGIcon_Restore rect,
+.SVGIcon_X_Line line {
+  stroke: rgb(var(--caption)) !important;
+  stroke-width: 24px;
+}
+
+/* ======================-==== Hover Background ============================= */
+.singleWindowToggle:hover, .SVGIcon_SingleWindowToggle:hover,
+.maximizeButton:hover, .restoreButton:hover,
+.minimizeButton:hover {
+  background: rgb(var(--captionhover)) !important;
+}
+
+.closeButton:hover {
+  background: red !important;
+}
+
+/* ========================================================================== */
+/* Remove styles from area highlighting actions */
+.title-area-highlight {
+  display: none !important;
+}
+
+/* Remove top of window effect */
+.singleWindowFocusBar {
+  background: none !important;
+}
