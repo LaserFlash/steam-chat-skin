@@ -1,0 +1,28 @@
+/* ============================== Current User ============================== */
+/* hides line under Your avatar */
+.currentUserContainer {
+  border-bottom: 0px !important;
+}
+
+/* Your Avatar name color */
+.currentUserContainer .personanameandstatus_playerName_1uxaf {
+  color: rgb(var(--selfstatus)) !important;
+}
+
+/* ================================= Layout ================================= */
+/* Spacing from window controls */
+.AvatarAndUser {
+  padding-top: 16px !important;
+}
+
+/* Improved Positioning */
+.currentUserContainer .labelHolder {
+ margin: 0px 0px 5px 8px !important;
+}
+
+/* ================================== Glow ================================== */
+/* Your avatar glow in header */
+.statusHeaderGlow {
+  opacity: 0.6 !important;
+  /* 1/0 to turn on/off */
+}

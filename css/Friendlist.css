@@ -1,13 +1,9 @@
 /* ===== DO NOT CHANGE THIS ===== */
 @import "FriendList/titleBar.css";
+@import "FriendList/currentUser.css";
 /*--------------------------------------------------------------
 FRIENDLIST
 --------------------------------------------------------------*/
-
-/* Your Friendslist Name Centered */
-.currentUserContainer .labelHolder {
-    margin-bottom: 5px !important;
-}
 
 .compactView .socialListTab {
     height: 28px !important;
@@ -37,12 +33,6 @@ FRIENDLIST
     margin-right: -50px !important;
 }
 
-/* Your avatar glow in header */
-.statusHeaderGlow {
-    opacity: 0 !important; /* 0/1 to turn on/off */
- }
-
-
 /* Hides all shadows */
 .insetshadow_FriendsListInsetShadowCtn_1S167 {
     display: none!important;
@@ -66,11 +56,6 @@ FRIENDLIST
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf {
     color: rgb(var(--online)) !important;
-}
-
-/* Your Avatar name color */
-.currentUserContainer .personanameandstatus_playerName_1uxaf{
-    color: rgb(var(--selfstatus)) !important;
 }
 
 /* icon new chat group line */
@@ -206,11 +191,6 @@ FRIENDLIST
 /* background friendlist client frame */
 html.client_chat_frame body, html.web_chat_frame body {
     background: rgb(var(--footer)) !important;
-}
-
-/* hides line under Your avatar */
-.currentUserContainer {
-    border-bottom: 0px !important;
 }
 
 /* remove shadows on top friendlist */
