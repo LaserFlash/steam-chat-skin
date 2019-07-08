@@ -1,15 +1,8 @@
 /* ===== DO NOT CHANGE THIS ===== */
-@import url('https://aikomidori.github.io/steam-friends-skin/css/DarkMode.css');
-@import url('https://aikomidori.github.io/steam-friends-skin/css/LightMode.css');
-
+@import "FriendList/titleBar.css";
 /*--------------------------------------------------------------
 FRIENDLIST
 --------------------------------------------------------------*/
-
-/* Hides the highlight on friendlist (header) */
-.title-area-highlight {
-    display: none !important;;
-}
 
 /* Your Friendslist Name Centered */
 .currentUserContainer .labelHolder {
@@ -49,12 +42,6 @@ FRIENDLIST
     opacity: 0 !important; /* 0/1 to turn on/off */
  }
 
-/* Close, Minimize, Maximize and full buttons. */
-.title-area-icon .SVGIcon_Minimize {
-    width: 22px !important;
-    height: 20px !important;
-    margin-left: -4px !important; 
-}
 
 /* Hides all shadows */
 .insetshadow_FriendsListInsetShadowCtn_1S167 {
@@ -64,15 +51,6 @@ FRIENDLIST
 /* Makes away player name white */
 .friend.awayOrSnooze .labelHolder {
     opacity: 1 !important;
-}
-  
-/* icon minimize hover */
-.title-area-icon .SVGIcon_Minimize:hover {
-    width: 22px !important;
-    height: 20px !important;
-    background: rgb(var(--captionhover)) !important;
-    margin-top: -2px !important;
-    margin-left: -4px !important; 
 }
 
 /* color for away or snooze status in quick access */
@@ -121,56 +99,11 @@ FRIENDLIST
     fill: rgb(var(--icon)) !important;
 }
 
-/* icon maximize */
-.title-area-icon .SVGIcon_Maximize {
-    width: 22px !important;
-    height: 20px !important;
-    margin-left: 0px !important; 
-}
 
 .recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
-    color: rgb(var(--listtext)) !important; 
+    color: rgb(var(--listtext)) !important;
 }
 
-/* icon restore */
-.title-area-icon .SVGIcon_Restore {
-    width: 22px !important;
-    height: 20px !important;
-    margin-left: 0px !important; 
-}
-
-/* icon restore hover */
-.title-area-icon .SVGIcon_Restore:hover {
-    width: 22px !important;
-    height: 20px !important;
-    background: rgb(var(--captionhover)) !important;
-    margin-left: 0px !important; 
-}
-
-/* icon maximize hover */
-.title-area-icon .SVGIcon_Maximize:hover {
-    width: 22px !important;
-    height: 20px !important;
-    background: rgb(var(--captionhover)) !important;
-    margin-top: -2px !important;
-    margin-left: 0px !important; 
-}
-
-/* icon close line */
-.title-area-icon .SVGIcon_X_Line {
-    height: 20px !important;
-    width: 22px !important;
-    margin-left: 4px !important;
-}
-
-/* icon background close line hover*/
-.title-area-icon .SVGIcon_X_Line:hover {
-    background: red !important;
-    width: 22px !important;
-    margin-top: -2px !important;
-    margin-left: 4px !important;
-    height: 20px !important;
-}
 
 /* unread message on friendlist */
 .unreadMessageViolator {
@@ -243,76 +176,6 @@ FRIENDLIST
     background-color: rgb(var(--header)) !important;
 }
 
-/* icon single window toggle */
-.title-area-icon .SVGIcon_SingleWindowToggle {
-    width: 22px !important;
-    height: 20px !important;
-    margin-left: -5px !important;
-}
-
-/* icon single window toggle hover */
-.title-area-icon .SVGIcon_SingleWindowToggle:hover {
-    width: 22px !important;
-    height: 20px !important;
-    background: rgb(var(--captionhover)) !important;
-    margin-top: -2px !important;
-    margin-left: -5px !important;
-}
-
-/* icon single window toggle hover */
-.title-area-icon .SVGIcon_SingleWindowToggle .leftBox {
-    transition: none !important 
-}
-
-/* icon close line */
-.title-area-icon .SVGIcon_X_Line line {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
-/* icon maximize line */
-.title-area-icon .SVGIcon_Maximize line {
-    stroke: rgb(var(--caption)) !important;
-    display: none !important;
-    stroke-width: 10px !important;
-}
-
-/* icon maximize rectangle */
-.title-area-icon .SVGIcon_Maximize rect {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
-/* icon restore rectangle */
-.title-area-icon .SVGIcon_Restore rect {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
-/* icon restore polyline */
-.title-area-icon .SVGIcon_Restore polyline {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
-/* icon minimize line */
-.title-area-icon .SVGIcon_Minimize line {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
-/* icon single window toggle rectangle */
-.title-area-icon .SVGIcon_SingleWindowToggle rect {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
-/* icon single window toggle line */
-.title-area-icon .SVGIcon_SingleWindowToggle line {
-    stroke: rgb(var(--caption)) !important;
-    stroke-width: 10px !important;
-}
-
 /* icon button color */
 .SVGIcon_Button {
     fill: rgb(var(--caption)) !important;
@@ -327,11 +190,6 @@ FRIENDLIST
 .ModalPosition_TopBar {
     height: 0px !important;
     background: #555 !important;
-}
-
-/* icon single window toggle position */
-.chat_main.singlewindow .ChatTabs .title-area-icon .SVGIcon_SingleWindowToggle {
-    margin-top: 0px !important; 
 }
 
 /* rounded game icon for group names */
@@ -362,11 +220,6 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* remove shadows on bottom friendlist */
 .friendListInsetShadowBottom {
-    background: none !important;
-}
-
-/* hide focus effect on friendlist (header) */
-.singleWindowFocusBar {
     background: none !important;
 }
 
@@ -581,7 +434,7 @@ html.client_chat_frame body, html.web_chat_frame body {
     color: rgb(var(--ingame)) !important;
     border-radius: 4px !important;
 }
-    
+
 /* mini profile PersonaName*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
@@ -592,7 +445,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 /* mini profile PersonaName*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_nickname_1W3dU,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_persona_1Z3Ey,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {  
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
     color: rgb(var(--online)) !important;
     border-radius: 4px !important;
 }
@@ -656,7 +509,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 .contextMenuContents.ChatTabs.CompactFriendsList .friend .labelHolder {
     margin-top: 20px !important;
-    margin-left: -2px !important; 
+    margin-left: -2px !important;
 }
 
 .contextMenuContents .chatTab .ChatTabContent {
