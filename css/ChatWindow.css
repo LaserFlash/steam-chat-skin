@@ -35,10 +35,6 @@ CHAT WINDOW
   display: none !important;
 }
 
-.ChatTabs .title-area-icon:hover .SVGIcon_SingleWindowToggle .leftBox {
-  transform: none !important;
-}
-
 .chatTabGroupName {
   margin-top: 3px !important;
 }
