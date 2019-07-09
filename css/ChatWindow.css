@@ -356,3 +356,46 @@ button.DialogButton:active, button.DialogButton:active:hover {
   background: #2e2e2f !important;
   border-radius: 4px !important;
 }
+
+/* ========================================================================== */
+/* Style Chat Tab context menu - more firends drop down */
+/* Force dimensions of the friend avatar */
+.ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatar {
+  width: 30px !important;
+  height: 30px !important;
+}
+
+/* Force dimensions of the group chat */
+.ChatTabsContextMenu .chatTab .ChatTabContent .ChatRoomGroupAvatar {
+  width: 28px !important;
+  height: 28px !important;
+}
+
+/* Place avatar status circle */
+.ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatarStatus {
+  padding: 0px !important;
+  margin: 0px !important;
+  margin-left: 4px !important;
+  margin-top: 4px !important;
+}
+
+/* Hide the snooze icon (no room) */
+.ChatTabsContextMenu .chatTab .ChatTabContent .friendsnooze_SnoozeContainer_1OfTa {
+  display: none !important;
+}
+
+/* Place friend avatar against the left side (line up with group chat) */
+.ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
+  padding-left: 0px !important;
+  margin-left: -4px !important;
+}
+
+/* Move avatar name closer to icon */
+.ChatTabsContextMenu .chatTab .ChatTabContent .labelHolder {
+  margin-left: 0px !important;
+}
+
+/* Hide the snooze icon (no room) */
+.ChatTabsContextMenu .chatTab .ChatTabContent {
+  padding-bottom: 6px !important;
+}
