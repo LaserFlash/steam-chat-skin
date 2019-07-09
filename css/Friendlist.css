@@ -322,17 +322,10 @@ html.client_chat_frame body, html.web_chat_frame body {
     min-height: 0px !important;
 }
 
-/* remaking heights */
-.chatRoomListContainer[style*="height: 150px; max-height: 222px; min-height: 0px;"] {
-    height: 900px !important;
-    max-height: 900px !important;
-}
-
 /* Group Chats Background */
 .chatRoomListContainer {
     background: rgb(var(--footer)) !important;
-    z-index: 20;height: 900px!important;
-    max-height: 900px !important;
+    z-index: 20;
     width: 100% !important;
 }
 
@@ -341,21 +334,21 @@ html.client_chat_frame body, html.web_chat_frame body {
     display: inline-block!important;
     position: relative !important;
     z-index: 11 !important;
-    padding-right: 10em !important;
-    margin-right: -10em !important;
+    padding-right: 650px !important;
+    margin-right: -650px !important;
+    padding-left: 16px !important: 
+    width: 0% !important;
 }
-
 /* hidding little arrow */
 .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
     visibility: hidden !important;
 }
 
-/* makes groups be able to uncollapse to height 0 */
-.chatRoomListContainer[style="height: 0px; max-height: 0px; min-height: 0px;"] {
-    height: 0px !important;
-    max-height: 0px !important;
-    min-height: 0px !important;
+/* Place create chat room button on top layer */
+.createChatRoomButton {
+  z-index: 12;
 }
+
 
 /* add hover effect when hovering group invites */
 .clanInviteContainer:hover {
