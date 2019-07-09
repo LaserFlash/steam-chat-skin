@@ -100,10 +100,6 @@ button.DialogButton:active, button.DialogButton:active:hover {
   height: 0px !important;
 }
 
-.socialTabSearchContainer {
-  padding-top: 10px !important;
-}
-
 .SingleWindowFocusBar {
   background: none !important;
 }

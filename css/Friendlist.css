@@ -49,11 +49,6 @@ FRIENDLIST
   opacity: 1 !important;
 }
 
-/* color for away or snooze status in quick access */
-.friend.awayOrSnooze .playerNameQuickAccessContainer {
-  fill: rgb(var(--snooze)) !important;
-}
-
 /* color for ingame status */
 .ingame .personanameandstatus_playerName_1uxaf {
   color: rgb(var(--ingame)) !important;
@@ -303,9 +298,13 @@ html.client_chat_frame body, html.web_chat_frame body {
   background: rgb(var(--header)) !important;
 }
 
-/* Changes name color in QuickAcces */
+/* Hide name in QuickAccess as generally does not fit */
 .friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
-  color: rgb(var(--text))
+  display: none !important;
+}
+
+.favoriteElement {
+  height: auto !important;
 }
 
 /** Group BUTTON CSS **/
