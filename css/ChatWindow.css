@@ -399,3 +399,10 @@ button.DialogButton:active, button.DialogButton:active:hover {
 .ChatTabsContextMenu .chatTab .ChatTabContent {
   padding-bottom: 6px !important;
 }
+
+/* ========================================================================== */
+
+/* Full brightness of active avatar even if offline */
+.active .friend.offline .avatarHolder img.avatar {
+  filter: none !important;
+}
