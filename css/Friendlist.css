@@ -1,347 +1,351 @@
 /* ===== DO NOT CHANGE THIS ===== */
 @import "FriendList/titleBar.css";
 @import "FriendList/currentUser.css";
+
 /*--------------------------------------------------------------
 FRIENDLIST
 --------------------------------------------------------------*/
-
 .compactView .socialListTab {
-    height: 28px !important;
+  height: 28px !important;
 }
 
 /* Friendlist header background */
 .friendListHeaderContainer {
-    background-color: rgb(var(--header)) !important;
-    border-bottom: 0px !important;
+  background-color: rgb(var(--header)) !important;
+  border-bottom: 0px !important;
 }
 
 /* Friendlist footer background */
 .friendListFooter {
-    display: none !important;
-    min-height: 20px !important;
-    background-color: rgb(var(--footer)) !important;
+  display: none !important;
+  min-height: 20px !important;
+  background-color: rgb(var(--footer)) !important;
 }
 
 /* removes lines between groups in friendlist */
 .friendGroup.taggedGroup, .friendGroup.gameGroup {
-    border-top: 0px !important;
-    margin-top: 0px !important;
+  border-top: 0px !important;
+  margin-top: 0px !important;
 }
 
 /* Hides the resize grip */
 .window_resize_grip {
-    margin-right: -50px !important;
+  margin-right: -50px !important;
 }
 
-/* Hides all shadows */
-.insetshadow_FriendsListInsetShadowCtn_1S167 {
-    display: none!important;
+/* Hides group chat bottom shadow */
+.insetshadow_FriendListInsetShadowTop_1mEmL {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 25%, rgba(0, 0, 0, 0) 100%);
+  height: 50px !important;
+}
+
+/* Hides group chat bottom shadow */
+.FriendsListChatSection .insetshadow_FriendsListInsetShadowCtn_1S167 {
+  display: none !important;
 }
 
 /* Makes away player name white */
 .friend.awayOrSnooze .labelHolder {
-    opacity: 1 !important;
+  opacity: 1 !important;
 }
 
 /* color for away or snooze status in quick access */
 .friend.awayOrSnooze .playerNameQuickAccessContainer {
-    fill: rgb(var(--snooze)) !important;
+  fill: rgb(var(--snooze)) !important;
 }
 
 /* color for ingame status */
 .ingame .personanameandstatus_playerName_1uxaf {
-    color: rgb(var(--ingame)) !important;
+  color: rgb(var(--ingame)) !important;
 }
 
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf {
-    color: rgb(var(--online)) !important;
+  color: rgb(var(--online)) !important;
 }
 
 /* icon new chat group line */
 .friendsListSectionTitle .SVGIcon_NewChatGroup line {
-    stroke: rgb(var(--footer)) !important;
+  stroke: rgb(var(--footer)) !important;
 }
 
 /* Color for all icons */
 .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_VR path, .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_MobilePhone path, .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_BigPicture path {
-    fill: rgb(var(--icon)) !important;
+  fill: rgb(var(--icon)) !important;
 }
 
 /* icon tab search button */
 .TabSearchButton .ColorSelector {
-    stroke: rgb(var(--icon)) !important;
-    fill: rgb(var(--icon)) !important;
+  stroke: rgb(var(--icon)) !important;
+  fill: rgb(var(--icon)) !important;
 }
 
 /* icon add friend circle */
 .addFriendButton .SVGIcon_AddFriend .plusCircle {
-    fill: rgb(var(--icon)) !important;
+  fill: rgb(var(--icon)) !important;
 }
 
 /* all other icons colors */
 .friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody, .addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody {
-    fill: rgb(var(--icon)) !important;
+  fill: rgb(var(--icon)) !important;
 }
-
 
 .recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
-    color: rgb(var(--listtext)) !important;
+  color: rgb(var(--listtext)) !important;
 }
-
 
 /* unread message on friendlist */
 .unreadMessageViolator {
-    border: 0px !important;
-    line-height: 20px !important;
-    color: rgb(var(--unreadmessage)) !important;
-    background: rgb(var(--scrollbar)) !important;
-    border-radius: 40px !important;
-    height: 20px !important;
-    border: 0px !important;
-    margin-top: 5px !important;
-    margin-bottom: 4px !important;
-    width: 150px !important;
-    box-shadow: none !important;
+  border: 0px !important;
+  line-height: 20px !important;
+  color: rgb(var(--unreadmessage)) !important;
+  background: rgb(var(--scrollbar)) !important;
+  border-radius: 40px !important;
+  height: 20px !important;
+  border: 0px !important;
+  margin-top: 5px !important;
+  margin-bottom: 4px !important;
+  width: 150px !important;
+  box-shadow: none !important;
 }
 
 /* friend group online friends */
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
-    border-top: 4px !important;
-    margin-top: 0px !important;
+  border-top: 4px !important;
+  margin-top: 0px !important;
 }
 
 /* friend group offline friends */
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
-    border-top: none !important;
-    margin-top: 0px !important;
+  border-top: none !important;
+  margin-top: 0px !important;
 }
 
 /* unread message count */
 .unreadFriend .FriendMessageCount {
-    box-shadow: none !important;
-    border-radius: 40px !important;
-    color: rgb(var(--unreadmessage)) !important;
-    background: rgb(var(--scrollbar)) !important;
-    animation-name: none !important;
+  box-shadow: none !important;
+  border-radius: 40px !important;
+  color: rgb(var(--unreadmessage)) !important;
+  background: rgb(var(--scrollbar)) !important;
+  animation-name: none !important;
 }
 
 /* friend group online friends */
 .compactView .chatTabOpenFriendsList {
-    height: 44px !important;
-    border-radius: 4px !important;
+  height: 44px !important;
+  border-radius: 4px !important;
 }
 
 /* chat tab open friends list*/
 .chatTabOpenFriendsList {
-    box-shadow: none !important;
-    background-color: #2e2e2f !important;
-    height: 44px !important;
-    border-radius: 4px !important;
+  box-shadow: none !important;
+  background-color: #2e2e2f !important;
+  height: 44px !important;
+  border-radius: 4px !important;
 }
 
 /* chat tab open friends list hover */
 .chatTabOpenFriendsList:hover {
-    background-color: #3e3e3f !important;
+  background-color: #3e3e3f !important;
 }
 
 /* chat invite message */
 .ChatMessageInvite {
-    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Trade offer message arrow */
 .TradeOffer_NoteFromFriend_QuoteArrow {
-    display: none !important;
+  display: none !important;
 }
 
 /* Trade offer message */
 .TradeOffer_NoteFromFriend {
-    border: 0px !important;
-    background-color: rgb(var(--header)) !important;
+  border: 0px !important;
+  background-color: rgb(var(--header)) !important;
 }
 
 /* icon button color */
 .SVGIcon_Button {
-    fill: rgb(var(--caption)) !important;
+  fill: rgb(var(--caption)) !important;
 }
 
 /* icon settings color */
-.friendSettingsButton .SVGIcon_Settings{
-    fill: rgb(var(--icon)) !important;
+.friendSettingsButton .SVGIcon_Settings {
+  fill: rgb(var(--icon)) !important;
 }
 
 /* position modal topbar */
 .ModalPosition_TopBar {
-    height: 0px !important;
-    background: #555 !important;
+  height: 0px !important;
+  background: #555 !important;
 }
 
 /* rounded game icon for group names */
 .groupName .gameGroupContainer .groupIcon {
-    border-radius: 15px !important;
+  border-radius: 15px !important;
 }
 
 /* background chat html client */
 .chat_main {
-	background-color: transparent !important;
-	color: transparent !important;
+  background-color: transparent !important;
+  color: transparent !important;
 }
 
 /* background friendlist client frame */
 html.client_chat_frame body, html.web_chat_frame body {
-    background: rgb(var(--footer)) !important;
+  background: rgb(var(--footer)) !important;
 }
 
 /* remove shadows on top friendlist */
 .friendListInsetShadowTop {
-    background: none !important;
+  background: none !important;
 }
 
 /* remove shadows on bottom friendlist */
 .friendListInsetShadowBottom {
-    background: none !important;
+  background: none !important;
 }
 
 /* background friendlist */
 .friendlistListContainer {
-    background: rgb(var(--friendlist)) !important;
+  background: rgb(var(--friendlist)) !important;
 }
 
 /* confirm friend request button */
 .confirmInviteRequestContainer .confirmInviteButton {
-    border-radius:  4px !important;
+  border-radius: 4px !important;
 }
 
 /* cancel addfriend button */
 .confirmInviteRequestContainer .cancelAddFriends {
-    border-radius:  4px !important;
+  border-radius: 4px !important;
 }
 
 /* icon cancel addfriends polyline */
 .confirmInviteRequestContainer .cancelAddFriends .SVGIcon_Arrow polyline {
-    border-radius:  4px !important;
+  border-radius: 4px !important;
 }
 
 /* icon cancel addfriends hover polyline */
 .confirmInviteRequestContainer .cancelAddFriends:hover .SVGIcon_Arrow polyline {
-    border-radius:  4px !important;
+  border-radius: 4px !important;
 }
 
 /* Confirm invite request container */
 .confirmInviteRequestContainer {
-    border-radius:  4px !important;
+  border-radius: 4px !important;
 }
 
 /* Fixes issue with compact friendlist collapsing */
 .CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
-    padding: 4px 0px 4px 15px !important;
+  padding: 4px 0px 4px 15px !important;
 }
 
 /* Compact Friend Game Icon FriendList */
 .CompactFriendsList .FriendInGameIcon {
-    display: none !important;
+  display: none !important;
 }
 
 /* Friend Game Icon FriendList */
 .FriendInGameIcon {
-    display: none !important;
+  display: none !important;
 }
 
 /* Friends Seacrbar 'Friends Text' */
 .socialListTab .tabLabel {
-    color: rgb(var(--text)) !important;
+  color: rgb(var(--text)) !important;
 }
 
 /* Search Button in Searchbar */
 .friendsTabButtonsContainer .TabSearchButton {
-    border-radius: 50px !important;
-    height: 26px !important;
+  border-radius: 50px !important;
+  height: 26px !important;
 }
 
 /* Footer "Group Chats" Text Color */
-.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle{
-    color: rgb(var(--text))
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
+  color: rgb(var(--text))
 }
 
 /* Background SearchTab */
 .socialListTab {
-    background: rgb(var(--friendlist)) !important;
+  background: rgb(var(--header)) !important;
 }
 
 /* Hide + and - For Group Names on Friendlist */
 .ExpandPlusMinus {
-    display: none !important;
+  display: none !important;
 }
 
 /* Friend Searchbar Input */
 .friendSearchInput[type="text"] {
-    background-color: rgb(var(--header)) !important;
-    padding-left: 12px !important;
-    border-radius: 50px !important;
-    box-shadow: none !important;
-    background-image: none !important;
+  background-color: rgb(var(--header)) !important;
+  padding-left: 12px !important;
+  border-radius: 50px !important;
+  box-shadow: none !important;
+  background-image: none !important;
 }
 
 /* Friend Searchbar */
 .friendSearchInput {
-    padding-left: 12px !important;
+  padding-left: 12px !important;
 }
 
 /* Friend Searchbar Background */
 .activeTab {
-    background-color: rgb(var(--friendlist)) !important;
-    box-shadow: none !important;
+  background-color: rgb(var(--header)) !important;
+  box-shadow: none !important;
 }
 
 /* Friend Searchbar Hover */
 .activeTab .TabSearchButton:hover {
-    background: rgb(var(--header)) !important;
+  background: rgb(var(--header)) !important;
 }
 
 /* Changes name color in QuickAcces */
-.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName{
-    color: rgb(var(--text))
+.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
+  color: rgb(var(--text))
 }
 
 /** Group BUTTON CSS **/
 /* changes color of background of groups button */
 .friendsListSectionTitle {
-    border-top-left-radius: 0px !important;
-    border-top-right-radius: 0px !important;
-    background-color: rgb(var(--footer)) !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px !important;
+  background-color: rgb(var(--footer)) !important;
 }
 
 /* Changes Group Chats Groups Hover Color */
 .ChatRoomListGroupItem:hover {
-    background: rgb(var(--friendlist)) !important;
+  background: rgb(var(--friendlist)) !important;
 }
 
 /* friends removing height */
 .friendlistListContainer {
-    min-height: 0px !important;
+  min-height: 0px !important;
 }
 
 /* Group Chats Background */
 .chatRoomListContainer {
-    background: rgb(var(--footer)) !important;
-    z-index: 20;
-    width: 100% !important;
+  background: rgb(var(--footer)) !important;
+  z-index: 20;
+  width: 100% !important;
 }
 
 /* little arrow for groups making selectable area bigger */
 .ToggleGroupChatList {
-    display: inline-block!important;
-    position: relative !important;
-    z-index: 11 !important;
-    padding-right: 650px !important;
-    margin-right: -650px !important;
-    padding-left: 16px !important: 
-    width: 0% !important;
+  display: inline-block !important;
+  position: relative !important;
+  z-index: 11 !important;
+  padding-right: 650px !important;
+  margin-right: -650px !important;
+  padding-left: 16px !important: width: 0% !important;
 }
+
 /* hidding little arrow */
 .ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
-    visibility: hidden !important;
+  visibility: hidden !important;
 }
 
 /* Place create chat room button on top layer */
@@ -349,194 +353,192 @@ html.client_chat_frame body, html.web_chat_frame body {
   z-index: 12;
 }
 
-
 /* add hover effect when hovering group invites */
 .clanInviteContainer:hover {
-    background-color: rgb(var(--header)) !important;
+  background-color: rgb(var(--header)) !important;
 }
 
 /* Compact friend spacing */
 .CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
-    height: 30px !important;
+  height: 30px !important;
 }
 
 /* Compact game name spacing */
 .CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
-    margin-top: -4px !important;
+  margin-top: -4px !important;
 }
 
 /* MINI PROFILES*/
-
 /* mini profile */
-.miniprofile_miniProfile_s5zcg{
-    border: 0px !important;
-    border-radius: 0px !important;
+.miniprofile_miniProfile_s5zcg {
+  border: 0px !important;
+  border-radius: 0px !important;
 }
 
 /* mini profile Header*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
-    background: rgb(var(--header)) !important;
-    border-radius: 4px !important;
+  background: rgb(var(--header)) !important;
+  border-radius: 4px !important;
 }
 
 /* mini profile Game Backgroung*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_gameLogo_2B0di {
-    border-radius: 4px !important;
+  border-radius: 4px !important;
 }
 
 /* mini profile Background*/
 .miniprofile_miniProfileBackground_3gfFJ {
-    background: rgb(var(--header)) !important;
-    border-radius: 4px !important;
+  background: rgb(var(--header)) !important;
+  border-radius: 4px !important;
 }
 
 /* mini profile Background*/
 .miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
-    background: transparent !important;
-    top: 10px !important;}
+  background: transparent !important;
+  top: 10px !important;
+}
 
 /* mini profile Blur*/
 .miniprofile_miniProfileBackgroundBlur_G000o {
-    display: none !important;
+  display: none !important;
 }
 
 /* mini profile PersonaName*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
-    color: rgb(var(--ingame)) !important;
-    border-radius: 4px !important;
+  color: rgb(var(--ingame)) !important;
+  border-radius: 4px !important;
 }
 
 /* mini profile PersonaName*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
-    color: rgb(var(--online)) !important;
-    border-radius: 4px !important;
+  color: rgb(var(--online)) !important;
+  border-radius: 4px !important;
 }
 
 /* mini profile PersonaName*/
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_nickname_1W3dU,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_persona_1Z3Ey,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
-    color: rgb(var(--online)) !important;
-    border-radius: 4px !important;
+  color: rgb(var(--online)) !important;
+  border-radius: 4px !important;
 }
 
 /* CONTEXT MENU'S */
-
 .contextmenu_contextMenuItem_CBC-y {
-    border-top: 0px !important;
-    background:rgb(var(--header)) !important;
+  border-top: 0px !important;
+  background: rgb(var(--header)) !important;
 }
 
-.contextmenu_contextMenuItem_CBC-y:hover{
-    background: rgb(var(--friendlist)) !important;
-    border-radius: 4px !important;
+.contextmenu_contextMenuItem_CBC-y:hover {
+  background: rgb(var(--friendlist)) !important;
+  border-radius: 4px !important;
 }
 
-.contextMenuGameTitle{
-    background:rgb(var(--header)) !important;
+.contextMenuGameTitle {
+  background: rgb(var(--header)) !important;
 }
 
-.contextMenuSectionContent{
-    background:rgb(var(--header)) !important;
+.contextMenuSectionContent {
+  background: rgb(var(--header)) !important;
 }
 
-.contextmenu_contextMenu_3_a2Z{
-    background: rgb(var(--header)) !important;
+.contextmenu_contextMenu_3_a2Z {
+  background: rgb(var(--header)) !important;
 }
 
 :not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-    fill: rgb(var(--icon)) !important;
+  fill: rgb(var(--icon)) !important;
 }
 
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-    padding-left: 0px !important;
-    padding-top: 6px !important;
+  padding-left: 0px !important;
+  padding-top: 6px !important;
 }
 
 .ContextMenuButton {
-    margin-left: 5px !important;
+  margin-left: 5px !important;
 }
 
 .contextMenu {
-	border: none !important;
-    background: radial-gradient(ellipse farthest-corner at 50% 0%, #1a1a1a 0%, #1a1a1a 50%, #1a1a1a 100%) !important;
-    box-shadow: none !important;
-    border-radius: 4px !important;
+  border: none !important;
+  background: radial-gradient(ellipse farthest-corner at 50% 0%, #1a1a1a 0%, #1a1a1a 50%, #1a1a1a 100%) !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
 }
 
 .contextMenu .contextMenuItem:hover, .contextMenu .contextMenuItem.active {
-    background: #272727 !important;
-    border-radius: 4px !important;
+  background: #272727 !important;
+  border-radius: 4px !important;
 }
 
 .contextMenu .contextMenuItem {
-    border-top: 0px !important;
+  border-top: 0px !important;
 }
 
 .contextMenuContents.ChatTabs .contextMenuItem {
-    min-height: 42px !important;
+  min-height: 42px !important;
 }
 
 .contextMenuContents.ChatTabs.CompactFriendsList .friend .labelHolder {
-    margin-top: 20px !important;
-    margin-left: -2px !important;
+  margin-top: 20px !important;
+  margin-left: -2px !important;
 }
 
 .contextMenuContents .chatTab .ChatTabContent {
-    min-height: 50px !important;
+  min-height: 50px !important;
 }
 
 .gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
-    margin-right: -10px !important;
+  margin-right: -10px !important;
 }
 
 /* Group name in friendlist */
 .friendGroup .groupName {
-    margin-left: 12px !important;
-    margin-top: 4px !important;
+  margin-left: 12px !important;
+  margin-top: 4px !important;
 }
 
 /* Steam group count in footer */
 .SteamPlayerGroupFooterCount .count {
-    display: none !important;
+  display: none !important;
 }
 
 /* Hides lines between group names on friendlist */
 .friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
-    display: none !important;
+  display: none !important;
 }
 
 /* Fixes issue with friendlist collapsing */
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-    padding: 6px 0px 6px 12px !important;
+  padding: 6px 0px 6px 12px !important;
 }
 
 /* Position of New Message Group Chat in the Footer */
-.chatSectionTitle .ChatUnreadMessageIndicator{
-    top: 15px !important;
-    left: 1px !important;
+.chatSectionTitle .ChatUnreadMessageIndicator {
+  top: 15px !important;
+  left: 1px !important;
 }
 
 /* Color of New Message Group Chat in the Footer */
 .ChatUnreadMessageIndicator {
-    background: red !important;
-    height: 10px !important;
-    width: 10px !important;
-    margin: 0px !important;
-    border-radius: 50px !important;
-    padding-right: 0px !important;
-    padding-left: 0px !important;
+  background: red !important;
+  height: 10px !important;
+  width: 10px !important;
+  margin: 0px !important;
+  border-radius: 50px !important;
+  padding-right: 0px !important;
+  padding-left: 0px !important;
 }
 
 /* Unread New Message Group Chat in the Footer */
 .ChatUnreadMessageIndicator .chatUnreadCircle {
-    background: none !important;
+  background: none !important;
 }
 
 /* Group name count */
 .friendGroup .groupName .groupCount {
-    display: none !important;
+  display: none !important;
 }
