@@ -275,7 +275,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* Friend Searchbar Input */
 .friendSearchInput[type="text"] {
-  background-color: rgb(var(--header)) !important;
+  background-color: rgb(var(--friendlist)) !important;
   padding-left: 12px !important;
   border-radius: 50px !important;
   box-shadow: none !important;
@@ -285,6 +285,13 @@ html.client_chat_frame body, html.web_chat_frame body {
 /* Friend Searchbar */
 .friendSearchInput {
   padding-left: 12px !important;
+}
+
+/* Center search close vertically in bar */
+.friendSearchClear .SVGIcon_X_Line {
+  width: 14px !important;
+  height: 14px !important;
+  margin: auto !important;
 }
 
 /* Friend Searchbar Background */
