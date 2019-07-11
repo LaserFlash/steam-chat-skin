@@ -107,7 +107,6 @@ FRIENDLIST
   background: rgb(var(--scrollbar)) !important;
   border-radius: 40px !important;
   height: 20px !important;
-  border: 0 !important;
   margin-top: 5px !important;
   margin-bottom: 4px !important;
   width: 150px !important;
@@ -133,12 +132,6 @@ FRIENDLIST
   color: rgb(var(--unreadmessage)) !important;
   background: rgb(var(--scrollbar)) !important;
   animation-name: none !important;
-}
-
-/* friend group online friends */
-.compactView .chatTabOpenFriendsList {
-  height: 44px !important;
-  border-radius: 4px !important;
 }
 
 /* chat tab open friends list */
@@ -215,6 +208,7 @@ html.web_chat_frame body {
 
 /* background friendlist */
 .friendlistListContainer {
+  min-height: 0 !important;
   background: rgb(var(--friendlist)) !important;
 }
 
@@ -246,11 +240,6 @@ html.web_chat_frame body {
 /* Fixes issue with compact friendlist collapsing */
 .CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
   padding: 4px 0 4px 15px !important;
-}
-
-/* Compact Friend Game Icon FriendList */
-.CompactFriendsList .FriendInGameIcon {
-  display: none !important;
 }
 
 /* Friend Game Icon FriendList */
@@ -341,11 +330,6 @@ html.web_chat_frame body {
   background: rgb(var(--friendlist)) !important;
 }
 
-/* friends removing height */
-.friendlistListContainer {
-  min-height: 0 !important;
-}
-
 /* Group Chats Background */
 .chatRoomListContainer {
   background: rgb(var(--footer)) !important;
@@ -360,8 +344,7 @@ html.web_chat_frame body {
   z-index: 11 !important;
   padding-right: 650px !important;
   margin-right: -650px !important;
-  padding-left: 16px;
-  !important: width: 0%;
+  padding-left: 16px !important;
 }
 
 /* hidding little arrow */
@@ -543,7 +526,6 @@ html.web_chat_frame body {
 .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
   padding: 6px 0 6px 12px !important;
 }
-
 
 /*
 Position of New Message Group Chat in the Footer

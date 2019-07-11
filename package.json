@@ -1,9 +1,12 @@
 {
   "stylelint": {
-    "extends": "stylelint-config-standard"
+    "extends": "stylelint-config-standard",
+    "rules": {
+      "no-descending-specificity": null
+    }
   },
   "scripts": {
-    "lint": "stylelint  src/"
+    "lint": "stylelint  --fix src/"
   },
   "pre-commit": [
     "lint"

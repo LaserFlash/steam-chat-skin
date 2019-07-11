@@ -1,6 +1,5 @@
 /* ===== DO NOT CHANGE THIS ===== */
 
-
 /* --------------------------------------------------------------
 SETTINGS PANEL
 -------------------------------------------------------------- */
@@ -143,7 +142,7 @@ button.DialogButton.copyVoiceLogsButton {
 }
 
 /* Search Hover */
-._DialogTextInputBase:not(disabled):hover {
+._DialogTextInputBase:not(:disabled):hover {
   border-radius: 4px !important;
 }
 
@@ -156,7 +155,6 @@ button.DialogButton.copyVoiceLogsButton {
 }
 
 /* CATEGORIZE */
-
 .DialogCheckbox_Container:hover .DialogCheckbox,
 .DialogCheckbox:hover:not(.Disabled) {
   background-color: rgb(var(--header)) !important;
@@ -194,8 +192,11 @@ button.DialogButton.copyVoiceLogsButton {
 
 /* Dialog Button active */
 .DialogOnOffToggle_Option.Active {
-  border-radius: 20px !important;
+  width: 30px !important;
+  margin-left: 5px !important;
   color: white !important;
+  background: #2d73ff !important;
+  border-radius: 20px !important;
 }
 
 /* Dialog Button */
@@ -216,15 +217,6 @@ button.DialogButton.copyVoiceLogsButton {
 
 /* Dialog ON Button hover */
 .DialogOnOffToggle_Option.On:hover {
-  width: 30px !important;
-  margin-left: 5px !important;
-  color: white !important;
-  background: #2d73ff !important;
-  border-radius: 20px !important;
-}
-
-/* Dialog ON Button active */
-.DialogOnOffToggle_Option.Active {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;

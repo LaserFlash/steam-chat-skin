@@ -1,10 +1,8 @@
 /* ===== DO NOT CHANGE THIS ===== */
 
-
 /* --------------------------------------------------------------
 BORDER STATUS
 -------------------------------------------------------------- */
-
 .online .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--online)) !important;
   border-radius: 50px !important;
@@ -122,7 +120,6 @@ BORDER STATUS
 }
 
 /* Chat windows avatars */
-
 .chatTab .avatarHolder {
   width: 25% !important;
   transform: scale(0.86, 0.86) translateX(0) !important;
@@ -308,7 +305,6 @@ BORDER STATUS
 }
 
 /* mini profile */
-
 .miniprofile_avatarStatus {
   display: none !important;
 }

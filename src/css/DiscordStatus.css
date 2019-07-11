@@ -1,10 +1,8 @@
 /* ===== DO NOT CHANGE THIS ===== */
 
-
 /* --------------------------------------------------------------
 DISCORD STATUS (DEFAULT)
 -------------------------------------------------------------- */
-
 .online .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--online)) !important;
   border-radius: 50px !important;
@@ -26,7 +24,6 @@ DISCORD STATUS (DEFAULT)
 }
 
 .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
@@ -123,7 +120,6 @@ DISCORD STATUS (DEFAULT)
 }
 
 /* Chat windows avatars */
-
 .chatTab .avatarHolder {
   width: 25% !important;
   transform: scale(0.86, 0.86) translateX(0) !important;
@@ -286,7 +282,6 @@ DISCORD STATUS (DEFAULT)
 }
 
 /* mini profile */
-
 .miniprofile_avatarStatus {
   display: none !important;
 }

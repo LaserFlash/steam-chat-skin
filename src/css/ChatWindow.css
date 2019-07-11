@@ -93,7 +93,6 @@ button.DialogButton:active:hover {
   border: 0 !important;
   border-bottom-width: none !important;
   box-shadow: none !important;
-  background: transparent !important;
 }
 
 .chatTabSelector:hover {
