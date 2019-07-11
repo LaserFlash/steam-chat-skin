@@ -1,7 +1,9 @@
 /* ===== DO NOT CHANGE THIS ===== */
-/*--------------------------------------------------------------
+
+/* --------------------------------------------------------------
 SCROLLBAR
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
+
 /* makes scrollbar wider & not highlighted by default */
 ::-webkit-scrollbar {
   height: 12px;
@@ -11,6 +13,7 @@ SCROLLBAR
 }
 
 /* button arrows scroll bar */
+
 /* Up & Down */
 ::-webkit-scrollbar-button:vertical:increment,
 ::-webkit-scrollbar-button:vertical:decrement {
@@ -19,7 +22,7 @@ SCROLLBAR
 
 /* thumb normal state */
 ::-webkit-scrollbar-thumb {
-	width: 14px;
+  width: 14px;
   border-radius: 8px;
   margin: 4px;
   min-height: 32px;
@@ -35,6 +38,6 @@ SCROLLBAR
 /* ??? */
 ::-webkit-scroll-thumb {
   background-color: #282828 !important;
-  border-radius: 0px !important;
-  border: 0px !important;
+  border-radius: 0 !important;
+  border: 0 !important;
 }

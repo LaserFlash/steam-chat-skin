@@ -1,7 +1,9 @@
 /* ===== DO NOT CHANGE THIS ===== */
-/*--------------------------------------------------------------
+
+/* --------------------------------------------------------------
 CHAT WINDOW
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
+
 /* Compact chat tab group name */
 .ChatTabs.compactView .chatTabGroupName {
   margin-top: 5px !important;
@@ -40,12 +42,13 @@ CHAT WINDOW
 }
 
 /* dialog buttons background */
-button.DialogButton, .DialogOnOffToggle_Option:hover:not(.Active) {
+button.DialogButton,
+.DialogOnOffToggle_Option:hover:not(.Active) {
   background: #4c4c4c;
 }
 
 .DialogOnOffToggle_Control {
-  background: #343434 !important
+  background: #343434 !important;
 }
 
 /* hover selected buttons */
@@ -60,7 +63,8 @@ button.DialogButton:hover {
 }
 
 /* boxes settings */
-._DialogTextInputBase, ._DialogInputContainer {
+._DialogTextInputBase,
+._DialogInputContainer {
   background: #262626 !important;
 }
 
@@ -76,7 +80,8 @@ button.DialogButton:hover {
 }
 
 /* more stuff */
-button.DialogButton:active, button.DialogButton:active:hover {
+button.DialogButton:active,
+button.DialogButton:active:hover {
   background: #272727 !important;
   border-radius: 4px !important;
 }
@@ -85,7 +90,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
   background-color: transparent !important;
   width: 44px !important;
   border-radius: 25px !important;
-  border: 0px !important;
+  border: 0 !important;
   border-bottom-width: none !important;
   box-shadow: none !important;
   background: transparent !important;
@@ -97,31 +102,31 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
-  height: 0px !important;
+  height: 0 !important;
 }
 
 .SingleWindowFocusBar {
   background: none !important;
 }
 
-/* emoticon picker hover in chat*/
+/* emoticon picker hover in chat */
 .emoticon_hover_content {
   background-color: #2e2e2f !important;
   border: 1px solid #2e2e2f !important;
   border-radius: 4px !important;
 }
 
-/* emoticon picker hover in chat (removes arrow)*/
+/* emoticon picker hover in chat (removes arrow) */
 .emoticon_hover_arrow.right {
-  display: none !important
+  display: none !important;
 }
 
-/* emoticon picker hover in chat (removes arrow)*/
+/* emoticon picker hover in chat (removes arrow) */
 .emoticon_hover_arrow.left {
-  display: none !important
+  display: none !important;
 }
 
-.ScrollToBottomButton>span {
+.ScrollToBottomButton > span {
   border-radius: 5px !important;
   background: rgb(var(--footer)) !important;
 }
@@ -134,7 +139,8 @@ button.DialogButton:active, button.DialogButton:active:hover {
   margin-left: -3px !important;
 }
 
-.inviteAnotherFriendButton .SVGIcon_Button line, .chatRoomButton .SVGIcon_Button line {
+.inviteAnotherFriendButton .SVGIcon_Button line,
+.chatRoomButton .SVGIcon_Button line {
   stroke: white !important;
 }
 
@@ -158,6 +164,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 .chatWindow .chatHeader {
   background: rgb(var(--header)) !important;
   min-height: 4px !important;
+
   /* 1 or 2 pixels */
 }
 
@@ -171,7 +178,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .chatEntry {
-  padding-bottom: 0px !important;
+  padding-bottom: 0 !important;
 }
 
 .emoticon_EmoticonSelector_177nw {
@@ -192,7 +199,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 .VoiceToggle {
   background: transparent !important;
   border-radius: 4px !important;
-  border: 0px !important;
+  border: 0 !important;
   max-height: 40px !important;
 }
 
@@ -206,8 +213,8 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .ChatMessageEntryVoice.Disabled {
-  border: 0px !important;
-  outline: 0px !important;
+  border: 0 !important;
+  outline: 0 !important;
   margin-top: -2px !important;
   max-height: 40px !important;
 }
@@ -224,9 +231,10 @@ button.DialogButton:active, button.DialogButton:active:hover {
   margin-right: -20px !important;
 }
 
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0, .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh {
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0,
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh {
   background-color: transparent !important;
-  border: 0px !important;
+  border: 0 !important;
   right: 7px !important;
   margin-top: -2px !important;
   max-height: 40px !important;
@@ -234,7 +242,7 @@ button.DialogButton:active, button.DialogButton:active:hover {
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
   background-color: transparent !important;
-  border: 0px !important;
+  border: 0 !important;
   display: none !important;
   margin-top: -2px !important;
   max-height: 40px !important;
@@ -243,8 +251,8 @@ button.DialogButton:active, button.DialogButton:active:hover {
 .chatentry_chatSubmitButton_3VRfL {
   background-color: transparent !important;
   max-height: 40px !important;
-  border: 0px !important;
-  margin-top: 0px !important;
+  border: 0 !important;
+  margin-top: 0 !important;
 }
 
 .VoiceToggleIconCtn {
@@ -254,10 +262,10 @@ button.DialogButton:active, button.DialogButton:active:hover {
 .emoticon_NewEmoticonIndicator_3NVON {
   background: darkred !important;
   top: 41px !important;
-  right: 0px !important;
-  left: 0px !important;
+  right: 0 !important;
+  left: 0 !important;
   height: 1px !important;
-  bottom: 0px !important;
+  bottom: 0 !important;
 }
 
 .emoticon_NewEmoticonIndicator_3NVON .emoticon_NewEmoticonCircle_3mNrG {
@@ -269,11 +277,12 @@ button.DialogButton:active, button.DialogButton:active:hover {
   background: none !important;
 }
 
-.chatTabList .chatTab, .ChatTabsBackButton {
+.chatTabList .chatTab,
+.ChatTabsBackButton {
   border-radius: 4px !important;
   margin-left: 2px !important;
   height: 44px !important;
-  border: 0px !important;
+  border: 0 !important;
   background: rgb(var(--friendlist)) !important;
 }
 
@@ -287,14 +296,14 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .chatRoomGroupHeader {
-  border-bottom: 0px solid rgba(23, 24, 29, 0.75) !important;
+  border-bottom: 0 solid rgba(23, 24, 29, 0.75) !important;
 }
 
 .chatRoomMembers {
   user-select: none;
   height: 2000px !important;
-  border-left: 0px solid #22252b !important;
-  border-right: 0px solid rgba(34, 37, 43, 0) !important;
+  border-left: 0 solid #22252b !important;
+  border-right: 0 solid rgba(34, 37, 43, 0) !important;
 }
 
 .inputContainer {
@@ -324,12 +333,12 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat {
-  border-left: 0px !important;
+  border-left: 0 !important;
   border-radius: 4px !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel {
-  border-left: 0px !important;
+  border-left: 0 !important;
 }
 
 .ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
@@ -342,9 +351,9 @@ button.DialogButton:active, button.DialogButton:active:hover {
   width: 1px !important;
   background-color: rgb(var(--header)) !important;
   min-width: 1px !important;
-  border: 0px !important;
-  border-top: 0px !important;
-  border-bottom: 0px !important;
+  border: 0 !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
 }
 
 .chatDialogs {
@@ -358,7 +367,9 @@ button.DialogButton:active, button.DialogButton:active:hover {
 }
 
 /* ========================================================================== */
+
 /* Style Chat Tab context menu - more firends drop down */
+
 /* Force dimensions of the friend avatar */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatar {
   width: 30px !important;
@@ -373,8 +384,8 @@ button.DialogButton:active, button.DialogButton:active:hover {
 
 /* Place avatar status circle */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatarStatus {
-  padding: 0px !important;
-  margin: 0px !important;
+  padding: 0 !important;
+  margin: 0 !important;
   margin-left: 4px !important;
   margin-top: 4px !important;
 }
@@ -386,13 +397,13 @@ button.DialogButton:active, button.DialogButton:active:hover {
 
 /* Place friend avatar against the left side (line up with group chat) */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
-  padding-left: 0px !important;
+  padding-left: 0 !important;
   margin-left: -4px !important;
 }
 
 /* Move avatar name closer to icon */
 .ChatTabsContextMenu .chatTab .ChatTabContent .labelHolder {
-  margin-left: 0px !important;
+  margin-left: 0 !important;
 }
 
 /* Hide the snooze icon (no room) */

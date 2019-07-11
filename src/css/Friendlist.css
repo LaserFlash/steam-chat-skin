@@ -2,9 +2,9 @@
 @import "FriendList/titleBar.css";
 @import "FriendList/currentUser.css";
 
-/*--------------------------------------------------------------
+/* --------------------------------------------------------------
 FRIENDLIST
---------------------------------------------------------------*/
+-------------------------------------------------------------- */
 .compactView .socialListTab {
   height: 28px !important;
 }
@@ -12,7 +12,7 @@ FRIENDLIST
 /* Friendlist header background */
 .friendListHeaderContainer {
   background-color: rgb(var(--header)) !important;
-  border-bottom: 0px !important;
+  border-bottom: 0 !important;
 }
 
 /* Friendlist footer background */
@@ -23,9 +23,10 @@ FRIENDLIST
 }
 
 /* removes lines between groups in friendlist */
-.friendGroup.taggedGroup, .friendGroup.gameGroup {
-  border-top: 0px !important;
-  margin-top: 0px !important;
+.friendGroup.taggedGroup,
+.friendGroup.gameGroup {
+  border-top: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* Hides the resize grip */
@@ -65,7 +66,9 @@ FRIENDLIST
 }
 
 /* Color for all icons */
-.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_VR path, .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_MobilePhone path, .personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_BigPicture path {
+.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_VR path,
+.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_MobilePhone path,
+.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_BigPicture path {
   fill: rgb(var(--icon)) !important;
 }
 
@@ -81,23 +84,30 @@ FRIENDLIST
 }
 
 /* all other icons colors */
-.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull, .friendRequestButton .SVGIcon_FriendRequest .friendHead, .friendRequestButton .SVGIcon_FriendRequest .friendArm, .friendRequestButton .SVGIcon_FriendRequest .friendBody, .addFriendButton .SVGIcon_AddFriend .friendHead, .addFriendButton .SVGIcon_AddFriend .friendBody {
+.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull,
+.friendRequestButton .SVGIcon_FriendRequest .friendHead,
+.friendRequestButton .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton .SVGIcon_FriendRequest .friendBody,
+.addFriendButton .SVGIcon_AddFriend .friendHead,
+.addFriendButton .SVGIcon_AddFriend .friendBody {
   fill: rgb(var(--icon)) !important;
 }
 
-.recentChatsGroup .friendGroup .groupName, .friendGroup.taggedGroup .groupName, .friendGroup.gameGroup .groupName {
+.recentChatsGroup .friendGroup .groupName,
+.friendGroup.taggedGroup .groupName,
+.friendGroup.gameGroup .groupName {
   color: rgb(var(--listtext)) !important;
 }
 
 /* unread message on friendlist */
 .unreadMessageViolator {
-  border: 0px !important;
+  border: 0 !important;
   line-height: 20px !important;
   color: rgb(var(--unreadmessage)) !important;
   background: rgb(var(--scrollbar)) !important;
   border-radius: 40px !important;
   height: 20px !important;
-  border: 0px !important;
+  border: 0 !important;
   margin-top: 5px !important;
   margin-bottom: 4px !important;
   width: 150px !important;
@@ -107,13 +117,13 @@ FRIENDLIST
 /* friend group online friends */
 .FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
   border-top: 4px !important;
-  margin-top: 0px !important;
+  margin-top: 0 !important;
 }
 
 /* friend group offline friends */
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
   border-top: none !important;
-  margin-top: 0px !important;
+  margin-top: 0 !important;
 }
 
 /* unread message count */
@@ -131,7 +141,7 @@ FRIENDLIST
   border-radius: 4px !important;
 }
 
-/* chat tab open friends list*/
+/* chat tab open friends list */
 .chatTabOpenFriendsList {
   box-shadow: none !important;
   background-color: #2e2e2f !important;
@@ -146,7 +156,7 @@ FRIENDLIST
 
 /* chat invite message */
 .ChatMessageInvite {
-  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.5) !important;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Trade offer message arrow */
@@ -156,7 +166,7 @@ FRIENDLIST
 
 /* Trade offer message */
 .TradeOffer_NoteFromFriend {
-  border: 0px !important;
+  border: 0 !important;
   background-color: rgb(var(--header)) !important;
 }
 
@@ -172,7 +182,7 @@ FRIENDLIST
 
 /* position modal topbar */
 .ModalPosition_TopBar {
-  height: 0px !important;
+  height: 0 !important;
   background: #555 !important;
 }
 
@@ -188,7 +198,8 @@ FRIENDLIST
 }
 
 /* background friendlist client frame */
-html.client_chat_frame body, html.web_chat_frame body {
+html.client_chat_frame body,
+html.web_chat_frame body {
   background: rgb(var(--footer)) !important;
 }
 
@@ -234,7 +245,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* Fixes issue with compact friendlist collapsing */
 .CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
-  padding: 4px 0px 4px 15px !important;
+  padding: 4px 0 4px 15px !important;
 }
 
 /* Compact Friend Game Icon FriendList */
@@ -260,7 +271,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* Footer "Group Chats" Text Color */
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
-  color: rgb(var(--text))
+  color: rgb(var(--text));
 }
 
 /* Background SearchTab */
@@ -315,11 +326,13 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 /* ========================================================================== */
+
 /** Group BUTTON CSS **/
+
 /* changes color of background of groups button */
 .friendsListSectionTitle {
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
   background-color: rgb(var(--footer)) !important;
 }
 
@@ -330,7 +343,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* friends removing height */
 .friendlistListContainer {
-  min-height: 0px !important;
+  min-height: 0 !important;
 }
 
 /* Group Chats Background */
@@ -347,7 +360,8 @@ html.client_chat_frame body, html.web_chat_frame body {
   z-index: 11 !important;
   padding-right: 650px !important;
   margin-right: -650px !important;
-  padding-left: 16px !important: width: 0% !important;
+  padding-left: 16px;
+  !important: width: 0%;
 }
 
 /* hidding little arrow */
@@ -366,7 +380,8 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 /* Compact friend spacing */
-.CompactFriendsList .friend, .CompactFriendsList .friendGroup .friend {
+.CompactFriendsList .friend,
+.CompactFriendsList .friendGroup .friend {
   height: 30px !important;
 }
 
@@ -375,57 +390,58 @@ html.client_chat_frame body, html.web_chat_frame body {
   margin-top: -4px !important;
 }
 
-/* MINI PROFILES*/
+/* MINI PROFILES */
+
 /* mini profile */
 .miniprofile_miniProfile_s5zcg {
-  border: 0px !important;
-  border-radius: 0px !important;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 
-/* mini profile Header*/
+/* mini profile Header */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
   background: rgb(var(--header)) !important;
   border-radius: 4px !important;
 }
 
-/* mini profile Game Backgroung*/
+/* mini profile Game Backgroung */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_gameLogo_2B0di {
   border-radius: 4px !important;
 }
 
-/* mini profile Background*/
+/* mini profile Background */
 .miniprofile_miniProfileBackground_3gfFJ {
   background: rgb(var(--header)) !important;
   border-radius: 4px !important;
 }
 
-/* mini profile Background*/
+/* mini profile Background */
 .miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
   background: transparent !important;
   top: 10px !important;
 }
 
-/* mini profile Blur*/
+/* mini profile Blur */
 .miniprofile_miniProfileBackgroundBlur_G000o {
   display: none !important;
 }
 
-/* mini profile PersonaName*/
+/* mini profile PersonaName */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
   color: rgb(var(--ingame)) !important;
   border-radius: 4px !important;
 }
 
-/* mini profile PersonaName*/
+/* mini profile PersonaName */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
   color: rgb(var(--online)) !important;
   border-radius: 4px !important;
 }
 
-/* mini profile PersonaName*/
+/* mini profile PersonaName */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_nickname_1W3dU,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_persona_1Z3Ey,
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
@@ -435,7 +451,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 
 /* CONTEXT MENU'S */
 .contextmenu_contextMenuItem_CBC-y {
-  border-top: 0px !important;
+  border-top: 0 !important;
   background: rgb(var(--header)) !important;
 }
 
@@ -461,7 +477,7 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-  padding-left: 0px !important;
+  padding-left: 0 !important;
   padding-top: 6px !important;
 }
 
@@ -476,13 +492,14 @@ html.client_chat_frame body, html.web_chat_frame body {
   border-radius: 4px !important;
 }
 
-.contextMenu .contextMenuItem:hover, .contextMenu .contextMenuItem.active {
+.contextMenu .contextMenuItem:hover,
+.contextMenu .contextMenuItem.active {
   background: #272727 !important;
   border-radius: 4px !important;
 }
 
 .contextMenu .contextMenuItem {
-  border-top: 0px !important;
+  border-top: 0 !important;
 }
 
 .contextMenuContents.ChatTabs .contextMenuItem {
@@ -514,13 +531,17 @@ html.client_chat_frame body, html.web_chat_frame body {
 }
 
 /* Hides lines between group names on friendlist */
-.friend.firstInGroup .SteamPlayerGroupLines, .friend.inGroup .SteamPlayerGroupLines, .friend.lastInGroup .SteamPlayerGroupLines, .SteamPlayerGroupFooter .SteamPlayerGroupLines {
+.friend.firstInGroup .SteamPlayerGroupLines,
+.friend.inGroup .SteamPlayerGroupLines,
+.friend.lastInGroup .SteamPlayerGroupLines,
+.SteamPlayerGroupFooter .SteamPlayerGroupLines {
   display: none !important;
 }
 
 /* Fixes issue with friendlist collapsing */
-.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter, .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-  padding: 6px 0px 6px 12px !important;
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter,
+.friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+  padding: 6px 0 6px 12px !important;
 }
 
 
@@ -540,8 +561,8 @@ Remove default effect
   height: 2px !important;
   display: block !important;
   margin: 0 !important;
-
   color: transparent !important;
+
   /* Glowing red icon */
   background: red !important;
   border: 2px solid red !important;

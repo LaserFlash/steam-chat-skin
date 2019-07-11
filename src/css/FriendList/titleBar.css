@@ -1,24 +1,31 @@
 /* ========================================================================== */
+
 /* Title Area - This is the top of the window holding the window controls */
+
 /* ========================================================================== */
+
 /* Apply to SingleWindowToggle, Minimize, Maximize, Close */
 .title-area-icon {
   /* Sets icon sizes */
   width: 22px !important;
   height: 20px !important;
+
   /* Centre svg icons in the container */
   align-items: center !important;
+
   /* Change cursor to a hand */
   cursor: pointer !important;
 }
 
 /* Apply to Minimize, Maximize, Close */
+
 /* setup for proper vertical centering */
 .title-bar-actions .title-area-icon {
   display: flex !important;
 }
 
 /* ================================ Padding ================================= */
+
 /* Give the actions some padding, makes the trigger areas larger */
 .title-area-icon {
   padding-bottom: 2px !important;
@@ -28,21 +35,23 @@
 }
 
 /* =========================== Action Locations ============================= */
+
 /* Place actions against the very side of the window */
 .title-bar-actions {
-  right: 0px !important;
+  right: 0 !important;
 }
 
 /* Attach Chat Toggle */
 .singleWindowToggle {
-  top: 0px !important;
+  top: 0 !important;
   right: 78px !important;
 }
 
 /* Position all icons in centre of their container */
 .SVGIcon_SingleWindowToggle,
 .SVGIcon_Minimize,
-.SVGIcon_Maximize, .SVGIcon_Restore,
+.SVGIcon_Maximize,
+.SVGIcon_Restore,
 .SVGIcon_X_Line {
   display: block !important;
   margin: 0 auto !important;
@@ -60,26 +69,34 @@
 
 /* ======================-==== Icon Stroke Style ============================ */
 
-.singleWindowToggle line, .singleWindowToggle rect,
+.singleWindowToggle line,
+.singleWindowToggle rect,
 .minimizeButton line,
-.maximizeButton line, .maximizeButton rect,
-.restoreButton line, .restoreButton rect,
+.maximizeButton line,
+.maximizeButton rect,
+.restoreButton line,
+.restoreButton rect,
 .closeButton line {
   stroke: rgb(var(--offline)) !important;
   stroke-width: 24px;
 }
 
-.singleWindowToggle:hover line, .singleWindowToggle:hover rect,
+.singleWindowToggle:hover line,
+.singleWindowToggle:hover rect,
 .minimizeButton:hover line,
-.maximizeButton:hover line, .maximizeButton:hover rect,
-.restoreButton:hover line, .restoreButton:hover rect,
+.maximizeButton:hover line,
+.maximizeButton:hover rect,
+.restoreButton:hover line,
+.restoreButton:hover rect,
 .closeButton:hover line {
   stroke: rgb(var(--caption)) !important;
 }
 
 /* ======================-==== Hover Background ============================= */
-.singleWindowToggle:hover, .SVGIcon_SingleWindowToggle:hover,
-.maximizeButton:hover, .restoreButton:hover,
+.singleWindowToggle:hover,
+.SVGIcon_SingleWindowToggle:hover,
+.maximizeButton:hover,
+.restoreButton:hover,
 .minimizeButton:hover {
   background: rgb(var(--captionhover)) !important;
 }
@@ -89,6 +106,7 @@
 }
 
 /* ========================================================================== */
+
 /* Remove styles from area highlighting actions */
 .title-area-highlight {
   display: none !important;
