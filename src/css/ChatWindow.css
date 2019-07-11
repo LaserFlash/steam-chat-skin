@@ -115,9 +115,7 @@ button.DialogButton:active:hover {
   padding-top: 3px !important;
 }
 
-.CompactFriendsList
-  .friendGroup.gameGroup:not(.OtherGamesGroup)
-  .SteamPlayerGroupFooter {
+.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
   height: 0 !important;
 }
 
@@ -346,8 +344,7 @@ button.DialogButton:active:hover {
   border-image: none !important;
 }
 
-.chatRoomVoiceChannel.ActiveVoiceChannel
-  .VoiceControlPanelButton.chatEndVoiceChat {
+.chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat {
   border-left: 0 !important;
   border-radius: 4px !important;
 }
@@ -356,9 +353,7 @@ button.DialogButton:active:hover {
   border-left: 0 !important;
 }
 
-.ChatRoomListGroupItem
-  .chatRoomVoiceChannel.ActiveVoiceChannel
-  .chatRoomTextChannel {
+.ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
   bottom: 1px !important;
   border-radius: 4px !important;
 }
@@ -408,10 +403,7 @@ button.DialogButton:active:hover {
 }
 
 /* Hide the snooze icon (no room) */
-.ChatTabsContextMenu
-  .chatTab
-  .ChatTabContent
-  .friendsnooze_SnoozeContainer_1OfTa {
+.ChatTabsContextMenu .chatTab .ChatTabContent .friendsnooze_SnoozeContainer_1OfTa {
   display: none !important;
 }
 
