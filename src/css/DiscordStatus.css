@@ -136,7 +136,7 @@ DISCORD STATUS (DEFAULT)
 .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus,
 .friendlistListContainer .friend .avatarHolder .avatarStatus,
 .CompactFriendsList .friend .avatarHolder .avatarStatus,
-.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus,
+.MemberListColumn.MemberListViewCompact .friend.ingame .avatarHolder .avatarStatus .contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus,
 .ChatTabContent .avatarHolder .avatarStatus {
   height: 33% !important;
   width: 33% !important;
@@ -148,6 +148,7 @@ DISCORD STATUS (DEFAULT)
   position: absolute;
   left: 66%;
   top: 66%;
+  transform: none !important;
 }
 
 .ChatRoomSpeaker .speaker .speakerStatus,
