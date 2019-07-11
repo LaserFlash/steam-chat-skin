@@ -1,8 +1,8 @@
 /* ===== DO NOT CHANGE THIS ===== */
-@import "Friendlist.css";
-@import "ChatWindow.css";
-@import "Settings.css";
-@import "Scrollbar.css";
+@import url("https://github.com/LaserFlash/steam-friends-skin/src/css/Friendlist.css");
+@import url("https://github.com/LaserFlash/steam-friends-skin/src/css/ChatWindow.css");
+@import url("https://github.com/LaserFlash/steam-friends-skin/src/css/Settings.css");
+@import url("https://github.com/LaserFlash/steam-friends-skin/src/css/Scrollbar.css");
 
 * {
   box-shadow: none !important;
