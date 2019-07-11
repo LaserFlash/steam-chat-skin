@@ -1,0 +1,240 @@
+/* ===== DO NOT CHANGE THIS ===== */
+
+
+/*--------------------------------------------------------------
+SETTINGS PANEL
+--------------------------------------------------------------*/
+
+/* Side Panel Background */
+.PagedSettingsDialog_PageListColumn {
+    background: rgb(var(--header)) !important;
+}
+
+/* Background */
+.DialogContent, .DialogContentTransition {
+    background: rgb(var(--friendlist)) !important;
+}
+
+/* Shadows */
+.ModalDialogPopup .DialogContentTransition .DialogBody {
+    -webkit-mask: none !important;
+    mask: none !important;
+}
+
+/* Menus color */
+._DialogInputContainer {
+    background: rgb(var(--header)) !important;
+    color: #dfe3e6 !important;
+    border: none !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+}
+
+/* Shadow in Buttons */
+button.DialogButton.Secondary.Off {
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+/* Selected Button */
+button.DialogButton.Primary {
+    border-radius: 4px !important;
+}
+
+/* Friend Settings Notifications Row */
+.FriendsSettingsNotificationRow {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+}
+
+/* Puch To Talk Option Background */
+._DialogSection.pushToTalkSection .PPTSoundOption {
+    background-color: transparent !important;
+}
+
+/* notification Check Boxes */
+.DialogCheckbox {
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+/* changes background color for buttons */
+.FriendsSettingsFlashSection_ButtonRow {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+}
+
+/* Adds a Background for buttons */
+.FriendsSettingsChatFontSizeSection_ButtonRow {
+    background-color: rgb(var(--header)) !important;
+    padding: 8px 8px !important;
+    border-radius: 4px !important;
+}
+
+/* removes overlapping background on voice */
+.voiceMicTestContainer {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+}
+
+/* Slider Background */
+.DialogSlider_Slider {
+    border: 0px !important;
+    box-shadow: none !important;
+}
+
+/* Removes Voice Transmission Type background */
+.FriendsSettingsVoiceTransmissionType_ButtonRow {
+    background-color: rgb(var(--friendlist)) !important;
+}
+
+/* Changes postition background mute toggle hotkey */
+._DialogSection.pushToTalkSection .pushToKeyAssignContainer.showPTTOptions {
+    margin-top: 10px !important;
+}
+
+/* Changes position checkbox microphone toggle */
+.DialogCheckbox_Container {
+    margin-bottom: 0px !important;
+    margin-top: 10px !important;
+}
+
+/* none button for voice */
+._DialogSection.pushToTalkSection .pushToKeyAssignContainer .DialogButton, ._DialogSection.pushToTalkSection .pushtoTalkKeyAssignContainer .DialogButton {
+    border-radius: 4px !important;
+}
+
+/* removes shadows from all buttons */
+button.DialogButton::before {
+    border-radius: 4px !important;
+    box-shadow: none !important;
+}
+
+/* Advanced Button */
+.VoiceSettings .advancedSettingsButton {
+    border-radius: 4px !important;
+}
+
+/* Advanced Expanded background */
+.VoiceSettings .advancedSettings.showAdvanced {
+    border-radius: 4px !important;
+    background: rgb(var(--header)) !important;
+}
+
+/* copy voice clipboard button */
+button.DialogButton.copyVoiceLogsButton {
+    border-radius: 4px !important;
+}
+
+/* EDIT NICKNAME */
+
+/* Buttons Shape */
+.DialogTwoColLayout > ._DialogLayout {
+    border-radius: 4px !important;
+}
+
+/* Search */
+._DialogTextInputBase:focus {
+    background: rgb(var(--footer)) !important;
+    box-shadow: none !important;
+    border-radius: 4px !important;
+}
+
+/* Search Hover */
+._DialogTextInputBase:not( disabled ):hover {
+    border-radius: 4px !important;
+}
+
+/* Search Input Box */
+._DialogTextInputBase, ._DialogInputContainer {
+    background: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+    box-shadow: none !important;
+}
+
+/* CATEGORIZE */
+
+.DialogCheckbox_Container:hover .DialogCheckbox,
+.DialogCheckbox:hover:not( .Disabled ) {
+	background-color: rgb(var(--header)) !important;
+}
+
+/* CATAGORY MANAGE/CREATE */
+
+/*Friend Picker Background */
+.FriendPicker_Suggestions {
+    background-color: rgb(var(--header)) !important;
+    border-radius: 4px !important;
+}
+
+/* removes all inside shadows */
+.insetShadow {
+    background: none !important;
+}
+
+/* Friend hover background */
+.FriendPicker_SuggestedFriend {
+    border-radius: 4px !important;
+}
+
+/* Dialog ON - OFF Button background */
+.DialogOnOffToggle_Control {
+    background: transparent !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog OFF Button active */
+.DialogOnOffToggle_Option.Off.Active {
+    border-radius: 20px !important;
+    background: #2e2e2f !important;
+}
+
+/* Dialog Button active */
+.DialogOnOffToggle_Option.Active {
+    border-radius: 20px !important;
+    color: white !important;
+}
+
+/* Dialog Button */
+.DialogOnOffToggle_Option {
+    width: 30px !important;
+    margin-left: 5px !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog OFF Button hover */
+.DialogOnOffToggle_Option.Off:hover {
+    width: 30px !important;
+    margin-left: 5px !important;
+    color: white !important;
+    background: #2e2e2f !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog ON Button hover */
+.DialogOnOffToggle_Option.On:hover {
+    width: 30px !important;
+    margin-left: 5px !important;
+    color: white !important;
+    background: #2d73ff !important;
+    border-radius: 20px !important;
+}
+
+/* Dialog ON Button active */
+.DialogOnOffToggle_Option.Active {
+    width: 30px !important;
+    margin-left: 5px !important;
+    color: white !important;
+    background: #2d73ff !important;
+    border-radius: 20px !important;
+}
+
+/* Slider grabber */
+.DialogSlider_Grabber {
+    background: #2e2e2f !important;
+}
+
+/* Slider value */
+.DialogSlider_Value {
+    background: #2d73ff !important;
+}

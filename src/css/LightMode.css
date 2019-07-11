@@ -1,0 +1,29 @@
+/* ===== DO NOT CHANGE THIS ===== */
+@import 'Friendlist.css';
+@import 'ChatWindow.css';
+@import 'Settings.css';
+@import 'Scrollbar.css';
+*{box-shadow: none !important;
+text-shadow: none !important;}
+
+:root {
+
+    /* Light Mode */
+
+    --header: 238,238,238;
+    --friendlist: 215, 215, 215;
+    --footer: 238, 238, 238;
+    --scrollbar: 238, 238, 238;
+    --unreadmessage: 0 ,255, 0;
+    --text: 0, 0, 0;
+    --listtext: 0, 0, 0;
+    --icon: 0, 0, 0;
+    --caption: 0, 0 ,0;
+    --captionhover: 30, 30, 31;
+    --online: 93, 178, 254;
+    --snooze: 93, 178, 255;
+    --offline: 0, 0, 0;
+    --ingame: 130, 186, 0;
+    --selfstatus: 0, 0, 0;
+    --hoverstatus: 238,238,238, 0.5;
+}

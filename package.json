@@ -1,0 +1,18 @@
+{
+  "stylelint": {
+    "extends": "stylelint-config-standard"
+  },
+  "scripts": {
+    "lint": "stylelint  src/"
+  },
+  "pre-commit": [
+    "lint"
+  ],
+  "dependencies": {
+    "pre-commit": "^1.2.2",
+    "stylelint": "^10.1.0"
+  },
+  "devDependencies": {
+    "stylelint-config-standard": "^18.3.0"
+  }
+}
