@@ -532,6 +532,9 @@ Position of New Message Group Chat in the Footer
 Remove default effect
 */
 .ChatUnreadMessageIndicator {
+  top: 0px !important;
+  left: 0px !important;
+  height: 100% !important;
   display: flex !important;
   align-items: center !important;
   background: none !important;
