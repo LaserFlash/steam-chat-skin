@@ -1,8 +1,8 @@
 /* ===== DO NOT CHANGE THIS ===== */
-@import 'Friendlist.css';
-@import 'ChatWindow.css';
-@import 'Settings.css';
-@import 'Scrollbar.css';
+@import "Friendlist.css";
+@import "ChatWindow.css";
+@import "Settings.css";
+@import "Scrollbar.css";
 
 * {
   box-shadow: none !important;

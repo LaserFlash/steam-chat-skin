@@ -4,20 +4,17 @@
 CHAT WINDOW
 -------------------------------------------------------------- */
 
-
 .ChatTabs .ChatRoomGroupAvatar {
   width: 42px !important;
   height: 42px !important;
-  margin-top: 0px !important;
-  margin-left: 0px !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
 }
 
 .ChatTabs.compactView .ChatRoomGroupAvatar {
   width: 32px !important;
   height: 32px !important;
 }
-
-
 
 /* Chat tab title */
 .ChatTabs .title-area {
@@ -27,12 +24,8 @@ CHAT WINDOW
 }
 
 .chatTab .ChatTabContent {
-  padding: 0px !important;
+  padding: 0 !important;
   align-items: center !important;
-}
-
-.ChatUnreadMessageIndicator {
-
 }
 
 /* Dragbar mouse curson */
@@ -101,7 +94,7 @@ button.DialogButton:active:hover {
   border-radius: 4px !important;
 }
 
-.chatTabSelector      {
+.chatTabSelector {
   background: transparent !important;
   border-radius: 25px !important;
   border: 0 !important;
@@ -115,14 +108,16 @@ button.DialogButton:active:hover {
   border-radius: 25px !important;
 }
 
-.chatTabSelector  .SVGIcon_DownArrowContextMenu {
+.chatTabSelector .SVGIcon_DownArrowContextMenu {
   display: block !important;
   margin: 0 auto !important;
   padding-left: 3px;
   padding-top: 3px !important;
 }
 
-.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .SteamPlayerGroupFooter {
   height: 0 !important;
 }
 
@@ -351,7 +346,8 @@ button.DialogButton:active:hover {
   border-image: none !important;
 }
 
-.chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat {
+.chatRoomVoiceChannel.ActiveVoiceChannel
+  .VoiceControlPanelButton.chatEndVoiceChat {
   border-left: 0 !important;
   border-radius: 4px !important;
 }
@@ -360,7 +356,9 @@ button.DialogButton:active:hover {
   border-left: 0 !important;
 }
 
-.ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
+.ChatRoomListGroupItem
+  .chatRoomVoiceChannel.ActiveVoiceChannel
+  .chatRoomTextChannel {
   bottom: 1px !important;
   border-radius: 4px !important;
 }
@@ -410,14 +408,17 @@ button.DialogButton:active:hover {
 }
 
 /* Hide the snooze icon (no room) */
-.ChatTabsContextMenu .chatTab .ChatTabContent .friendsnooze_SnoozeContainer_1OfTa {
+.ChatTabsContextMenu
+  .chatTab
+  .ChatTabContent
+  .friendsnooze_SnoozeContainer_1OfTa {
   display: none !important;
 }
 
 /* Place friend avatar against the left side (line up with group chat) */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
   padding-left: 0 !important;
-  margin-left: 0px !important;
+  margin-left: 0 !important;
 }
 
 /* Move avatar name closer to icon */

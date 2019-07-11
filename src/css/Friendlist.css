@@ -36,7 +36,12 @@ FRIENDLIST
 
 /* Hides group chat bottom shadow */
 .insetshadow_FriendListInsetShadowTop_1mEmL {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.1) 25%, rgba(0, 0, 0, 0) 100%);
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
   height: 50px !important;
 }
 
@@ -306,8 +311,7 @@ html.web_chat_frame body {
 }
 
 /* Hide name in QuickAccess as generally does not fit */
-.friend.quickAccessFriend .playerNameQuickAccessContainer
-{
+.friend.quickAccessFriend .playerNameQuickAccessContainer {
   display: none !important;
 }
 
@@ -389,7 +393,9 @@ html.web_chat_frame body {
 }
 
 /* mini profile Game Backgroung */
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_gameLogo_2B0di {
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfileGameContainer_2FyZH
+  .miniprofile_gameLogo_2B0di {
   border-radius: 4px !important;
 }
 
@@ -400,8 +406,10 @@ html.web_chat_frame body {
 }
 
 /* mini profile Background */
-.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
+.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2
+  .miniprofile_miniProfileBottom_3Agb6,
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfileGameContainer_2FyZH {
   background: transparent !important;
   top: 10px !important;
 }
@@ -412,23 +420,42 @@ html.web_chat_frame body {
 }
 
 /* mini profile PersonaName */
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.in-game
+  .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l)
+  .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.in-game
+  .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz
+  .miniprofile_personaNameLabel_390p4 {
   color: rgb(var(--ingame)) !important;
   border-radius: 4px !important;
 }
 
 /* mini profile PersonaName */
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l) .miniprofile_personaNameLabel_390p4,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz .miniprofile_personaNameLabel_390p4 {
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.online
+  .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l)
+  .miniprofile_personaNameLabel_390p4,
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.online
+  .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz
+  .miniprofile_personaNameLabel_390p4 {
   color: rgb(var(--online)) !important;
   border-radius: 4px !important;
 }
 
 /* mini profile PersonaName */
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_nickname_1W3dU,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s .miniprofile_persona_1Z3Ey,
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_playerContent_PV11V .miniprofile_awayStatusLabel_2UzRy {
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s
+  .miniprofile_nickname_1W3dU,
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s
+  .miniprofile_persona_1Z3Ey,
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.online
+  .miniprofile_playerContent_PV11V
+  .miniprofile_awayStatusLabel_2UzRy {
   color: rgb(var(--online)) !important;
   border-radius: 4px !important;
 }
@@ -456,7 +483,10 @@ html.web_chat_frame body {
   background: rgb(var(--header)) !important;
 }
 
-:not(.friendInviteContainer) .online .ContextMenuButton .SVGIcon_DownArrowContextMenu {
+:not(.friendInviteContainer)
+  .online
+  .ContextMenuButton
+  .SVGIcon_DownArrowContextMenu {
   fill: rgb(var(--icon)) !important;
 }
 
@@ -471,7 +501,12 @@ html.web_chat_frame body {
 
 .contextMenu {
   border: none !important;
-  background: radial-gradient(ellipse farthest-corner at 50% 0%, #1a1a1a 0%, #1a1a1a 50%, #1a1a1a 100%) !important;
+  background: radial-gradient(
+    ellipse farthest-corner at 50% 0%,
+    #1a1a1a 0%,
+    #1a1a1a 50%,
+    #1a1a1a 100%
+  ) !important;
   box-shadow: none !important;
   border-radius: 4px !important;
 }
