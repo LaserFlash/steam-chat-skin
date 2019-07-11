@@ -1,6 +1,6 @@
 /* ===== DO NOT CHANGE THIS ===== */
-@import "FriendList/titleBar.css";
-@import "FriendList/currentUser.css";
+@import url("https://github.com/LaserFlash/steam-friends-skin/src/css/FriendList/titleBar.css");
+@import url("https://github.com/LaserFlash/steam-friends-skin/src/css/FriendList/currentUser.css");
 
 /* --------------------------------------------------------------
 FRIENDLIST
