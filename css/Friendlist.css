@@ -523,26 +523,30 @@ html.client_chat_frame body, html.web_chat_frame body {
   padding: 6px 0px 6px 12px !important;
 }
 
-/* Position of New Message Group Chat in the Footer */
-.chatSectionTitle .ChatUnreadMessageIndicator {
-  top: 15px !important;
-  left: 1px !important;
-}
 
-/* Color of New Message Group Chat in the Footer */
+/*
+Position of New Message Group Chat in the Footer
+Remove default effect
+*/
 .ChatUnreadMessageIndicator {
-  background: red !important;
-  height: 10px !important;
-  width: 10px !important;
-  margin: 0px !important;
-  border-radius: 50px !important;
-  padding-right: 0px !important;
-  padding-left: 0px !important;
+  display: flex !important;
+  align-items: center !important;
+  background: none !important;
 }
 
 /* Unread New Message Group Chat in the Footer */
-.ChatUnreadMessageIndicator .chatUnreadCircle {
-  background: none !important;
+.chatUnreadCircle {
+  width: 2px !important;
+  height: 2px !important;
+  display: block !important;
+  margin: 0 !important;
+
+  color: transparent !important;
+  /* Glowing red icon */
+  background: red !important;
+  border: 2px solid red !important;
+  border-radius: 100% !important;
+  box-shadow: 0 0 10px 3px red !important;
 }
 
 /* Group name count */
