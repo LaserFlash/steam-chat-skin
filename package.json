@@ -7,8 +7,8 @@
   },
   "scripts": {
     "lint": "stylelint src/",
-    "lint:fix": "stylelint --fix src/",
-    "pretty": "prettier --write src/"
+    "lint:fix": "stylelint --fix src/**",
+    "pretty": "prettier --write src/**"
   },
   "husky": {
     "hooks": {
