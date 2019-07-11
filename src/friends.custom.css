@@ -6,28 +6,27 @@
 /* ===== COSTUMIZABLE AVATAR + STATUS =====
 /*
 /* DISCORD STATUS */
-@import "css/DiscordStatus.css";
-
+@import url(https://github.com/LaserFlash/steam-friends-skin/src/css/DiscordStatus.css');
 /*
 /* ROUND BORDER STATUS */
 
-/*  @import 'css/BorderStatus.css';
+/*  @import url(https://github.com/LaserFlash/steam-friends-skin/src/css/BorderStatus.css');
 /*
 /* SQUARE BORDER STATUS */
 
-/* @import 'css/SquareStatus.css';
+/* @@import url(https://github.com/LaserFlash/steam-friends-skin/src/css/SquareStatus.css');
 /*
 /*
 /*
 /* ===== COSTMIZABLE THEMES =====
 /*
 /* ===== DARK MODE ===== */
-@import "css/DarkMode.css";
+@import url(https://github.com/LaserFlash/steam-friends-skin/src/css/DarkMode.css');
 
 /*
 /* ===== LIGHT MODE ===== */
 
-/* @import '/css/LightMode.css';
+/* @import url(https://github.com/LaserFlash/steam-friends-skin/src/css/LightMode.css');
 /*
 /*
 /*
