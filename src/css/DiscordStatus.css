@@ -3,65 +3,46 @@
 /* --------------------------------------------------------------
 DISCORD STATUS (DEFAULT)
 -------------------------------------------------------------- */
-.online .steamavatar_avatarStatus_1Pwr6 {
-  background: rgb(var(--online)) !important;
+.steamavatar_avatarStatus_1Pwr6 {
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
+}
+
+.online .steamavatar_avatarStatus_1Pwr6 {
+  background: rgb(var(--online)) !important;
+}
+
+.speaker.online .speakerStatus {
+  background: rgb(var(--online)) !important;
 }
 
 .ingame .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--ingame)) !important;
-  border-radius: 50px !important;
-  width: 20px !important;
-  height: 20px !important;
-  border: 2px solid rgb(var(--header)) !important;
-  z-index: 2 !important;
 }
 
-.ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
-  width: 20px !important;
-  height: 20px !important;
-  border: 2px solid rgb(var(--header)) !important;
-  z-index: 2 !important;
+.speaker.ingame .speakerStatus {
+  background: rgb(var(--ingame)) !important;
 }
 
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
-  border-radius: 50px !important;
-  width: 20px !important;
-  height: 20px !important;
-  border: 2px solid rgb(var(--header)) !important;
-  z-index: 2 !important;
 }
 
-.golden .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
-  width: 20px !important;
-  height: 20px !important;
-  border: 2px solid rgb(var(--header)) !important;
-  z-index: 2 !important;
-}
-
-.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
-  width: 20px !important;
-  height: 20px !important;
-  border: 2px solid rgb(var(--header)) !important;
-  z-index: 2 !important;
+.speaker.awayOrSnooze .speakerStatus {
+  background: rgb(var(--snooze)) !important;
+  -webkit-mask: none !important;
 }
 
 .offline .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--offline)) !important;
-  border-radius: 50px !important;
-  width: 20px !important;
-  height: 20px !important;
-  border: 2px solid rgb(var(--header)) !important;
-  z-index: 2 !important;
+}
+
+.speaker.awayOrSnooze .speakerStatus {
+  background: rgb(var(--offline)) !important;
 }
 
 /* Game playing status */
@@ -130,19 +111,6 @@ DISCORD STATUS (DEFAULT)
   height: auto !important;
 }
 
-.ChatTabContent .avatarHolder .avatarStatus {
-  height: 33% !important;
-  width: 33% !important;
-  border-radius: 40px !important;
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  border: 1px solid rgb(var(--friendlist)) !important;
-  z-index: 4 !important;
-  position: absolute;
-  left: 66%;
-  top: 66%;
-}
-
 .friend .avatarHolder img.avatar {
   border: 1px solid rgb(var(--friendlist)) !important;
   box-shadow: none !important;
@@ -169,6 +137,26 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50% !important;
 }
 
+/* QuickAccess avatar status  */
+.friend.quickAccessFriend .avatarHolder .avatarStatus,
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus,
+.friendlistListContainer .friend .avatarHolder .avatarStatus,
+.friendlistListContainer .friend .avatarHolder .avatarStatus,
+.CompactFriendsList .friend .avatarHolder .avatarStatus,
+.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus,
+.ChatTabContent .avatarHolder .avatarStatus {
+  height: 33% !important;
+  width: 33% !important;
+  border-radius: 40px !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  border: 1px solid rgb(var(--friendlist)) !important;
+  z-index: 4 !important;
+  position: absolute;
+  left: 66%;
+  top: 66%;
+}
+
 .ChatRoomSpeaker .speaker .speakerStatus,
 .ChatMsgSlashEmote .speaker .speakerStatus {
   width: 10px !important;
@@ -177,31 +165,6 @@ DISCORD STATUS (DEFAULT)
   margin-top: 12px !important;
   margin-left: -8px !important;
   margin-right: 8px !important;
-  border: 2px !important;
-  border-style: solid !important;
-  border-color: rgb(var(--friendlist)) !important;
-}
-
-/* QuickAccess avatar status  */
-.friend.quickAccessFriend .avatarHolder .avatarStatus {
-  border-radius: 40px !important;
-  margin-top: -13px !important;
-  margin-left: 35px !important;
-  height: 12px !important;
-  width: 12px !important;
-  z-index: 1 !important;
-  border: 2px !important;
-  border-style: solid !important;
-  border-color: rgb(var(--friendlist)) !important;
-}
-
-.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
-  border-radius: 40px !important;
-  margin-top: -13px !important;
-  margin-left: 15px !important;
-  height: 12px !important;
-  width: 12px !important;
-  z-index: 1 !important;
   border: 2px !important;
   border-style: solid !important;
   border-color: rgb(var(--friendlist)) !important;
@@ -225,21 +188,6 @@ DISCORD STATUS (DEFAULT)
   height: 17px !important;
 }
 
-/* ConetextMenu avatar status  */
-.contextMenuContents.ChatTabs .ChatTabContent .avatarStatus {
-  width: 13px !important;
-  height: 13px !important;
-  margin-left: 12px !important;
-  margin-top: 18px !important;
-}
-
-.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus {
-  width: 13px !important;
-  height: 13px !important;
-  margin-left: 12px !important;
-  margin-top: 18px !important;
-}
-
 .contextMenuContents.ChatTabs.compactView
   .ChatTabContent
   .avatarHolder
@@ -256,27 +204,6 @@ DISCORD STATUS (DEFAULT)
 .Dialog_ChangePersonaName .friend .avatarMedium {
   box-shadow: none !important;
   border-radius: 40px !important;
-}
-
-/* removes Avatar status in settings */
-.voiceSelfHeader .friend .avatarHolder .avatarStatus {
-  display: none !important;
-}
-
-.friendlistListContainer .friend .avatarHolder .avatarStatus {
-  left: 20px !important;
-  top: 21px !important;
-  border: 2px solid rgb(var(--friendlist)) !important;
-  height: 13px !important;
-  width: 13px !important;
-}
-
-.CompactFriendsList .friend .avatarHolder .avatarStatus {
-  left: 15px !important;
-  top: 15px !important;
-  border: 2px solid rgb(var(--friendlist)) !important;
-  height: 10px !important;
-  width: 10px !important;
 }
 
 /* mini profile */
