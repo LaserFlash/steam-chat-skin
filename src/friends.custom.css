@@ -6,23 +6,28 @@
 /* ===== COSTUMIZABLE AVATAR + STATUS =====
 /*
 /* DISCORD STATUS */
-@import 'css/DiscordStatus.css';
+@import "css/DiscordStatus.css";
+
 /*
 /* ROUND BORDER STATUS */
-/* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
+
+/*  @import 'css/BorderStatus.css';
 /*
 /* SQUARE BORDER STATUS */
-/* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
+
+/* @import 'css/SquareStatus.css';
 /*
 /*
 /*
 /* ===== COSTMIZABLE THEMES =====
 /*
 /* ===== DARK MODE ===== */
-@import 'css/DarkMode.css';
+@import "css/DarkMode.css";
+
 /*
 /* ===== LIGHT MODE ===== */
-/* @import url('https://aikomidori.github.io/steam-friends-skin/css/LightMode.css');
+
+/* @import '/css/LightMode.css';
 /*
 /*
 /*
@@ -34,3 +39,4 @@
 /* -------------------------------------------------------------------------------------------
 /* © 2019 All Rights Reserved. Created by Shiina♪
 /*
+*/
