@@ -4,16 +4,35 @@
 CHAT WINDOW
 -------------------------------------------------------------- */
 
-/* Compact chat tab group name */
-.ChatTabs.compactView .chatTabGroupName {
-  margin-top: 5px !important;
+
+.ChatTabs .ChatRoomGroupAvatar {
+  width: 42px !important;
+  height: 42px !important;
+  margin-top: 0px !important;
+  margin-left: 0px !important;
 }
+
+.ChatTabs.compactView .ChatRoomGroupAvatar {
+  width: 32px !important;
+  height: 32px !important;
+}
+
+
 
 /* Chat tab title */
 .ChatTabs .title-area {
   margin-bottom: -4px !important;
   background: rgb(var(--header)) !important;
-  height: 52px !important;
+  height: 100% !important;
+}
+
+.chatTab .ChatTabContent {
+  padding: 0px !important;
+  align-items: center !important;
+}
+
+.ChatUnreadMessageIndicator {
+
 }
 
 /* Dragbar mouse curson */
@@ -35,10 +54,6 @@ CHAT WINDOW
   font-size: 15px !important;
   color: white !important;
   display: none !important;
-}
-
-.chatTabGroupName {
-  margin-top: 3px !important;
 }
 
 /* dialog buttons background */
@@ -86,18 +101,25 @@ button.DialogButton:active:hover {
   border-radius: 4px !important;
 }
 
-.chatTabSelector {
-  background-color: transparent !important;
-  width: 44px !important;
+.chatTabSelector      {
+  background: transparent !important;
   border-radius: 25px !important;
   border: 0 !important;
-  border-bottom-width: none !important;
   box-shadow: none !important;
+  display: flex !important;
+  align-items: center !important;
 }
 
 .chatTabSelector:hover {
   background: #2e2e2f !important;
   border-radius: 25px !important;
+}
+
+.chatTabSelector  .SVGIcon_DownArrowContextMenu {
+  display: block !important;
+  margin: 0 auto !important;
+  padding-left: 3px;
+  padding-top: 3px !important;
 }
 
 .CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
@@ -163,8 +185,6 @@ button.DialogButton:active:hover {
 .chatWindow .chatHeader {
   background: rgb(var(--header)) !important;
   min-height: 4px !important;
-
-  /* 1 or 2 pixels */
 }
 
 .chatWindow {
@@ -173,7 +193,7 @@ button.DialogButton:active:hover {
 
 .chatWindow .chatEntry {
   background-color: rgb(var(--scrollbar)) !important;
-  height: 44px !important;
+  height: auto !important;
 }
 
 .chatEntry {
@@ -280,7 +300,7 @@ button.DialogButton:active:hover {
 .ChatTabsBackButton {
   border-radius: 4px !important;
   margin-left: 2px !important;
-  height: 44px !important;
+  height: 100% !important;
   border: 0 !important;
   background: rgb(var(--friendlist)) !important;
 }
@@ -377,16 +397,16 @@ button.DialogButton:active:hover {
 
 /* Force dimensions of the group chat */
 .ChatTabsContextMenu .chatTab .ChatTabContent .ChatRoomGroupAvatar {
-  width: 28px !important;
-  height: 28px !important;
+  width: 30px !important;
+  height: 30px !important;
 }
 
 /* Place avatar status circle */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatarStatus {
   padding: 0 !important;
   margin: 0 !important;
-  margin-left: 4px !important;
   margin-top: 4px !important;
+  margin-left: 4px !important;
 }
 
 /* Hide the snooze icon (no room) */
@@ -397,17 +417,21 @@ button.DialogButton:active:hover {
 /* Place friend avatar against the left side (line up with group chat) */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
   padding-left: 0 !important;
-  margin-left: -4px !important;
+  margin-left: 0px !important;
 }
 
 /* Move avatar name closer to icon */
 .ChatTabsContextMenu .chatTab .ChatTabContent .labelHolder {
-  margin-left: 0 !important;
+  margin-left: 14px !important;
 }
 
 /* Hide the snooze icon (no room) */
 .ChatTabsContextMenu .chatTab .ChatTabContent {
-  padding-bottom: 6px !important;
+  padding-bottom: 10px !important;
+}
+
+.ChatTabsContextMenu .ChatUnreadMessageIndicator {
+  margin-left: 90% !important;
 }
 
 /* ========================================================================== */

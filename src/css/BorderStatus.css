@@ -6,8 +6,6 @@ BORDER STATUS
 .online .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--online)) !important;
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -16,8 +14,6 @@ BORDER STATUS
 .ingame .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--ingame)) !important;
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -25,8 +21,6 @@ BORDER STATUS
 
 .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -36,8 +30,6 @@ BORDER STATUS
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -45,8 +37,6 @@ BORDER STATUS
 
 .golden .steamavatar_avatarStatus_1Pwr6 {
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -54,8 +44,6 @@ BORDER STATUS
 
 .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -64,8 +52,6 @@ BORDER STATUS
 .offline .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--offline)) !important;
   border-radius: 50px !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -119,18 +105,17 @@ BORDER STATUS
   background-color: rgb(var(--hoverstatus)) !important;
 }
 
-/* Chat windows avatars */
-.chatTab .avatarHolder {
-  width: 25% !important;
-  transform: scale(0.86, 0.86) translateX(0) !important;
-}
-
 .chatTab:not(.active) .ChatTabContent .avatarHolder .avatar {
   border-radius: 40px !important;
 }
 
 .ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
-  width: 41px !important;
+  width: 32px !important;
+}
+
+.ChatTabContent .avatarHolder{
+  height: auto !important;
+  padding: 2px !important;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus {
@@ -138,6 +123,14 @@ BORDER STATUS
   width: 43px !important;
   border-radius: 40px !important;
   margin-top: -42px !important;
+  margin-left: -1px !important;
+}
+
+.compactView .ChatTabContent .avatarHolder .avatarStatus {
+  height: 34px !important;
+  width: 34px !important;
+  border-radius: 40px !important;
+  margin-top: -33px !important;
   margin-left: -1px !important;
 }
 
@@ -297,11 +290,6 @@ BORDER STATUS
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
   z-index: 1 !important;
-}
-
-.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar,
-.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
-  margin-top: 0 !important;
 }
 
 /* mini profile */

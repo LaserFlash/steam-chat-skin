@@ -11,11 +11,11 @@
 /*
 /* ROUND BORDER STATUS */
 
-/* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
+/*  @import 'css/BorderStatus.css';
 /*
 /* SQUARE BORDER STATUS */
 
-/* @import url('https://aikomidori.github.io/steam-friends-skin/css/BorderStatus.css');
+/* @import 'css/SquareStatus.css';
 /*
 /*
 /*
@@ -27,7 +27,7 @@
 /*
 /* ===== LIGHT MODE ===== */
 
-/* @import url('https://aikomidori.github.io/steam-friends-skin/css/LightMode.css');
+/* @import '/css/LightMode.css';
 /*
 /*
 /*

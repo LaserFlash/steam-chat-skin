@@ -8,7 +8,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -18,7 +17,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -27,7 +25,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -38,7 +35,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -47,7 +43,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -56,7 +51,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -66,7 +60,6 @@ DISCORD STATUS (DEFAULT)
   border-radius: 50px !important;
   width: 20px !important;
   height: 20px !important;
-  left: 60px !important;
   border: 2px solid rgb(var(--header)) !important;
   z-index: 2 !important;
 }
@@ -119,28 +112,29 @@ DISCORD STATUS (DEFAULT)
   background-color: rgb(var(--hoverstatus)) !important;
 }
 
-/* Chat windows avatars */
-.chatTab .avatarHolder {
-  width: 25% !important;
-  transform: scale(0.86, 0.86) translateX(0) !important;
-}
-
 .chatTab:not(.active) .ChatTabContent .avatarHolder .avatar {
   border-radius: 40px !important;
 }
 
 .ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
-  width: 42px !important;
+  width: 32px !important;
+}
+
+.ChatTabContent .avatarHolder{
+  height: auto !important;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus {
-  height: 12px !important;
-  width: 13px !important;
-  border-radius: 40px !important;
-  margin-top: -12px !important;
-  margin-left: 31px !important;
-  border: 1px solid rgb(var(--friendlist)) !important;
-  z-index: 4 !important;
+  height: 33% !important;
+    width: 33% !important;
+    border-radius: 40px !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    border: 1px solid rgb(var(--friendlist)) !important;
+    z-index: 4 !important;
+    position: absolute;
+    left: 66%;
+    top: 66%;
 }
 
 .friend .avatarHolder img.avatar {
@@ -274,11 +268,6 @@ DISCORD STATUS (DEFAULT)
   border: 2px solid rgb(var(--friendlist)) !important;
   height: 10px !important;
   width: 10px !important;
-}
-
-.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar,
-.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
-  margin-top: 0 !important;
 }
 
 /* mini profile */

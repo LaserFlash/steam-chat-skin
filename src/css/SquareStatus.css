@@ -3,8 +3,6 @@ BORDER STATUS
 -------------------------------------------------------------- */
 .online .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--online)) !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -12,16 +10,12 @@ BORDER STATUS
 
 .ingame .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--ingame)) !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
 }
 
 .ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -30,24 +24,18 @@ BORDER STATUS
 .awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
 }
 
 .golden .steamavatar_avatarStatus_1Pwr6 {
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
 }
 
 .watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -55,8 +43,6 @@ BORDER STATUS
 
 .offline .steamavatar_avatarStatus_1Pwr6 {
   background: rgb(var(--offline)) !important;
-  width: 92px !important;
-  height: 92px !important;
   left: -1px !important;
   top: -1px !important;
   z-index: 1 !important;
@@ -110,14 +96,8 @@ BORDER STATUS
   background-color: rgb(var(--hoverstatus)) !important;
 }
 
-/* Chat windows avatars */
-.chatTab .avatarHolder {
-  width: 25% !important;
-  transform: scale(0.86, 0.86) translateX(0) !important;
-}
-
 .ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
-  width: 41px !important;
+  width: 31px !important;
 }
 
 .ChatTabContent .avatarHolder .avatarStatus {
@@ -127,10 +107,23 @@ BORDER STATUS
   margin-left: -1px !important;
 }
 
+.compactView .ChatTabContent .avatarHolder .avatarStatus {
+  height: 33px !important;
+  width: 33px !important;
+  margin-top: -32px !important;
+  margin-left: 0px !important;
+}
+
 .friend .avatarHolder img.avatar {
   border: 0 !important;
   box-shadow: none !important;
   z-index: 1 !important;
+}
+
+.ChatTabContent .friend .avatarHolder img.avatar {
+  width: 40px !important;
+  padding-top: 1px !important;
+  padding-left: 1px !important;
 }
 
 .ChatRoomGroupAvatar {
@@ -263,19 +256,12 @@ BORDER STATUS
 }
 
 .CompactFriendsList .friend .avatarHolder .avatarStatus {
-  left: -3px !important;
-  top: -3px !important;
   height: 26px !important;
   width: 26px !important;
 }
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
   z-index: 1 !important;
-}
-
-.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar,
-.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
-  margin-top: 0 !important;
 }
 
 /* mini profile */

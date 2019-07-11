@@ -306,7 +306,8 @@ html.web_chat_frame body {
 }
 
 /* Hide name in QuickAccess as generally does not fit */
-.friend.quickAccessFriend .playerNameQuickAccessContainer .playerName {
+.friend.quickAccessFriend .playerNameQuickAccessContainer
+{
   display: none !important;
 }
 
@@ -553,6 +554,10 @@ Remove default effect
   border: 2px solid red !important;
   border-radius: 100% !important;
   box-shadow: 0 0 10px 3px red !important;
+}
+
+.UnreadGlow {
+  display: none !important;
 }
 
 /* Group name count */
