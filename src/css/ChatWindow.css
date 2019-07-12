@@ -412,6 +412,7 @@ button.DialogButton:active:hover {
   padding-bottom: 2px !important;
   padding-right: 2px !important;
   margin-left: 0 !important;
+  width: auto !important;
 }
 
 .ChatTabsContextMenu .ChatUnreadMessageIndicator {

@@ -3,58 +3,36 @@
 /* --------------------------------------------------------------
 BORDER STATUS
 -------------------------------------------------------------- */
-.online .steamavatar_avatarStatus_1Pwr6 {
-  background: rgb(var(--online)) !important;
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
+
+/* === Hide Normal Status Block === */
+.steamavatar_avatarStatus_1Pwr6,
+.avatarStatus,
+.speakerStatus {
+  display: none !important;
 }
 
-.ingame .steamavatar_avatarStatus_1Pwr6 {
-  background: rgb(var(--ingame)) !important;
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
+/* Apply border to avatar to show status */
+.avatar,
+.friend.quickAccessFriend .avatarHolder .avatar {
+  border: 2px solid !important;
 }
 
-.ingame .X-Large .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
+/* === Status Colours === */
+.online .avatar {
+  border-color: rgb(var(--online)) !important;
 }
 
-.awayOrSnooze .steamavatar_avatarStatus_1Pwr6 {
+.ingame .avatar {
+  border-color: rgb(var(--ingame)) !important;
+}
+
+.awayOrSnooze .avatar {
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
 }
 
-.golden .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
-}
-
-.watchingbroadcast .steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
-}
-
-.offline .steamavatar_avatarStatus_1Pwr6 {
+.offline .avatar {
   background: rgb(var(--offline)) !important;
-  border-radius: 50px !important;
-  left: -1px !important;
-  top: -1px !important;
-  z-index: 1 !important;
 }
 
 /* Game playing status */
@@ -73,8 +51,14 @@ BORDER STATUS
   display: none !important;
 }
 
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends .groupName,
-.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends .groupName {
+.FriendsListContent
+  .friendlistListContainer
+  .friendGroup.onlineFriends
+  .groupName,
+.FriendsListContent
+  .friendlistListContainer
+  .friendGroup.offlineFriends
+  .groupName {
   color: rgb(var(--listtext)) !important;
 }
 
@@ -118,24 +102,7 @@ BORDER STATUS
   padding: 2px !important;
 }
 
-.ChatTabContent .avatarHolder .avatarStatus {
-  height: 43px !important;
-  width: 43px !important;
-  border-radius: 40px !important;
-  margin-top: -42px !important;
-  margin-left: -1px !important;
-}
-
-.compactView .ChatTabContent .avatarHolder .avatarStatus {
-  height: 34px !important;
-  width: 34px !important;
-  border-radius: 40px !important;
-  margin-top: -33px !important;
-  margin-left: -1px !important;
-}
-
 .friend .avatarHolder img.avatar {
-  border: 0 !important;
   box-shadow: none !important;
   border-radius: 40px !important;
   z-index: 1 !important;
@@ -162,39 +129,9 @@ BORDER STATUS
   z-index: 1 !important;
 }
 
-.ChatRoomSpeaker .speaker .speakerStatus,
-.ChatMsgSlashEmote .speaker .speakerStatus {
-  border-radius: 50% !important;
-  width: 24px !important;
-  height: 24px !important;
-  margin-top: -4px !important;
-  margin-left: -23px !important;
-}
-
-.friend.quickAccessFriend.friend.awayOrSnooze .avatarHolder .avatarStatus {
-  opacity: 1 !important;
-}
-
 .quickAccessFriends .friend.friend.awayOrSnooze .avatarHolder img {
   opacity: 1 !important;
   z-index: 1 !important;
-}
-
-/* QuickAccess avatar status  */
-.friend.quickAccessFriend .avatarHolder .avatarStatus {
-  border-radius: 40px !important;
-  margin-top: -49px !important;
-  margin-left: -1px !important;
-  height: 50px !important;
-  width: 50px !important;
-}
-
-.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus {
-  border-radius: 40px !important;
-  margin-top: -27px !important;
-  margin-left: -1px !important;
-  height: 28px !important;
-  width: 28px !important;
 }
 
 .compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatar {
@@ -226,22 +163,10 @@ BORDER STATUS
   background: transparent !important;
 }
 
-/* ConetextMenu avatar status  */
-.contextMenuContents.ChatTabs .ChatTabContent .avatarStatus {
-  width: 13px !important;
-  height: 13px !important;
-  margin-left: 12px !important;
-  margin-top: 18px !important;
-}
-
-.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus {
-  width: 13px !important;
-  height: 13px !important;
-  margin-left: 12px !important;
-  margin-top: 18px !important;
-}
-
-.contextMenuContents.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
+.contextMenuContents.ChatTabs.compactView
+  .ChatTabContent
+  .avatarHolder
+  .avatar {
   height: 41px !important;
 }
 
@@ -258,34 +183,6 @@ BORDER STATUS
 
 .speaker.away .speakerStatus {
   -webkit-mask: none !important;
-}
-
-.groupMemberList .friend .avatarHolder img.avatar {
-  margin-left: -2px !important;
-  margin-top: -2px !important;
-}
-
-.MemberListColumn.MemberListViewCompact .friend.ingame .avatarHolder .avatarStatus {
-  left: -11px !important;
-}
-
-/* removes Avatar status in settings */
-.voiceSelfHeader .friend .avatarHolder .avatarStatus {
-  display: none !important;
-}
-
-.friendlistListContainer .friend .avatarHolder .avatarStatus {
-  left: -1px !important;
-  top: -1px !important;
-  height: 36px !important;
-  width: 36px !important;
-}
-
-.CompactFriendsList .friend .avatarHolder .avatarStatus {
-  left: -1px !important;
-  top: -1px !important;
-  height: 26px !important;
-  width: 26px !important;
 }
 
 .CompactFriendsList .friend .avatarHolder img.avatar {
@@ -305,12 +202,26 @@ BORDER STATUS
   border-radius: 50px !important;
 }
 
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.online .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.online
+  .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
   background: rgb(var(--online)) !important;
   border-radius: 4px !important;
 }
 
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfilePlayer_3cN6K.in-game .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfilePlayer_3cN6K.in-game
+  .miniprofile_avatarStatus_23H45.miniprofile_miniProfileAvatarStatus_1VgK8 {
   background: rgb(var(--ingame)) !important;
   border-radius: 4px !important;
+}
+
+/* Move friend name away from avatar in chats */
+.ChatRoomSpeaker .speaker .speakerName {
+  margin-left: 8px !important;
+}
+
+/*  */
+.ChatTabsContextMenu .ChatTabContent .avatarHolder .avatar {
+  height: 32px !important;
 }
