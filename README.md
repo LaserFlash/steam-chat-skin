@@ -3,11 +3,11 @@
 ## Installation
 
 ### Prerequisite
-**Steam Friends Patcher:** https://github.com/PhantomGamers/SteamFriendsPatcher
+**Steam Friends Patcher:** [https://github.com/PhantomGamers/SteamFriendsPatcher]
 
 This is required to apply the theme to the Steam Friends UI. Setting the patcher to run in the background will automatically patch the UI whenever Valve releases a new update for the Friends UI.
 
-### Theme
+### Theme Installation
 
 #### Manual
 
