@@ -600,3 +600,8 @@ Remove default effect
 .friendGroup .groupName .groupCount {
   display: none !important;
 }
+
+/* Group label text colour */
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+  color: rgb(var(--text)) !important;
+}
