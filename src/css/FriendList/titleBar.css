@@ -72,7 +72,7 @@
 .restoreButton line,
 .restoreButton rect,
 .closeButton line {
-  stroke: rgb(var(--offline)) !important;
+  stroke: rgb(var(--text)) !important;
   stroke-width: 24px;
 }
 

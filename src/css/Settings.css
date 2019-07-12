@@ -24,10 +24,17 @@ SETTINGS PANEL
 /* Menus color */
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
-  color: #dfe3e6 !important;
+  color: rgb(var(--text)) !important;
   border: none !important;
   border-radius: 4px !important;
   box-shadow: none !important;
+}
+
+/* Text Colour */
+.DialogOnOffToggle_Control,
+.DialogHeader,
+.PagedSettingsDialog_PageListItem {
+  color: rgb(var(--text)) !important;
 }
 
 /* Shadow in Buttons */
