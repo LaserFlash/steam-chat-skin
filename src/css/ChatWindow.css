@@ -21,11 +21,16 @@ CHAT WINDOW
   margin-bottom: -4px !important;
   background: rgb(var(--header)) !important;
   height: 100% !important;
+  min-height: 0 !important;
 }
 
 .chatTab .ChatTabContent {
   padding: 0 !important;
   align-items: center !important;
+}
+
+.chatTab .friend {
+  height: auto !important;
 }
 
 /* Dragbar mouse curson */
@@ -115,7 +120,9 @@ button.DialogButton:active:hover {
   padding-top: 3px !important;
 }
 
-.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .SteamPlayerGroupFooter {
   height: 0 !important;
 }
 
@@ -344,7 +351,8 @@ button.DialogButton:active:hover {
   border-image: none !important;
 }
 
-.chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat {
+.chatRoomVoiceChannel.ActiveVoiceChannel
+  .VoiceControlPanelButton.chatEndVoiceChat {
   border-left: 0 !important;
   border-radius: 4px !important;
 }
@@ -353,7 +361,9 @@ button.DialogButton:active:hover {
   border-left: 0 !important;
 }
 
-.ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
+.ChatRoomListGroupItem
+  .chatRoomVoiceChannel.ActiveVoiceChannel
+  .chatRoomTextChannel {
   bottom: 1px !important;
   border-radius: 4px !important;
 }
@@ -382,49 +392,38 @@ button.DialogButton:active:hover {
 
 /* Style Chat Tab context menu - more firends drop down */
 
-/* Force dimensions of the friend avatar */
-.ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatar {
-  width: 30px !important;
-  height: 30px !important;
-}
-
-/* Force dimensions of the group chat */
-.ChatTabsContextMenu .chatTab .ChatTabContent .ChatRoomGroupAvatar {
-  width: 30px !important;
-  height: 30px !important;
-}
-
 /* Place avatar status circle */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatarStatus {
   padding: 0 !important;
   margin: 0 !important;
-  margin-top: 4px !important;
-  margin-left: 4px !important;
 }
 
 /* Hide the snooze icon (no room) */
-.ChatTabsContextMenu .chatTab .ChatTabContent .friendsnooze_SnoozeContainer_1OfTa {
+.ChatTabsContextMenu
+  .chatTab
+  .ChatTabContent
+  .friendsnooze_SnoozeContainer_1OfTa {
   display: none !important;
 }
 
 /* Place friend avatar against the left side (line up with group chat) */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
   padding-left: 0 !important;
+  padding-bottom: 2px !important;
+  padding-right: 2px !important;
   margin-left: 0 !important;
-}
-
-/* Move avatar name closer to icon */
-.ChatTabsContextMenu .chatTab .ChatTabContent .labelHolder {
-  margin-left: 14px !important;
-}
-
-/* Hide the snooze icon (no room) */
-.ChatTabsContextMenu .chatTab .ChatTabContent {
-  padding-bottom: 10px !important;
 }
 
 .ChatTabsContextMenu .ChatUnreadMessageIndicator {
   margin-left: 90% !important;
+}
+
+.ChatTabsContextMenu .chatTab {
+  margin: 3px !important;
+}
+
+.ChatTabs .labelHolder {
+  margin-top: 0px !important;
 }
 
 /* ========================================================================== */
