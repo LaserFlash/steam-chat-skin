@@ -345,9 +345,9 @@ button.DialogButton:active:hover {
 }
 
 .activeVoiceControls {
-  background: rgb(var(--friendlist)) !important;
-  border-top: 1px solid rgb(var(--friendlist)) !important;
-  border-bottom: 1px solid rgb(var(--friendlist)) !important;
+  background: rgb(var(--header)) !important;
+  border-top: 1px solid rgb(var(--header)) !important;
+  border-bottom: 1px solid rgb(var(--header)) !important;
   border-image: none !important;
 }
 
@@ -425,6 +425,31 @@ button.DialogButton:active:hover {
 
 .ChatTabs .labelHolder {
   margin-top: 0px !important;
+}
+
+/* === Fix Context Menu Avatar position === */
+.contextMenuContents.ChatTabs.compactView
+  .ChatTabContent
+  .avatarHolder
+  .avatar {
+  height: 42px !important;
+}
+
+.contextMenuContents.ChatTabs .ChatTabContent .avatarHolder {
+  height: 42px !important;
+}
+
+.ChatTabsContextMenu .ChatTabContent .avatarHolder .avatar {
+  height: 32px !important;
+}
+
+.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
+  width: 32px !important;
+}
+
+.ChatTabContent .avatarHolder {
+  height: auto !important;
+  padding: 2px !important;
 }
 
 /* ========================================================================== */
