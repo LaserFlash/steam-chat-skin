@@ -3,6 +3,7 @@
 ## Installation
 
 ### Prerequisite
+
 [**Steam Friends Patcher:**](https://github.com/PhantomGamers/SteamFriendsPatcher)
 
 This is required to apply the theme to the Steam Friends UI. Setting the patcher to run in the background will automatically patch the UI whenever Valve releases a new update for the Friends UI.
@@ -29,4 +30,4 @@ If on Windows running the installer script will automatically download and insta
 # Credits
 
 - [PhantomGamers](https://github.com/PhantomGamers) for their work on the patcher.
-- [Shiina♪](https://github.com/AikoMidori) for their original work on the skin. Avaliable [here](https://github.com/AikoMidori/steam-friends-skin) 
+- [Shiina♪](https://github.com/AikoMidori) for their original work on the skin. Avaliable [here](https://github.com/AikoMidori/steam-friends-skin)

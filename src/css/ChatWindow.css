@@ -424,7 +424,7 @@ button.DialogButton:active:hover {
 }
 
 .ChatTabs .labelHolder {
-  margin-top: 0px !important;
+  margin-top: 0 !important;
 }
 
 /* === Fix Context Menu Avatar position === */
