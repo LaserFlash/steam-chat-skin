@@ -1,0 +1,64 @@
+/* ===== DO NOT CHANGE THIS ===== */
+
+/* --------------------------------------------------------------
+DISCORD STATUS (DEFAULT)
+-------------------------------------------------------------- */
+.steamavatar_avatarStatus_1Pwr6 {
+  border-radius: 100% !important;
+}
+
+.online .avatarStatus,
+.speaker.online .speakerStatus {
+  background: rgb(var(--online)) !important;
+}
+
+.ingame .avatarStatus,
+.speaker.ingame .speakerStatus {
+  background: rgb(var(--ingame)) !important;
+}
+
+.awayOrSnooze .avatarStatus,
+.speaker.awayOrSnooze .speakerStatus {
+  background: rgb(var(--snooze)) !important;
+  -webkit-mask: none !important;
+}
+
+.offline .avatarStatus,
+.speaker.offline .speakerStatus {
+  background: rgb(var(--offline)) !important;
+}
+
+/* QuickAccess avatar status  */
+.friend.quickAccessFriend .avatarHolder .avatarStatus,
+.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus,
+.friendlistListContainer .friend .avatarHolder .avatarStatus,
+.CompactFriendsList .friend .avatarHolder .avatarStatus,
+.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus,
+.ChatTabContent .avatarHolder .avatarStatus,
+.steamavatar_avatarStatus_1Pwr6,
+.steamavatar_avatarStatus_1Pwr6.bottom {
+  height: 33% !important;
+  width: 33% !important;
+  border-radius: 40px !important;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
+  border: 1px solid rgb(var(--friendlist)) !important;
+  z-index: 4 !important;
+  position: absolute;
+  left: 65%;
+  top: 65%;
+  transform: none !important;
+}
+
+.ChatRoomSpeaker .speaker .speakerStatus,
+.ChatMsgSlashEmote .speaker .speakerStatus {
+  width: 10px !important;
+  border-radius: 50% !important;
+  height: 10px !important;
+  margin-top: 12px !important;
+  margin-left: -8px !important;
+  margin-right: 8px !important;
+  border: 2px !important;
+  border-style: solid !important;
+  border-color: rgb(var(--friendlist)) !important;
+}

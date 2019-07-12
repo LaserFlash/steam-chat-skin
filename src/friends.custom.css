@@ -1,0 +1,53 @@
+/* ========================================================================== */
+/* ========================== Skin Customisation ============================ */
+/* ========================================================================== */
+
+/* ============================= Avatar Shape =============================== */
+/* Select one of the following avatar shapes                                  */
+/* Uncomment the desired import line to select it                             */
+
+@import "css/avatarStyle/roundAvatar.css";
+/* @import "css/avatarStyle/squareAvatar.css";      */
+/* @import "css/avatarStyle/squircleAvatar.css";    */
+
+/* ========================== Avatar Status Style =========================== */
+/* Select one of the following avatar shapes                                  */
+/* Uncomment the desired import line to select it                             */
+
+@import "css/avatarStatus/discordStatus.css";
+/* @import "css/avatarStatus/outlineStatus.css";    */
+
+/* ============================= Theme Colour =============================== */
+/* Select one of the following colour sets                                    */
+/* Uncomment the desired import line to select it                             */
+
+@import "css/colourSet/darkMode.css";
+/* @import "css/colourSet/lightMode.css";    */
+
+/* ========================================================================== */
+/* ========================================================================== */
+/* =============================== CREDITS ================================== */
+/*                          === LaserFlash Fork ===                           */
+/* LaserFlash   -   https://github.com/LaserFlash/                            */
+/* Website      -   https://laserflash.tk/steam-friends-skin                  */
+/*                           =====================                            */
+/*                           === Original Work ===                            */
+/* SHIINA♪ - https://github.com/AikoMidori/                                                                    */
+/* K.A.Z ( CONTRIBUTOR )                                                      */
+/* DISCORD: https://discord.gg/UZvkvkh                                        */
+/*                           =====================                            */
+/* ========================================================================== */
+/* ========================================================================== */
+/* ========================================================================== */
+
+/* ========================================================================== */
+/* ========================= IMPORTANT DO NOT TOUCH ========================= */
+/* ========================================================================== */
+@import url(css/Friendlist.css);
+@import url(css/FriendList/titleBar.css);
+@import url(css/FriendList/currentUser.css);
+
+@import url(css/ChatWindow.css);
+@import url(css/Settings.css);
+@import url(css/Scrollbar.css);
+/* ========================================================================== */
