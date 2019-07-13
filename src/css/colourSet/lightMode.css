@@ -23,4 +23,11 @@
   --ingame: 130, 186, 0;
   --selfstatus: 0, 0, 0;
   --hoverstatus: 238, 238, 238, 0.5;
+  --activeButtonOn: 45, 115, 255;
+  --activeButtonOff: 46, 46, 47;
+}
+
+/* Visual Affect changes for a light theme */
+.friend.offline .avatarHolder img.avatar {
+  filter: brightness(100%) saturate(0%);
 }

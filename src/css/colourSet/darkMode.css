@@ -22,4 +22,8 @@
   --ingame: 130, 186, 0;
   --selfstatus: 93, 178, 254;
   --hoverstatus: 21, 21, 21, 0.5;
+
+  /* Buttons */
+  --activeButtonOn: 45, 115, 255;
+  --activeButtonOff: 46, 46, 47;
 }

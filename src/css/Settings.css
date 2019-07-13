@@ -37,12 +37,6 @@ SETTINGS PANEL
   color: rgb(var(--text)) !important;
 }
 
-/* Shadow in Buttons */
-button.DialogButton.Secondary.Off {
-  box-shadow: none !important;
-  border-radius: 4px !important;
-}
-
 /* Selected Button */
 button.DialogButton.Primary {
   border-radius: 4px !important;
@@ -63,19 +57,17 @@ button.DialogButton.Primary {
 .DialogCheckbox {
   box-shadow: none !important;
   border-radius: 4px !important;
+  background-color: rgb(var(--friendlist)) !important;
 }
 
 /* changes background color for buttons */
 .FriendsSettingsFlashSection_ButtonRow {
-  background-color: rgb(var(--header)) !important;
+  background-color: rgb(var(--friendlist)) !important;
   border-radius: 4px !important;
 }
 
-/* Adds a Background for buttons */
-.FriendsSettingsChatFontSizeSection_ButtonRow {
-  background-color: rgb(var(--header)) !important;
-  padding: 8px 8px !important;
-  border-radius: 4px !important;
+.FriendsSettingsChatFontSizeSection_ButtonRow button {
+  margin-left: 3px !important;
 }
 
 /* removes overlapping background on voice */
@@ -121,6 +113,7 @@ button.DialogButton::before {
 /* Advanced Button */
 .VoiceSettings .advancedSettingsButton {
   border-radius: 4px !important;
+  margin-left: 2px !important;
 }
 
 /* Advanced Expanded background */
@@ -164,7 +157,7 @@ button.DialogButton.copyVoiceLogsButton {
 /* CATEGORIZE */
 .DialogCheckbox_Container:hover .DialogCheckbox,
 .DialogCheckbox:hover:not(.Disabled) {
-  background-color: rgb(var(--header)) !important;
+  box-shadow: 0 0 0 2px rgb(var(--activeButtonOn)) !important;
 }
 
 /* CATAGORY MANAGE/CREATE */
@@ -194,7 +187,7 @@ button.DialogButton.copyVoiceLogsButton {
 /* Dialog OFF Button active */
 .DialogOnOffToggle_Option.Off.Active {
   border-radius: 20px !important;
-  background: #2e2e2f !important;
+  background: rgb(var(--activeButtonOff)) !important;
 }
 
 /* Dialog Button active */
@@ -202,7 +195,7 @@ button.DialogButton.copyVoiceLogsButton {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;
-  background: #2d73ff !important;
+  background: rgb(var(--activeButtonOn)) !important;
   border-radius: 20px !important;
 }
 
@@ -218,7 +211,7 @@ button.DialogButton.copyVoiceLogsButton {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;
-  background: #2e2e2f !important;
+  background: rgb(var(--activeButtonOff)) !important;
   border-radius: 20px !important;
 }
 
@@ -227,16 +220,63 @@ button.DialogButton.copyVoiceLogsButton {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;
-  background: #2d73ff !important;
+  background: rgb(var(--activeButtonOn)) !important;
   border-radius: 20px !important;
 }
 
 /* Slider grabber */
 .DialogSlider_Grabber {
-  background: #2e2e2f !important;
+  background: rgb(var(--header)) !important;
 }
 
 /* Slider value */
 .DialogSlider_Value {
-  background: #2d73ff !important;
+  background: rgb(var(--activeButtonOn)) !important;
+}
+
+/* Slider off section */
+.DialogSlider_Slider {
+  background: rgb(var(--activeButtonOff)) !important;
+}
+
+/* Drop Down Menu backgrounds */
+.DialogDropDownMenu._DialogInputContainer {
+  background-color: rgb(var(--header)) !important;
+  border: none !important;
+}
+
+.DialogDropDownMenu_Item:hover {
+  background-color: rgb(var(--friendlist)) !important;
+  border-radius: 4px !important;
+}
+
+/* Inner voice setup box */
+.voiceSelfDirections {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+/* Voice Transmission HotKey - properly align buttons */
+._DialogSection.pushToTalkSection .pushToKeyAssignContainer .DialogButton {
+  align-self: center !important;
+}
+
+/* dialog buttons background */
+button.DialogButton,
+button.DialogButton.Off {
+  background: rgb(var(--header)) !important;
+  border-radius: 4px !important;
+}
+
+.DialogButton line {
+  stroke: rgb(var(--icon));
+}
+
+button.DialogButton.Primary {
+  background: rgb(var(--activeButtonOn)) !important;
+}
+
+/* hover selected buttons */
+button.DialogButton:hover {
+  box-shadow: 0 0 0 2px rgb(var(--activeButtonOn)) !important;
+  border-radius: 4px !important;
 }
