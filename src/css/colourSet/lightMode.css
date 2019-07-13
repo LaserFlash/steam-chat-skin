@@ -10,7 +10,10 @@
   --header: 238, 238, 238;
   --friendlist: 215, 215, 215;
   --footer: 238, 238, 238;
-  --scrollbar: 238, 238, 238;
+
+  --scrollbar: 189, 189, 189;
+  --scrollbarHover: 141, 141, 141;
+
   --unreadmessage: 0, 255, 0;
   --text: 0, 0, 0;
   --listtext: 0, 0, 0;
