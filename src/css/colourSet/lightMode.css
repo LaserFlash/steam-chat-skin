@@ -34,3 +34,14 @@
 .friend.offline .avatarHolder img.avatar {
   filter: brightness(100%) saturate(0%);
 }
+
+.activeVoiceButtons line,
+.activeVoiceButtons path,
+.activeVoiceButtons polyline,
+.activeVoiceControls line,
+.activeVoiceControls path,
+.activeVoiceControls polyline,
+.chatRoomTextChannel line,
+.chatRoomTextChannel path {
+  stroke: rgb(var(--icon)) !important;
+}

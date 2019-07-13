@@ -616,3 +616,7 @@ Remove default effect
 .friendStatusHover.Friend_ContextMenuActive {
   background-color: rgb(var(--header)) !important;
 }
+
+.ChatRoomListGroupItemChatRooms {
+  margin-left: 0px;
+}

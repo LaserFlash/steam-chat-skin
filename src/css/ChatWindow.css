@@ -55,7 +55,12 @@ CHAT WINDOW
 }
 
 .displayColumn {
-  background-color: rgb(var(--header)) !important;
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+.MemberListColumn,
+.chatRoomGroupNavColumn {
+  background-color: rgb(var(--friendlist)) !important;
 }
 
 /* boxes settings */
@@ -99,8 +104,8 @@ CHAT WINDOW
 
 /* emoticon picker hover in chat */
 .emoticon_hover_content {
-  background-color: #2e2e2f !important;
-  border: 1px solid #2e2e2f !important;
+  background-color: rgb(var(--friendlist)) !important;
+  border: 2px solid rgb(var(--header)) !important;
   border-radius: 4px !important;
 }
 
@@ -224,6 +229,19 @@ CHAT WINDOW
   right: 7px !important;
   margin-top: -2px !important;
   max-height: 40px !important;
+}
+
+.activeVoiceButtons .SVGIcon_Shadow {
+  display: none !important;
+}
+
+.chatentry_chatSubmitButton_3VRfL circle,
+.chatentry_chatSubmitButton_3VRfL path,
+.chatentry_chatSubmitButton_3VRfL line,
+.VoiceToggleIconCtn path,
+.VoiceToggleIconCtn polyline,
+.ToggleMemberListView polyline {
+  stroke: rgb(var(--icon)) !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
@@ -424,4 +442,26 @@ CHAT WINDOW
 /* Full brightness of active avatar even if offline */
 .active .friend.offline .avatarHolder img.avatar {
   filter: none !important;
+}
+
+/* Group active text channel */
+.ActiveTextChannel {
+  background-color: rgb(var(--header)) !important;
+  border-radius: 2px !important;
+  margin-left: 4px !important;
+}
+
+.chatRoomGroupNavColumn line,
+.chatRoomGroupNavColumn path,
+.chatRoomGroupNavColumn polyline,
+.chatRoomGroupNavColumn circle {
+  stroke: rgb(var(--icon)) !important;
+}
+
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+  background-color: rgb(var(--header)) !important;
+}
+
+.chatRoomVoiceChannel:hover {
+  background-color: rgb(var(--header)) !important;
 }
