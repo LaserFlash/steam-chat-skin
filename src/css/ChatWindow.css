@@ -54,7 +54,7 @@ CHAT WINDOW
   display: none !important;
 }
 
-.displayColumn {
+.ChatHistoryContainer {
   background-color: rgb(var(--friendlist)) !important;
 }
 
