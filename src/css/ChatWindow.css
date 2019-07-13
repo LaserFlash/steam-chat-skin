@@ -159,7 +159,7 @@ CHAT WINDOW
 }
 
 .chatWindow .chatEntry {
-  background-color: rgb(var(--scrollbar)) !important;
+  background-color: rgb(var(--header)) !important;
   height: auto !important;
 }
 
@@ -178,7 +178,7 @@ CHAT WINDOW
 
 .chatentry_chatEntryControls_2O_X7 {
   border-radius: 4px !important;
-  background-color: rgb(var(--header)) !important;
+  background-color: rgb(var(--friendlist)) !important;
   box-shadow: none !important;
 }
 
