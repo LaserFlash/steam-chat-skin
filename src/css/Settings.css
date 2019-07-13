@@ -178,6 +178,10 @@ button.DialogButton.copyVoiceLogsButton {
   border-radius: 4px !important;
 }
 
+.FriendPicker_SuggestedFriend.Focus {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
 /* Dialog ON - OFF Button background */
 .DialogOnOffToggle_Control {
   background: transparent !important;
@@ -279,4 +283,9 @@ button.DialogButton.Primary {
 button.DialogButton:hover {
   box-shadow: 0 0 0 2px rgb(var(--activeButtonOn)) !important;
   border-radius: 4px !important;
+}
+
+.DialogTextInputBase,
+._DialogInputContainer {
+  background-color: rgb(var(--header)) !important;
 }
