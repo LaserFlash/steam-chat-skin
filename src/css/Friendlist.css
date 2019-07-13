@@ -52,12 +52,14 @@ FRIENDLIST
 }
 
 /* color for ingame status */
-.ingame .personanameandstatus_playerName_1uxaf {
+.ingame .personanameandstatus_playerName_1uxaf,
+.ingame .personanameandstatus_gameName_qvibF {
   color: rgb(var(--ingame)) !important;
 }
 
 /* color for online status */
-.online .personanameandstatus_playerName_1uxaf {
+.online .personanameandstatus_playerName_1uxaf,
+.online .personanameandstatus_gameName_qvibF {
   color: rgb(var(--online)) !important;
 }
 
@@ -293,6 +295,10 @@ html.web_chat_frame body {
   width: 14px !important;
   height: 14px !important;
   margin: auto !important;
+}
+
+.friendSearchClear .SVGIcon_X_Line line {
+  stroke: rgb(var(--icon)) !important;
 }
 
 /* Friend Searchbar Background */
@@ -604,4 +610,13 @@ Remove default effect
 /* Group label text colour */
 .ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
   color: rgb(var(--text)) !important;
+}
+
+.friendStatusHover:hover,
+.friendStatusHover.Friend_ContextMenuActive {
+  background-color: rgb(var(--header)) !important;
+}
+
+.ChatRoomListGroupItemChatRooms {
+  margin-left: 0px;
 }

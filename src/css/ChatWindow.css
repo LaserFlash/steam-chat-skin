@@ -54,25 +54,13 @@ CHAT WINDOW
   display: none !important;
 }
 
-/* dialog buttons background */
-button.DialogButton,
-.DialogOnOffToggle_Option:hover:not(.Active) {
-  background: #4c4c4c;
+.ChatHistoryContainer {
+  background-color: rgb(var(--friendlist)) !important;
 }
 
-.DialogOnOffToggle_Control {
-  background: #343434 !important;
-}
-
-/* hover selected buttons */
-button.DialogButton.Primary:hover {
-  background: rgb(81, 23, 189) !important;
-  border-radius: 4px !important;
-}
-
-button.DialogButton:hover {
-  background: #252424 !important;
-  border-radius: 4px !important;
+.MemberListColumn,
+.chatRoomGroupNavColumn {
+  background-color: rgb(var(--friendlist)) !important;
 }
 
 /* boxes settings */
@@ -81,23 +69,7 @@ button.DialogButton:hover {
   background: #262626 !important;
 }
 
-.DialogDropDownMenu._DialogInputContainer {
-  border: none !important;
-  background: #262626 !important;
-}
-
-/* box hover inside */
-.DialogDropDownMenu_Item:hover {
-  background: #383838 !important;
-  border-radius: 4px !important;
-}
-
 /* more stuff */
-button.DialogButton:active,
-button.DialogButton:active:hover {
-  background: #272727 !important;
-  border-radius: 4px !important;
-}
 
 .chatTabSelector {
   background: transparent !important;
@@ -109,7 +81,7 @@ button.DialogButton:active:hover {
 }
 
 .chatTabSelector:hover {
-  background: #2e2e2f !important;
+  background: rgb(var(--friendlist)) !important;
   border-radius: 25px !important;
 }
 
@@ -132,8 +104,8 @@ button.DialogButton:active:hover {
 
 /* emoticon picker hover in chat */
 .emoticon_hover_content {
-  background-color: #2e2e2f !important;
-  border: 1px solid #2e2e2f !important;
+  background-color: rgb(var(--friendlist)) !important;
+  border: 2px solid rgb(var(--header)) !important;
   border-radius: 4px !important;
 }
 
@@ -192,7 +164,7 @@ button.DialogButton:active:hover {
 }
 
 .chatWindow .chatEntry {
-  background-color: rgb(var(--scrollbar)) !important;
+  background-color: rgb(var(--header)) !important;
   height: auto !important;
 }
 
@@ -211,7 +183,7 @@ button.DialogButton:active:hover {
 
 .chatentry_chatEntryControls_2O_X7 {
   border-radius: 4px !important;
-  background-color: rgb(var(--header)) !important;
+  background-color: rgb(var(--friendlist)) !important;
   box-shadow: none !important;
 }
 
@@ -257,6 +229,19 @@ button.DialogButton:active:hover {
   right: 7px !important;
   margin-top: -2px !important;
   max-height: 40px !important;
+}
+
+.activeVoiceButtons .SVGIcon_Shadow {
+  display: none !important;
+}
+
+.chatentry_chatSubmitButton_3VRfL circle,
+.chatentry_chatSubmitButton_3VRfL path,
+.chatentry_chatSubmitButton_3VRfL line,
+.VoiceToggleIconCtn path,
+.VoiceToggleIconCtn polyline,
+.ToggleMemberListView polyline {
+  stroke: rgb(var(--icon)) !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
@@ -311,7 +296,7 @@ button.DialogButton:active:hover {
 }
 
 .chatTabList .chatTab:not(.active) {
-  background: #191919 !important;
+  background: rgb(var(--header)) !important;
 }
 
 .chatRoomGroupHeader {
@@ -457,4 +442,26 @@ button.DialogButton:active:hover {
 /* Full brightness of active avatar even if offline */
 .active .friend.offline .avatarHolder img.avatar {
   filter: none !important;
+}
+
+/* Group active text channel */
+.ActiveTextChannel {
+  background-color: rgb(var(--header)) !important;
+  border-radius: 2px !important;
+  margin-left: 4px !important;
+}
+
+.chatRoomGroupNavColumn line,
+.chatRoomGroupNavColumn path,
+.chatRoomGroupNavColumn polyline,
+.chatRoomGroupNavColumn circle {
+  stroke: rgb(var(--icon)) !important;
+}
+
+.chatRoomVoiceChannel.ActiveVoiceChannel {
+  background-color: rgb(var(--header)) !important;
+}
+
+.chatRoomVoiceChannel:hover {
+  background-color: rgb(var(--header)) !important;
 }
