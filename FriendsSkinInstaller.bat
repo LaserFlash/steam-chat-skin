@@ -40,7 +40,7 @@ set /p choice= Your choice:
 if %choice%==1 call:update goto:start
 if %choice%==2 call:copy goto:start
 if %choice%==3 call:edit goto:start
-if %choice%==4 call:eof goto:start
+if %choice%==4 goto:eof
 echo Invalid selection, please try again.
 goto:start
 
