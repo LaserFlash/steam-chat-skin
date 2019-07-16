@@ -25,12 +25,18 @@ If on Windows running the installer script will automatically download and insta
 
 ## Customisation
 
-[`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-friends-skin/master/src/friends.custom.css) can be can to apply different styles to the theme. Read the instructions in that file for more information.
+[`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-friends-skin/master/src/friends.custom.css) can be customised to apply different styles to the theme. Read the instructions in that file for more information.
 
+### Options:
+#### Theme Colour:
 - Dark Theme 
 - Light Theme
-- Discord status
-- Border status
+
+#### Status Styles:
+- Discord status or dot status
+- Border status (outline around the avatar)
+
+#### Avatar Styles:
 - Round Avatar
 - Square Avatar
 - Squircle Avatar
