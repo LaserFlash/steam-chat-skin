@@ -22,14 +22,13 @@
 .online .avatar {
   border-color: rgb(var(--online)) !important;
 }
-
-.ingame .avatar {
-  border-color: rgb(var(--ingame)) !important;
-}
-
 .awayOrSnooze .avatar {
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
+}
+
+.ingame .avatar {
+  border-color: rgb(var(--ingame)) !important;
 }
 
 .offline .avatar {

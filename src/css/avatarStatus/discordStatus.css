@@ -12,15 +12,16 @@ DISCORD STATUS (DEFAULT)
   background: rgb(var(--online)) !important;
 }
 
-.ingame .avatarStatus,
-.speaker.ingame .speakerStatus {
-  background: rgb(var(--ingame)) !important;
-}
 
 .awayOrSnooze .avatarStatus,
 .speaker.awayOrSnooze .speakerStatus {
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
+}
+
+.ingame .avatarStatus,
+.speaker.ingame .speakerStatus {
+  background: rgb(var(--ingame)) !important;
 }
 
 .offline .avatarStatus,
