@@ -6,23 +6,23 @@
 /* Select one of the following avatar shapes                                  */
 /* Uncomment the desired import line to select it                             */
 
-@import "css/avatarStyle/roundAvatar.css";
-/* @import "css/avatarStyle/squareAvatar.css";      */
-/* @import "css/avatarStyle/squircleAvatar.css";    */
+@import url(https://laserflash.tk/steam-friends-skin/src/css/avatarStyle/roundAvatar.css);
+/* @import url(https://laserflash.tk/steam-friends-skin/src/css/avatarStyle/squareAvatar.css);      */
+/* @import url(https://laserflash.tk/steam-friends-skin/src/css/avatarStyle/squircleAvatar.css);    */
 
 /* ========================== Avatar Status Style =========================== */
 /* Select one of the following avatar shapes                                  */
 /* Uncomment the desired import line to select it                             */
 
-@import "css/avatarStatus/discordStatus.css";
-/* @import "css/avatarStatus/outlineStatus.css";    */
+@import url(https://laserflash.tk/steam-friends-skin/src/css/avatarStatus/discordStatus.css);
+/* @import url(https://laserflash.tk/steam-friends-skin/src/css/avatarStatus/outlineStatus.css);    */
 
 /* ============================= Theme Colour =============================== */
 /* Select one of the following colour sets                                    */
 /* Uncomment the desired import line to select it                             */
 
-@import "css/colourSet/darkMode.css";
-/* @import "css/colourSet/lightMode.css";    */
+@import url(https://laserflash.tk/steam-friends-skin/src/css/colourSet/darkMode.css);
+/* @import url(https://laserflash.tk/steam-friends-skin/src/css/colourSet/lightMode.css);    */
 
 /* ========================================================================== */
 /* ========================================================================== */
@@ -43,11 +43,11 @@
 /* ========================================================================== */
 /* ========================= IMPORTANT DO NOT TOUCH ========================= */
 /* ========================================================================== */
-@import url(css/Friendlist.css);
-@import url(css/FriendList/titleBar.css);
-@import url(css/FriendList/currentUser.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/Friendlist.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/FriendList/titleBar.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/FriendList/currentUser.css);
 
-@import url(css/ChatWindow.css);
-@import url(css/Settings.css);
-@import url(css/Scrollbar.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/ChatWindow.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/Settings.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/Scrollbar.css);
 /* ========================================================================== */

@@ -27,6 +27,14 @@ If on Windows running the installer script will automatically download and insta
 
 [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-friends-skin/master/src/friends.custom.css) can be can to apply different styles to the theme. Read the instructions in that file for more information.
 
+- Dark Theme 
+- Light Theme
+- Discord status
+- Border status
+- Round Avatar
+- Square Avatar
+- Squircle Avatar
+
 # Credits
 
 - [PhantomGamers](https://github.com/PhantomGamers) for their work on the patcher.
