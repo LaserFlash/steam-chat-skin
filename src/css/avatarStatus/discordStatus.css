@@ -12,7 +12,6 @@ DISCORD STATUS (DEFAULT)
   background: rgb(var(--online)) !important;
 }
 
-
 .awayOrSnooze .avatarStatus,
 .speaker.awayOrSnooze .speakerStatus {
   background: rgb(var(--snooze)) !important;

@@ -22,6 +22,7 @@
 .online .avatar {
   border-color: rgb(var(--online)) !important;
 }
+
 .awayOrSnooze .avatar {
   background: rgb(var(--snooze)) !important;
   -webkit-mask: none !important;
