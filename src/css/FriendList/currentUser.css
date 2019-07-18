@@ -25,3 +25,31 @@
 
   /* 1/0 to turn on/off */
 }
+
+/* ============================== DnD alignment ============================== */
+
+/* Reverse order: Label -> check Box */
+.DNDCheckBox {
+  flex-direction: row-reverse !important;
+}
+
+/* Align Label left in the menu */
+.DNDCheckBox .DialogToggle_Label {
+  width: 100% !important;
+}
+
+/* Line up descriptor */
+.persona_menu_dnd_descriptor {
+  padding-left: 0 !important;
+}
+
+/* Ensure area is normal size */
+.DialogCheckbox_Container.DNDCheckBox {
+  margin-top: 0 !important;
+}
+
+/* Vertically centre checkBox */
+.DNDCheckBox .DialogCheckbox {
+  position: absolute !important;
+  top: calc(50% - 8px) !important;
+}
