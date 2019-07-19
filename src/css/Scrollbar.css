@@ -32,7 +32,8 @@ SCROLLBAR
 
 .chatRoomListContainer:hover::-webkit-scrollbar-thumb,
 .friendlistListContainer:hover::-webkit-scrollbar-thumb,
-.DialogBody:hover::-webkit-scrollbar-thumb {
+.DialogBody:hover::-webkit-scrollbar-thumb,
+.FriendPicker_Suggestions_List:hover::-webkit-scrollbar-thumb {
   background-color: rgb(var(--scrollbar));
   border-radius: 20px !important;
 }

@@ -114,6 +114,7 @@ button.DialogButton::before {
 .VoiceSettings .advancedSettingsButton {
   border-radius: 4px !important;
   margin-left: 2px !important;
+  width: calc(100% - 4px) !important;
 }
 
 /* Advanced Expanded background */
@@ -277,6 +278,7 @@ button.DialogButton.Off {
 
 button.DialogButton.Primary {
   background: rgb(var(--activeButtonOn)) !important;
+  color: rgb(var(--text)) !important;
 }
 
 /* hover selected buttons */
@@ -288,4 +290,16 @@ button.DialogButton:hover {
 .DialogTextInputBase,
 ._DialogInputContainer {
   background-color: rgb(var(--header)) !important;
+}
+
+.CreateChatDialog .DialogBody {
+  padding-right: 0 !important;
+}
+.CreateChatDialog ._DialogColLayout {
+  margin-left: 2px;
+  width: calc(100% - 4px);
+}
+
+.VoiceSettings .advancedSettings {
+  margin: 2px !important;
 }
