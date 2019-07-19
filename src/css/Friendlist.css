@@ -321,6 +321,11 @@ html.web_chat_frame body {
   height: auto !important;
 }
 
+/* remove opacity on hover */
+.quickAccessFriends .favoriteElement:hover .awayOrSnooze img {
+  opacity: 1 !important;
+}
+
 /* ========================================================================== */
 
 /** Group BUTTON CSS **/
