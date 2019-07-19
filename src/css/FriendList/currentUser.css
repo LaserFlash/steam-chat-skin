@@ -53,3 +53,8 @@
   position: absolute !important;
   top: calc(50% - 8px) !important;
 }
+
+/* Active status item in Current User Context menu */
+.contextMenuItem.menuChecked {
+  color: rgb(var(--activeButtonOn)) !important;
+}
