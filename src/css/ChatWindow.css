@@ -465,3 +465,22 @@ CHAT WINDOW
 .chatRoomVoiceChannel:hover {
   background-color: rgb(var(--header)) !important;
 }
+
+/* ========================================================================== */
+/*                              Chat Name Colours                             */
+
+.messages_SpeakerName_InGame_1vaKy {
+  color: rgb(var(--ingame)) !important;
+}
+
+.messages_SpeakerName_Online_2nKVN {
+  color: rgb(var(--online)) !important;
+}
+
+.messages_SpeakerName_Default_1Qo8j {
+  color: rgb(var(--offline)) !important;
+}
+
+.msgText {
+  color: rgb(var(--text)) !important;
+}
