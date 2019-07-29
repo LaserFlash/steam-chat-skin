@@ -19,8 +19,7 @@
     "*.css": [
       "npm run lint:fix",
       "npm run pretty",
-      "git add",
-      "npm run lint"
+      "git add"
     ]
   },
   "devDependencies": {
