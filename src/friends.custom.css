@@ -21,7 +21,8 @@
 /* Select one of the following colour sets                                    */
 /* Uncomment the desired import line to select it                             */
 
-@import url(https://laserflash.tk/steam-friends-skin/src/css/colourSet/darkMode.css);
+@import url(https://laserflash.tk/steam-friends-skin/src/css/colourSet/discordColours.css);
+/* @import url(https://laserflash.tk/steam-friends-skin/src/css/colourSet/darkMode.css);    */
 /* @import url(https://laserflash.tk/steam-friends-skin/src/css/colourSet/lightMode.css);    */
 
 /* ========================================================================== */
