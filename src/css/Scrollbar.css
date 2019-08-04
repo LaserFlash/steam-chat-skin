@@ -6,8 +6,8 @@ SCROLLBAR
 
 /* makes scrollbar wider & not highlighted by default */
 ::-webkit-scrollbar {
-  height: 12px;
-  width: 14px;
+  height: 10px;
+  width: 10px;
   background: transparent;
   overflow: visible;
 }
@@ -28,6 +28,7 @@ SCROLLBAR
   min-height: 32px;
   min-width: 32px;
   background-color: transparent;
+  border-width: 2px;
 }
 
 .chatRoomListContainer:hover::-webkit-scrollbar-thumb,
