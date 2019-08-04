@@ -96,19 +96,25 @@ FRIENDLIST
   fill: rgb(var(--icon)) !important;
 }
 
-/* icon add friend circle */
-.addFriendButton .SVGIcon_AddFriend .plusCircle {
-  fill: rgb(var(--icon)) !important;
-}
-
 /* all other icons colors */
 .friendRequestButton .SVGIcon_FriendRequest .friendBodyFull,
 .friendRequestButton .SVGIcon_FriendRequest .friendHead,
 .friendRequestButton .SVGIcon_FriendRequest .friendArm,
 .friendRequestButton .SVGIcon_FriendRequest .friendBody,
 .addFriendButton .SVGIcon_AddFriend .friendHead,
-.addFriendButton .SVGIcon_AddFriend .friendBody {
+.addFriendButton .SVGIcon_AddFriend .friendBody,
+.addFriendButton .SVGIcon_AddFriend .plusCircle {
   fill: rgb(var(--icon)) !important;
+}
+
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendHead,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBody,
+.addFriendButton:hover .SVGIcon_AddFriend .friendHead,
+.addFriendButton:hover .SVGIcon_AddFriend .friendBody,
+.addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
+  fill: rgb(var(--iconhover)) !important;
 }
 
 .recentChatsGroup .friendGroup .groupName,
@@ -183,12 +189,20 @@ FRIENDLIST
 
 /* icon button color */
 .SVGIcon_Button {
-  fill: rgb(var(--caption)) !important;
+  fill: rgb(var(--icon)) !important;
+}
+
+.SVGIcon_Button:hover {
+  fill: rgb(var(--iconhover)) !important;
 }
 
 /* icon settings color */
 .friendSettingsButton .SVGIcon_Settings {
   fill: rgb(var(--icon)) !important;
+}
+
+.friendSettingsButton .SVGIcon_Settings:hover {
+  fill: rgb(var(--iconhover)) !important;
 }
 
 /* position modal topbar */
@@ -393,6 +407,12 @@ html.web_chat_frame body {
 .CompactFriendsList .friend,
 .CompactFriendsList .friendGroup .friend {
   height: 30px !important;
+}
+
+.friendGroup .friend {
+  margin-left: 8px;
+  padding-left: 4px;
+  border-radius: 4px;
 }
 
 /* Compact game name spacing */
@@ -641,6 +661,6 @@ Remove default effect
   margin-left: 0;
 }
 
-.playerNickname {
-  color: rgb(var(--caption)) !important;
+.personanameandstatus_playerNickname_3-32P {
+  color: rgb(var(--nickname)) !important;
 }
