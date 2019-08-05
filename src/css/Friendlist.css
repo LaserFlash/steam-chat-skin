@@ -242,6 +242,7 @@ html.web_chat_frame body {
 .friendlistListContainer {
   min-height: 0 !important;
   background: rgb(var(--friendlist)) !important;
+  padding-top: 4px;
 }
 
 /* confirm friend request button */
@@ -576,8 +577,16 @@ html.web_chat_frame body {
   min-height: 50px !important;
 }
 
-.gameGroup:not(.OtherGamesGroup):not(.NonSteamGamesGroup) .gameGroupContainer {
-  margin-right: -10px !important;
+.gameGroupContainer {
+  margin-right: 0 !important;
+}
+
+.gameGroup {
+  -webkit-mask: linear-gradient(
+    to right,
+    black calc(100% - 6px),
+    rgba(0, 0, 0, 0.15) 100%
+  ) !important;
 }
 
 /* Group name in friendlist */
