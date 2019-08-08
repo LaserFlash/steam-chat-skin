@@ -93,7 +93,6 @@ DISCORD STATUS (DEFAULT)
 .awayOrSnooze .speakerStatus {
   background-image: url(https://laserflash.tk/steam-friends-skin/src/css/avatarStatus/half-moon.svg) !important;
   -webkit-mask: none !important;
-  transform: rotate(-90deg);
 }
 
 .friendCategoryContainer .awayOrSnooze .avatarStatus,
