@@ -24,7 +24,7 @@
 }
 
 .awayOrSnooze .avatar {
-  background: rgb(var(--snooze)) !important;
+  background: rgb(var(--away)) !important;
   -webkit-mask: none !important;
 }
 

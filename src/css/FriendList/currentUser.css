@@ -45,12 +45,12 @@
 }
 
 .awayOrSnooze .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--snooze));
+  stop-color: rgb(var(--away));
   stop-opacity: 0.6;
 }
 
 .awayOrSnooze .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--snooze));
+  stop-color: rgb(var(--away));
 }
 
 .offline .statusHeaderGlow stop:first-child {
