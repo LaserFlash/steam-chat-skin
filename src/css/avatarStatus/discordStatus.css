@@ -75,12 +75,12 @@ DISCORD STATUS (DEFAULT)
 }
 
 .online:not(.awayOrSnooze) .avatarStatus,
-.online:not(.awayOrSnooze) .speakerStatus {
+.online:not(.away) .speakerStatus {
   background: rgb(var(--online)) !important;
 }
 
 .ingame:not(.awayOrSnooze) .avatarStatus,
-.ingame:not(.awayOrSnooze) .speakerStatus {
+.ingame:not(.away) .speakerStatus {
   background: rgb(var(--ingame)) !important;
 }
 
@@ -90,14 +90,16 @@ DISCORD STATUS (DEFAULT)
 }
 
 .awayOrSnooze .avatarStatus,
-.awayOrSnooze .speakerStatus {
+.away .speakerStatus {
   background-image: url(https://laserflash.tk/steam-friends-skin/src/css/avatarStatus/half-moon.svg) !important;
   -webkit-mask: none !important;
 }
 
 .friendCategoryContainer .awayOrSnooze .avatarStatus,
 .ChatTabContent .awayOrSnooze .avatarStatus,
-.FriendPicker .awayOrSnooze:hover .avatarStatus {
+.FriendPicker .awayOrSnooze:hover .avatarStatus,
+.away .speakerStatus,
+.MemberListColumn .avatarStatus {
   background-color: rgb(var(--friendlist)) !important;
 }
 
