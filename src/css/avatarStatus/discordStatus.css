@@ -3,68 +3,50 @@
 /* --------------------------------------------------------------
 DISCORD STATUS (DEFAULT)
 -------------------------------------------------------------- */
-.steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 100% !important;
-}
-
-.online .avatarStatus,
-.speaker.online .speakerStatus {
-  background: rgb(var(--online)) !important;
-}
-
-.awayOrSnooze .avatarStatus,
-.speaker.awayOrSnooze .speakerStatus {
-  background: rgb(var(--snooze)) !important;
-  -webkit-mask: none !important;
-}
-
-.ingame .avatarStatus,
-.speaker.ingame .speakerStatus {
-  background: rgb(var(--ingame)) !important;
-}
-
-.offline .avatarStatus,
-.speaker.offline .speakerStatus {
-  background: rgb(var(--offline)) !important;
-}
 
 /* QuickAccess avatar status  */
-.friend.quickAccessFriend .avatarHolder .avatarStatus,
-.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus,
-.friendlistListContainer .friend .avatarHolder .avatarStatus,
-.CompactFriendsList .friend .avatarHolder .avatarStatus,
-.contextMenuContents.ChatTabs.CompactFriendsList .ChatTabContent .avatarStatus,
-.ChatTabContent .avatarHolder .avatarStatus,
-.steamavatar_avatarStatus_1Pwr6 {
+.avatarStatus {
   height: 33% !important;
   width: 33% !important;
   border-radius: 50% !important;
   margin-top: 0 !important;
   margin-left: 0 !important;
   box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
+  background: rgb(var(--friendlist));
   z-index: 4 !important;
   position: absolute;
   top: auto !important;
   left: auto !important;
   bottom: 0 !important;
   right: 0 !important;
-  transform: none !important;
+  opacity: 1 !important;
 }
 
-.compactQuickAccess .friend.quickAccessFriend .avatarHolder .avatarStatus,
-.friend.quickAccessFriend .avatarHolder .avatarStatus,
-.steamavatar_avatarStatus_1Pwr6 {
+.friendCategoryContainer .friendStatusHover:hover .avatarStatus {
   box-shadow: 0 0 0 4px rgb(var(--header)) !important;
 }
 
-.ChatRoomSpeaker .speaker .speakerStatus,
-.ChatMsgSlashEmote .speaker .speakerStatus {
+.quickAccessFriends .avatarStatus,
+.miniProfileHover .avatarStatus {
+  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
+  background: rgb(var(--header));
+}
+
+.FriendPicker .friend:not(:hover) .avatarStatus,
+.chatTab:not(.active) .avatarStatus,
+.ChatTabsContextMenu .contextMenuItem:not(:hover) .avatarStatus {
+  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
+  background-color: rgb(var(--header));
+}
+
+.speaker .speakerStatus {
   width: 8px !important;
   height: 8px !important;
   border-radius: 50% !important;
   margin-top: 10px !important;
   margin-left: -8px !important;
   box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
+  background: rgb(var(--friendlist));
 }
 
 /* QuickAcces Game Icon */
@@ -78,7 +60,6 @@ DISCORD STATUS (DEFAULT)
   top: auto !important;
   left: 0 !important;
   bottom: 0 !important;
-  transform: none !important;
 }
 
 .FavoriteFriend_GameIcon img {
@@ -87,4 +68,52 @@ DISCORD STATUS (DEFAULT)
 
 .compactQuickAccess .FavoriteFriend_GameIcon {
   display: none !important;
+}
+
+.steamavatar_avatarStatus_1Pwr6 {
+  border-radius: 100% !important;
+}
+
+.online:not(.awayOrSnooze) .avatarStatus,
+.online:not(.awayOrSnooze) .speakerStatus {
+  background: rgb(var(--online)) !important;
+}
+
+.ingame:not(.awayOrSnooze) .avatarStatus,
+.ingame:not(.awayOrSnooze) .speakerStatus {
+  background: rgb(var(--ingame)) !important;
+}
+
+.offline .avatarStatus,
+.offline .speakerStatus {
+  background: rgb(var(--offline)) !important;
+}
+
+.awayOrSnooze .avatarStatus,
+.awayOrSnooze .speakerStatus {
+  background-image: url(https://laserflash.tk/steam-friends-skin/src/css/avatarStatus/half-moon.svg) !important;
+  -webkit-mask: none !important;
+  transform: rotate(-90deg);
+}
+
+.friendCategoryContainer .awayOrSnooze .avatarStatus,
+.ChatTabContent .awayOrSnooze .avatarStatus,
+.FriendPicker .awayOrSnooze:hover .avatarStatus {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+.friendCategoryContainer .awayOrSnooze:hover .avatarStatus,
+.ChatTabsContextMenu .contextMenuItem:not(:hover) .awayOrSnooze .avatarStatus,
+.chatTab:not(.active) .avatarStatus {
+  background-color: rgb(var(--header)) !important;
+}
+
+.friendsnooze_SnoozeZ_29fyi {
+  color: rgb(var(--snooze)) !important;
+}
+
+/* color for online status */
+.awayOrSnooze .personanameandstatus_playerName_1uxaf,
+.awayOrSnooze .personanameandstatus_gameName_qvibF {
+  color: rgb(var(--snooze)) !important;
 }

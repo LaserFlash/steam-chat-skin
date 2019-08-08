@@ -64,23 +64,23 @@ FRIENDLIST
 /* color for ingame status */
 .ingame .personanameandstatus_playerName_1uxaf,
 .ingame .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--ingame)) !important;
+  color: rgb(var(--ingame));
 }
 
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf,
 .online .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--online)) !important;
+  color: rgb(var(--online));
 }
 
 .offline .personanameandstatus_playerName_1uxaf,
 .offline .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--offline)) !important;
+  color: rgb(var(--offline));
 }
 
 /* icon new chat group line */
 .friendsListSectionTitle .SVGIcon_NewChatGroup line {
-  stroke: rgb(var(--footer)) !important;
+  stroke: rgb(var(--footer));
 }
 
 /* Color for all icons */
