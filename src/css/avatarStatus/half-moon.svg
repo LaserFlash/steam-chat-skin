@@ -2,9 +2,6 @@
 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 512 512" style="enable-background: new 0 0 512 512;" xml:space="preserve">
-<path style="fill: #faa61a;" id="moon" d="M506.298,202.547c-3.639-17.048-27.89-17.747-32.446-0.868
-	c-15.349,56.82-67.255,98.886-128.808,98.843c-73.591-0.013-133.552-59.854-133.565-133.565
-	c-0.042-61.556,42.024-113.458,98.84-128.808c16.83-4.546,16.229-28.799-0.869-32.446C292.244,2.03,274.371-0.001,256,0
-	C114.796,0.031,0.031,114.79,0,256c0.031,141.21,114.796,255.969,256,256c141.204-0.031,255.969-114.79,256-256
-	C512.001,237.628,509.971,219.756,506.298,202.547z"/>
+<mask id="svg-mask-status-idle" maskContentUnits="objectBoundingBox" viewBox="0 0 1 1"><circle fill="white" cx="0.5" cy="0.5" r="0.5"></circle><circle fill="black" cx="0.25" cy="0.25" r="0.375"></circle></mask>
+<rect width="512" height="512" x="0" y="0" fill="#faa61a" mask="url(#svg-mask-status-idle)"></rect>
 </svg>
