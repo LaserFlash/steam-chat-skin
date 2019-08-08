@@ -485,3 +485,7 @@ CHAT WINDOW
 .msgText {
   color: rgb(var(--text)) !important;
 }
+
+.MemberListColumn.MemberListViewCompact .friend .avatarHolder .avatarStatus {
+  transform: none !important;
+}
