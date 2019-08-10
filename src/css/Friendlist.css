@@ -677,4 +677,5 @@ Remove default effect
 
 .avatarHolder {
   transform: none;
+  padding: 0 !important;
 }
