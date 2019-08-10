@@ -5,7 +5,8 @@
 /* =========================================================== */
 
 /* === Hide Normal Status Block === */
-.avatarStatus {
+.avatarStatus,
+.speakerStatus {
   display: none !important;
 }
 
@@ -19,12 +20,12 @@
   border-color: rgb(var(--online)) !important;
 }
 
-.awayOrSnooze .avatar {
-  border-color: rgb(var(--away)) !important;
+.ingame:not(.awayOrSnooze) .avatar {
+  border-color: rgb(var(--ingame)) !important;
 }
 
-.ingame .avatar {
-  border-color: rgb(var(--ingame)) !important;
+.awayOrSnooze .avatar {
+  border-color: rgb(var(--away)) !important;
 }
 
 .offline .avatar {

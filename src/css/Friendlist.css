@@ -64,7 +64,7 @@ FRIENDLIST
 /* color for ingame status */
 .ingame .personanameandstatus_playerName_1uxaf,
 .ingame .personanameandstatus_gameName_qvibF,
-.ingame .personastatusicons_PersonaStatusIcon_2rP7f path {
+.ingame.personastatusicons_PersonaStatusIcon_2rP7f path {
   color: rgb(var(--ingame)) !important;
   fill: rgb(var(--ingame)) !important;
 }
@@ -72,21 +72,24 @@ FRIENDLIST
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf,
 .online .personanameandstatus_gameName_qvibF,
-.online .personastatusicons_PersonaStatusIcon_2rP7f path {
+.online.personastatusicons_PersonaStatusIcon_2rP7f path {
   color: rgb(var(--online)) !important;
+  fill: rgb(var(--online)) !important;
 }
 
-.offline .personanameandstatus_playerName_1uxaf,
+.offline.personanameandstatus_playerName_1uxaf,
 .offline .personanameandstatus_gameName_qvibF,
-.offline .personastatusicons_PersonaStatusIcon_2rP7f path {
+.offline.personastatusicons_PersonaStatusIcon_2rP7f path {
   color: rgb(var(--offline)) !important;
+  fill: rgb(var(--offline)) !important;
 }
 
 /* color for ingame status */
 .awayOrSnooze .personanameandstatus_playerName_1uxaf,
 .awayOrSnooze .personanameandstatus_gameName_qvibF,
-.awayOrSnooze .personastatusicons_PersonaStatusIcon_2rP7f path {
+.awayOrSnooze.personastatusicons_PersonaStatusIcon_2rP7f path {
   color: rgb(var(--away)) !important;
+  fill: rgb(var(--away)) !important;
 }
 
 /* zzz icon */
