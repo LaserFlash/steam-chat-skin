@@ -108,13 +108,3 @@ DISCORD STATUS (DEFAULT)
 .chatTab:not(.active) .avatarStatus {
   background-color: rgb(var(--header)) !important;
 }
-
-.friendsnooze_SnoozeZ_29fyi {
-  color: rgb(var(--away)) !important;
-}
-
-/* color for online status */
-.awayOrSnooze .personanameandstatus_playerName_1uxaf,
-.awayOrSnooze .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--away)) !important;
-}

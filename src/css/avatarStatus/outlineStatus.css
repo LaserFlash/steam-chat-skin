@@ -5,16 +5,12 @@
 /* =========================================================== */
 
 /* === Hide Normal Status Block === */
-.steamavatar_avatarStatus_1Pwr6,
-.avatarStatus,
-.speakerStatus,
-.miniprofile_avatarStatus {
+.avatarStatus {
   display: none !important;
 }
 
 /* Apply border to avatar to show status */
-.avatar,
-.friend.quickAccessFriend .avatarHolder .avatar {
+.avatar {
   border: 2px solid !important;
 }
 
@@ -24,8 +20,7 @@
 }
 
 .awayOrSnooze .avatar {
-  background: rgb(var(--away)) !important;
-  -webkit-mask: none !important;
+  border-color: rgb(var(--away)) !important;
 }
 
 .ingame .avatar {
@@ -33,7 +28,7 @@
 }
 
 .offline .avatar {
-  background: rgb(var(--offline)) !important;
+  border-color: rgb(var(--offline)) !important;
 }
 
 /* Move friend name away from avatar in chats */

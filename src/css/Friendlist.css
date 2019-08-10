@@ -63,31 +63,40 @@ FRIENDLIST
 
 /* color for ingame status */
 .ingame .personanameandstatus_playerName_1uxaf,
-.ingame .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--ingame));
+.ingame .personanameandstatus_gameName_qvibF,
+.ingame .personastatusicons_PersonaStatusIcon_2rP7f path {
+  color: rgb(var(--ingame)) !important;
+  fill: rgb(var(--ingame)) !important;
 }
 
 /* color for online status */
 .online .personanameandstatus_playerName_1uxaf,
-.online .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--online));
+.online .personanameandstatus_gameName_qvibF,
+.online .personastatusicons_PersonaStatusIcon_2rP7f path {
+  color: rgb(var(--online)) !important;
 }
 
 .offline .personanameandstatus_playerName_1uxaf,
-.offline .personanameandstatus_gameName_qvibF {
-  color: rgb(var(--offline));
+.offline .personanameandstatus_gameName_qvibF,
+.offline .personastatusicons_PersonaStatusIcon_2rP7f path {
+  color: rgb(var(--offline)) !important;
+}
+
+/* color for ingame status */
+.awayOrSnooze .personanameandstatus_playerName_1uxaf,
+.awayOrSnooze .personanameandstatus_gameName_qvibF,
+.awayOrSnooze .personastatusicons_PersonaStatusIcon_2rP7f path {
+  color: rgb(var(--away)) !important;
+}
+
+/* zzz icon */
+.friendsnooze_SnoozeZ_29fyi {
+  color: rgb(var(--away)) !important;
 }
 
 /* icon new chat group line */
 .friendsListSectionTitle .SVGIcon_NewChatGroup line {
   stroke: rgb(var(--footer));
-}
-
-/* Color for all icons */
-.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_VR path,
-.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_MobilePhone path,
-.personastatusicons_PersonaStatusIcon_2rP7f.online .SVGIcon_BigPicture path {
-  fill: rgb(var(--icon)) !important;
 }
 
 /* icon tab search button */
