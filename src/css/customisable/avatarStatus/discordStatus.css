@@ -86,12 +86,12 @@ DISCORD STATUS (DEFAULT)
 
 .offline .avatarStatus,
 .offline .speakerStatus {
-  background: rgb(var(--offline)) !important;
+  background-image: url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStatus/offline.svg) !important;
 }
 
 .awayOrSnooze .avatarStatus,
 .away .speakerStatus {
-  background-image: url(https://laserflash.tk/steam-friends-skin/src/css/avatarStatus/half-moon.svg) !important;
+  background-image: url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStatus/half-moon.svg) !important;
   -webkit-mask: none !important;
 }
 
@@ -99,12 +99,18 @@ DISCORD STATUS (DEFAULT)
 .ChatTabContent .awayOrSnooze .avatarStatus,
 .FriendPicker .awayOrSnooze:hover .avatarStatus,
 .away .speakerStatus,
-.MemberListColumn .avatarStatus {
+.MemberListColumn .avatarStatus,
+.friendCategoryContainer .offline .avatarStatus,
+.ChatTabContent .offline .avatarStatus,
+.FriendPicker .offline:hover .avatarStatus,
+.offline .speakerStatus {
   background-color: rgb(var(--friendlist)) !important;
 }
 
 .friendCategoryContainer .awayOrSnooze:hover .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .awayOrSnooze .avatarStatus,
-.chatTab:not(.active) .avatarStatus {
+.chatTab:not(.active) .avatarStatus,
+.friendCategoryContainer .offline:hover .avatarStatus,
+.ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
   background-color: rgb(var(--header)) !important;
 }
