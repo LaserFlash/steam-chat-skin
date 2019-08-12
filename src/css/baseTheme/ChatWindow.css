@@ -4,11 +4,11 @@
 CHAT WINDOW
 -------------------------------------------------------------- */
 
-.ChatTabs .ChatRoomGroupAvatar {
-  width: 42px !important;
-  height: 42px !important;
-  margin-top: 0 !important;
-  margin-left: 0 !important;
+/* Group Chat icon */
+.ChatTabContent.ChatRoom .ChatRoomGroupAvatar,
+.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
+  margin-top: 0;
+  margin-left: 0;
 }
 
 .ChatTabs.compactView .ChatRoomGroupAvatar {
@@ -16,45 +16,29 @@ CHAT WINDOW
   height: 32px !important;
 }
 
-/* Chat tab title */
-.ChatTabs .title-area {
-  margin-bottom: -4px !important;
-  background: rgb(var(--header)) !important;
-  height: 100% !important;
-  min-height: 0 !important;
+.ChatTabs .ChatRoomGroupAvatar {
+  width: 42px !important;
+  height: 42px !important;
 }
 
-.chatTabGroupName {
-  margin: auto 0 auto 0;
+/* Group Chat Lables */
+.chatTabGroupName,
+.ChatTabs.compactView .chatTabGroupName {
+  margin: auto 0 auto 0; /* vertical centre */
 }
 
+/* Chat Tab label area */
 .chatTab .ChatTabContent {
   padding: 0 !important;
   align-items: center !important;
 }
 
+/* Drop down menu friends */
 .chatTab .friend {
   height: auto !important;
 }
 
-/* Dragbar mouse curson */
-.voiceRoomDragBar {
-  cursor: default !important;
-}
-
-/* Time stamp divider */
-.timeDivision .preHorizDivider {
-  display: none !important;
-}
-
-/* Time stamp divider */
-.timeDivision .horizDivider {
-  display: none !important;
-}
-
 .msg.timeDivision {
-  font-size: 15px !important;
-  color: white !important;
   display: none !important;
 }
 
@@ -67,33 +51,24 @@ CHAT WINDOW
   background-color: rgb(var(--friendlist)) !important;
 }
 
-/* boxes settings */
-._DialogTextInputBase,
-._DialogInputContainer {
-  background: #262626 !important;
-}
-
-/* more stuff */
-
+/* Select more friends */
 .chatTabSelector {
-  background: transparent !important;
-  border-radius: 25px !important;
-  border: 0 !important;
-  box-shadow: none !important;
-  display: flex !important;
-  align-items: center !important;
+  background: none;
+  border-radius: 50%;
+  border: 0;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
 }
 
 .chatTabSelector:hover {
   background: rgb(var(--friendlist)) !important;
-  border-radius: 25px !important;
 }
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
-  display: block !important;
-  margin: 0 auto !important;
+  margin: 0 auto;
   padding-left: 3px;
-  padding-top: 3px !important;
+  padding-top: 3px;
 }
 
 .CompactFriendsList
@@ -114,13 +89,13 @@ CHAT WINDOW
 }
 
 /* emoticon picker hover in chat (removes arrow) */
-.emoticon_hover_arrow.right {
+.emoticon_hover_arrow.right,
+.emoticon_hover_arrow.left {
   display: none !important;
 }
 
-/* emoticon picker hover in chat (removes arrow) */
-.emoticon_hover_arrow.left {
-  display: none !important;
+.emoticon_EmoticonSelector_177nw {
+  max-width: 375px !important;
 }
 
 .ScrollToBottomButton > span {
@@ -128,21 +103,17 @@ CHAT WINDOW
   background: rgb(var(--footer)) !important;
 }
 
+.ScrollToBottomButton {
+  bottom: 2px !important;
+}
+
 .inviteAnotherFriendButton {
   background-color: transparent !important;
 }
 
-.inviteAnotherFriendButton .SVGIcon_Button {
-  margin-left: -3px !important;
-}
-
 .inviteAnotherFriendButton .SVGIcon_Button line,
 .chatRoomButton .SVGIcon_Button line {
-  stroke: white !important;
-}
-
-.ScrollToBottomButton {
-  bottom: 2px !important;
+  stroke: rgb(var(--icon)) !important;
 }
 
 .titleBarContainer.ChatTabs {
@@ -176,29 +147,11 @@ CHAT WINDOW
   padding-bottom: 0 !important;
 }
 
-.emoticon_EmoticonSelector_177nw {
-  max-width: 375px !important;
-}
-
-.chatWindow .chatEntryControls {
-  background-color: #2e2e2f !important;
-  border-radius: 4px !important;
-}
-
 .chatentry_chatEntryControls_2O_X7 {
   border-radius: 4px !important;
   background-color: rgb(var(--friendlist)) !important;
   box-shadow: none !important;
   padding: 0;
-}
-
-.chatentry_chatTextarea_3e__5 {
-  min-height: 42px !important;
-  max-height: 200px !important;
-}
-
-.activeVoiceButtons .SVGIcon_Shadow {
-  display: none !important;
 }
 
 .emoticon_NewEmoticonIndicator_3NVON {
@@ -500,4 +453,8 @@ CHAT WINDOW
 .activeVoiceControls {
   background: rgb(var(--header)) !important;
   border: none;
+}
+
+.activeVoiceButtons .SVGIcon_Shadow {
+  display: none !important;
 }
