@@ -6,32 +6,31 @@
    Select one of the following avatar shapes
    Uncomment the desired import line to select it                             */
 
-@import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStyle/roundAvatar.css);
+@import url(css/customisable/avatarStyle/roundAvatar.css);
 
-/* @import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStyle/squareAvatar.css);
-   @import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStyle/squircleAvatar.css);    */
+/* @import url(css/customisable/avatarStyle/squareAvatar.css);
+   @import url(css/customisable/avatarStyle/squircleAvatar.css); */
 
 /* ========================== Avatar Status Style ===========================
    Select one of the following avatar shapes
    Uncomment the desired import line to select it                             */
+@import url(css/customisable/avatarStatus/discordStatus.css);
 
-@import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStatus/discordStatus.css);
-
-/* @import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStatus/outlineStatus.css);    */
+/* @import url(css/customisable/avatarStatus/outlineStatus.css);    */
 
 /* ============================= Theme Colour ===============================
    Select one of the following colour sets
    Uncomment the desired import line to select it                             */
 
-@import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/colourSet/discordColours.css);
+@import url(css/customisable/colourSet/discordColours.css);
+
+/* @import url(css/customisable/colourSet/lightMode.css);
+   @import url(css/customisable/colourSet/darkMode.css);   */
+
+@import url(css/customisable/miniProfile/miniProfileBlur.css);
 
 /* @import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/colourSet/darkMode.css);
    @import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/colourSet/lightMode.css);           */
-
-/* ============================= Mini Profile ===============================
-   The Mini profile can use a blur affect uncomment the following import
-   if desired                                                                  */
-@import url(https://laserflash.tk/steam-friends-skin/src/css/customisable/miniProfile/miniProfileBlur.css);
 
 /* ==========================================================================
    ==========================================================================
@@ -53,6 +52,6 @@
    ========================= IMPORTANT DO NOT TOUCH =========================
    ========================================================================== */
 
-@import url(https://laserflash.tk/steam-friends-skin/src/baseTheme.css);
+@import url(baseTheme.dev.css);
 
 /* ========================================================================== */

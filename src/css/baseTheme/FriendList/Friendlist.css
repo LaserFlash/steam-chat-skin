@@ -443,21 +443,21 @@ html.web_chat_frame body {
 
 /* mini profile Header */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
-  background: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  background: rgb(var(--header));
+  border-radius: 4px;
 }
 
 /* mini profile Game Backgroung */
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH
   .miniprofile_gameLogo_2B0di {
-  border-radius: 4px !important;
+  border-radius: 4px;
 }
 
 /* mini profile Background */
 .miniprofile_miniProfileBackground_3gfFJ {
-  background: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  background: rgb(var(--header));
+  border-radius: 4px;
 }
 
 /* mini profile Background */
@@ -465,13 +465,13 @@ html.web_chat_frame body {
   .miniprofile_miniProfileBottom_3Agb6,
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH {
-  background: transparent !important;
-  top: 10px !important;
+  background: transparent;
+  top: 10px;
 }
 
 /* mini profile Blur */
 .miniprofile_miniProfileBackgroundBlur_G000o {
-  display: none !important;
+  display: none;
 }
 
 /* mini profile PersonaName */
