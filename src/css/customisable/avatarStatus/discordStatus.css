@@ -109,7 +109,8 @@ DISCORD STATUS (DEFAULT)
 
 .friendCategoryContainer .awayOrSnooze:hover .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .awayOrSnooze .avatarStatus,
-.chatTab:not(.active) .avatarStatus,
+.chatTab:not(.active) .offline .avatarStatus,
+.chatTab:not(.active) .awayOrSnooze .avatarStatus,
 .friendCategoryContainer .offline:hover .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
   background-color: rgb(var(--header)) !important;
