@@ -38,6 +38,11 @@ CHAT WINDOW
   height: auto !important;
 }
 
+.ChatTabContextMenuItem
+  .personanameandstatus_richPresenceLabel_3Q6g1:not(.personanameandstatus_gameName_qvibF) {
+  display: none;
+}
+
 .msg.timeDivision {
   display: none !important;
 }
