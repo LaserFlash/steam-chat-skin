@@ -22,7 +22,7 @@ DISCORD STATUS (DEFAULT)
   opacity: 1 !important;
 }
 
-.friendCategoryContainer .friendStatusHover:hover .avatarStatus {
+.friendStatusHover:hover .avatarStatus {
   box-shadow: 0 0 0 4px rgb(var(--header)) !important;
 }
 
@@ -95,7 +95,7 @@ DISCORD STATUS (DEFAULT)
   -webkit-mask: none !important;
 }
 
-.friendCategoryContainer .awayOrSnooze .avatarStatus,
+.friendlistListContainer .awayOrSnooze .avatarStatus,
 .ChatTabContent .awayOrSnooze .avatarStatus,
 .FriendPicker .awayOrSnooze:hover .avatarStatus,
 .away .speakerStatus,
@@ -107,7 +107,8 @@ DISCORD STATUS (DEFAULT)
   background-color: rgb(var(--friendlist)) !important;
 }
 
-.friendCategoryContainer .awayOrSnooze:hover .avatarStatus,
+.friendlistListContainer .awayOrSnooze:hover .avatarStatus,
+.miniProfileHover .awayOrSnooze .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .awayOrSnooze .avatarStatus,
 .chatTab:not(.active) .offline .avatarStatus,
 .chatTab:not(.active) .awayOrSnooze .avatarStatus,
