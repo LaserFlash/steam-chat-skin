@@ -24,6 +24,10 @@ CHAT WINDOW
   min-height: 0 !important;
 }
 
+.chatTabGroupName {
+  margin: auto 0 auto 0;
+}
+
 .chatTab .ChatTabContent {
   padding: 0 !important;
   align-items: center !important;
@@ -185,29 +189,7 @@ CHAT WINDOW
   border-radius: 4px !important;
   background-color: rgb(var(--friendlist)) !important;
   box-shadow: none !important;
-}
-
-.VoiceToggle {
-  background: transparent !important;
-  border-radius: 4px !important;
-  border: 0 !important;
-  max-height: 40px !important;
-}
-
-.ChatMessageEntryVoice {
-  border-radius: 4px !important;
-  box-shadow: none !important;
-  background: none !important;
-  background-color: none !important;
-  margin-top: -2px !important;
-  max-height: 40px !important;
-}
-
-.ChatMessageEntryVoice.Disabled {
-  border: 0 !important;
-  outline: 0 !important;
-  margin-top: -2px !important;
-  max-height: 40px !important;
+  padding: 0;
 }
 
 .chatentry_chatTextarea_3e__5 {
@@ -215,52 +197,8 @@ CHAT WINDOW
   max-height: 200px !important;
 }
 
-.chatentry_chatEntryActionsGroup_15mWd {
-  border-radius: 4px !important;
-  box-shadow: none !important;
-  background-color: transparent !important;
-  margin-right: -20px !important;
-}
-
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0,
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh {
-  background-color: transparent !important;
-  border: 0 !important;
-  right: 7px !important;
-  margin-top: -2px !important;
-  max-height: 40px !important;
-}
-
 .activeVoiceButtons .SVGIcon_Shadow {
   display: none !important;
-}
-
-.chatentry_chatSubmitButton_3VRfL circle,
-.chatentry_chatSubmitButton_3VRfL path,
-.chatentry_chatSubmitButton_3VRfL line,
-.VoiceToggleIconCtn path,
-.VoiceToggleIconCtn polyline,
-.ToggleMemberListView polyline {
-  stroke: rgb(var(--icon)) !important;
-}
-
-.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
-  background-color: transparent !important;
-  border: 0 !important;
-  display: none !important;
-  margin-top: -2px !important;
-  max-height: 40px !important;
-}
-
-.chatentry_chatSubmitButton_3VRfL {
-  background-color: transparent !important;
-  max-height: 40px !important;
-  border: 0 !important;
-  margin-top: 0 !important;
-}
-
-.VoiceToggleIconCtn {
-  top: 5px !important;
 }
 
 .emoticon_NewEmoticonIndicator_3NVON {
@@ -327,13 +265,6 @@ CHAT WINDOW
 .ChatRoomListGroupItemChatRooms .chatRoomVoiceChannel.ActiveVoiceChannel {
   box-shadow: none !important;
   border-radius: 4px !important;
-}
-
-.activeVoiceControls {
-  background: rgb(var(--header)) !important;
-  border-top: 1px solid rgb(var(--header)) !important;
-  border-bottom: 1px solid rgb(var(--header)) !important;
-  border-image: none !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel
@@ -466,9 +397,8 @@ CHAT WINDOW
   background-color: rgb(var(--header)) !important;
 }
 
-/* ========================================================================== */
-
-/*                              Chat Name Colours                             */
+/* ==========================================================================
+                               Chat Name Colours                             */
 
 .messages_SpeakerName_InGame_1vaKy {
   color: rgb(var(--ingame)) !important;
@@ -488,4 +418,86 @@ CHAT WINDOW
 
 .MemberListColumn.MemberListViewCompact .friend .avatarHolder .avatarStatus {
   transform: none !important;
+}
+
+/* ==========================================================================
+                          Chat Actions / Controls                            */
+
+/* Chat Action Area */
+.chatentry_chatEntryActionsGroup_15mWd {
+  box-shadow: none;
+  background: none;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0,
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh,
+.VoiceToggle,
+.VoiceToggle.Active {
+  background: none;
+  border: 0 !important;
+  border-radius: 50%;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0:hover,
+.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh:hover,
+.VoiceToggle:hover,
+.VoiceToggle.Inactive:hover {
+  background-color: rgb(var(--friendlist));
+}
+
+.chatentry_chatSubmitButton_3VRfL circle,
+.chatentry_chatSubmitButton_3VRfL path,
+.chatentry_chatSubmitButton_3VRfL line,
+.VoiceToggleIconCtn path,
+.VoiceToggleIconCtn polyline,
+.ToggleMemberListView polyline {
+  stroke: rgb(var(--icon)) !important;
+}
+
+.VoiceToggleIconCtn,
+.SVGIcon_VoiceRoom .Bubble {
+  fill: rgb(var(--icon));
+}
+
+.VoiceToggleIconCtn .Bubble {
+  display: none;
+}
+
+.chatentry_chatSubmitButton_3VRfL {
+  background-color: rgb(var(--header));
+  border: 0;
+  margin: 0;
+  padding: 0;
+  height: auto;
+  max-height: none;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
+  background-color: rgb(var(--header));
+}
+
+.chatentry_chatSubmitButton_3VRfL:not(.chatentry_disabled_2p2vW):hover {
+  background-color: rgb(var(--friendlist));
+}
+
+.ChatMessageEntryVoice.Disabled {
+  border: 0;
+  outline: 0;
+}
+
+.ChatMessageEntryVoice,
+.buttonsContainer,
+.VoiceToggle {
+  background: none;
+}
+
+/* Button to open voice settings */
+.friendSettingsButton {
+  margin: auto 0 auto 2px;
+}
+
+/* Voice controls when in voice chat */
+.activeVoiceControls {
+  background: rgb(var(--header)) !important;
+  border: none;
 }
