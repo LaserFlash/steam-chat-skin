@@ -286,7 +286,10 @@ html.web_chat_frame body {
 }
 
 /* Fixes issue with compact friendlist collapsing */
-.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend {
+.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend,
+.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .SteamPlayerGroupFooter {
   padding: 4px 0 4px 15px !important;
 }
 
@@ -611,23 +614,30 @@ html.web_chat_frame body {
   margin-top: 4px !important;
 }
 
-/* Steam group count in footer */
-.SteamPlayerGroupFooterCount .count {
-  display: none !important;
-}
-
 /* Hides lines between group names on friendlist */
-.friend.firstInGroup .SteamPlayerGroupLines,
-.friend.inGroup .SteamPlayerGroupLines,
-.friend.lastInGroup .SteamPlayerGroupLines,
-.SteamPlayerGroupFooter .SteamPlayerGroupLines {
-  display: none !important;
+.SteamPlayerGroupLines {
+  border-color: rgb(var(--icon)) !important;
 }
 
 /* Fixes issue with friendlist collapsing */
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter,
 .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
   padding: 6px 0 6px 12px !important;
+  margin-left: 8px;
+}
+
+.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .SteamPlayerGroupFooter {
+  margin-left: 0;
+}
+
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+  margin-top: -6px !important;
+}
+
+.CompactFriendsList .SteamPlayerGroupFooterLabel {
+  align-self: end;
 }
 
 /*
