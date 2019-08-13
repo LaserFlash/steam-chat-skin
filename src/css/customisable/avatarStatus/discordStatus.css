@@ -22,6 +22,13 @@ DISCORD STATUS (DEFAULT)
   opacity: 1 !important;
 }
 
+.voiceSelfDirections .avatarStatus {
+  height: 16px !important;
+  width: 16px !important;
+  right: auto !important;
+  left: 35px !important;
+}
+
 .friendStatusHover:hover .avatarStatus {
   box-shadow: 0 0 0 4px rgb(var(--header)) !important;
 }
@@ -68,10 +75,6 @@ DISCORD STATUS (DEFAULT)
 
 .compactQuickAccess .FavoriteFriend_GameIcon {
   display: none !important;
-}
-
-.steamavatar_avatarStatus_1Pwr6 {
-  border-radius: 100% !important;
 }
 
 .online:not(.awayOrSnooze) .avatarStatus,
