@@ -600,7 +600,7 @@ html.web_chat_frame body {
   width: auto !important;
 }
 
-.gameGroup {
+.groupName {
   -webkit-mask: linear-gradient(
     to right,
     black calc(100% - 6px),
