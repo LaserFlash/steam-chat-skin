@@ -48,7 +48,7 @@ goto:start
 :update
     echo.
     echo Dowloading Files to current folder... 
-        powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/LaserFlash/steam-friends-skin/master/src/friends.custom.css', 'friends.custom.css')}Catch{Write-Warning $($error[0]);pause}"
+        powershell -Command "Try{[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12;(New-Object Net.WebClient).DownloadFile('https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/src/friends.custom.css', 'friends.custom.css')}Catch{Write-Warning $($error[0]);pause}"
 
     echo all files have been downloaded succesfully.
     echo.

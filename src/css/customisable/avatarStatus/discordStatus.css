@@ -89,12 +89,12 @@ DISCORD STATUS (DEFAULT)
 
 .offline .avatarStatus,
 .offline .speakerStatus {
-  background-image: url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStatus/offline.svg) !important;
+  background-image: url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStatus/offline.svg) !important;
 }
 
 .awayOrSnooze .avatarStatus,
 .away .speakerStatus {
-  background-image: url(https://laserflash.tk/steam-friends-skin/src/css/customisable/avatarStatus/half-moon.svg) !important;
+  background-image: url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStatus/half-moon.svg) !important;
   -webkit-mask: none !important;
 }
 
