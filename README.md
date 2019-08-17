@@ -17,7 +17,7 @@ Copy [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-c
 #### Automatic
 
 If on Windows running the installer script will automatically download and install the theme.
-**Installer:** <https://github.com/LaserFlash/steam-chat-skin/releases>
+**Installer:** <https://github.com/LaserFlash/steam-chat-skin-installer/releases>
 
 ## Preview
 
