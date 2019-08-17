@@ -1,6 +1,9 @@
-.client_chat_frame * {
+* {
   box-shadow: none !important;
   text-shadow: none !important;
+}
+
+.client_chat_frame * {
   color: rgb(var(--text)) !important;
 }
 
