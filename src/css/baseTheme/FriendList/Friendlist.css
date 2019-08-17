@@ -312,6 +312,7 @@ html.web_chat_frame body {
 /* Footer "Group Chats" Text Color */
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
   color: rgb(var(--text));
+  padding-left: 16px;
 }
 
 /* Background SearchTab */
@@ -400,11 +401,9 @@ html.web_chat_frame body {
 /* little arrow for groups making selectable area bigger */
 .ToggleGroupChatList {
   display: inline-block !important;
-  position: relative !important;
+  position: absolute !important;
   z-index: 11 !important;
-  padding-right: 650px !important;
-  margin-right: -650px !important;
-  padding-left: 16px !important;
+  width: 100%;
 }
 
 /* hidding little arrow */
