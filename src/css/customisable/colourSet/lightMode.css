@@ -4,6 +4,11 @@
   color: rgb(var(--text)) !important;
 }
 
+.miniprofile_miniProfileBackgroundBlur_G000o {
+  mix-blend-mode: unset;
+  opacity: 0.8;
+}
+
 :root {
   /* Body Background Colours */
   --header: 243, 243, 243;
