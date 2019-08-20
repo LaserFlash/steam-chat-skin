@@ -2,7 +2,7 @@
 
 /* Your avatar glow in header */
 .statusHeaderGlow {
-  opacity: 0.6 !important;
+  opacity: 0.6;
 }
 
 .online .statusHeaderGlow stop:first-child {

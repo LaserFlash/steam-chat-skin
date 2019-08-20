@@ -2,5 +2,5 @@
 
 /* Your avatar glow in header */
 .statusHeaderGlow {
-  opacity: 0 !important;
+  display: none;
 }
