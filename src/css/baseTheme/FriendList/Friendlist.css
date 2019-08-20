@@ -424,7 +424,7 @@ html.web_chat_frame body {
 /* Compact friend spacing */
 .CompactFriendsList .friend,
 .CompactFriendsList .friendGroup .friend {
-  height: 30px !important;
+  height: auto !important;
 }
 
 .friendGroup .friend {
@@ -686,7 +686,7 @@ Remove default effect
   color: rgb(var(--text)) !important;
 }
 
-.friendStatusHover:hover,
+.friendStatusHover:not(.quickAccessFriend):hover,
 .friendStatusHover.Friend_ContextMenuActive {
   background-color: rgb(var(--header)) !important;
 }
@@ -700,6 +700,19 @@ Remove default effect
 }
 
 .avatarHolder {
-  transform: none;
+  transform: scale(0.9, 0.9) translateX(0);
   padding: 0 !important;
+}
+
+.MemberListColumn
+  .steamavatar_friendavatar_2yzw2.friend
+  .chatMemberFriendIcon
+  svg {
+  left: -5px;
+  bottom: -1px;
+}
+
+.MemberListColumn .friend .chatMemberFriendIcon svg {
+  left: -5px;
+  bottom: 1px;
 }
