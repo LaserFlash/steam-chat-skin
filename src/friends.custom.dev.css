@@ -23,6 +23,7 @@
    Uncomment the desired import line to select it                             */
 
 @import url(css/customisable/colourSet/discordColours.css);
+@import url(css/customisable/statusGlow/themedGlow.css);
 
 /* @import url(css/customisable/colourSet/lightMode.css);
    @import url(css/customisable/colourSet/darkMode.css);   */

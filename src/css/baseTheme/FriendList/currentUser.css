@@ -17,51 +17,6 @@
   margin: 0 0 5px 8px !important;
 }
 
-/* ================================== Glow ================================== */
-
-/* Your avatar glow in header */
-.statusHeaderGlow {
-  opacity: 0.6 !important;
-
-  /* 1/0 to turn on/off */
-}
-
-.online .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--online));
-  stop-opacity: 0.6;
-}
-
-.online .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--online));
-}
-
-.ingame .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--ingame));
-  stop-opacity: 0.6;
-}
-
-.ingame .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--ingame));
-}
-
-.awayOrSnooze .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--away));
-  stop-opacity: 0.6;
-}
-
-.awayOrSnooze .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--away));
-}
-
-.offline .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--offline));
-  stop-opacity: 0.6;
-}
-
-.offline .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--offline));
-}
-
 /* ============================== DnD alignment ============================== */
 
 /* Reverse order: Label -> check Box */
