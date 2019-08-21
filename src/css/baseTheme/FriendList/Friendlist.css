@@ -404,6 +404,8 @@ html.web_chat_frame body {
   position: absolute !important;
   z-index: 11 !important;
   width: 100%;
+  height: 90%;
+  bottom: 0;
 }
 
 /* hidding little arrow */
