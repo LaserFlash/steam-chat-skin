@@ -718,3 +718,7 @@ Remove default effect
   left: -5px;
   bottom: 1px;
 }
+
+.personanameandstatus_richPresenceContainer_21cNf {
+  width: calc(100% - 4px);
+}
