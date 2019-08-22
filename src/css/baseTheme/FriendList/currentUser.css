@@ -49,3 +49,11 @@
 .contextMenuItem.menuChecked {
   color: rgb(var(--activeButtonOn));
 }
+
+/* ============================ Background Colour ============================ */
+
+/* Header background */
+.friendListHeaderContainer {
+  background-color: rgb(var(--header)) !important;
+  border-bottom: 0 !important;
+}

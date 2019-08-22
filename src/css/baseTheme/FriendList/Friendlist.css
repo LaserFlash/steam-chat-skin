@@ -2,12 +2,6 @@
 FRIENDLIST
 -------------------------------------------------------------- */
 
-/* Friendlist header background */
-.friendListHeaderContainer {
-  background-color: rgb(var(--header)) !important;
-  border-bottom: 0 !important;
-}
-
 /* Friendlist footer background */
 .friendListFooter {
   display: none !important;
@@ -292,20 +286,6 @@ html.web_chat_frame body {
 /* Hide + and - For Group Names on Friendlist */
 .ExpandPlusMinus {
   display: none !important;
-}
-
-/* Hide name in QuickAccess as generally does not fit */
-.friend.quickAccessFriend .playerNameQuickAccessContainer {
-  display: none !important;
-}
-
-.favoriteElement {
-  height: auto !important;
-}
-
-/* remove opacity on hover */
-.quickAccessFriends .favoriteElement:hover .awayOrSnooze img {
-  opacity: 1 !important;
 }
 
 /* ========================================================================== */
@@ -632,15 +612,6 @@ Remove default effect
 
 .personanameandstatus_playerNickname_3-32P {
   color: rgb(var(--nickname)) !important;
-}
-
-.avatarHolder {
-  transform: scale(1, 1) translateX(0);
-  padding: 0 !important;
-}
-
-.quickAccessFriends .favoriteElement:hover .friend .avatarHolder {
-  transform: scale(1.05, 1.05) translateX(0);
 }
 
 .MemberListColumn
