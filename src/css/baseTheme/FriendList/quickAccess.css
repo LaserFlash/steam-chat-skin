@@ -23,3 +23,12 @@
 .favoriteElement {
   height: auto !important;
 }
+
+.friend.quickAccessFriend .avatarHolder .avatar {
+  width: 42px;
+}
+
+.friend.quickAccessFriend {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
