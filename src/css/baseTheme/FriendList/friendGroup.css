@@ -1,0 +1,76 @@
+/* removes lines between groups in friendlist */
+.friendGroup.taggedGroup,
+.friendGroup.gameGroup {
+  border-top: 0 !important;
+  margin-top: 0 !important;
+}
+
+/* friend group online friends */
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
+  border-top: 4px !important;
+  margin-top: 0 !important;
+}
+
+/* friend group offline friends */
+.FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
+  border-top: none !important;
+  margin-top: 0 !important;
+}
+
+/* Compact friend spacing */
+.CompactFriendsList .friend,
+.CompactFriendsList .friendGroup .friend {
+  height: auto !important;
+}
+
+.friendGroup .friend {
+  margin-left: 8px;
+  padding-left: 4px;
+  border-radius: 4px;
+}
+
+/* Group name in friendlist */
+.friendGroup .groupName {
+  margin-left: 12px !important;
+  margin-top: 4px !important;
+}
+
+/* Fixes issue with friendlist collapsing */
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter,
+.friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
+  padding: 6px 0 6px 12px !important;
+  margin-left: 8px;
+}
+
+.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .SteamPlayerGroupFooter {
+  margin-left: 0;
+}
+
+.friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
+  margin-top: -6px !important;
+}
+
+/* Group name count */
+.friendGroup .groupName .groupCount {
+  display: none !important;
+}
+
+/* Hide + and - For Group Names on Friendlist */
+.ExpandPlusMinus {
+  display: none !important;
+}
+
+.gameGroupContainer {
+  margin-right: 0 !important;
+  width: auto !important;
+}
+
+.groupName {
+  -webkit-mask: linear-gradient(
+    to right,
+    black calc(100% - 6px),
+    rgba(0, 0, 0, 0.15) 100%
+  ) !important;
+}

@@ -1,7 +1,23 @@
-@import url(css/baseTheme/FriendList/Friendlist.css);
+/* Friend List */
 @import url(css/baseTheme/FriendList/titleBar.css);
 @import url(css/baseTheme/FriendList/currentUser.css);
 @import url(css/baseTheme/FriendList/friendsSearchBar.css);
+@import url(css/baseTheme/FriendList/quickAccess.css);
+@import url(css/baseTheme/FriendList/friendsFooter.css);
+@import url(css/baseTheme/FriendList/groupChatSection.css);
+@import url(css/baseTheme/FriendList/statusColours.css);
+@import url(css/baseTheme/FriendList/miniProfile.css);
+@import url(css/baseTheme/FriendList/shadow.css);
+@import url(css/baseTheme/FriendList/friendGroup.css);
+@import url(css/baseTheme/FriendList/contextMenu.css);
+@import url(css/baseTheme/FriendList/notifications.css);
+@import url(css/baseTheme/FriendList/miscFriendlist.css);
+
+/* Chat Window */
 @import url(css/baseTheme/ChatWindow.css);
+
+/* Settings Window */
 @import url(css/baseTheme/Settings.css);
+
+/* Scrollbar */
 @import url(css/baseTheme/Scrollbar.css);
