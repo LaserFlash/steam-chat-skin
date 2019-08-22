@@ -1,9 +1,6 @@
 /* --------------------------------------------------------------
 FRIENDLIST
 -------------------------------------------------------------- */
-.compactView .socialListTab {
-  height: 28px !important;
-}
 
 /* Friendlist header background */
 .friendListHeaderContainer {
@@ -106,30 +103,18 @@ FRIENDLIST
   stroke: rgb(var(--footer));
 }
 
-/* icon tab search button */
-.TabSearchButton .ColorSelector {
-  stroke: rgb(var(--icon)) !important;
-  fill: rgb(var(--icon)) !important;
-}
-
 /* all other icons colors */
 .friendRequestButton .SVGIcon_FriendRequest .friendBodyFull,
 .friendRequestButton .SVGIcon_FriendRequest .friendHead,
 .friendRequestButton .SVGIcon_FriendRequest .friendArm,
-.friendRequestButton .SVGIcon_FriendRequest .friendBody,
-.addFriendButton .SVGIcon_AddFriend .friendHead,
-.addFriendButton .SVGIcon_AddFriend .friendBody,
-.addFriendButton .SVGIcon_AddFriend .plusCircle {
+.friendRequestButton .SVGIcon_FriendRequest .friendBody {
   fill: rgb(var(--icon)) !important;
 }
 
 .friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull,
 .friendRequestButton:hover .SVGIcon_FriendRequest .friendHead,
 .friendRequestButton:hover .SVGIcon_FriendRequest .friendArm,
-.friendRequestButton:hover .SVGIcon_FriendRequest .friendBody,
-.addFriendButton:hover .SVGIcon_AddFriend .friendHead,
-.addFriendButton:hover .SVGIcon_AddFriend .friendBody,
-.addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBody {
   fill: rgb(var(--iconhover)) !important;
 }
 
@@ -298,67 +283,15 @@ html.web_chat_frame body {
   display: none !important;
 }
 
-/* Friends Seacrbar 'Friends Text' */
-.socialListTab .tabLabel {
-  color: rgb(var(--text)) !important;
-}
-
-/* Search Button in Searchbar */
-.friendsTabButtonsContainer .TabSearchButton {
-  border-radius: 50px !important;
-  height: 26px !important;
-}
-
 /* Footer "Group Chats" Text Color */
 .friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
   color: rgb(var(--text));
   padding-left: 16px;
 }
 
-/* Background SearchTab */
-.socialListTab {
-  background: rgb(var(--header)) !important;
-}
-
 /* Hide + and - For Group Names on Friendlist */
 .ExpandPlusMinus {
   display: none !important;
-}
-
-/* Friend Searchbar Input */
-.friendSearchInput[type="text"] {
-  background-color: rgb(var(--friendlist)) !important;
-  padding-left: 12px !important;
-  border-radius: 50px !important;
-  box-shadow: none !important;
-  background-image: none !important;
-}
-
-/* Friend Searchbar */
-.friendSearchInput {
-  padding-left: 12px !important;
-}
-
-/* Center search close vertically in bar */
-.friendSearchClear .SVGIcon_X_Line {
-  width: 14px !important;
-  height: 14px !important;
-  margin: auto !important;
-}
-
-.friendSearchClear .SVGIcon_X_Line line {
-  stroke: rgb(var(--icon)) !important;
-}
-
-/* Friend Searchbar Background */
-.activeTab {
-  background-color: rgb(var(--header)) !important;
-  box-shadow: none !important;
-}
-
-/* Friend Searchbar Hover */
-.activeTab .TabSearchButton:hover {
-  background: rgb(var(--header)) !important;
 }
 
 /* Hide name in QuickAccess as generally does not fit */
@@ -702,8 +635,12 @@ Remove default effect
 }
 
 .avatarHolder {
-  transform: scale(0.9, 0.9) translateX(0);
+  transform: scale(1, 1) translateX(0);
   padding: 0 !important;
+}
+
+.quickAccessFriends .favoriteElement:hover .friend .avatarHolder {
+  transform: scale(1.05, 1.05) translateX(0);
 }
 
 .MemberListColumn

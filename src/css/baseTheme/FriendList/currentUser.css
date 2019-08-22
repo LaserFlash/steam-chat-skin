@@ -2,19 +2,19 @@
 
 /* hides line under Your avatar */
 .currentUserContainer {
-  border-bottom: 0 !important;
+  border-bottom: 0;
 }
 
 /* ================================= Layout ================================= */
 
 /* Spacing from window controls */
 .AvatarAndUser {
-  padding-top: 16px !important;
+  padding-top: 16px;
 }
 
 /* Improved Positioning */
 .currentUserContainer .labelHolder {
-  margin: 0 0 5px 8px !important;
+  margin: 0 0 5px 8px;
 }
 
 /* ============================== DnD alignment ============================== */
@@ -41,11 +41,11 @@
 
 /* Vertically centre checkBox */
 .DNDCheckBox .DialogCheckbox {
-  position: absolute !important;
-  top: calc(50% - 8px) !important;
+  position: absolute;
+  top: calc(50% - 8px);
 }
 
 /* Active status item in Current User Context menu */
 .contextMenuItem.menuChecked {
-  color: rgb(var(--activeButtonOn)) !important;
+  color: rgb(var(--activeButtonOn));
 }
