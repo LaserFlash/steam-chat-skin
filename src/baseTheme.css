@@ -1,7 +1,23 @@
-@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/Friendlist.css);
+/* Friend List */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/titleBar.css);
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/currentUser.css);
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/friendsSearchBar.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/quickAccess.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/friendsFooter.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/groupChatSection.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/statusColours.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/miniProfile.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/shadow.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/friendGroup.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/contextMenu.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/notifications.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/miscFriendlist.css);
+
+/* Chat Window */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/ChatWindow.css);
+
+/* Settings Window */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings.css);
+
+/* Scrollbar */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Scrollbar.css);

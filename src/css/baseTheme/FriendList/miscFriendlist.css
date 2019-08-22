@@ -1,0 +1,97 @@
+/* --------------------------------------------------------------
+FRIENDLIST
+-------------------------------------------------------------- */
+
+/* chat tab open friends list */
+.chatTabOpenFriendsList {
+  box-shadow: none !important;
+  background-color: rgb(var(--friendlist)) !important;
+  height: 44px !important;
+  border-radius: 4px !important;
+}
+
+/* chat tab open friends list hover */
+.chatTabOpenFriendsList:hover {
+  background-color: rgb(var(--activeButtonOn)) !important;
+}
+
+/* icon button color */
+.SVGIcon_Button {
+  fill: rgb(var(--icon)) !important;
+}
+
+.SVGIcon_Button:hover {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+/* icon settings color */
+.friendSettingsButton .SVGIcon_Settings {
+  fill: rgb(var(--icon)) !important;
+}
+
+.friendSettingsButton .SVGIcon_Settings:hover {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+/* position modal topbar */
+.ModalPosition_TopBar {
+  display: none;
+}
+
+/* rounded game icon for group names */
+.groupName .gameGroupContainer .groupIcon {
+  border-radius: 15px !important;
+}
+
+/* background friendlist */
+.friendlistListContainer {
+  min-height: 0 !important;
+  background: rgb(var(--friendlist)) !important;
+  padding-top: 4px;
+}
+
+/* Fixes issue with compact friendlist collapsing */
+.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend,
+.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .SteamPlayerGroupFooter {
+  padding: 4px 0 4px 15px !important;
+}
+
+/* Friend Game Icon FriendList */
+.FriendInGameIcon {
+  display: none !important;
+}
+
+/* ========================================================================== */
+
+/* Compact game name spacing */
+.CompactFriendsList .friendlistListContainer .friend.ingame .labelHolder {
+  margin-top: -4px !important;
+}
+
+/* Hides lines between group names on friendlist */
+.SteamPlayerGroupLines {
+  border-color: rgb(var(--icon)) !important;
+}
+
+.CompactFriendsList .SteamPlayerGroupFooterLabel {
+  align-self: end;
+}
+
+.MemberListColumn
+  .steamavatar_friendavatar_2yzw2.friend
+  .chatMemberFriendIcon
+  svg {
+  left: -5px;
+  bottom: -1px;
+}
+
+.MemberListColumn .friend .chatMemberFriendIcon svg {
+  left: -5px;
+  bottom: 1px;
+}
+
+.personanameandstatus_richPresenceContainer_21cNf {
+  width: calc(100% - 4px);
+}

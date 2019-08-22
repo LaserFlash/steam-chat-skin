@@ -1,0 +1,30 @@
+/* Hides group chat bottom shadow */
+.insetshadow_FriendListInsetShadowTop_1mEmL {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 20px !important;
+}
+
+.insetshadow_FriendListInsetShadowBottom_3cl4u {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 20px !important;
+}
+
+/* remove shadows on top friendlist */
+.friendListInsetShadowTop {
+  background: none !important;
+}
+
+/* remove shadows on bottom friendlist */
+.friendListInsetShadowBottom {
+  background: none !important;
+}

@@ -1,0 +1,73 @@
+/* CONTEXT MENU'S */
+.contextmenu_contextMenuItem_CBC-y {
+  border-top: 0 !important;
+  background: rgb(var(--header)) !important;
+}
+
+.contextmenu_contextMenuItem_CBC-y:hover {
+  background: rgb(var(--friendlist)) !important;
+  border-radius: 4px !important;
+}
+
+.contextMenuGameTitle {
+  background: rgb(var(--header)) !important;
+}
+
+.contextMenuSectionContent {
+  background: rgb(var(--header)) !important;
+}
+
+.contextmenu_contextMenu_3_a2Z {
+  background: rgb(var(--header)) !important;
+}
+
+:not(.friendInviteContainer)
+  .online
+  .ContextMenuButton
+  .SVGIcon_DownArrowContextMenu {
+  fill: rgb(var(--icon)) !important;
+}
+
+.ContextMenuButton .SVGIcon_DownArrowContextMenu {
+  padding-left: 0 !important;
+  padding-top: 6px !important;
+}
+
+.ContextMenuButton {
+  margin-left: 5px !important;
+}
+
+.contextMenu {
+  border: none !important;
+  background: radial-gradient(
+    ellipse farthest-corner at 50% 0%,
+    #1a1a1a 0%,
+    #1a1a1a 50%,
+    #1a1a1a 100%
+  ) !important;
+  box-shadow: none !important;
+  border-radius: 4px !important;
+}
+
+.contextMenu .contextMenuItem:hover,
+.contextMenu .contextMenuItem.active {
+  background: #272727 !important;
+  border-radius: 4px !important;
+}
+
+.contextMenu .contextMenuItem {
+  border-top: 0 !important;
+}
+
+.contextMenuContents.ChatTabs .contextMenuItem {
+  min-height: 42px !important;
+}
+
+.contextMenuContents.ChatTabs.CompactFriendsList .friend .labelHolder {
+  margin-top: 20px !important;
+  margin-left: -2px !important;
+}
+
+.contextMenuContents .chatTab .ChatTabContent {
+  min-height: 50px !important;
+}

@@ -1,0 +1,34 @@
+/* Hide name in QuickAccess as generally does not fit */
+.friend.quickAccessFriend .playerNameQuickAccessContainer {
+  display: none !important;
+}
+
+/* Remove opacity on hover, always show full colour on hover */
+.quickAccessFriends .favoriteElement:hover .awayOrSnooze img {
+  opacity: 1 !important;
+}
+
+/* Enlarge on hover */
+.quickAccessFriends .favoriteElement:hover .friend .avatarHolder {
+  transform: scale(1.05, 1.05) translateX(0);
+}
+
+/* Never scale avatar down */
+.avatarHolder {
+  transform: scale(1, 1) translateX(0);
+  padding: 0 !important;
+}
+
+/* Adjust for content & removal of name */
+.favoriteElement {
+  height: auto !important;
+}
+
+.friend.quickAccessFriend .avatarHolder .avatar {
+  width: 42px;
+}
+
+.friend.quickAccessFriend {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
