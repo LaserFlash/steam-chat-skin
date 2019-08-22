@@ -1,0 +1,9 @@
+/* Friend List Footer */
+.friendListFooter {
+  display: none !important;
+}
+
+/* Hides the resize grip */
+.window_resize_grip {
+  margin-right: -50px !important;
+}
