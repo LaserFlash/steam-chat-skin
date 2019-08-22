@@ -1,0 +1,69 @@
+/* Friends Searchbar 'Friends Text' */
+.socialListTab .tabLabel {
+  color: rgb(var(--text)) !important;
+}
+
+/* Background SearchTab */
+.socialListTab {
+  background: rgb(var(--header)) !important;
+}
+
+/* === Icons === */
+
+/* Icon tab search button */
+.TabSearchButton .ColorSelector {
+  stroke: rgb(var(--icon)) !important;
+  fill: rgb(var(--icon)) !important;
+}
+
+/* Search Button in Search Bar */
+.friendsTabButtonsContainer .TabSearchButton {
+  border-radius: 50px;
+}
+
+.friendSearchClear .SVGIcon_X_Line line {
+  stroke: rgb(var(--icon)) !important;
+}
+
+/* Add Friend Button */
+.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull,
+.friendRequestButton .SVGIcon_FriendRequest .friendHead,
+.friendRequestButton .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton .SVGIcon_FriendRequest .friendBody,
+.addFriendButton .SVGIcon_AddFriend .friendHead,
+.addFriendButton .SVGIcon_AddFriend .friendBody,
+.addFriendButton .SVGIcon_AddFriend .plusCircle {
+  fill: rgb(var(--icon)) !important;
+}
+
+/* Add Friend Button : Hover */
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendHead,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendArm,
+.friendRequestButton:hover .SVGIcon_FriendRequest .friendBody,
+.addFriendButton:hover .SVGIcon_AddFriend .friendHead,
+.addFriendButton:hover .SVGIcon_AddFriend .friendBody,
+.addFriendButton:hover .SVGIcon_AddFriend .plusCircle {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+/* ===  === */
+
+/* Friend Search Bar Input */
+.friendSearchInput {
+  background-color: rgb(var(--friendlist)) !important;
+  padding-left: 12px !important;
+  border-radius: 50px !important;
+  box-shadow: none !important;
+  background-image: none !important;
+}
+
+/* Center search close vertically in bar */
+.friendSearchClear .SVGIcon_X_Line {
+  margin: auto !important;
+}
+
+/* Friend Searchbar Hover */
+.TabSearchButton:hover {
+  background: rgb(var(--friendlist)) !important;
+}
