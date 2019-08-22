@@ -1,0 +1,66 @@
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.client_chat_frame * {
+  color: rgb(var(--text)) !important;
+}
+
+.miniprofile_miniProfileBackgroundBlur_G000o {
+  mix-blend-mode: unset;
+  opacity: 0.8;
+}
+
+:root {
+  /* Body Background Colours */
+  --header: 243, 243, 243;
+  --friendlist: 255, 255, 255;
+  --footer: var(--header);
+
+  /* Text */
+  --text: 0, 0, 0;
+  --listtext: 0, 0, 0;
+  --unreadmessage: 0, 255, 0;
+
+  /* Nickname Colour */
+  --nickname: 102, 102, 102;
+
+  /* Icon colours */
+  --icon: 79, 86, 96;
+  --iconhover: 0, 0, 0;
+
+  /* Title Icon Background */
+  --titleiconbg: 222, 222, 222;
+  --titleiconhover: var(--iconhover);
+
+  /* Status Colours */
+  --ingame: 0, 112, 26;
+  --online: 0, 92, 178;
+  --away: 250, 166, 26;
+  --offline: 0, 0, 0;
+
+  /* Buttons */
+  --activeButtonOn: 45, 115, 255;
+  --activeButtonOff: 46, 46, 47;
+
+  /* Scroll Bar */
+  --scrollbar: 189, 189, 189;
+  --scrollbarHover: 141, 141, 141;
+}
+
+/* Visual Affect changes for a light theme */
+.friend.offline .avatarHolder img.avatar {
+  filter: brightness(100%) saturate(0%);
+}
+
+.activeVoiceButtons line,
+.activeVoiceButtons path,
+.activeVoiceButtons polyline,
+.activeVoiceControls line,
+.activeVoiceControls path,
+.activeVoiceControls polyline,
+.chatRoomTextChannel line,
+.chatRoomTextChannel path {
+  stroke: rgb(var(--icon)) !important;
+}

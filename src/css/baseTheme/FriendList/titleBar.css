@@ -72,7 +72,7 @@
 .restoreButton line,
 .restoreButton rect,
 .closeButton line {
-  stroke: rgb(var(--text)) !important;
+  stroke: rgb(var(--icon)) !important;
   stroke-width: 24px;
 }
 
@@ -84,7 +84,7 @@
 .restoreButton:hover line,
 .restoreButton:hover rect,
 .closeButton:hover line {
-  stroke: rgb(var(--caption)) !important;
+  stroke: rgb(var(--titleiconhover)) !important;
 }
 
 /* ======================-==== Hover Background ============================= */
@@ -93,11 +93,11 @@
 .maximizeButton:hover,
 .restoreButton:hover,
 .minimizeButton:hover {
-  background: rgb(var(--captionhover)) !important;
+  background: rgb(var(--titleiconbg)) !important;
 }
 
 .closeButton:hover {
-  background: red !important;
+  background: #f04747 !important;
 }
 
 /* ========================================================================== */

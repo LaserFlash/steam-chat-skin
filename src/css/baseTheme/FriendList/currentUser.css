@@ -1,0 +1,51 @@
+/* ============================== Current User ============================== */
+
+/* hides line under Your avatar */
+.currentUserContainer {
+  border-bottom: 0 !important;
+}
+
+/* ================================= Layout ================================= */
+
+/* Spacing from window controls */
+.AvatarAndUser {
+  padding-top: 16px !important;
+}
+
+/* Improved Positioning */
+.currentUserContainer .labelHolder {
+  margin: 0 0 5px 8px !important;
+}
+
+/* ============================== DnD alignment ============================== */
+
+/* Reverse order: Label -> check Box */
+.DNDCheckBox {
+  flex-direction: row-reverse !important;
+}
+
+/* Align Label left in the menu */
+.DNDCheckBox .DialogToggle_Label {
+  width: 100% !important;
+}
+
+/* Line up descriptor */
+.persona_menu_dnd_descriptor {
+  padding-left: 0 !important;
+}
+
+/* Ensure area is normal size */
+.DialogCheckbox_Container.DNDCheckBox {
+  margin-top: 0 !important;
+}
+
+/* Vertically centre checkBox */
+.DNDCheckBox .DialogCheckbox {
+  position: absolute !important;
+  top: calc(50% - 8px) !important;
+}
+
+/* Active status item in Current User Context menu */
+.contextMenuItem.menuChecked {
+  color: rgb(var(--activeButtonOn)) !important;
+}

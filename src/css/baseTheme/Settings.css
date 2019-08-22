@@ -40,6 +40,8 @@ SETTINGS PANEL
 /* Selected Button */
 button.DialogButton.Primary {
   border-radius: 4px !important;
+  background: rgb(var(--activeButtonOn)) !important;
+  color: rgb(var(--text)) !important;
 }
 
 /* Friend Settings Notifications Row */
@@ -51,6 +53,10 @@ button.DialogButton.Primary {
 /* Puch To Talk Option Background */
 ._DialogSection.pushToTalkSection .PPTSoundOption {
   background-color: transparent !important;
+}
+
+._DialogSection.pushToTalkSection .pushToKeyAssignContainer {
+  background-color: rgb(var(--header)) !important;
 }
 
 /* notification Check Boxes */
@@ -67,7 +73,8 @@ button.DialogButton.Primary {
 }
 
 .FriendsSettingsChatFontSizeSection_ButtonRow button {
-  margin-left: 3px !important;
+  margin-left: 3px;
+  margin-right: 3px;
 }
 
 /* removes overlapping background on voice */
@@ -80,6 +87,7 @@ button.DialogButton.Primary {
 .DialogSlider_Slider {
   border: 0 !important;
   box-shadow: none !important;
+  background: rgb(var(--activeButtonOff)) !important;
 }
 
 /* Removes Voice Transmission Type background */
@@ -114,6 +122,7 @@ button.DialogButton::before {
 .VoiceSettings .advancedSettingsButton {
   border-radius: 4px !important;
   margin-left: 2px !important;
+  width: calc(100% - 4px) !important;
 }
 
 /* Advanced Expanded background */
@@ -238,11 +247,6 @@ button.DialogButton.copyVoiceLogsButton {
   background: rgb(var(--activeButtonOn)) !important;
 }
 
-/* Slider off section */
-.DialogSlider_Slider {
-  background: rgb(var(--activeButtonOff)) !important;
-}
-
 /* Drop Down Menu backgrounds */
 .DialogDropDownMenu._DialogInputContainer {
   background-color: rgb(var(--header)) !important;
@@ -275,10 +279,6 @@ button.DialogButton.Off {
   stroke: rgb(var(--icon));
 }
 
-button.DialogButton.Primary {
-  background: rgb(var(--activeButtonOn)) !important;
-}
-
 /* hover selected buttons */
 button.DialogButton:hover {
   box-shadow: 0 0 0 2px rgb(var(--activeButtonOn)) !important;
@@ -288,4 +288,17 @@ button.DialogButton:hover {
 .DialogTextInputBase,
 ._DialogInputContainer {
   background-color: rgb(var(--header)) !important;
+}
+
+.CreateChatDialog .DialogBody {
+  padding-right: 0 !important;
+}
+
+.CreateChatDialog ._DialogColLayout {
+  margin-left: 2px;
+  width: calc(100% - 4px);
+}
+
+.VoiceSettings .advancedSettings {
+  margin: 2px !important;
 }

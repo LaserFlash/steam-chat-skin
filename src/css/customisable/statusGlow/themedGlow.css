@@ -1,0 +1,42 @@
+/* ================================== Glow ================================== */
+
+/* Your avatar glow in header */
+.statusHeaderGlow {
+  opacity: 0.6;
+}
+
+.online .statusHeaderGlow stop:first-child {
+  stop-color: rgb(var(--online));
+  stop-opacity: 0.6;
+}
+
+.online .statusHeaderGlow stop:last-child {
+  stop-color: rgb(var(--online));
+}
+
+.ingame .statusHeaderGlow stop:first-child {
+  stop-color: rgb(var(--ingame));
+  stop-opacity: 0.6;
+}
+
+.ingame .statusHeaderGlow stop:last-child {
+  stop-color: rgb(var(--ingame));
+}
+
+.awayOrSnooze .statusHeaderGlow stop:first-child {
+  stop-color: rgb(var(--away));
+  stop-opacity: 0.6;
+}
+
+.awayOrSnooze .statusHeaderGlow stop:last-child {
+  stop-color: rgb(var(--away));
+}
+
+.offline .statusHeaderGlow stop:first-child {
+  stop-color: rgb(var(--offline));
+  stop-opacity: 0.6;
+}
+
+.offline .statusHeaderGlow stop:last-child {
+  stop-color: rgb(var(--offline));
+}
