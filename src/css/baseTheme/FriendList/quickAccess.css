@@ -3,8 +3,8 @@
   display: none !important;
 }
 
-/* Remove opacity on hover, always show full colour on hover */
-.quickAccessFriends .favoriteElement:hover .awayOrSnooze img {
+/* Away or snooze is never transparent */
+.quickAccessFriends .friend.friend.awayOrSnooze .avatarHolder img {
   opacity: 1 !important;
 }
 
