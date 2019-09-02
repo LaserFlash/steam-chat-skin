@@ -56,7 +56,7 @@
 .recentChatsGroup .friendGroup .groupName,
 .friendGroup.taggedGroup .groupName,
 .friendGroup.gameGroup .groupName {
-  color: rgb(var(--listtext)) !important;
+  color: rgb(var(--text)) !important;
 }
 
 .friendStatusHover:not(.quickAccessFriend):hover,

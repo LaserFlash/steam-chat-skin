@@ -2,6 +2,7 @@
 .contextmenu_contextMenuItem_CBC-y {
   border-top: 0 !important;
   background: rgb(var(--header)) !important;
+  color: rgb(var(--listtext)) !important;
 }
 
 .contextmenu_contextMenuItem_CBC-y:hover {
@@ -13,12 +14,21 @@
   background: rgb(var(--header)) !important;
 }
 
+.contextMenuGameName {
+  color: rgb(var(--text)) !important;
+}
+
 .contextMenuSectionContent {
   background: rgb(var(--header)) !important;
 }
 
 .contextmenu_contextMenu_3_a2Z {
   background: rgb(var(--header)) !important;
+  min-width: 9em !important;
+}
+
+.recentName {
+  color: rgb(var(--listtext));
 }
 
 :not(.friendInviteContainer)
