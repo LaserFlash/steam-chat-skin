@@ -93,5 +93,6 @@ FRIENDLIST
 }
 
 .personanameandstatus_richPresenceContainer_21cNf {
-  width: calc(100% - 4px);
+  width: 100%;
+  padding-right: 4px;
 }
