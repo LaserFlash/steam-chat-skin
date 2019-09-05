@@ -5,13 +5,8 @@
   margin-top: 0 !important;
 }
 
-/* friend group online friends */
-.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends {
-  border-top: 4px !important;
-  margin-top: 0 !important;
-}
-
-/* friend group offline friends */
+/* friend group bu status friends */
+.FriendsListContent .friendlistListContainer .friendGroup.onlineFriends,
 .FriendsListContent .friendlistListContainer .friendGroup.offlineFriends {
   border-top: none !important;
   margin-top: 0 !important;
