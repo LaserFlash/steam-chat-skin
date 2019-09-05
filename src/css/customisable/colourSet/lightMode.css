@@ -1,17 +1,3 @@
-* {
-  box-shadow: none !important;
-  text-shadow: none !important;
-}
-
-.client_chat_frame * {
-  color: rgb(var(--text)) !important;
-}
-
-.miniprofile_miniProfileBackgroundBlur_G000o {
-  mix-blend-mode: unset;
-  opacity: 0.8;
-}
-
 :root {
   /* Body Background Colours */
   --header: 243, 243, 243;
@@ -47,6 +33,20 @@
   /* Scroll Bar */
   --scrollbar: 189, 189, 189;
   --scrollbarHover: 141, 141, 141;
+}
+
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.client_chat_frame * {
+  color: rgb(var(--text)) !important;
+}
+
+.miniprofile_miniProfileBackgroundBlur_G000o {
+  mix-blend-mode: unset;
+  opacity: 0.8;
 }
 
 /* Visual Affect changes for a light theme */

@@ -2,7 +2,7 @@
 
 /* hides line under Your avatar */
 .currentUserContainer {
-  border-bottom: 0;
+  border-bottom: 0 !important;
 }
 
 /* ================================= Layout ================================= */
