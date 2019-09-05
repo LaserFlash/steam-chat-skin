@@ -15,42 +15,31 @@
 }
 
 /* mini profile PersonaName */
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.in-game
-  .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l)
-  .miniprofile_personaNameLabel_390p4,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.in-game
-  .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz
-  .miniprofile_personaNameLabel_390p4 {
+.online .miniprofile_personaNameLabel_390p4,
+.online .miniprofile_awayStatusLabel_2UzRy {
+  color: rgb(var(--online)) !important;
+}
+
+.ingame .miniprofile_personaNameLabel_390p4,
+.miniprofile_ingame_3H2mq .miniprofile_gameState_2Va3_,
+.miniprofile_ingame_3H2mq,
+.miniprofile_ingame_3H2mq .miniprofile_richPresence_1rud4 {
   color: rgb(var(--ingame)) !important;
-  border-radius: 4px !important;
 }
 
-/* mini profile PersonaName */
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.online
-  .miniprofile_personaName_W3QjS:not(.miniprofile_hasNickname_dgG-l)
-  .miniprofile_personaNameLabel_390p4,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.online
-  .miniprofile_personaName_W3QjS.miniprofile_nickName_2E8Iz
-  .miniprofile_personaNameLabel_390p4 {
-  color: rgb(var(--online)) !important;
-  border-radius: 4px !important;
+.awayOrSnooze .miniprofile_personaNameLabel_390p4,
+.awayOrSnooze .miniprofile_awayStatusLabel_2UzRy {
+  color: rgb(var(--away)) !important;
 }
 
-/* mini profile PersonaName */
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s
-  .miniprofile_nickname_1W3dU,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.miniprofile_online_3Bk5s
-  .miniprofile_persona_1Z3Ey,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfilePlayer_3cN6K.online
-  .miniprofile_playerContent_PV11V
-  .miniprofile_awayStatusLabel_2UzRy {
-  color: rgb(var(--online)) !important;
-  border-radius: 4px !important;
+.offline .miniprofile_personaName_W3QjS {
+  color: rgb(var(--offline)) !important;
+}
+
+.miniprofile_hasNickname_dgG-l .miniprofile_personaNameLabel_390p4 {
+  color: rgb(var(--listtext)) !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG {
+  height: 90px !important;
 }
