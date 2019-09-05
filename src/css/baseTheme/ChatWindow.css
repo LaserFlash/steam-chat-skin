@@ -7,8 +7,8 @@ CHAT WINDOW
 /* Group Chat icon */
 .ChatTabContent.ChatRoom .ChatRoomGroupAvatar,
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
-  margin-top: 0;
-  margin-left: 0;
+  margin-top: 0 !important;
+  margin-left: 0 !important;
 }
 
 .ChatTabs.compactView .ChatRoomGroupAvatar {
@@ -21,7 +21,7 @@ CHAT WINDOW
   height: 42px !important;
 }
 
-/* Group Chat Lables */
+/* Group Chat Labels */
 .chatTabGroupName,
 .ChatTabs.compactView .chatTabGroupName {
   margin: auto 0 auto 0; /* vertical centre */

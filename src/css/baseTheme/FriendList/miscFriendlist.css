@@ -88,8 +88,8 @@ FRIENDLIST
 }
 
 .MemberListColumn .friend .chatMemberFriendIcon svg {
-  left: -5px;
-  bottom: 1px;
+  left: -5px !important;
+  bottom: 1px !important;
 }
 
 .personanameandstatus_richPresenceContainer_21cNf {
