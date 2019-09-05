@@ -58,12 +58,18 @@ CHAT WINDOW
 
 /* Select more friends */
 .chatTabSelector {
-  background: none;
-  border-radius: 50%;
-  border: 0;
-  box-shadow: none;
+  background: none !important;
+  border-radius: 50% !important;
+  border: 0 !important;
+  width: 42px !important;
+  height: 42px !important;
   display: flex;
   align-items: center;
+}
+
+.compactView .chatTabSelector {
+  width: 32px !important;
+  height: 32px !important;
 }
 
 .chatTabSelector:hover {
@@ -71,7 +77,7 @@ CHAT WINDOW
 }
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
-  margin: 0 auto;
+  margin: 0 auto !important;
   padding-left: 3px;
   padding-top: 3px;
 }
@@ -383,15 +389,14 @@ CHAT WINDOW
 
 /* Chat Action Area */
 .chatentry_chatEntryActionsGroup_15mWd {
-  box-shadow: none;
-  background: none;
+  background: none !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0,
 .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh,
 .VoiceToggle,
 .VoiceToggle.Active {
-  background: none;
+  background: none !important;
   border: 0 !important;
   border-radius: 50%;
 }
@@ -422,16 +427,16 @@ CHAT WINDOW
 }
 
 .chatentry_chatSubmitButton_3VRfL {
-  background-color: rgb(var(--header));
-  border: 0;
+  background-color: rgb(var(--header)) !important;
+  border: 0 !important;
   margin: 0 !important;
-  padding: 0;
-  height: 100%;
-  max-height: none;
+  padding: 0 !important;
+  height: 100% !important;
+  max-height: none !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
-  background-color: rgb(var(--header));
+  background-color: rgb(var(--header)) !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL:not(.chatentry_disabled_2p2vW):hover {
@@ -446,7 +451,7 @@ CHAT WINDOW
 .ChatMessageEntryVoice,
 .buttonsContainer,
 .VoiceToggle {
-  background: none;
+  background: none !important;
 }
 
 /* Button to open voice settings */
