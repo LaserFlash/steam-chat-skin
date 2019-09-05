@@ -10,17 +10,8 @@
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW,
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH
-  .miniprofile_gameLogo_2B0di,
-.miniprofile_miniProfileBackground_3gfFJ {
+  .miniprofile_gameLogo_2B0di {
   border-radius: 4px;
-}
-
-/* mini profile Background */
-.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2
-  .miniprofile_miniProfileBottom_3Agb6,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfileGameContainer_2FyZH {
-  top: 10px !important;
 }
 
 /* mini profile PersonaName */
