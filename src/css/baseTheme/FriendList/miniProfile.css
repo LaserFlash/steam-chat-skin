@@ -8,7 +8,7 @@
 
 /* mini profile Header */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
-  background: rgb(var(--header));
+  background: rgb(var(--header)) !important;
   border-radius: 4px;
 }
 
@@ -16,13 +16,13 @@
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH
   .miniprofile_gameLogo_2B0di {
-  border-radius: 4px;
+  border-radius: 4px !important;
 }
 
 /* mini profile Background */
 .miniprofile_miniProfileBackground_3gfFJ {
-  background: rgb(var(--header));
-  border-radius: 4px;
+  background: rgb(var(--header)) !important;
+  border-radius: 4px !important;
 }
 
 /* mini profile Background */
@@ -30,13 +30,13 @@
   .miniprofile_miniProfileBottom_3Agb6,
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH {
-  background: transparent;
-  top: 10px;
+  background: transparent !important;
+  top: 10px !important;
 }
 
 /* mini profile Blur */
 .miniprofile_miniProfileBackgroundBlur_G000o {
-  display: none;
+  display: none !important;
 }
 
 /* mini profile PersonaName */
