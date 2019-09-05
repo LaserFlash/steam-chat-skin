@@ -55,7 +55,7 @@
 
 /* icon new chat group line */
 .friendsListSectionTitle .SVGIcon_NewChatGroup line {
-  stroke: rgb(var(--footer));
+  stroke: rgb(var(--footer)) !important;
 }
 
 /* icon new chat group line */
