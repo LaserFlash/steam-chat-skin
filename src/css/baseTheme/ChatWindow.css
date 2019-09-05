@@ -161,7 +161,6 @@ CHAT WINDOW
 .chatentry_chatEntryControls_2O_X7 {
   border-radius: 4px !important;
   background-color: rgb(var(--friendlist)) !important;
-  box-shadow: none !important;
   padding: 0 !important;
 }
 
@@ -222,12 +221,7 @@ CHAT WINDOW
   height: 100% !important;
 }
 
-.ChatRoomListGroupItem.ShowAllChannels .detailsView {
-  box-shadow: none !important;
-}
-
 .ChatRoomListGroupItemChatRooms .chatRoomVoiceChannel.ActiveVoiceChannel {
-  box-shadow: none !important;
   border-radius: 4px !important;
 }
 
@@ -463,8 +457,4 @@ CHAT WINDOW
 .activeVoiceControls {
   background: rgb(var(--header)) !important;
   border: none !important;
-}
-
-.activeVoiceButtons .SVGIcon_Shadow {
-  display: none !important;
 }

@@ -15,19 +15,12 @@ SETTINGS PANEL
   background: rgb(var(--friendlist)) !important;
 }
 
-/* Shadows */
-.ModalDialogPopup .DialogContentTransition .DialogBody {
-  -webkit-mask: none !important;
-  mask: none !important;
-}
-
 /* Menus color */
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
   color: rgb(var(--text)) !important;
   border: none !important;
   border-radius: 4px !important;
-  box-shadow: none !important;
 }
 
 /* Text Colour */
@@ -61,7 +54,6 @@ button.DialogButton.Primary {
 
 /* notification Check Boxes */
 .DialogCheckbox {
-  box-shadow: none !important;
   border-radius: 4px !important;
   background-color: rgb(var(--friendlist)) !important;
 }
@@ -86,7 +78,6 @@ button.DialogButton.Primary {
 /* Slider Background */
 .DialogSlider_Slider {
   border: 0 !important;
-  box-shadow: none !important;
   background: rgb(var(--activeButtonOff)) !important;
 }
 
@@ -112,10 +103,8 @@ button.DialogButton.Primary {
   border-radius: 4px !important;
 }
 
-/* removes shadows from all buttons */
 button.DialogButton::before {
   border-radius: 4px !important;
-  box-shadow: none !important;
 }
 
 /* Advanced Button */
@@ -146,7 +135,6 @@ button.DialogButton.copyVoiceLogsButton {
 /* Search */
 ._DialogTextInputBase:focus {
   background: rgb(var(--footer)) !important;
-  box-shadow: none !important;
   border-radius: 4px !important;
 }
 
@@ -160,7 +148,6 @@ button.DialogButton.copyVoiceLogsButton {
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
   border-radius: 4px !important;
-  box-shadow: none !important;
 }
 
 /* CATEGORIZE */
@@ -175,11 +162,6 @@ button.DialogButton.copyVoiceLogsButton {
 .FriendPicker_Suggestions {
   background-color: rgb(var(--header)) !important;
   border-radius: 4px !important;
-}
-
-/* removes all inside shadows */
-.insetShadow {
-  background: none !important;
 }
 
 /* Friend hover background */

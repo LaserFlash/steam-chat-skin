@@ -42,6 +42,13 @@
 /* @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/statusGlow/noGlow.css); */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/statusGlow/themedGlow.css);
 
+/* ============================= Shadow Effects ================================
+   Certain elements can be given a 3d affect through the use of shadows
+   Import nothing for stock steam, other wise choose a following option                                       */
+
+/* @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/noShadow.css); */
+@import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/improvedShadow.css);
+
 /* ==========================================================================
    ==========================================================================
    =============================== CREDITS ==================================

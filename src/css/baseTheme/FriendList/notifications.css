@@ -9,21 +9,14 @@
   margin-top: 5px !important;
   margin-bottom: 4px !important;
   width: 150px !important;
-  box-shadow: none !important;
 }
 
 /* unread message count */
 .unreadFriend .FriendMessageCount {
-  box-shadow: none !important;
   border-radius: 40px !important;
   color: rgb(var(--unreadmessage)) !important;
   background: rgb(var(--scrollbar)) !important;
   animation-name: none !important;
-}
-
-/* chat invite message */
-.ChatMessageInvite {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
 }
 
 /* Trade offer message arrow */
@@ -92,7 +85,6 @@ Remove default effect
   background: red !important;
   border: 2px solid red !important;
   border-radius: 100% !important;
-  box-shadow: 0 0 10px 3px red !important;
 }
 
 .UnreadGlow {

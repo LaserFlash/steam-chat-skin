@@ -1,0 +1,25 @@
+* {
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+
+.activeVoiceButtons .SVGIcon_Shadow {
+  display: none !important;
+}
+
+/* Shadows */
+.ModalDialogPopup .DialogContentTransition .DialogBody {
+  -webkit-mask: none !important;
+  mask: none !important;
+}
+
+/* removes all inset shadows */
+.insetShadow,
+.insetshadow_FriendsListInsetShadowCtn_1S167 {
+  display: none !important;
+}
+
+button.DialogButton::before,
+button.DialogButton.Secondary.Off {
+  box-shadow: none !important;
+}

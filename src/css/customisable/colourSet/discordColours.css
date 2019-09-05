@@ -34,8 +34,3 @@
   --scrollbar: 32, 34, 37;
   --scrollbarHover: 32, 34, 37;
 }
-
-* {
-  box-shadow: none !important;
-  text-shadow: none !important;
-}

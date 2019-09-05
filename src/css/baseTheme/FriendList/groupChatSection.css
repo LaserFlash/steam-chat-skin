@@ -48,11 +48,6 @@
   color: rgb(var(--text)) !important;
 }
 
-/* Hides group chat bottom shadow */
-.FriendsListChatSection .insetshadow_FriendsListInsetShadowCtn_1S167 {
-  display: none !important;
-}
-
 /* icon new chat group line */
 .friendsListSectionTitle .SVGIcon_NewChatGroup line {
   stroke: rgb(var(--footer)) !important;

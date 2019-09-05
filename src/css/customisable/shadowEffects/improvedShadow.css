@@ -1,0 +1,82 @@
+/* ==== Improves Friendlist top & bottom shadow === */
+.insetshadow_FriendListInsetShadowTop_1mEmL {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 20px !important;
+}
+
+.insetshadow_FriendListInsetShadowBottom_3cl4u {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 20px !important;
+}
+
+/* ================================================ */
+
+/* ======== Looks better without box-shadow ======= */
+
+/* Between logged in and quickaccess */
+.activeTab,
+/* Settings Buttons */
+button.DialogButton::before,
+button.DialogButton.Secondary.Off,
+.DialogCheckbox,
+/* Avatar Shadows */
+.avatar,
+.currentUserAvatar,
+.miniprofile_playerAvatar_1dzWG,
+/* Chat Window Controls*/
+.chatentry_chatEntryActionsGroup_15mWd,
+.ChatMessageEntryVoice,
+.chatentry_chatEntryControls_2O_X7,
+/* Chat Window tabs */
+.chatTabList .chatTab,
+.chatTabSelector,
+/* Group chat search */
+.friendSearchInput {
+  box-shadow: none !important;
+}
+
+/* End of friendlist shadow */
+.ChatRoomListContainerParent .insetshadow_FriendsListInsetShadowCtn_1S167 {
+  display: none !important;
+}
+
+/* All Text Shadow is bad */
+* {
+  text-shadow: none !important;
+}
+
+/* ================================================ */
+
+.chatentry_chatTextarea_3e__5 {
+  box-shadow: inset 0 0 4px #000 !important;
+  margin-right: 0 !important;
+}
+
+.MemberListColumn {
+  box-shadow: 0 0 22px 0 #0003 !important;
+}
+
+/* chat invite message */
+.ChatMessageInvite {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
+}
+
+.chatUnreadCircle {
+  box-shadow: 0 0 10px 3px red !important;
+}
+
+/* Shadows */
+.ModalDialogPopup .DialogContentTransition .DialogBody {
+  -webkit-mask: none !important;
+  mask: none !important;
+}
