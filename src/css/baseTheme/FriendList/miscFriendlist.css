@@ -94,3 +94,8 @@ FRIENDLIST
 .avatarStatus {
   transition: none !important;
 }
+
+.steamavatar_avatar_f2laR {
+  border: none;
+  height: 100%;
+}
