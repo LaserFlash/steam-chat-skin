@@ -6,23 +6,13 @@
   border-radius: 0 !important;
 }
 
-/* mini profile Header */
-.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW {
-  background: rgb(var(--header)) !important;
-  border-radius: 4px;
-}
-
-/* mini profile Game Backgroung */
+/* mini profile all edges */
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW,
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH
-  .miniprofile_gameLogo_2B0di {
-  border-radius: 4px !important;
-}
-
-/* mini profile Background */
+  .miniprofile_gameLogo_2B0di,
 .miniprofile_miniProfileBackground_3gfFJ {
-  background: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border-radius: 4px;
 }
 
 /* mini profile Background */
@@ -30,13 +20,7 @@
   .miniprofile_miniProfileBottom_3Agb6,
 .miniprofile_miniProfileContent_25Sge
   .miniprofile_miniProfileGameContainer_2FyZH {
-  background: transparent !important;
   top: 10px !important;
-}
-
-/* mini profile Blur */
-.miniprofile_miniProfileBackgroundBlur_G000o {
-  display: none !important;
 }
 
 /* mini profile PersonaName */
