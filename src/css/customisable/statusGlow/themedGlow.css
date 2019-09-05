@@ -2,41 +2,41 @@
 
 /* Your avatar glow in header */
 .statusHeaderGlow {
-  opacity: 0.6;
+  opacity: 0.4;
 }
 
 .online .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--online));
-  stop-opacity: 0.6;
+  stop-color: rgb(var(--online)) !important;
+  stop-opacity: 0.4;
 }
 
 .online .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--online));
+  stop-color: rgb(var(--online)) !important;
 }
 
 .ingame .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--ingame));
-  stop-opacity: 0.6;
+  stop-color: rgb(var(--ingame)) !important;
+  stop-opacity: 0.4;
 }
 
 .ingame .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--ingame));
+  stop-color: rgb(var(--ingame)) !important;
 }
 
 .awayOrSnooze .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--away));
-  stop-opacity: 0.6;
+  stop-color: rgb(var(--away)) !important;
+  stop-opacity: 0.4;
 }
 
 .awayOrSnooze .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--away));
+  stop-color: rgb(var(--away)) !important;
 }
 
 .offline .statusHeaderGlow stop:first-child {
-  stop-color: rgb(var(--offline));
-  stop-opacity: 0.6;
+  stop-color: rgb(var(--offline)) !important;
+  stop-opacity: 0.4;
 }
 
 .offline .statusHeaderGlow stop:last-child {
-  stop-color: rgb(var(--offline));
+  stop-color: rgb(var(--offline)) !important;
 }
