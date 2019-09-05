@@ -91,7 +91,6 @@ FRIENDLIST
   bottom: 1px !important;
 }
 
-.personanameandstatus_richPresenceContainer_21cNf {
-  width: 100%;
-  padding-right: 4px;
+.avatarStatus {
+  transition: none !important;
 }

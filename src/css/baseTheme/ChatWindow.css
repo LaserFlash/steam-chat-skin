@@ -29,7 +29,7 @@ CHAT WINDOW
 
 /* Chat Tab label area */
 .chatTab .ChatTabContent {
-  padding: 0 !important;
+  padding: 2px !important;
   align-items: center !important;
 }
 
@@ -282,9 +282,7 @@ CHAT WINDOW
 
 /* Place friend avatar against the left side (line up with group chat) */
 .ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
-  padding-left: 0 !important;
-  padding-bottom: 2px !important;
-  padding-right: 2px !important;
+  padding: 0 !important;
   margin-left: 0 !important;
   width: auto !important;
 }
@@ -323,7 +321,6 @@ CHAT WINDOW
 
 .ChatTabContent .avatarHolder {
   height: auto !important;
-  padding: 2px !important;
 }
 
 /* ========================================================================== */
