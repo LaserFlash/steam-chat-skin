@@ -24,7 +24,7 @@ CHAT WINDOW
 /* Group Chat Labels */
 .chatTabGroupName,
 .ChatTabs.compactView .chatTabGroupName {
-  margin: auto 0 auto 0; /* vertical centre */
+  margin: auto 0 auto 0 !important; /* vertical centre */
 }
 
 /* Chat Tab label area */
@@ -162,7 +162,7 @@ CHAT WINDOW
   border-radius: 4px !important;
   background-color: rgb(var(--friendlist)) !important;
   box-shadow: none !important;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .emoticon_NewEmoticonIndicator_3NVON {
@@ -462,7 +462,7 @@ CHAT WINDOW
 /* Voice controls when in voice chat */
 .activeVoiceControls {
   background: rgb(var(--header)) !important;
-  border: none;
+  border: none !important;
 }
 
 .activeVoiceButtons .SVGIcon_Shadow {
