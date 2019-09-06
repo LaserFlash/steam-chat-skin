@@ -58,8 +58,29 @@
   fill: rgb(var(--icon));
 }
 
+.friendsListSectionTitle .SVGIcon_NewChatGroup .Bubble:hover {
+  fill: rgb(var(--iconhover));
+}
+
 /* Notifications */
 .chatRoomTextChannel .chatUnreadCircle {
   left: 8px !important;
   top: auto !important;
+}
+
+.ChatRoomListGroupItemChatRooms {
+  margin-left: 16px;
+}
+
+.chatRoomVoiceChannel {
+  box-shadow: none !important;
+  border: none !important;
+  background: transparent;
+}
+
+.chatRoomVoiceChannel,
+.ChatRoomListGroupItem .detailsView,
+.chatRoomVoiceChannel.ActiveVoiceChannel,
+.chatRoomVoiceChannel.ActiveVoiceChannel .activeVoiceButtons {
+  background: none !important;
 }

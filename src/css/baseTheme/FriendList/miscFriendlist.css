@@ -99,3 +99,7 @@ FRIENDLIST
   border: none;
   height: 100%;
 }
+
+.SVGIcon_VoiceRoom .Microphone {
+  fill: rgb(var(--footer));
+}

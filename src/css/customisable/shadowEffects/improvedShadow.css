@@ -27,7 +27,9 @@
 .activeTab,
 /* Settings Buttons */
 button.DialogButton::before,
-button.DialogButton.Secondary.Off,
+button.DialogButton,
+.DialogSlider_Grabber,
+.DialogSlider_Slider,
 .DialogCheckbox,
 /* Avatar Shadows */
 .avatar,

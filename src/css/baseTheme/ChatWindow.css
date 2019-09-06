@@ -53,7 +53,8 @@ CHAT WINDOW
 
 .MemberListColumn,
 .chatRoomGroupNavColumn {
-  background-color: rgb(var(--friendlist)) !important;
+  background-color: rgb(var(--header)) !important;
+  z-index: 0;
 }
 
 /* Select more friends */
@@ -143,6 +144,7 @@ CHAT WINDOW
 .chatWindow .chatHeader {
   background: rgb(var(--header)) !important;
   min-height: 4px !important;
+  z-index: 1;
 }
 
 .chatWindow {
@@ -233,6 +235,7 @@ CHAT WINDOW
 
 .chatRoomVoiceChannel .chatRoomTextChannel {
   border-left: 0 !important;
+  border-radius: 4px;
 }
 
 .ChatRoomListGroupItem
@@ -240,6 +243,11 @@ CHAT WINDOW
   .chatRoomTextChannel {
   bottom: 1px !important;
   border-radius: 4px !important;
+}
+
+.chatRoomTextChannel,
+.chatRoomTextChannelName {
+  transition: none;
 }
 
 /* Chat Divider Fullscreen */
@@ -340,16 +348,15 @@ CHAT WINDOW
 .chatRoomGroupNavColumn line,
 .chatRoomGroupNavColumn path,
 .chatRoomGroupNavColumn polyline,
-.chatRoomGroupNavColumn circle {
-  stroke: rgb(var(--icon)) !important;
-}
-
-.chatRoomVoiceChannel.ActiveVoiceChannel {
-  background-color: rgb(var(--header)) !important;
+.chatRoomGroupNavColumn circle,
+.SVGIcon_Pin .head,
+.SVGIcon_Pin .ground,
+.chatRoomVoiceChannel .SVGIcon_TextRoom .TextLines {
+  stroke: rgb(var(--icon));
 }
 
 .chatRoomVoiceChannel:hover {
-  background-color: rgb(var(--header)) !important;
+  background-color: none !important;
 }
 
 /* ==========================================================================
@@ -408,6 +415,15 @@ CHAT WINDOW
   stroke: rgb(var(--icon)) !important;
 }
 
+.chatentry_chatSubmitButton_3VRfL:hover circle,
+.chatentry_chatSubmitButton_3VRfL:hover path,
+.chatentry_chatSubmitButton_3VRfL:hover line,
+.VoiceToggle:hover path,
+.VoiceToggle:hover polyline,
+.ToggleMemberListView:hover polyline {
+  stroke: rgb(var(--iconhover)) !important;
+}
+
 .VoiceToggleIconCtn,
 .SVGIcon_VoiceRoom .Bubble {
   fill: rgb(var(--icon));
@@ -452,6 +468,22 @@ CHAT WINDOW
 
 /* Voice controls when in voice chat */
 .activeVoiceControls {
-  background: rgb(var(--header)) !important;
+  background: none !important;
   border: none !important;
+}
+
+.SVGIcon_Button.SVGIcon_Shadow {
+  display: none;
+}
+
+.VoiceControlPanelButton:hover .SVGIcon_Button {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+.MicStatus .SVGIcon_Button {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+.chatRoomGroupNavColumn polyline {
+  stroke: rgb(var(--iconhover)) !important;
 }
