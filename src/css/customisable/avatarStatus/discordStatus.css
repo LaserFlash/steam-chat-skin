@@ -82,6 +82,11 @@ DISCORD STATUS (DEFAULT)
   background: rgb(var(--online)) !important;
 }
 
+.watchingbroadcast:not(.awayOrSnooze) .avatarStatus,
+.watchingbroadcast:not(.away) .speakerStatus {
+  background: rgb(var(--watching)) !important;
+}
+
 .ingame:not(.awayOrSnooze) .avatarStatus,
 .ingame:not(.away) .speakerStatus {
   background: rgb(var(--ingame)) !important;

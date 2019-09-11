@@ -36,10 +36,21 @@
   color: rgb(var(--offline)) !important;
 }
 
+.watchingbroadcast .miniprofile_personaNameLabel_390p4,
+.miniprofile_watchingbroadcast_24vwG .miniprofile_gameState_2Va3_,
+.miniprofile_watchingbroadcast_24vwG .miniprofile_richPresence_1rud4 {
+  color: rgb(var(--watching)) !important;
+}
+
 .miniprofile_hasNickname_dgG-l .miniprofile_personaNameLabel_390p4 {
   color: rgb(var(--listtext)) !important;
 }
 
 .miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG {
   height: 90px !important;
+}
+
+.miniProfileHoverInner .watchingbroadcastThumbnail,
+.miniProfileHoverInner .watchingbroadcastThumbnail .crossfade {
+  border-radius: 4px;
 }

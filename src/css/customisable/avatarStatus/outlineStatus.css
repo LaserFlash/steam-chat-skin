@@ -20,6 +20,10 @@
   border-color: rgb(var(--online)) !important;
 }
 
+.watchingbroadcast .avatar {
+  border-color: rgb(var(--watching)) !important;
+}
+
 .ingame:not(.awayOrSnooze) .avatar {
   border-color: rgb(var(--ingame)) !important;
 }

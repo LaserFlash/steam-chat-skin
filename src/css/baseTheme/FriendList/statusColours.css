@@ -16,6 +16,7 @@
   fill: rgb(var(--online)) !important;
 }
 
+/* color for offline status */
 .offline.personanameandstatus_playerName_1uxaf,
 .offline .personanameandstatus_gameName_qvibF,
 .offline .personanameandstatus_richPresenceLabel_3Q6g1,
@@ -24,7 +25,7 @@
   fill: rgb(var(--offline)) !important;
 }
 
-/* color for ingame status */
+/* color for away status */
 .awayOrSnooze .personanameandstatus_playerName_1uxaf,
 .awayOrSnooze .personanameandstatus_gameName_qvibF,
 .awayOrSnooze .personanameandstatus_richPresenceLabel_3Q6g1,
@@ -36,6 +37,15 @@
 /* zzz icon */
 .friendsnooze_SnoozeZ_29fyi {
   color: rgb(var(--away)) !important;
+}
+
+/* color for watching status */
+.watchingbroadcast .personanameandstatus_playerName_1uxaf,
+.watchingbroadcast .personanameandstatus_gameName_qvibF,
+.watchingbroadcast .personanameandstatus_richPresenceLabel_3Q6g1,
+.watchingbroadcast .personastatusicons_PersonaStatusIcon_2rP7f path {
+  color: rgb(var(--watching)) !important;
+  fill: rgb(var(--watching)) !important;
 }
 
 /* all other icons colors */
