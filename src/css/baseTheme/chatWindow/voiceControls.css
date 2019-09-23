@@ -1,0 +1,93 @@
+/* ================================ */
+
+/* Voice Options Block / Containers */
+.ChatMessageEntryVoice {
+  padding: 0;
+  margin: 0;
+  border-left-color: rgb(var(--friendlist));
+  border-left-width: 1px;
+  border-left-style: solid;
+  background: none !important;
+}
+
+.ChatMessageEntryVoice .buttonsContainer {
+  margin: auto;
+  padding-right: 12px;
+}
+
+.buttonsContainer,
+.VoiceToggle,
+.activeVoiceControls {
+  background: none !important;
+  border: none !important;
+}
+
+.ChatMessageEntryVoice.Active {
+  padding-right: 24px;
+}
+
+/* =============== */
+
+/* Disabled Styles */
+.ChatMessageEntryVoice.Disabled {
+  border: 0;
+  outline: 0;
+}
+
+.ChatMessageEntryVoice.Inactive .activeVoiceControls {
+  display: none;
+}
+
+/* =============================== */
+
+/* Voice Settings button from chat */
+
+/* Icon size */
+.activeVoiceButtons .friendSettingsButton .SVGIcon_Settings,
+.activeVoiceButtons .friendSettingsButton {
+  height: 15px;
+  width: 15px;
+}
+
+/* Button Position */
+.activeVoiceButtons .friendSettingsButton {
+  margin: auto 0 auto 2px;
+}
+
+/* ============================== */
+
+/* Voice Control Button alignment */
+.VoiceControlPanelButton.ToggleVoiceOutputButton .SVGIcon_Headphones,
+.VoiceControlPanelButton.ToggleMicrophoneButton .SVGIcon_Microphone {
+  padding-top: 0;
+  vertical-align: middle;
+}
+
+.VoiceToggleIconCtn {
+  top: 0;
+  left: 0;
+  position: relative;
+  margin: auto;
+}
+
+html.client_chat_frame .chatWindow .chatEntry {
+  padding-right: 0;
+}
+
+/* ================= */
+
+/* Misc Icon Effects */
+
+/* Hide strange blur shadow */
+.SVGIcon_Button.SVGIcon_Shadow {
+  display: none !important;
+}
+
+.VoiceToggleIconCtn .SVGIcon_VoiceRoom .Microphone {
+  fill: rgb(var(--icon));
+}
+
+/* Hover icon colour */
+.VoiceControlPanelButton:hover .SVGIcon_Button {
+  fill: rgb(var(--iconhover)) !important;
+}

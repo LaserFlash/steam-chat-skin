@@ -1,0 +1,58 @@
+/* =========================== */
+
+/* Input area spacing/position */
+
+/* Most of the following is to properly center things and have nice spacing */
+
+.chatWindow .chatEntry {
+  display: flex;
+  border-radius: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  padding-top: 0;
+}
+
+.chatWindow .chatEntry > * {
+  margin-bottom: 0;
+}
+
+.chatentry_chatEntryActionsContainer_WZNUD,
+.chatentry_chatEntryActionsGroup_15mWd {
+  margin: auto !important;
+}
+
+.chatentry_chatTextarea_3e__5 {
+  box-shadow: none !important;
+  box-sizing: border-box;
+  padding: 10px;
+  margin: auto;
+}
+
+.chatentry_chatEntryControls_2O_X7 .chatentry_chatSubmitButton_3VRfL {
+  align-self: auto;
+}
+
+.chatentry_chatEntryControls_2O_X7 {
+  background-color: transparent !important;
+}
+
+/* Submit Button size */
+.chatentry_chatSubmitButton_3VRfL svg {
+  height: 20px !important;
+  width: 20px !important;
+}
+
+/* Hide the shadow between text input and viewing area */
+.insetshadow_FriendsListInsetShadowCtn_1S167 {
+  display: none;
+}
+
+/* Wrap content once window is small   */
+
+/* ensures entry area is still visible */
+@media only screen and (max-width: 600px) {
+  .chatWindow .chatEntry {
+    flex-direction: column;
+  }
+}

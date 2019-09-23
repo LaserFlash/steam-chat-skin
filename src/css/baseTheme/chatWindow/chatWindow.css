@@ -53,8 +53,16 @@ CHAT WINDOW
 
 .MemberListColumn,
 .chatRoomGroupNavColumn {
-  background-color: rgb(var(--header)) !important;
   z-index: 0;
+  box-shadow: none;
+}
+
+.MemberListColumn {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+.chatRoomGroupNavColumn {
+  background-color: rgb(var(--header)) !important;
 }
 
 /* Select more friends */
@@ -434,50 +442,15 @@ CHAT WINDOW
 }
 
 .chatentry_chatSubmitButton_3VRfL {
-  background-color: rgb(var(--header)) !important;
+  background-color: transparent !important;
   border: 0 !important;
   margin: 0 !important;
   padding: 0 !important;
-  height: 100% !important;
   max-height: none !important;
-}
-
-.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW {
-  background-color: rgb(var(--header)) !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL:not(.chatentry_disabled_2p2vW):hover {
   background-color: rgb(var(--friendlist));
-}
-
-.ChatMessageEntryVoice.Disabled {
-  border: 0;
-  outline: 0;
-}
-
-.ChatMessageEntryVoice,
-.buttonsContainer,
-.VoiceToggle {
-  background: none !important;
-}
-
-/* Button to open voice settings */
-.friendSettingsButton {
-  margin: auto 0 auto 2px;
-}
-
-/* Voice controls when in voice chat */
-.activeVoiceControls {
-  background: none !important;
-  border: none !important;
-}
-
-.SVGIcon_Button.SVGIcon_Shadow {
-  display: none;
-}
-
-.VoiceControlPanelButton:hover .SVGIcon_Button {
-  fill: rgb(var(--iconhover)) !important;
 }
 
 .MicStatus .SVGIcon_Button {

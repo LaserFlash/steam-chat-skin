@@ -111,3 +111,7 @@ FRIENDLIST
 .groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy {
   stroke: rgb(var(--iconhover));
 }
+
+.SteamPlayerGroupFooterLabel {
+  color: rgb(var(--ingame));
+}

@@ -13,7 +13,9 @@
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/FriendList/miscFriendlist.css);
 
 /* Chat Window */
-@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/ChatWindow.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/chatWindow.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/voiceControls.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/discordStyleChatInput.css);
 
 /* Settings Window */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings.css);

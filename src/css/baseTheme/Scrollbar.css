@@ -44,3 +44,7 @@ SCROLLBAR
   background-color: rgb(var(--scrollbarHover)) !important;
   border-radius: 20px !important;
 }
+
+.chatentry_chatTextarea_3e__5::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--scrollbar));
+}

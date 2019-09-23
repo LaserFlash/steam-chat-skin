@@ -6,7 +6,7 @@
    Select one of the following avatar shapes
    Uncomment the desired import line to select it                             */
 
-@import url(css/customisable/avatarStyle/squircleAvatar.css);
+@import url(css/customisable/avatarStyle/roundAvatar.css);
 
 /* @import url(css/customisable/avatarStyle/squareAvatar.css);
    @import url(css/customisable/avatarStyle/squircleAvatar.css); */
@@ -59,3 +59,4 @@
 @import url(baseTheme.dev.css);
 
 /* ========================================================================== */
+@import url(css/discordStyleChatInput.css);
