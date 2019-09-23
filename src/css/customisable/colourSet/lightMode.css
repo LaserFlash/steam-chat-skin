@@ -1,6 +1,6 @@
 :root {
   /* Body Background Colours */
-  --header: 243, 243, 243;
+  --header: 242, 243, 245;
   --friendlist: 255, 255, 255;
   --footer: var(--header);
 
@@ -28,12 +28,16 @@
   --watching: 149, 117, 205;
 
   /* Buttons */
-  --buttonOn: 45, 115, 255;
+  --buttonOn: 114, 137, 218;
   --buttonOff: 46, 46, 47;
 
   /* Scroll Bar */
   --scrollbar: 189, 189, 189;
   --scrollbarHover: 141, 141, 141;
+
+  /* Close Button */
+  --closeButton: 240, 71, 71;
+  --closeIconHover: 255, 255, 255;
 }
 
 .client_chat_frame * {

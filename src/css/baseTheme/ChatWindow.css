@@ -195,7 +195,7 @@ CHAT WINDOW
 
 .chatTabClose:hover {
   border-radius: 10px !important;
-  background: red !important;
+  background: rgb(var(--closeButton)) !important;
 }
 
 .chatTabList .chatTab:not(.active) {

@@ -34,4 +34,8 @@
   /* Scroll Bar */
   --scrollbar: 55, 55, 55;
   --scrollbarHover: 97, 97, 97;
+
+  /* Close Button */
+  --closeButton: 240, 71, 71;
+  --closeIconHover: 255, 255, 255;
 }

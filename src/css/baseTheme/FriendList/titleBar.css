@@ -82,8 +82,7 @@
 .maximizeButton:hover line,
 .maximizeButton:hover rect,
 .restoreButton:hover line,
-.restoreButton:hover rect,
-.closeButton:hover line {
+.restoreButton:hover rect {
   stroke: rgb(var(--titleiconhover)) !important;
 }
 
@@ -97,7 +96,11 @@
 }
 
 .closeButton:hover {
-  background: #f04747 !important;
+  background: rgb(var(--closeButton)) !important;
+}
+
+.closeButton:hover line {
+  stroke: rgb(var(--closeIconHover)) !important;
 }
 
 /* ========================================================================== */
