@@ -460,3 +460,12 @@ CHAT WINDOW
 .chatRoomGroupNavColumn polyline {
   stroke: rgb(var(--iconhover)) !important;
 }
+
+.ChannelTypeTitle {
+  color: rgb(var(--listtext));
+}
+
+.ChannelTypeTitle:hover,
+.ChannelTypeTitle .ChannelTypeLabel:hover:not(.NoPermission) {
+  color: rgb(var(--text));
+}
