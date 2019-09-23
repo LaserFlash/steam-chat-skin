@@ -33,7 +33,7 @@ SETTINGS PANEL
 /* Selected Button */
 button.DialogButton.Primary {
   border-radius: 4px !important;
-  background: rgb(var(--activeButtonOn)) !important;
+  background: rgb(var(--buttonOn)) !important;
   color: rgb(var(--text)) !important;
 }
 
@@ -78,7 +78,7 @@ button.DialogButton.Primary {
 /* Slider Background */
 .DialogSlider_Slider {
   border: 0 !important;
-  background: rgb(var(--activeButtonOff)) !important;
+  background: rgb(var(--buttonOff)) !important;
 }
 
 /* Removes Voice Transmission Type background */
@@ -153,7 +153,7 @@ button.DialogButton.copyVoiceLogsButton {
 /* CATEGORIZE */
 .DialogCheckbox_Container:hover .DialogCheckbox,
 .DialogCheckbox:hover:not(.Disabled) {
-  box-shadow: 0 0 0 2px rgb(var(--activeButtonOn)) !important;
+  box-shadow: 0 0 0 2px rgb(var(--buttonOn)) !important;
 }
 
 /* CATAGORY MANAGE/CREATE */
@@ -182,7 +182,7 @@ button.DialogButton.copyVoiceLogsButton {
 /* Dialog OFF Button active */
 .DialogOnOffToggle_Option.Off.Active {
   border-radius: 20px !important;
-  background: rgb(var(--activeButtonOff)) !important;
+  background: rgb(var(--buttonOff)) !important;
 }
 
 /* Dialog Button active */
@@ -190,7 +190,7 @@ button.DialogButton.copyVoiceLogsButton {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;
-  background: rgb(var(--activeButtonOn)) !important;
+  background: rgb(var(--buttonOn)) !important;
   border-radius: 20px !important;
 }
 
@@ -206,7 +206,7 @@ button.DialogButton.copyVoiceLogsButton {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;
-  background: rgb(var(--activeButtonOff)) !important;
+  background: rgb(var(--buttonOff)) !important;
   border-radius: 20px !important;
 }
 
@@ -215,7 +215,7 @@ button.DialogButton.copyVoiceLogsButton {
   width: 30px !important;
   margin-left: 5px !important;
   color: white !important;
-  background: rgb(var(--activeButtonOn)) !important;
+  background: rgb(var(--buttonOn)) !important;
   border-radius: 20px !important;
 }
 
@@ -226,7 +226,7 @@ button.DialogButton.copyVoiceLogsButton {
 
 /* Slider value */
 .DialogSlider_Value {
-  background: rgb(var(--activeButtonOn)) !important;
+  background: rgb(var(--buttonOn)) !important;
 }
 
 /* Drop Down Menu backgrounds */
@@ -263,7 +263,7 @@ button.DialogButton.Off {
 
 /* hover selected buttons */
 button.DialogButton:hover {
-  box-shadow: 0 0 0 2px rgb(var(--activeButtonOn)) !important;
+  box-shadow: 0 0 0 2px rgb(var(--buttonOn)) !important;
   border-radius: 4px !important;
 }
 

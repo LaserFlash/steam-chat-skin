@@ -11,7 +11,7 @@ FRIENDLIST
 
 /* chat tab open friends list hover */
 .chatTabOpenFriendsList:hover {
-  background-color: rgb(var(--activeButtonOn)) !important;
+  background-color: rgb(var(--buttonOn)) !important;
 }
 
 /* icon button color */

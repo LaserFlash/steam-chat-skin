@@ -28,8 +28,8 @@
   --watching: 130, 119, 177;
 
   /* Buttons */
-  --activeButtonOn: 45, 115, 255;
-  --activeButtonOff: 95, 104, 117;
+  --buttonOn: 45, 115, 255;
+  --buttonOff: 95, 104, 117;
 
   /* Scroll Bar */
   --scrollbar: 67, 73, 83;

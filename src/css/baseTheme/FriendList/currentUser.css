@@ -47,7 +47,7 @@
 
 /* Active status item in Current User Context menu */
 .contextMenuItem.menuChecked {
-  color: rgb(var(--activeButtonOn));
+  color: rgb(var(--buttonOn));
 }
 
 /* ============================ Background Colour ============================ */
