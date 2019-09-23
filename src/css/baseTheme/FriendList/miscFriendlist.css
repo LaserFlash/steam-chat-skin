@@ -103,3 +103,11 @@ FRIENDLIST
 .SVGIcon_VoiceRoom .Microphone {
   fill: rgb(var(--footer));
 }
+
+.groupHeaderContainer .SortByRecent .SVGIcon_SortBy {
+  stroke: rgb(var(--icon));
+}
+
+.groupHeaderContainer .SortByRecent:hover .SVGIcon_SortBy {
+  stroke: rgb(var(--iconhover));
+}
