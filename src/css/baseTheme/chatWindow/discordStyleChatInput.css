@@ -39,8 +39,9 @@
 
 /* Submit Button size */
 .chatentry_chatSubmitButton_3VRfL svg {
-  height: 20px !important;
-  width: 20px !important;
+  height: 25px !important;
+  width: 25px !important;
+  vertical-align: middle;
 }
 
 /* Hide the shadow between text input and viewing area */
