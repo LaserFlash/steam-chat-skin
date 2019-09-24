@@ -32,3 +32,12 @@
   margin-top: 4px;
   margin-bottom: 4px;
 }
+
+.quickAccessFriends .ChatUnreadMessageIndicator .chatUnreadCircle {
+  position: relative;
+  right: 0 !important;
+  bottom: -80% !important;
+  margin: 0 auto;
+  box-shadow: 0 0 14px 1px rgb(var(--unreadmessage)),
+    0 0 32px 1px rgb(var(--unreadmessage));
+}

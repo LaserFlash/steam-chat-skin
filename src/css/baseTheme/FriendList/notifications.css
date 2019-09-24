@@ -15,8 +15,11 @@
 .unreadFriend .FriendMessageCount {
   border-radius: 40px !important;
   color: rgb(var(--unreadmessage)) !important;
-  background: rgb(var(--scrollbar)) !important;
+  background: transparent !important;
   animation-name: none !important;
+  box-shadow: 0 0 14px 1px rgba(var(--unreadmessage), 0.5);
+  top: 0;
+  padding: 0;
 }
 
 /* Trade offer message arrow */
@@ -78,15 +81,28 @@ Remove default effect
   width: 2px !important;
   height: 2px !important;
   display: block !important;
-  margin: 0 !important;
+  margin: 0;
   color: transparent !important;
 
-  /* Glowing red icon */
-  background: red !important;
-  border: 2px solid red !important;
+  /* Glowing icon */
+  background: rgb(var(--unreadmessage)) !important;
+  border: 2px solid rgb(var(--unreadmessage)) !important;
   border-radius: 100% !important;
+  box-shadow: 0 0 10px 3px rgb(var(--unreadmessage));
 }
 
 .UnreadGlow {
   display: none !important;
+}
+
+.chatTab .chatTabUnreadBadge,
+.FriendMessageCount,
+.ChatUnreadMessageIndicator {
+  color: rgb(var(--unreadmessage));
+  background: rgba(var(--unreadmessage), 0.2);
+  border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  height: 22px;
+  width: 22px;
 }

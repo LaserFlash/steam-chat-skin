@@ -72,10 +72,6 @@ button.DialogButton,
   box-shadow: 0 0 8px rgba(0, 0, 0, 0.5) !important;
 }
 
-.chatUnreadCircle {
-  box-shadow: 0 0 10px 3px red !important;
-}
-
 /* Shadows */
 .ModalDialogPopup .DialogContentTransition .DialogBody {
   -webkit-mask: none !important;
