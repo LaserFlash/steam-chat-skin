@@ -146,7 +146,7 @@ CHAT WINDOW
 }
 
 .MultiUserChat .isCurrentUser .msgText {
-  color: #c1c6cf !important;
+  color: rgb(var(--listtext)) !important;
 }
 
 .chatWindow .chatHeader {
