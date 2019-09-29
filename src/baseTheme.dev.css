@@ -22,3 +22,6 @@
 
 /* Scrollbar */
 @import url(css/baseTheme/Scrollbar.css);
+
+/* Other */
+@import url(css/baseTheme/credits.css);
