@@ -32,8 +32,10 @@
   --buttonOff: 95, 104, 117;
 
   /* Scroll Bar */
-  --scrollbar: 67, 73, 83;
-  --scrollbarHover: 78, 81, 87;
+  --scrollbarPrimary: 67, 73, 83;
+  --scrollbarPrimaryHover: 78, 81, 87;
+  --scrollbarSecondary: var(--scrollbarPrimary);
+  --scrollbarSecondaryHover: var(--scrollbarPrimaryHover);
 
   /* Close Button */
   --closeButton: 240, 71, 71;

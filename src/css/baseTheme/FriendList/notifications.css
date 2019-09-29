@@ -3,7 +3,7 @@
   border: 0 !important;
   line-height: 20px !important;
   color: rgb(var(--unreadmessage)) !important;
-  background: rgb(var(--scrollbar)) !important;
+  background: rgb(var(--header)) !important;
   border-radius: 40px !important;
   height: 20px !important;
   margin-top: 5px !important;

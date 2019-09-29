@@ -1,5 +1,3 @@
-/* ===== DO NOT CHANGE THIS ===== */
-
 /* --------------------------------------------------------------
 SCROLLBAR
 -------------------------------------------------------------- */
@@ -34,17 +32,27 @@ SCROLLBAR
 .chatRoomListContainer:hover::-webkit-scrollbar-thumb,
 .friendlistListContainer:hover::-webkit-scrollbar-thumb,
 .DialogBody:hover::-webkit-scrollbar-thumb,
-.FriendPicker_Suggestions_List:hover::-webkit-scrollbar-thumb {
-  background-color: rgb(var(--scrollbar));
+.FriendPicker_Suggestions_List:hover::-webkit-scrollbar-thumb,
+.chatHistoryScroll:hover::-webkit-scrollbar-thumb {
+  background-color: rgb(var(--scrollbarPrimary));
   border-radius: 20px !important;
 }
 
 /* thumb hover state */
 ::-webkit-scrollbar-thumb:hover {
-  background-color: rgb(var(--scrollbarHover)) !important;
+  background-color: rgb(var(--scrollbarPrimaryHover)) !important;
   border-radius: 20px !important;
 }
 
+/* ==================== */
+
+/* Text Entry Scrollbar */
 .chatentry_chatTextarea_3e__5::-webkit-scrollbar-thumb {
-  background-color: rgb(var(--scrollbar));
+  background-color: rgb(var(--scrollbarSecondary));
 }
+
+.chatentry_chatTextarea_3e__5::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(var(--scrollbarSecondaryHover)) !important;
+}
+
+/* ==================== */
