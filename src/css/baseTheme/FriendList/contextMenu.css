@@ -1,49 +1,10 @@
 /* CONTEXT MENU'S */
-.contextmenu_contextMenuItem_CBC-y {
-  border-top: 0 !important;
-  background: rgb(var(--header)) !important;
-  color: rgb(var(--listtext)) !important;
-}
 
-.contextmenu_contextMenuItem_CBC-y:hover {
-  background: rgb(var(--friendlist)) !important;
-  border-radius: 4px !important;
-}
+/* =================== */
 
-.contextMenuGameTitle {
-  background: rgb(var(--header)) !important;
-}
+/* Context Menu opener */
 
-.contextMenuGameName {
-  color: rgb(var(--text)) !important;
-}
-
-.contextMenuSectionContent {
-  background: rgb(var(--header)) !important;
-}
-
-.contextmenu_contextMenu_3_a2Z {
-  background: rgb(var(--header)) !important;
-  min-width: 9em !important;
-}
-
-.recentName {
-  color: rgb(var(--listtext));
-}
-
-:not(.friendInviteContainer)
-  .online
-  .ContextMenuButton
-  .SVGIcon_DownArrowContextMenu {
-  fill: rgb(var(--icon)) !important;
-}
-
-.ContextMenuButton .SVGIcon_DownArrowContextMenu {
-  padding-left: 0;
-  padding-top: 0;
-  height: 100%;
-}
-
+/* align to the right of the friend and vertical centre */
 .ContextMenuButton {
   position: absolute;
   width: auto;
@@ -54,27 +15,74 @@
   z-index: 8 !important;
 }
 
-.contextMenu {
-  border: none !important;
-  background: radial-gradient(
-    ellipse farthest-corner at 50% 0%,
-    #1a1a1a 0%,
-    #1a1a1a 50%,
-    #1a1a1a 100%
-  ) !important;
+.ContextMenuButton .SVGIcon_DownArrowContextMenu {
+  padding-left: 0;
+  padding-top: 0;
+  height: 100%;
+
+  /* Icon Colour */
+  fill: rgb(var(--icon)) !important;
+}
+
+/* Icon Colour Hover */
+.ContextMenuButton:hover .SVGIcon_DownArrowContextMenu {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+/* ============ */
+
+/* Context Menu */
+.contextmenu_contextMenu_3_a2Z {
+  background: rgb(var(--header)) !important;
+  min-width: 9em !important;
+}
+
+/* Item Styles */
+.contextMenuItem {
+  border-top: 0 !important;
+  color: rgb(var(--listtext)) !important;
+}
+
+/* Game Name */
+.contextMenuGameName {
+  color: rgb(var(--text)) !important;
+}
+
+/* Other Aliases */
+.recentName {
+  color: rgb(var(--listtext));
+}
+
+/* ========================= */
+
+/* Selected and Hover Styles */
+.contextMenuItem:hover,
+.contextMenuItem.contextmenu_active_3vYUp {
+  background: rgb(var(--friendlist)) !important;
   border-radius: 4px !important;
 }
 
-.contextMenu .contextMenuItem:hover,
-.contextMenu .contextMenuItem.active {
-  background: #272727 !important;
-  border-radius: 4px !important;
+/* Icon Hover */
+.contextMenuItem:hover .SVGIcon_Button {
+  fill: rgb(var(--iconhover)) !important;
+  stroke: rgb(var(--iconhover)) !important;
 }
 
+/* Game info section */
+.contextMenuGameTitle,
+.contextMenuSectionContent,
+.contextMenuGameOptions {
+  background: rgb(var(--header)) !important;
+}
+
+/* Remove border between some items */
 .contextMenu .contextMenuItem {
   border-top: 0 !important;
 }
 
+/* =========================================================== */
+
+/* Positioning Fixes for chat context menu to few more friends */
 .contextMenuContents.ChatTabs .contextMenuItem {
   min-height: 42px !important;
 }
