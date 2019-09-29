@@ -13,13 +13,18 @@
   mask: none !important;
 }
 
-/* removes all inset shadows */
-.insetShadow,
-.insetshadow_FriendsListInsetShadowCtn_1S167 {
+/* End of friendlist shadow */
+.ChatRoomListContainerParent .insetshadow_FriendsListInsetShadowCtn_1S167,
+/* Shadow in group creator */
+.insetShadow {
   display: none !important;
 }
 
 button.DialogButton::before,
 button.DialogButton.Secondary.Off {
   box-shadow: none !important;
+}
+
+.DialogTextInputBase:focus {
+  box-shadow: none;
 }

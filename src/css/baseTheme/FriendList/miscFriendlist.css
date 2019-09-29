@@ -115,3 +115,12 @@ FRIENDLIST
 .SteamPlayerGroupFooterLabel {
   color: rgb(var(--ingame));
 }
+
+.DialogInput {
+  border: none;
+}
+
+.DialogTextInputBase,
+._DialogInputContainer {
+  color: rgb(var(--text));
+}

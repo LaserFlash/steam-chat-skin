@@ -50,7 +50,9 @@ button.DialogButton,
 }
 
 /* End of friendlist shadow */
-.ChatRoomListContainerParent .insetshadow_FriendsListInsetShadowCtn_1S167 {
+.ChatRoomListContainerParent .insetshadow_FriendsListInsetShadowCtn_1S167,
+/* Shadow in group creator */
+.insetShadow {
   display: none !important;
 }
 
@@ -76,4 +78,8 @@ button.DialogButton,
 .ModalDialogPopup .DialogContentTransition .DialogBody {
   -webkit-mask: none !important;
   mask: none !important;
+}
+
+.DialogTextInputBase:focus {
+  box-shadow: none;
 }
