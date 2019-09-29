@@ -118,6 +118,9 @@ CHAT WINDOW
   max-width: 375px !important;
 }
 
+/* ============================ */
+
+/* Chat Scroll To Bottom Button */
 .ScrollToBottomButton > span {
   border-radius: 5px !important;
   background: rgb(var(--footer)) !important;
@@ -125,7 +128,14 @@ CHAT WINDOW
 
 .ScrollToBottomButton {
   bottom: 2px !important;
+  color: rgb(var(--listtext));
 }
+
+.ScrollToBottomButton:hover {
+  color: rgb(var(--text));
+}
+
+/* ============================ */
 
 .inviteAnotherFriendButton {
   background-color: transparent !important;
