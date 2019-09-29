@@ -64,7 +64,9 @@ button.DialogButton.Primary {
   border-radius: 4px !important;
 }
 
-.FriendsSettingsChatFontSizeSection_ButtonRow button {
+.FriendsSettingsChatFontSizeSection_ButtonRow button,
+/* Aimed at block communication dialog */
+.GenericConfirmDialog .DialogTwoColLayout .DialogButton {
   margin-left: 3px;
   margin-right: 3px;
 }
