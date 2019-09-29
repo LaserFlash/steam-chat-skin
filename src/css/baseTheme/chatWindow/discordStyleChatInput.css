@@ -10,7 +10,7 @@
   margin-left: 8px;
   margin-right: 8px;
   margin-bottom: 8px;
-  padding-top: 0;
+  padding: 0;
 }
 
 .chatWindow .chatEntry > * {
@@ -25,7 +25,7 @@
 .chatentry_chatTextarea_3e__5 {
   box-shadow: none !important;
   box-sizing: border-box;
-  padding: 10px;
+  padding: 0;
   margin: auto;
 }
 
@@ -35,6 +35,7 @@
 
 .chatentry_chatEntryControls_2O_X7 {
   background-color: transparent !important;
+  padding: 10px;
 }
 
 /* Submit Button size */
@@ -55,5 +56,9 @@
 @media only screen and (max-width: 600px) {
   .chatWindow .chatEntry {
     flex-direction: column;
+  }
+
+  .chatentry_chatEntryControls_2O_X7 {
+    border-bottom: 2px solid rgb(var(--friendlist));
   }
 }
