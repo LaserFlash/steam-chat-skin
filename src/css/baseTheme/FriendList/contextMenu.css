@@ -5,7 +5,7 @@
 /* Context Menu opener */
 
 /* align to the right of the friend and vertical centre */
-.ContextMenuButton {
+.friendlistListContainer .ContextMenuButton {
   position: absolute;
   width: auto;
   height: 100%;
