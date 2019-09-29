@@ -39,12 +39,19 @@
 }
 
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-  padding-left: 0 !important;
-  padding-top: 6px !important;
+  padding-left: 0;
+  padding-top: 0;
+  height: 100%;
 }
 
 .ContextMenuButton {
-  margin-left: 5px !important;
+  position: absolute;
+  width: auto;
+  height: 100%;
+  right: 0;
+  top: 0;
+  padding-right: 6px;
+  z-index: 8 !important;
 }
 
 .contextMenu {
