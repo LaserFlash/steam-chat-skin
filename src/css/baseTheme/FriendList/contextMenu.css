@@ -5,7 +5,8 @@
 /* Context Menu opener */
 
 /* align to the right of the friend and vertical centre */
-.friendlistListContainer .ContextMenuButton {
+.friendlistListContainer .ContextMenuButton,
+.ChatRoomListGroupItem .ContextMenuButton {
   position: absolute;
   width: auto;
   height: 100%;
