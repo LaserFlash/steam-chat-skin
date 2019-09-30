@@ -480,5 +480,9 @@ CHAT WINDOW
 
 /* Fixes chat top bar sometimes not being tall enough */
 .HorizontalMiniSlider {
-  height: auto !important;
+  height: 50px !important;
+}
+
+.compactView .HorizontalMiniSlider {
+  height: 40px !important;
 }
