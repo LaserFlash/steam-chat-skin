@@ -50,11 +50,10 @@ FRIENDLIST
 }
 
 /* Fixes issue with compact friendlist collapsing */
-.CompactFriendsList .friendlistListContainer .friendGroup.gameGroup .friend,
-.CompactFriendsList
-  .friendGroup.gameGroup:not(.OtherGamesGroup)
-  .SteamPlayerGroupFooter {
-  padding: 4px 0 4px 15px !important;
+.personanameandstatus_compactView_2PCWF .personanameandstatus_playerName_1uxaf,
+.personanameandstatus_compactView_2PCWF
+  .personanameandstatus_playerNickname_3-32P {
+  margin-bottom: 0;
 }
 
 /* Friend Game Icon FriendList */
