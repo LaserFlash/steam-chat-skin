@@ -22,18 +22,13 @@
 }
 
 /* Hide the actual expansion arrow */
-.ToggleGroupChatList .SVGIcon_DoubleArrow polyline {
+.ToggleGroupChatList svg {
   display: none !important;
 }
 
 /* Place create chat room button on top layer */
 .createChatRoomButton {
   z-index: 12;
-}
-
-/* Changes Group Chats Groups Hover Color */
-.ChatRoomListGroupItem:hover {
-  background: rgb(var(--friendlist)) !important;
 }
 
 /* Group Chats Background */
@@ -83,4 +78,19 @@
 .chatRoomVoiceChannel.ActiveVoiceChannel,
 .chatRoomVoiceChannel.ActiveVoiceChannel .activeVoiceButtons {
   background: none !important;
+}
+
+/* Changes Group Chats Groups Hover Color */
+.ChatRoomListGroupItem:hover {
+  background: rgb(var(--friendlist)) !important;
+  border-radius: 4px;
+}
+
+.ChatRoomListGroupItem {
+  margin-left: 8px;
+  padding: 2px 0 2px 0;
+}
+
+.ChatRoomListGroupItem_header {
+  padding: 0;
 }
