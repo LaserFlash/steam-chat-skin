@@ -16,6 +16,12 @@
   z-index: 8 !important;
 }
 
+.friend:hover .ContextMenuButton {
+  background: rgb(var(--header));
+  padding-left: 6px;
+  border-radius: 4px;
+}
+
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
   padding-left: 0;
   padding-top: 0;
@@ -23,6 +29,10 @@
 
   /* Icon Colour */
   fill: rgb(var(--icon)) !important;
+}
+
+.ContextMenuButton {
+  margin-top: 0;
 }
 
 /* Icon Colour Hover */
