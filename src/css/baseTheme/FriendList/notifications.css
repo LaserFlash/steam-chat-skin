@@ -74,6 +74,11 @@ Remove default effect
   display: flex !important;
   align-items: center !important;
   background: none !important;
+  padding-left: 3px;
+}
+
+.ChatRoomList .ChatUnreadMessageIndicator {
+  position: relative;
 }
 
 /* Unread New Message Group Chat in the Footer */
@@ -96,8 +101,7 @@ Remove default effect
 }
 
 .chatTab .chatTabUnreadBadge,
-.FriendMessageCount,
-.ChatUnreadMessageIndicator {
+.FriendMessageCount {
   color: rgb(var(--unreadmessage));
   background: rgba(var(--unreadmessage), 0.2);
   border-radius: 50%;
@@ -105,4 +109,26 @@ Remove default effect
   padding: 0;
   height: 22px;
   width: 22px;
+}
+
+.ChatTabsContextMenu.compactView
+  .ChatTabContextMenuItem
+  .TabRightContainer
+  .chatTabUnreadBadge::before {
+  background-color: rgb(var(--unreadmessage));
+}
+
+.ChatTabsContextMenu.compactView
+  .ChatTabContextMenuItem
+  .TabRightContainer
+  .chatTabUnreadBadge {
+  top: 50%;
+  bottom: 50%;
+  height: 16px;
+  margin-top: -8px;
+  margin-right: 4px;
+}
+
+.ScrollToBottomButton.UnreadMessages > span {
+  color: rgb(var(--unreadmessage));
 }

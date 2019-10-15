@@ -16,11 +16,6 @@ CHAT WINDOW
   height: 32px !important;
 }
 
-.ChatTabs .ChatRoomGroupAvatar {
-  width: 42px !important;
-  height: 42px !important;
-}
-
 /* Group Chat Labels */
 .chatTabGroupName,
 .ChatTabs.compactView .chatTabGroupName {
@@ -204,7 +199,6 @@ CHAT WINDOW
 .ChatTabsBackButton {
   border-radius: 4px !important;
   margin-left: 2px !important;
-  height: 100% !important;
   border: 0 !important;
   background: rgb(var(--friendlist)) !important;
 }
