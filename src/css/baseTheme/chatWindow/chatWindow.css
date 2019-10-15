@@ -496,3 +496,35 @@ CHAT WINDOW
   background: none !important;
   color: rgb(var(--text));
 }
+
+/* Chat embedded link or file */
+
+/* ========================== */
+.msg div.ChatMessageOpenGraph,
+.msg div.SteamPublishedFile {
+  background: linear-gradient(
+    to right,
+    rgba(var(--header), 0.5) 40%,
+    rgba(var(--header), 1) 100%
+  );
+}
+
+.msg .OpenGraphMessageURL {
+  background: linear-gradient(
+    to right,
+    rgba(var(--header), 0.2) 0%,
+    rgba(var(--header), 0.5) 40%,
+    rgba(var(--header), 1) 100%
+  );
+}
+
+.SVGIcon_Button.SVGIcon_CopyToClipboard {
+  stroke: rgb(var(--icon));
+}
+
+.OpenGraphFooter .OpenGraphURLButton:hover .SVGIcon_CopyToClipboard,
+.copyInviteLink:hover .SVGIcon_CopyToClipboard {
+  stroke: rgb(var(--iconhover));
+}
+
+/* ========================== */
