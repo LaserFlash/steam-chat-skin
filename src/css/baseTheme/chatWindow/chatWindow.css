@@ -386,6 +386,10 @@ CHAT WINDOW
   color: rgb(var(--online)) !important;
 }
 
+.away .messages_SpeakerName_Online_2nKVN {
+  color: rgb(var(--away)) !important;
+}
+
 .messages_SpeakerName_Default_1Qo8j {
   color: rgb(var(--offline)) !important;
 }
