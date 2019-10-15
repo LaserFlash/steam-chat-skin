@@ -493,8 +493,14 @@ CHAT WINDOW
 
 /* Chat someone is typing a message */
 .FriendChatTypingNotification {
-  background: none !important;
+  background: rgb(var(--header));
   color: rgb(var(--text));
+  font-size: 12px;
+  padding: 4px 10px 4px 10px;
+  border-radius: 12px;
+  margin: 8px;
+  width: auto;
+  box-shadow: 0 0 8px #0008;
 }
 
 /* Chat embedded link or file */
