@@ -94,3 +94,10 @@
 .ChatRoomListGroupItem_header {
   padding: 0;
 }
+
+/* InVoice avatars */
+.ChatRoomListGroupItem .membersInVoice .voiceChatGroup {
+  background: none;
+  box-shadow: none;
+  border: none;
+}

@@ -11,6 +11,7 @@ Square Avatar
 .Dialog_EditNickName .friend .avatarMedium,
 .Dialog_ChangePersonaName .friend .avatarMedium,
 .miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG img,
-.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG {
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG,
+.voiceChatGroup {
   border-radius: 0% !important;
 }
