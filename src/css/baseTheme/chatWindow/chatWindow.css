@@ -490,3 +490,9 @@ CHAT WINDOW
 .compactView .HorizontalMiniSlider {
   height: 40px !important;
 }
+
+/* Chat someone is typing a message */
+.FriendChatTypingNotification {
+  background: none !important;
+  color: rgb(var(--text));
+}
