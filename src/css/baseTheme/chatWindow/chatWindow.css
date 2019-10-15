@@ -127,8 +127,8 @@ CHAT WINDOW
 }
 
 .ScrollToBottomButton {
-  bottom: 2px !important;
   color: rgb(var(--listtext));
+  padding: 8px;
 }
 
 .ScrollToBottomButton:hover {
