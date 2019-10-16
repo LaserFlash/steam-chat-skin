@@ -5,11 +5,20 @@
 /* Context Menu opener */
 
 /* align to the right of the friend and vertical centre */
-.friendlistListContainer .ContextMenuButton,
-.ChatRoomListGroupItem .ContextMenuButton {
+.friendlistListContainer .ContextMenuButton {
   position: absolute;
   width: auto;
   height: 100%;
+  right: 0;
+  top: 0;
+  padding-right: 6px;
+  z-index: 8 !important;
+}
+
+.ChatRoomListGroupItem .ContextMenuButton {
+  position: absolute;
+  width: auto;
+  height: 42px;
   right: 0;
   top: 0;
   padding-right: 6px;
@@ -105,4 +114,8 @@
 
 .contextMenuContents .chatTab .ChatTabContent {
   min-height: 50px !important;
+}
+
+.ChatRoomListGroupItem .openGroupButton {
+  margin-right: 24px;
 }
