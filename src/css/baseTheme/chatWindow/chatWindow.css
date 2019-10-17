@@ -156,7 +156,7 @@ CHAT WINDOW
 
 .chatWindow .chatHeader {
   background: rgb(var(--header)) !important;
-  min-height: 4px !important;
+  min-height: 0 !important;
   z-index: 1;
 }
 
