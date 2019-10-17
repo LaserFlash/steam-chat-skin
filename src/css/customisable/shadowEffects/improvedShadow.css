@@ -83,3 +83,8 @@ button.DialogButton,
 .DialogTextInputBase:focus {
   box-shadow: none;
 }
+
+/* Chat text input box */
+html.client_chat_frame .chatWindow .chatEntry {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) !important;
+}
