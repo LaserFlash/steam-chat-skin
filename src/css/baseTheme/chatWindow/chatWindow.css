@@ -528,3 +528,10 @@ CHAT WINDOW
 }
 
 /* ========================== */
+
+/* Chat voice channel invite */
+
+/* ========================= */
+.ChatMessageInvite {
+  background: rgb(var(--header)) !important;
+}
