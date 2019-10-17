@@ -102,7 +102,7 @@
 
 /* =========================================================== */
 
-/* Positioning Fixes for chat context menu to few more friends */
+/* Positioning Fixes for chat context menu to view more friends */
 .contextMenuContents.ChatTabs .contextMenuItem {
   min-height: 42px !important;
 }
