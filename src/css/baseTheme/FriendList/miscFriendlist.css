@@ -77,18 +77,31 @@ FRIENDLIST
   align-self: end;
 }
 
-.MemberListColumn
-  .steamavatar_friendavatar_2yzw2.friend
-  .chatMemberFriendIcon
-  svg {
+/* GroupChat members list crown fixes */
+
+/* ================================== */
+.MemberListColumn .friend .chatMemberFriendIcon svg {
   left: -5px;
-  bottom: -1px;
+  bottom: 0;
+  top: 9px;
 }
 
-.MemberListColumn .friend .chatMemberFriendIcon svg {
-  left: -5px !important;
-  bottom: 1px !important;
+.MemberListColumn .friend .rankIcon.isFriend .SVGIcon_Crown {
+  margin-top: 0;
 }
+
+.ChatSpeaker.ChatRoomSpeaker .speaker .rankIcon > *,
+.MemberListColumn .friend .rankIcon > * {
+  margin-top: 0;
+  left: -3px;
+  top: 0;
+}
+
+.CompactFriendsList .friend .labelHolder {
+  margin-top: 0;
+}
+
+/* ================================== */
 
 .avatarStatus {
   transition: none !important;
