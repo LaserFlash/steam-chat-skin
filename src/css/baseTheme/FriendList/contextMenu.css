@@ -25,7 +25,7 @@
   z-index: 8 !important;
 }
 
-.friend:hover .ContextMenuButton {
+.friendlistListContainer .friend:hover .ContextMenuButton {
   background: rgb(var(--header));
   padding-left: 6px;
   border-radius: 4px;
