@@ -136,3 +136,11 @@ FRIENDLIST
 ._DialogInputContainer {
   color: rgb(var(--text));
 }
+
+.friend .labelHolder {
+  height: auto;
+}
+
+.friendlistListContainer .friend.ingame .labelHolder {
+  margin-top: 0;
+}
