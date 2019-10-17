@@ -50,9 +50,15 @@
   display: none;
 }
 
-/* Wrap content once window is small   */
+/* Use proper colours for submit button icon */
+.chatentry_chatSubmitButton_3VRfL:hover .SVGIcon_Button.SVGIcon_Submit path {
+  fill: rgb(var(--icon)) !important;
+}
 
-/* ensures entry area is still visible */
+/** Wrap content once window is small
+*   ensures entry area is still visible
+**/
+
 @media only screen and (max-width: 600px) {
   .chatWindow .chatEntry {
     flex-direction: column;
