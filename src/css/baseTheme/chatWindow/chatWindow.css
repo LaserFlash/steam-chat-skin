@@ -380,7 +380,8 @@ CHAT WINDOW
   color: rgb(var(--online)) !important;
 }
 
-.away .messages_SpeakerName_Online_2nKVN {
+.away .messages_SpeakerName_Online_2nKVN,
+.away .messages_SpeakerName_InGame_1vaKy {
   color: rgb(var(--away)) !important;
 }
 
