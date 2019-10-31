@@ -1,5 +1,7 @@
 # Steam Friends Skin
 
+Can be played with and customised at <steamchatskinning.tk>
+
 ## Installation
 
 ### Prerequisite
