@@ -1,6 +1,6 @@
 # Steam Friends Skin
 
-Can be played with and customised at <steamchatskinning.tk>
+Can be played with and customised at <https://steamchatskinning.tk>
 
 ## Installation
 
