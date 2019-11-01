@@ -114,7 +114,9 @@ DISCORD STATUS (DEFAULT)
 .friendCategoryContainer .offline .avatarStatus,
 .ChatTabContent .offline .avatarStatus,
 .FriendPicker .offline:hover .avatarStatus,
-.offline .speakerStatus {
+.offline .speakerStatus,
+.OneOnOneVoiceMembers .offline .avatarStatus,
+.OneOnOneVoiceMembers .awayOrSnooze .avatarStatus {
   background-color: rgb(var(--friendlist)) !important;
 }
 

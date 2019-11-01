@@ -91,3 +91,35 @@ html.client_chat_frame .chatWindow .chatEntry {
 .VoiceControlPanelButton:hover .SVGIcon_Button {
   fill: rgb(var(--iconhover)) !important;
 }
+
+/* In Voice chat top bar */
+
+.OneOnOneVoiceRoomControls .VoiceToggleIconCtn {
+  top: 0;
+}
+
+.OneOnOneVoice-anim-enter-done,
+.WaitingForPartner {
+  background: rgb(var(--header));
+}
+
+.OneOnOneVoiceRoomControls {
+  box-shadow: none;
+}
+
+.OneOnOneVoiceRoomControls .friend .avatarHolder img.avatar {
+  border: none !important;
+}
+
+.OneOnOneVoiceClose {
+  background-color: rgb(var(--friendlist));
+}
+
+.OneOnOneVoiceClose:hover {
+  background-color: rgb(var(--closeButton));
+}
+
+.inviteAnotherFriendButton {
+  margin-top: 4px;
+  top: unset;
+}
