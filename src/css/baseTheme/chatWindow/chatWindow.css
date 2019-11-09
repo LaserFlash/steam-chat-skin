@@ -536,3 +536,9 @@ CHAT WINDOW
 .ChatMessageInvite {
   background: rgb(var(--header)) !important;
 }
+
+/* Ensure steam defualt shadows are not breaking */
+.chatTabList .chatTab:not(.active),
+.chatTabSelector {
+  box-shadow: none;
+}

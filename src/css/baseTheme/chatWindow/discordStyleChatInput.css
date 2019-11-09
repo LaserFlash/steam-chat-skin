@@ -68,3 +68,11 @@
     border-bottom: 2px solid rgb(var(--friendlist));
   }
 }
+
+/* Ensure breaking defualt steam shadows are not present */
+
+.chatentry_chatEntryControls_2O_X7,
+.chatentry_chatEntryActionsGroup_15mWd,
+.ChatMessageEntryVoice {
+  box-shadow: none;
+}
