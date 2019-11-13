@@ -43,6 +43,20 @@ If on Windows running the installer script will automatically download and insta
 - Square Avatar
 - Squircle Avatar
 
+#### Font Customisation
+
+You can change the font used, either read the comment block in friends.custom.css or add something like the following:
+
+```css
+* {
+   font-family: <Replace me with your font> !important;
+}
+```
+
+Just make sure you either use a web safe font or one that is installed on your system
+
+- https://www.w3schools.com/cssref/css_websafe_fonts.asp 
+- https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
 # Credits
 
 - PhantomGamers <https://github.com/PhantomGamers> for their work on the patcher.

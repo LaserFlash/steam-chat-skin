@@ -50,6 +50,18 @@
 /* @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/noShadow.css); */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/improvedShadow.css);
 
+/* ============================= Fonts ===============================
+   Here you can apply your own font if you want to.
+   Ensure the font is either a web safe font
+- https://www.w3schools.com/cssref/css_websafe_fonts.asp
+- https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
+   Or installed on your system                                             */
+
+/* --Remove this line to uncomment the font-family--
+* {
+   font-family: <Replace me with your font> !important;
+}
+
 /* ==========================================================================
    ==========================================================================
    =============================== CREDITS ==================================
