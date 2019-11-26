@@ -530,9 +530,9 @@ CHAT WINDOW
 
 /* ========================== */
 
-/* Chat voice channel invite */
+/* Chat voice channel invite  */
 
-/* ========================= */
+/* =========================- */
 .ChatMessageInvite {
   background: rgb(var(--header)) !important;
 }
@@ -541,4 +541,26 @@ CHAT WINDOW
 .chatTabList .chatTab:not(.active),
 .chatTabSelector {
   box-shadow: none;
+}
+
+/* ========================== */
+
+/* Group Chat                 */
+
+/* =========================- */
+
+/* Owner Crown */
+.ChatMessageBlock .ChatSpeaker.ChatRoomSpeaker .speaker .rankIcon > * {
+  left: 5px;
+  top: -10px;
+}
+
+.ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar.Small {
+  margin-top: 6px;
+  margin-left: 4px;
+}
+
+.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar,
+.ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
+  margin-top: 6px;
 }
