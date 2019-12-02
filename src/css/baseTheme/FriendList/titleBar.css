@@ -40,7 +40,7 @@
 /* Attach Chat Toggle */
 .singleWindowToggle {
   top: 0 !important;
-  right: 78px !important;
+  margin-right: 4px !important;
 }
 
 /* Position all icons in centre of their container */
