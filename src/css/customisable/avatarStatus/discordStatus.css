@@ -107,11 +107,13 @@ DISCORD STATUS (DEFAULT)
 }
 
 .friendlistListContainer .awayOrSnooze .avatarStatus,
+.ChatTabsContextMenu .awayOrSnooze .avatarStatus,
 .chatTabSetContainer .awayOrSnooze .avatarStatus,
 .FriendPicker .awayOrSnooze:hover .avatarStatus,
 .away .speakerStatus,
 .MemberListColumn .avatarStatus,
 .friendCategoryContainer .offline .avatarStatus,
+.ChatTabsContextMenu .offline .avatarStatus,
 .chatTabSetContainer .offline .avatarStatus,
 .FriendPicker .offline:hover .avatarStatus,
 .offline .speakerStatus,
