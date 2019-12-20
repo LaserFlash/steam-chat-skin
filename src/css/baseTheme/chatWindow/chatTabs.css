@@ -3,6 +3,10 @@
 *   Tabs for each friend at the top of the chat window
 */
 
+.chatTabList {
+  margin-left: 8px;
+}
+
 .chattabs_ChatTab_1WfqA {
   background: rgb(var(--header));
   padding-right: 4px;
