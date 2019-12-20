@@ -84,11 +84,14 @@ Remove default effect
 /* Unread New Message Group Chat in the Footer */
 .chatUnreadCircle,
 .chattabs_UnreadCircle_2goOD {
+  position: relative;
   width: 2px !important;
   height: 2px !important;
   display: block !important;
   margin: 0;
   color: transparent !important;
+  bottom: unset;
+  right: unset;
 
   /* Glowing icon */
   background: rgb(var(--unreadmessage)) !important;
@@ -97,8 +100,7 @@ Remove default effect
   box-shadow: 0 0 10px 3px rgb(var(--unreadmessage));
 }
 
-.UnreadGlow,
-.chattabs_UnreadGlow_30PFd {
+.UnreadGlow {
   display: none !important;
 }
 
@@ -133,4 +135,13 @@ Remove default effect
 
 .ScrollToBottomButton.UnreadMessages > span {
   color: rgb(var(--unreadmessage));
+}
+
+.chattabs_UnreadGlow_30PFd {
+  background: none;
+  position: absolute;
+  left: 0;
+  right: unset;
+  bottom: unset;
+  height: auto;
 }

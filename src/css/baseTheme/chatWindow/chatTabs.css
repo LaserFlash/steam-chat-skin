@@ -9,7 +9,7 @@
   border-radius: 4px;
 }
 
-.chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
+.chatTabSetContainer .chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
   background: rgb(var(--friendlist));
 }
 
@@ -50,3 +50,53 @@
 .chattabs_ChatTabContent_ChatRoomName_2avXT {
   color: rgb(var(--listtext));
 }
+
+.ChatRoomMultiFriendAvatar {
+  margin: 0;
+}
+
+/* ========================================================================== */
+
+/* Style Chat Tab context menu - more friends drop down */
+
+.ChatTabsContextMenu .chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
+  background: rgb(var(--header));
+}
+
+.ChatTabsContextMenu .chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI:hover {
+  background: rgb(var(--friendlist));
+}
+
+.ChatTabsContextMenu .friendsnooze_SnoozeContainer_1OfTa {
+  display: none;
+}
+
+.ChatTabsContextMenu .ChatUnreadMessageIndicator {
+  margin-left: 90% !important;
+}
+
+.ChatTabsContextMenu .chattabs_CloseButton_SzByZ {
+  width: 10px;
+  height: 10px;
+}
+
+.ChatTabsContextMenu .chattabs_ChatTab_1WfqA {
+  padding-left: 6px;
+}
+
+.ChatTabsContextMenu.CompactFriendsList .friend,
+.ChatTabsContextMenu.CompactFriendsList .friendGroup .friend,
+.ChatTabsContextMenu.CompactFriendsList .friendGroup .SteamPlayerGroupFooter,
+.ChatTabsContextMenu.CompactFriendsList
+  .friendGroup.gameGroup:not(.OtherGamesGroup)
+  .friend {
+  padding: 0;
+}
+
+.ChatTabsContextMenu
+  .chattabs_Active_3sMSI
+  .chattabs_ChatTabContent_ChatRoomName_2avXT {
+  color: rgb(var(--listtext));
+}
+
+/* ========================================================================== */

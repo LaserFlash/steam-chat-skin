@@ -11,11 +11,6 @@ CHAT WINDOW
   margin-left: 0 !important;
 }
 
-.ChatTabs.compactView .ChatRoomGroupAvatar {
-  width: 32px !important;
-  height: 32px !important;
-}
-
 /* Group Chat Labels */
 .chatTabGroupName,
 .ChatTabs.compactView .chatTabGroupName {
@@ -69,6 +64,11 @@ CHAT WINDOW
   height: 42px !important;
   display: flex;
   align-items: center;
+  margin-left: 6px;
+}
+
+.chatTabSelector.UnreadMessages .SVGIcon_DownArrowContextMenu {
+  fill: rgb(var(--unreadmessage)) !important;
 }
 
 .compactView .chatTabSelector {
@@ -274,65 +274,6 @@ CHAT WINDOW
   background: #2e2e2f !important;
   border-radius: 4px !important;
 }
-
-/* ========================================================================== */
-
-/* Style Chat Tab context menu - more firends drop down */
-
-/* Place avatar status circle */
-.ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder .avatarStatus {
-  padding: 0 !important;
-  margin: 0 !important;
-}
-
-/* Hide the snooze icon (no room) */
-.ChatTabsContextMenu
-  .chatTab
-  .ChatTabContent
-  .friendsnooze_SnoozeContainer_1OfTa {
-  display: none !important;
-}
-
-/* Place friend avatar against the left side (line up with group chat) */
-.ChatTabsContextMenu .chatTab .ChatTabContent .avatarHolder {
-  padding: 0 !important;
-  margin-left: 0 !important;
-  width: auto !important;
-}
-
-.ChatTabsContextMenu .ChatUnreadMessageIndicator {
-  margin-left: 90% !important;
-}
-
-.ChatTabsContextMenu .chatTab {
-  margin: 3px !important;
-}
-
-/* === Fix Context Menu Avatar position === */
-.contextMenuContents.ChatTabs.compactView
-  .ChatTabContent
-  .avatarHolder
-  .avatar {
-  height: 42px !important;
-}
-
-.contextMenuContents.ChatTabs .ChatTabContent .avatarHolder {
-  height: 42px !important;
-}
-
-.ChatTabsContextMenu .ChatTabContent .avatarHolder .avatar {
-  height: 32px !important;
-}
-
-.ChatTabs.compactView .ChatTabContent .avatarHolder .avatar {
-  width: 32px !important;
-}
-
-.ChatTabContent .avatarHolder {
-  height: auto !important;
-}
-
-/* ========================================================================== */
 
 /* Full brightness of active avatar even if offline */
 .active .friend.offline .avatarHolder img.avatar {
