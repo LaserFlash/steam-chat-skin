@@ -18,14 +18,9 @@ CHAT WINDOW
 }
 
 /* Chat Tab label area */
-.chatTab .ChatTabContent {
+.chattabs_ChatTab_1WfqA .chattabs_ChatTabContent_Friend_3m7Ps {
   padding: 2px !important;
   align-items: center !important;
-}
-
-/* Drop down menu friends */
-.chatTab .friend {
-  height: auto !important;
 }
 
 .ChatTabContextMenuItem
@@ -190,21 +185,11 @@ CHAT WINDOW
   display: none !important;
 }
 
-/* Chat Body */
-.chatTab .chatTabHighlight {
-  background: none !important;
-}
-
-.chatTabList .chatTab,
 .ChatTabsBackButton {
   border-radius: 4px !important;
   margin-left: 2px !important;
   border: 0 !important;
   background: rgb(var(--friendlist)) !important;
-}
-
-.chatTabList .chatTab:not(.active) {
-  background: rgb(var(--header)) !important;
 }
 
 .chatRoomGroupHeader {
@@ -458,12 +443,6 @@ CHAT WINDOW
 /* =========================- */
 .ChatMessageInvite {
   background: rgb(var(--header)) !important;
-}
-
-/* Ensure steam defualt shadows are not breaking */
-.chatTabList .chatTab:not(.active),
-.chatTabSelector {
-  box-shadow: none;
 }
 
 /* ========================== */
