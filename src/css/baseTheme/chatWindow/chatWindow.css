@@ -203,11 +203,6 @@ CHAT WINDOW
   background: rgb(var(--friendlist)) !important;
 }
 
-.chatTabClose:hover {
-  border-radius: 10px !important;
-  background: rgb(var(--closeButton)) !important;
-}
-
 .chatTabList .chatTab:not(.active) {
   background: rgb(var(--header)) !important;
 }
@@ -311,10 +306,6 @@ CHAT WINDOW
 
 .ChatTabsContextMenu .chatTab {
   margin: 3px !important;
-}
-
-.ChatTabs .labelHolder {
-  margin-top: 0 !important;
 }
 
 /* === Fix Context Menu Avatar position === */
@@ -477,15 +468,6 @@ CHAT WINDOW
   color: rgb(var(--text));
 }
 
-/* Fixes chat top bar sometimes not being tall enough */
-.HorizontalMiniSlider {
-  height: 45px !important;
-}
-
-.compactView .HorizontalMiniSlider {
-  height: 40px !important;
-}
-
 /* Chat someone is typing a message */
 .FriendChatTypingNotification {
   background: rgb(var(--header));
@@ -563,4 +545,11 @@ CHAT WINDOW
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar,
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
   margin-top: 6px;
+}
+
+.MemberListViewCompact
+  .ReactVirtualized__Grid__innerScrollContainer
+  > *:not(.chatroomBucket_regular) {
+  display: none;
+  height: 0 !important;
 }

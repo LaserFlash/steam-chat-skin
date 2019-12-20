@@ -82,7 +82,8 @@ Remove default effect
 }
 
 /* Unread New Message Group Chat in the Footer */
-.chatUnreadCircle {
+.chatUnreadCircle,
+.chattabs_UnreadCircle_2goOD {
   width: 2px !important;
   height: 2px !important;
   display: block !important;
@@ -96,7 +97,8 @@ Remove default effect
   box-shadow: 0 0 10px 3px rgb(var(--unreadmessage));
 }
 
-.UnreadGlow {
+.UnreadGlow,
+.chattabs_UnreadGlow_30PFd {
   display: none !important;
 }
 

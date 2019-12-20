@@ -1,0 +1,52 @@
+/*
+* Chat Tabs
+*   Tabs for each friend at the top of the chat window
+*/
+
+.chattabs_ChatTab_1WfqA {
+  background: rgb(var(--header));
+  padding-right: 4px;
+  border-radius: 4px;
+}
+
+.chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
+  background: rgb(var(--friendlist));
+}
+
+.chattabs_ChatTab_1WfqA:hover:not(.chattabs_Active_3sMSI) {
+  background: rgb(var(--header));
+}
+
+/* Offline avatar filter */
+.chattabs_ChatTab_1WfqA:hover .friend.offline .avatarHolder img.avatar,
+.chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI
+  .friend.offline
+  .avatarHolder
+  img.avatar {
+  filter: none;
+}
+
+/* Tab Close Button */
+.chattabs_CloseButton_SzByZ {
+  margin: 0;
+  padding: 2px;
+  transform: none;
+}
+
+.chattabs_CloseButton_SzByZ:hover {
+  border-radius: 50% !important;
+  background: rgb(var(--closeButton)) !important;
+}
+
+.chattabs_ChatTabContent_Friend_3m7Ps {
+  margin-right: 8px;
+}
+
+/* Group chat tab text colour */
+.chattabs_Active_3sMSI .chattabs_ChatTabContent_ChatRoomName_2avXT {
+  color: rgb(var(--text));
+}
+
+.chattabs_ChatTabContent_ChatRoomName_2avXT {
+  color: rgb(var(--listtext));
+}

@@ -40,7 +40,7 @@ DISCORD STATUS (DEFAULT)
 }
 
 .FriendPicker .friend:not(:hover) .avatarStatus,
-.chatTab:not(.active) .avatarStatus,
+.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .avatarStatus {
   box-shadow: 0 0 0 4px rgb(var(--header)) !important;
   background-color: rgb(var(--header));
@@ -107,12 +107,12 @@ DISCORD STATUS (DEFAULT)
 }
 
 .friendlistListContainer .awayOrSnooze .avatarStatus,
-.ChatTabContent .awayOrSnooze .avatarStatus,
+.chatTabSetContainer .awayOrSnooze .avatarStatus,
 .FriendPicker .awayOrSnooze:hover .avatarStatus,
 .away .speakerStatus,
 .MemberListColumn .avatarStatus,
 .friendCategoryContainer .offline .avatarStatus,
-.ChatTabContent .offline .avatarStatus,
+.chatTabSetContainer .offline .avatarStatus,
 .FriendPicker .offline:hover .avatarStatus,
 .offline .speakerStatus,
 .OneOnOneVoiceMembers .offline .avatarStatus,
@@ -123,8 +123,8 @@ DISCORD STATUS (DEFAULT)
 .friendlistListContainer .awayOrSnooze:hover .avatarStatus,
 .miniProfileHover .awayOrSnooze .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .awayOrSnooze .avatarStatus,
-.chatTab:not(.active) .offline .avatarStatus,
-.chatTab:not(.active) .awayOrSnooze .avatarStatus,
+.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .offline .avatarStatus,
+.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .awayOrSnooze .avatarStatus,
 .friendCategoryContainer .offline:hover .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
   background-color: rgb(var(--header)) !important;

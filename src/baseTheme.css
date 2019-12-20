@@ -14,6 +14,7 @@
 
 /* Chat Window */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/chatWindow.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/chatTabs.css);
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/voiceControls.css);
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/discordStyleChatInput.css);
 
