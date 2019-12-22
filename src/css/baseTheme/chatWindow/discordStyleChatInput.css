@@ -45,6 +45,14 @@
   vertical-align: middle;
 }
 
+/* Emoticon 'new' wrapper */
+.chatentry_EmoticonPickerButton_3fgX0 .shared_svg_library_EmoticonBow_2ly3o {
+  top: -2px;
+  right: unset;
+  bottom: unset;
+  left: unset;
+}
+
 /* Hide the shadow between text input and viewing area */
 .chatStack .insetshadow_FriendListInsetShadowBottom_3cl4u {
   display: none;
