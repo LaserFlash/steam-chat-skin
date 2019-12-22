@@ -108,6 +108,17 @@ CHAT WINDOW
   max-width: 375px !important;
 }
 
+.emoticon_StickerButton_3O95u {
+  background: none;
+}
+
+.emoticon_StickerButton_3O95u:hover {
+  background: none;
+  transform: scale(1.25);
+  box-shadow: none;
+  border: none;
+}
+
 /* ============================ */
 
 /* Chat Scroll To Bottom Button */
