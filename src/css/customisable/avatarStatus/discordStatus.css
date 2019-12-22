@@ -131,3 +131,15 @@ DISCORD STATUS (DEFAULT)
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
   background-color: rgb(var(--header)) !important;
 }
+
+/* Golden status */
+.miniProfileHover .golden .avatarStatus {
+  background: linear-gradient(
+    to bottom,
+    #d5bf6a 0%,
+    #ffe2a9 40%,
+    #ba995c 52%,
+    #ba995c 61%,
+    #d5bf6a 85%
+  );
+}

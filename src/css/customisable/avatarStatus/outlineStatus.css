@@ -17,26 +17,31 @@
 
 /* === Status Colours === */
 .online .avatar {
-  border-color: rgb(var(--online)) !important;
+  color: rgb(var(--online));
 }
 
 .watchingbroadcast .avatar {
-  border-color: rgb(var(--watching)) !important;
+  color: rgb(var(--watching));
 }
 
-.ingame:not(.awayOrSnooze) .avatar {
-  border-color: rgb(var(--ingame)) !important;
+/* Golden status */
+.golden .avatar {
+  color: #d5bf6a;
+}
+
+.ingame .avatar {
+  color: rgb(var(--ingame));
 }
 
 .awayOrSnooze .avatar {
-  border-color: rgb(var(--away)) !important;
+  color: rgb(var(--away));
 }
 
 .offline .avatar {
-  border-color: rgb(var(--offline)) !important;
+  color: rgb(var(--offline));
 }
 
 /* Move friend name away from avatar in chats */
 .ChatRoomSpeaker .speaker .speakerName {
-  margin-left: 8px !important;
+  margin-left: 8px;
 }
