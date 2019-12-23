@@ -99,7 +99,8 @@ html.client_chat_frame .chatWindow .chatEntry {
 }
 
 .OneOnOneVoice-anim-enter-done,
-.WaitingForPartner {
+.WaitingForPartner,
+.OneOnOneVoiceRoomControls {
   background: rgb(var(--header));
 }
 
