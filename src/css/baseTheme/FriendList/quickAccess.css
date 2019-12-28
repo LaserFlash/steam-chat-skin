@@ -40,4 +40,5 @@
   margin: 0 auto;
   box-shadow: 0 0 14px 1px rgb(var(--unreadmessage)),
     0 0 32px 1px rgb(var(--unreadmessage));
+  z-index: 3;
 }
