@@ -1,3 +1,6 @@
+/* Standard variobles */
+@import url(css/baseTheme/variables.css);
+
 /* Friend List */
 @import url(css/baseTheme/FriendList/titleBar.css);
 @import url(css/baseTheme/FriendList/currentUser.css);
