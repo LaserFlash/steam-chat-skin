@@ -1,0 +1,29 @@
+/** On Off toggle primarily used by:
+*    Friends List,
+*    Chat Settings.
+*    Size & Scaling
+*/
+
+/* Dialog ON - OFF Button background */
+.DialogOnOffToggle_Control {
+  background: transparent;
+}
+
+/* Dialog Toggle Button Style */
+.DialogOnOffToggle_Option {
+  width: 30px;
+  margin-left: var(--spacer-sm);
+  border-radius: var(--border-radius-round);
+}
+
+/* Dialog OFF Button */
+.DialogOnOffToggle_Option.Off.Active,
+.DialogOnOffToggle_Option.Off:hover {
+  background: rgb(var(--buttonOff));
+}
+
+/* Dialog ON Button */
+.DialogOnOffToggle_Option.On.Active,
+.DialogOnOffToggle_Option.On:hover {
+  background: rgb(var(--buttonOn));
+}

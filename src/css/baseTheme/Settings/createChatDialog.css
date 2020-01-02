@@ -1,0 +1,24 @@
+/* Friend Picker Background */
+.FriendPicker_Suggestions {
+  background-color: rgb(var(--header)) !important;
+  border-radius: var(--border-radius) !important;
+}
+
+/* Friend hover background */
+.FriendPicker_SuggestedFriend {
+  border-radius: var(--border-radius) !important;
+}
+
+.FriendPicker_SuggestedFriend.Focus {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+.DialogTextInputBase,
+._DialogInputContainer {
+  background-color: rgb(var(--header)) !important;
+}
+
+.CreateChatDialog ._DialogColLayout {
+  margin-left: var(--border-width-sm);
+  width: calc(100% - var(--border-width));
+}

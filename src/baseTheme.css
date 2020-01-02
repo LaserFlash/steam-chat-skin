@@ -22,7 +22,14 @@
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/chatWindow/discordStyleChatInput.css);
 
 /* Settings Window */
-@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/settingsWindow.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/createChatDialog.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/voice.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/onOffToggle.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/checkbox.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/button.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/dialogSlider.css);
+@import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Settings/dropDown.css);
 
 /* Scrollbar */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/baseTheme/Scrollbar.css);

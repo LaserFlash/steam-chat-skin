@@ -1,0 +1,15 @@
+/* Slider grabber */
+.DialogSlider_Grabber {
+  background: rgb(var(--header)) !important;
+}
+
+/* Slider value */
+.DialogSlider_Value {
+  background: rgb(var(--buttonOn)) !important;
+}
+
+/* Slider Background */
+.DialogSlider_Slider {
+  border: 0 !important;
+  background: rgb(var(--buttonOff)) !important;
+}

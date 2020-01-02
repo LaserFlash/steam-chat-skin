@@ -1,0 +1,28 @@
+/* Settings Window */
+
+/* Side Panel Background */
+.PagedSettingsDialog_PageListColumn {
+  background: rgb(var(--header));
+}
+
+/* Main Body Background */
+.DialogContent,
+.DialogContentTransition {
+  background: rgb(var(--friendlist));
+}
+
+/* Setting control line */
+._DialogInputContainer,
+.FriendsSettingsNotificationRow,
+.voiceMicTestContainer {
+  color: rgb(var(--text));
+  border-radius: var(--border-radius);
+  background: rgb(var(--header));
+}
+
+/* Text Colour */
+.DialogOnOffToggle_Control,
+.DialogHeader,
+.PagedSettingsDialog_PageListItem {
+  color: rgb(var(--text));
+}

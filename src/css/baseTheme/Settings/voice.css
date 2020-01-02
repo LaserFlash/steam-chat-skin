@@ -1,0 +1,67 @@
+/** Voice Section of settings
+* ===== */
+
+/** Voice Setup And Testing */
+
+/* Outer Box */
+.voiceMicTestContainer {
+  background-color: rgb(var(--header));
+  border-radius: var(--border-radius);
+}
+
+/* Inner Box  */
+.voiceSelfDirections {
+  background-color: rgb(var(--friendlist));
+  border-radius: var(--border-radius);
+}
+
+/* ===== */
+
+/** Voice Transmission Type */
+.voicesettings_TransmissionTypeSettings_2wcxX {
+  background-color: rgb(var(--header));
+  border: none;
+  border-radius: var(--border-radius);
+}
+
+.DialogButton.voicesettings_HotkeyClearButton_3Us-N {
+  border-radius: var(--border-radius-round);
+  width: auto !important;
+  padding: var(--padding) !important;
+  min-width: unset !important;
+  max-width: unset !important;
+}
+
+.DialogButton.voicesettings_HotkeyButton_1bV2N {
+  background: rgb(var(--friendlist)) !important;
+}
+
+.DialogButton.voicesettings_HotkeyClearButton_3Us-N:hover {
+  box-shadow: none !important;
+  border-radius: var(--border-radius-round);
+  background: rgb(var(--closeButton)) !important;
+}
+
+.DialogButton.voicesettings_HotkeyClearButton_3Us-N:hover line {
+  stroke: rgb(var(--closeIconHover));
+}
+
+/* ===== */
+
+/** Advanced Settings */
+.VoiceSettings .advancedSettingsButton {
+  border-radius: var(--border-radius) !important;
+  background: rgb(var(--header)) !important;
+  margin-left: var(--border-width-sm) !important;
+  width: calc(100% - var(--border-radius)) !important;
+}
+
+/* Advanced Expanded background */
+.VoiceSettings .advancedSettings.showAdvanced {
+  border-radius: var(--border-radius) !important;
+  background: rgb(var(--header)) !important;
+}
+
+.VoiceSettings .advancedSettings {
+  margin: var(--border-width-sm) !important;
+}
