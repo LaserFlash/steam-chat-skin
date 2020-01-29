@@ -37,11 +37,6 @@ FRIENDLIST
   display: none;
 }
 
-/* rounded game icon for group names */
-.groupName .gameGroupContainer .groupIcon {
-  border-radius: 15px !important;
-}
-
 /* background friendlist */
 .friendlistListContainer {
   min-height: 0 !important;

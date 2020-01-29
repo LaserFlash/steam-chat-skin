@@ -12,6 +12,8 @@ Square Avatar
 .Dialog_ChangePersonaName .friend .avatarMedium,
 .miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG img,
 .miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG,
-.voiceChatGroup {
+.voiceChatGroup,
+/* rounded game icon for group names */
+.groupName .gameGroupContainer .groupIcon {
   border-radius: 0% !important;
 }
