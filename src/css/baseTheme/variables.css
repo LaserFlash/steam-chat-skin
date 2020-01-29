@@ -7,7 +7,7 @@
   --border-radius-sm: 2px;
   --border-radius: 4px;
   --border-radius-lg: 8px;
-  --border-radius-round: 100%;
+  --border-radius-round: 50%;
 
   /* Spacer */
   --spacer-sm: 4px;
@@ -15,4 +15,6 @@
   --spacer-lg: 24px;
   --padding-sm: 2px;
   --padding: 4px;
+  --padding-lg: 8px;
+  --shadow: 8px;
 }

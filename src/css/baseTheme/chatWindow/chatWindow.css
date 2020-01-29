@@ -19,7 +19,7 @@ CHAT WINDOW
 
 /* Chat Tab label area */
 .chattabs_ChatTab_1WfqA .chattabs_ChatTabContent_Friend_3m7Ps {
-  padding: 2px !important;
+  padding: var(--padding-sm) !important;
   align-items: center !important;
 }
 
@@ -53,13 +53,13 @@ CHAT WINDOW
 /* Select more friends */
 .chatTabSelector {
   background: none !important;
-  border-radius: 50% !important;
+  border-radius: var(--border-radius-round) !important;
   border: 0 !important;
   width: 42px !important;
   height: 42px !important;
   display: flex;
   align-items: center;
-  margin-left: 6px;
+  margin-left: var(--spacer);
 }
 
 .chatTabSelector.UnreadMessages .SVGIcon_DownArrowContextMenu {
@@ -77,8 +77,8 @@ CHAT WINDOW
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
   margin: 0 auto !important;
-  padding-left: 3px;
-  padding-top: 3px;
+  padding-left: var(--padding);
+  padding-top: var(--padding);
 }
 
 .CompactFriendsList
@@ -94,8 +94,8 @@ CHAT WINDOW
 /* emoticon picker hover in chat */
 .emoticon_hover_content {
   background-color: rgb(var(--friendlist)) !important;
-  border: 2px solid rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border: var(--border-width-sm) solid rgb(var(--header)) !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* emoticon picker hover in chat (removes arrow) */
@@ -123,13 +123,13 @@ CHAT WINDOW
 
 /* Chat Scroll To Bottom Button */
 .ScrollToBottomButton > span {
-  border-radius: 12px !important;
+  border-radius: var(--border-radius-lg) !important;
   background: rgb(var(--footer)) !important;
 }
 
 .ScrollToBottomButton {
   color: rgb(var(--listtext));
-  padding: 8px;
+  padding: var(--padding-lg);
 }
 
 .ScrollToBottomButton:hover {
@@ -196,8 +196,9 @@ CHAT WINDOW
   display: none !important;
 }
 
+/* ?? not sure this still does anything */
 .ChatTabsBackButton {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   margin-left: 2px !important;
   border: 0 !important;
   background: rgb(var(--friendlist)) !important;
@@ -209,13 +210,13 @@ CHAT WINDOW
 
 .chatRoomMembers {
   user-select: none;
-  height: 2000px !important;
+  height: auto !important;
   border-left: 0 solid #22252b !important;
   border-right: 0 solid rgba(34, 37, 43, 0) !important;
 }
 
 .inputContainer {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   overflow: visible !important;
 }
 
@@ -225,25 +226,25 @@ CHAT WINDOW
 }
 
 .ChatRoomListGroupItemChatRooms .chatRoomVoiceChannel.ActiveVoiceChannel {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel
   .VoiceControlPanelButton.chatEndVoiceChat {
   border-left: 0 !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel {
   border-left: 0 !important;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
 }
 
 .ChatRoomListGroupItem
   .chatRoomVoiceChannel.ActiveVoiceChannel
   .chatRoomTextChannel {
   bottom: 1px !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .chatRoomTextChannel,
@@ -268,7 +269,7 @@ CHAT WINDOW
 /* Avatar Background */
 .AssignCategoriesDialog_Friend {
   background: #2e2e2f !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Full brightness of active avatar even if offline */
@@ -279,7 +280,7 @@ CHAT WINDOW
 /* Group active text channel */
 .ActiveTextChannel {
   background-color: rgb(var(--header)) !important;
-  border-radius: 2px !important;
+  border-radius: var(--border-radius-sm) !important;
   margin-left: 4px !important;
 }
 
@@ -339,7 +340,7 @@ CHAT WINDOW
 .VoiceToggle.Active {
   background: none !important;
   border: 0 !important;
-  border-radius: 50%;
+  border-radius: var(--border-radius-round);
 }
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0:hover,
@@ -410,11 +411,11 @@ CHAT WINDOW
   background: rgb(var(--header));
   color: rgb(var(--text));
   font-size: 12px;
-  padding: 4px 10px 4px 10px;
-  border-radius: 12px;
-  margin: 8px;
+  padding: var(--padding) var(--padding-lg) var(--padding) var(--padding-lg);
+  border-radius: var(--border-radius-lg);
+  margin: var(--padding-lg);
   width: auto;
-  box-shadow: 0 0 8px #0008;
+  box-shadow: 0 0 var(--shadow) #0008;
 }
 
 /* Chat embedded link or file */

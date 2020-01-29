@@ -28,7 +28,7 @@
 .friendlistListContainer .friend:hover .ContextMenuButton {
   background: rgb(var(--header));
   padding-left: 6px;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
 }
 
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
@@ -79,7 +79,7 @@
 .contextMenuItem:hover,
 .contextMenuItem.contextmenu_active_3vYUp {
   background: rgb(var(--friendlist)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Icon Hover */

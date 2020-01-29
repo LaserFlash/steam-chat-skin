@@ -35,27 +35,27 @@
 
 /* confirm friend request button */
 .confirmInviteRequestContainer .confirmInviteButton {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* cancel addfriend button */
 .confirmInviteRequestContainer .cancelAddFriends {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* icon cancel addfriends polyline */
 .confirmInviteRequestContainer .cancelAddFriends .SVGIcon_Arrow polyline {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* icon cancel addfriends hover polyline */
 .confirmInviteRequestContainer .cancelAddFriends:hover .SVGIcon_Arrow polyline {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Confirm invite request container */
 .confirmInviteRequestContainer {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* add hover effect when hovering group invites */

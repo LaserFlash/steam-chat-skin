@@ -20,7 +20,7 @@ SETTINGS PANEL
   background: rgb(var(--header)) !important;
   color: rgb(var(--text)) !important;
   border: none !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Text Colour */
@@ -32,7 +32,7 @@ SETTINGS PANEL
 
 /* Selected Button */
 button.DialogButton.Primary {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   background: rgb(var(--buttonOn)) !important;
   color: rgb(var(--text)) !important;
 }
@@ -40,7 +40,7 @@ button.DialogButton.Primary {
 /* Friend Settings Notifications Row */
 .FriendsSettingsNotificationRow {
   background-color: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Puch To Talk Option Background */
@@ -54,14 +54,14 @@ button.DialogButton.Primary {
 
 /* notification Check Boxes */
 .DialogCheckbox {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   background-color: rgb(var(--friendlist)) !important;
 }
 
 /* changes background color for buttons */
 .FriendsSettingsFlashSection_ButtonRow {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .FriendsSettingsChatFontSizeSection_ButtonRow button,
@@ -74,7 +74,7 @@ button.DialogButton.Primary {
 /* removes overlapping background on voice */
 .voiceMicTestContainer {
   background-color: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Slider Background */
@@ -102,54 +102,54 @@ button.DialogButton.Primary {
 /* none button for voice */
 ._DialogSection.pushToTalkSection .pushToKeyAssignContainer .DialogButton,
 ._DialogSection.pushToTalkSection .pushtoTalkKeyAssignContainer .DialogButton {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 button.DialogButton::before {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Advanced Button */
 .VoiceSettings .advancedSettingsButton {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   margin-left: 2px !important;
   width: calc(100% - 4px) !important;
 }
 
 /* Advanced Expanded background */
 .VoiceSettings .advancedSettings.showAdvanced {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
   background: rgb(var(--header)) !important;
 }
 
 /* copy voice clipboard button */
 button.DialogButton.copyVoiceLogsButton {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* EDIT NICKNAME */
 
 /* Buttons Shape */
 .DialogTwoColLayout > ._DialogLayout {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Search */
 ._DialogTextInputBase:focus {
   background: rgb(var(--footer)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Search Hover */
 ._DialogTextInputBase:not(:disabled):hover {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Search Input Box */
 ._DialogTextInputBase,
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* CATEGORIZE */
@@ -163,12 +163,12 @@ button.DialogButton.copyVoiceLogsButton {
 /* Friend Picker Background */
 .FriendPicker_Suggestions {
   background-color: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Friend hover background */
 .FriendPicker_SuggestedFriend {
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .FriendPicker_SuggestedFriend.Focus {
@@ -239,7 +239,7 @@ button.DialogButton.copyVoiceLogsButton {
 
 .DialogDropDownMenu_Item:hover {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* Inner voice setup box */
@@ -256,7 +256,7 @@ button.DialogButton.copyVoiceLogsButton {
 button.DialogButton,
 button.DialogButton.Off {
   background: rgb(var(--header)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .DialogButton line {
@@ -266,7 +266,7 @@ button.DialogButton.Off {
 /* hover selected buttons */
 button.DialogButton:hover {
   box-shadow: 0 0 0 2px rgb(var(--buttonOn)) !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .DialogTextInputBase,

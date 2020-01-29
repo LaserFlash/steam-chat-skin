@@ -6,7 +6,7 @@ FRIENDLIST
 .chatTabOpenFriendsList {
   background-color: rgb(var(--friendlist)) !important;
   height: 44px !important;
-  border-radius: 4px !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* chat tab open friends list hover */

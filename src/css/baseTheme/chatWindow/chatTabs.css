@@ -4,13 +4,13 @@
 */
 
 .chatTabList {
-  margin-left: 8px;
+  margin-left: var(--spacer-sm);
 }
 
 .chattabs_ChatTab_1WfqA {
   background: rgb(var(--header));
-  padding-right: 4px;
-  border-radius: 4px;
+  padding-right: var(--padding);
+  border-radius: var(--border-radius);
 }
 
 .chatTabSetContainer .chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
@@ -33,17 +33,17 @@
 /* Tab Close Button */
 .chattabs_CloseButton_SzByZ {
   margin: 0;
-  padding: 2px;
+  padding: var(--padding-sm);
   transform: none;
 }
 
 .chattabs_CloseButton_SzByZ:hover {
-  border-radius: 50% !important;
+  border-radius: var(--border-radius-round) !important;
   background: rgb(var(--closeButton)) !important;
 }
 
 .chattabs_ChatTabContent_Friend_3m7Ps {
-  margin-right: 8px;
+  margin-right: var(--spacer-sm);
 }
 
 /* Group chat tab text colour */
@@ -85,7 +85,7 @@
 }
 
 .ChatTabsContextMenu .chattabs_ChatTab_1WfqA {
-  padding-left: 6px;
+  padding-left: var(--spacer-sm);
 }
 
 .ChatTabsContextMenu.CompactFriendsList .friend,

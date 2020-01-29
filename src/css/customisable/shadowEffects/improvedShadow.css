@@ -65,7 +65,7 @@ button.DialogButton,
 
 .chatentry_chatTextarea_3e__5 {
   margin-right: 0 !important;
-  border-radius: 4px;
+  border-radius: var(--border-radius);
 }
 
 /* chat invite message */
