@@ -55,8 +55,8 @@ CHAT WINDOW
   background: none !important;
   border-radius: var(--border-radius-round) !important;
   border: 0 !important;
-  width: 42px !important;
-  height: 42px !important;
+  width: 32px !important;
+  height: 32px !important;
   display: flex;
   align-items: center;
   margin-left: var(--spacer);
@@ -149,6 +149,7 @@ CHAT WINDOW
 
 .titleBarContainer.ChatTabs {
   background: rgb(var(--header)) !important;
+  padding: var(--spacer-sm);
 }
 
 .speakerTimeStamp {
