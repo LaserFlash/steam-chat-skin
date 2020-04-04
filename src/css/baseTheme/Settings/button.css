@@ -15,7 +15,7 @@ button.DialogButton.Off,
 .DialogButton.Primary:hover,
 .DialogButton:hover,
 .radio_Button_3aFxE:hover {
-  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
+  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) inset !important;
 }
 
 .FriendsSettingsChatFontSizeSection_ButtonRow,
@@ -23,8 +23,6 @@ button.DialogButton.Off,
 .DialogTwoColLayout {
   padding: 0;
   background: rgb(var(--friendlist)) !important;
-  margin-left: var(--spacer);
-  margin-right: var(--spacer);
 }
 
 .radio_Group_1Ma_m {
