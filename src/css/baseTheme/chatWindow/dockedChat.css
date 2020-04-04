@@ -1,0 +1,16 @@
+.ChatTabs.HasWindowControls {
+  padding-top: var(--spacer-sm);
+}
+
+.singlewindow .title-area .title-bar-actions {
+  background: rgb(var(--header));
+  z-index: 99;
+}
+
+.singlewindow .AvatarAndUser {
+  padding-top: var(--padding-lg);
+}
+
+.singlewindow .friendListButtons {
+  top: var(--padding-lg);
+}

@@ -20,6 +20,7 @@
 @import url(css/baseTheme/chatWindow/chatTabs.css);
 @import url(css/baseTheme/chatWindow/voiceControls.css);
 @import url(css/baseTheme/chatWindow/discordStyleChatInput.css);
+@import url(css/baseTheme/chatWindow/dockedChat.css);
 
 /* Settings Window */
 @import url(css/baseTheme/Settings/settingsWindow.css);
