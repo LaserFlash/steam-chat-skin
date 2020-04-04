@@ -5,7 +5,7 @@
 }
 
 .DialogCheckbox:hover:not(.Disabled) {
-  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn));
+  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) inset !important;
   background-color: rgb(var(--friendlist));
 }
 

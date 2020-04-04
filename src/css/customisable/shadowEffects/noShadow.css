@@ -22,7 +22,7 @@
 
 button.DialogButton::before,
 button.DialogButton.Secondary.Off {
-  box-shadow: none !important;
+  box-shadow: none;
 }
 
 .DialogTextInputBase:focus {
