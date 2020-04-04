@@ -42,6 +42,10 @@
   background: rgb(var(--closeButton)) !important;
 }
 
+.DialogButton.voicesettings_HotkeyClearButton_3Us-N line {
+  stroke: rgb(var(--icon));
+}
+
 .DialogButton.voicesettings_HotkeyClearButton_3Us-N:hover line {
   stroke: rgb(var(--closeIconHover));
 }
