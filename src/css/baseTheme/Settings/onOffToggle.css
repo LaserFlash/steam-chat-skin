@@ -27,3 +27,19 @@
 .DialogOnOffToggle_Option.On:hover {
   background: rgb(var(--buttonOn));
 }
+
+/**
+ * On Off Toggle - actual toggle switch
+ */
+
+.toggle_Toggle_3RkmL .toggle_ToggleSwitch_3Ac8T.toggle_On_2xdfY {
+  background: rgb(var(--buttonOn));
+}
+
+.toggle_Toggle_3RkmL .toggle_ToggleSwitch_3Ac8T.toggle_Off_2C6dp {
+  background: rgb(var(--buttonOff));
+}
+
+.toggle_ToggleRow_332T0 {
+  background: rgb(var(--friendlist));
+}
