@@ -51,7 +51,7 @@
 
 /* Button Position */
 .activeVoiceButtons .friendSettingsButton {
-  margin: auto 0 auto 2px;
+  margin: auto 0 auto var(--spacer-xs);
 }
 
 /* ============================== */

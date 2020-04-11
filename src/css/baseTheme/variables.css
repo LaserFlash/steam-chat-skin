@@ -10,6 +10,7 @@
   --border-radius-round: 50%;
 
   /* Spacer */
+  --spacer-xs: 2px;
   --spacer-sm: 4px;
   --spacer: 12px;
   --spacer-lg: 24px;

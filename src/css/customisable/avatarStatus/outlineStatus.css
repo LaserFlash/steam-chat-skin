@@ -12,7 +12,7 @@
 
 /* Apply border to avatar to show status */
 .avatar {
-  border: 2px solid !important;
+  border: var(--border-width-sm) solid !important;
 }
 
 /* === Status Colours === */

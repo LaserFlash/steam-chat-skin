@@ -73,7 +73,7 @@
   }
 
   .chatentry_chatEntryControls_2O_X7 {
-    border-bottom: 2px solid rgb(var(--friendlist));
+    border-bottom: var(--border-width-sm) solid rgb(var(--friendlist));
   }
 }
 

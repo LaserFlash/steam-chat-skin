@@ -200,7 +200,7 @@ CHAT WINDOW
 /* ?? not sure this still does anything */
 .ChatTabsBackButton {
   border-radius: var(--border-radius) !important;
-  margin-left: 2px !important;
+  margin-left: var(--spacer-xs) !important;
   border: 0 !important;
   background: rgb(var(--friendlist)) !important;
 }

@@ -26,7 +26,7 @@ SCROLLBAR
   min-height: 32px;
   min-width: 32px;
   background-color: transparent;
-  border-width: 2px;
+  border-width: var(--border-width-sm);
 }
 
 .chatRoomListContainer:hover::-webkit-scrollbar-thumb,
