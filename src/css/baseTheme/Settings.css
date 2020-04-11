@@ -112,7 +112,7 @@ button.DialogButton::before {
 /* Advanced Button */
 .VoiceSettings .advancedSettingsButton {
   border-radius: var(--border-radius) !important;
-  margin-left: 2px !important;
+  margin-left: var(--spacer-xs) !important;
   width: calc(100% - 4px) !important;
 }
 
@@ -155,7 +155,7 @@ button.DialogButton.copyVoiceLogsButton {
 /* CATEGORIZE */
 .DialogCheckbox_Container:hover .DialogCheckbox,
 .DialogCheckbox:hover:not(.Disabled) {
-  box-shadow: 0 0 0 2px rgb(var(--buttonOn)) !important;
+  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
 }
 
 /* CATAGORY MANAGE/CREATE */
@@ -265,7 +265,7 @@ button.DialogButton.Off {
 
 /* hover selected buttons */
 button.DialogButton:hover {
-  box-shadow: 0 0 0 2px rgb(var(--buttonOn)) !important;
+  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
   border-radius: var(--border-radius) !important;
 }
 
@@ -279,10 +279,10 @@ button.DialogButton:hover {
 }
 
 .CreateChatDialog ._DialogColLayout {
-  margin-left: 2px;
+  margin-left: var(--spacer-xs);
   width: calc(100% - 4px);
 }
 
 .VoiceSettings .advancedSettings {
-  margin: 2px !important;
+  margin: var(--spacer-xs) !important;
 }

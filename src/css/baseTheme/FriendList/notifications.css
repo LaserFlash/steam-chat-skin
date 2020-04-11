@@ -95,7 +95,7 @@ Remove default effect
 
   /* Glowing icon */
   background: rgb(var(--unreadmessage)) !important;
-  border: 2px solid rgb(var(--unreadmessage)) !important;
+  border: var(--border-width-sm) solid rgb(var(--unreadmessage)) !important;
   border-radius: 100% !important;
   box-shadow: 0 0 10px 3px rgb(var(--unreadmessage));
 }

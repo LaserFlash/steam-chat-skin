@@ -11,10 +11,7 @@
   height: 20px !important;
 
   /* Give the actions some padding, makes the trigger areas larger */
-  padding-bottom: 2px;
-  padding-top: 2px;
-  padding-right: 2px;
-  padding-left: 2px;
+  padding: var(--padding-sm);
 
   /* Centre svg icons in the container */
   align-items: center;
