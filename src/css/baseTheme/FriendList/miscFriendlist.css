@@ -105,6 +105,7 @@ FRIENDLIST
 .steamavatar_avatar_f2laR {
   border: none;
   height: 100%;
+  width: auto;
 }
 
 .SVGIcon_VoiceRoom .Microphone {

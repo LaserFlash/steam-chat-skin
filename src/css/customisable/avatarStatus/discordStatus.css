@@ -20,6 +20,7 @@ DISCORD STATUS (DEFAULT)
   bottom: 0 !important;
   right: 0 !important;
   opacity: 1 !important;
+  display: block !important;
 }
 
 .voiceSelfDirections .avatarStatus {
@@ -54,6 +55,7 @@ DISCORD STATUS (DEFAULT)
   margin-left: -8px !important;
   box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
   background: rgb(var(--friendlist));
+  z-index: 1;
 }
 
 /* QuickAcces Game Icon */

@@ -26,3 +26,8 @@
 .PagedSettingsDialog_PageListItem {
   color: rgb(var(--text));
 }
+
+/* Fake friend - nickname option */
+.friendSettingsFakeFriend .fakeFriendAvatar {
+  transform: scale(1, 1);
+}
