@@ -11,7 +11,7 @@
 }
 
 /* Apply border to avatar to show status */
-.avatar {
+.avatarHolder .avatar {
   border: var(--border-width-sm) solid !important;
 }
 
@@ -39,9 +39,4 @@
 
 .offline .avatar {
   color: rgb(var(--offline));
-}
-
-/* Move friend name away from avatar in chats */
-.ChatRoomSpeaker .speaker .speakerName {
-  margin-left: 8px;
 }

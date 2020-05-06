@@ -4,6 +4,20 @@
 CHAT WINDOW
 -------------------------------------------------------------- */
 
+/* Chat speaker name */
+.ChatRoomSpeaker .speaker .speakerName {
+  margin: auto 0 auto var(--padding-lg);
+}
+
+.ChatRoomSpeaker .speaker .speakerStatus {
+  margin: 0;
+  align-self: auto;
+}
+
+.speakerHoverArea {
+  height: fit-content;
+}
+
 /* Group Chat icon */
 .ChatTabContent.ChatRoom .ChatRoomGroupAvatar,
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
