@@ -12,6 +12,11 @@
   padding-top: 16px;
 }
 
+/* Hide current user status marker */
+.AvatarAndUser .avatarStatus {
+  display: none !important;
+}
+
 /* Improved Positioning */
 .currentUserContainer .labelHolder {
   margin: 0 0 5px 8px !important;
