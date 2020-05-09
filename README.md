@@ -26,7 +26,7 @@ If on Windows running the installer script will automatically download and insta
 
 ## Preview
 
-![Skin Image](https://laserflash.tk/assets/images/steam.png)
+![Skin Image](https://laserflash.tk/assets/images/steam-chat-full.png)
 
 ## Customisation
 
