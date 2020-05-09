@@ -7,11 +7,11 @@ var dir = "./dist/";
 var filesToMinify = [
   {
     fileOrPath: "./src/baseTheme.dev.css",
-    output: dir + "baseTheme.css"
+    output: dir + "src/baseTheme.css"
   },
   {
     fileOrPath: "./src/css/customisable",
-    output: dir + "css/customisable"
+    output: dir + "src/css/customisable"
   }
 ];
 
