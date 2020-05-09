@@ -1,0 +1,1 @@
+.avatarStatus,.speakerStatus{display:none!important}.avatarHolder .avatar{border:var(--border-width-sm) solid!important}.online .avatar{color:rgb(var(--online))}.watchingbroadcast .avatar{color:rgb(var(--watching))}.golden .avatar{color:#d5bf6a}.ingame .avatar{color:rgb(var(--ingame))}.awayOrSnooze .avatar{color:rgb(var(--away))}.offline .avatar{color:rgb(var(--offline))}
