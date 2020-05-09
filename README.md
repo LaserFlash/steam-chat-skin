@@ -1,8 +1,9 @@
 ![Lint](https://github.com/LaserFlash/steam-chat-skin/workflows/Lint/badge.svg?branch=master)![Deploy](https://github.com/LaserFlash/steam-chat-skin/workflows/Build%20and%20Deploy/badge.svg)
 
-# Steam Friends Skin
+# Steam Friends / Chat Skin
 
-Can be played with and customised at <https://steamchatskinning.tk>
+Check out <https://steamchatskinning.tk> to see the skin in action.
+Also provides a visual way to customise the appearance.
 
 ## Installation
 
@@ -29,12 +30,13 @@ If on Windows running the installer script will automatically download and insta
 
 ## Customisation
 
-[`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/src/friends.custom.css) can be customised to apply different styles to the theme. Read the instructions in that file for more information.
+[`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/src/friends.custom.css) can be customised to apply different styles to the theme. This customisation is performed in the that file
 
-### Options:
+### Theme Options:
 
 #### Theme Colour:
 
+- Discord Theme
 - Dark Theme
 - Light Theme
 
@@ -49,9 +51,15 @@ If on Windows running the installer script will automatically download and insta
 - Square Avatar
 - Squircle Avatar
 
+#### Visual Effects:
+
+- Glow Effects
+- Shadows
+- Blur
+
 #### Font Customisation
 
-You can change the font used, either read the comment block in friends.custom.css or add something like the following:
+You can change the font used, either read the comment block in [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/src/friends.custom.css) or add something like the following:
 
 ```css
 * {
@@ -62,9 +70,19 @@ You can change the font used, either read the comment block in friends.custom.cs
 Just make sure you either use a web safe font or one that is installed on your system
 
 - https://www.w3schools.com/cssref/css_websafe_fonts.asp
-- https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
+- https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the `@IMPORT` option)
+
+# Contributing
+
+Contributions of any sort are always welcome.
+
+If you have problems or suggestions I would recommend you create an [Issue](https://github.com/LaserFlash/steam-chat-skin/issues) with a clear explanation and ideally a relevant screenshot.
+
+#### Code
+
+Code contributions are also welcome (less work for me). Just put in a [Merge Request](https://github.com/LaserFlash/steam-chat-skin/pulls). I'm slowly working on creating a solid project structure, but for now just be sensible with the code changes.
 
 # Credits
 
 - PhantomGamers <https://github.com/PhantomGamers> for their work on the patcher.
-- Shiina♪ <https://github.com/AikoMidori> for their original work on the skin.
+- Originally a fork of <https://github.com/AikoMidori/steam-friends-skin>
