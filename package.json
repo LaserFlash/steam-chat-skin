@@ -1,35 +1,14 @@
 {
-  "stylelint": {
-    "extends": "stylelint-config-standard",
-    "rules": {
-      "no-descending-specificity": null
-    }
-  },
   "scripts": {
     "build": "node scripts/build.js",
-    "lint": "stylelint src/",
-    "lint:fix": "stylelint --fix src/**",
-    "pretty": "prettier --write src/**"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": " lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.css": [
-      "npm run lint:fix",
-      "npm run pretty",
-      "git add"
-    ]
+    "lint": "stylelint src/**",
+    "lint:fix": "stylelint src/** --fix"
   },
   "devDependencies": {
     "clean-css": "^4.2.3",
-    "husky": "^3.0.0",
-    "lint-staged": "^9.2.0",
-    "precise-commits": "^1.0.2",
-    "prettier": "1.18.2",
-    "stylelint": "^10.1.0",
-    "stylelint-config-standard": "^18.3.0"
+    "stylelint": "^13.3.3",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.0.0"
   }
 }

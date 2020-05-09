@@ -7,10 +7,8 @@
 }
 
 /* mini profile Background */
-.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2
-  .miniprofile_miniProfileBottom_3Agb6,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfileGameContainer_2FyZH {
+.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
   background: transparent !important;
 }
 

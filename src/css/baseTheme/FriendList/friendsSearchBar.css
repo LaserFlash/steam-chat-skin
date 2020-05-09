@@ -12,8 +12,8 @@
 
 /* Icon tab search button */
 .TabSearchButton .ColorSelector {
-  stroke: rgb(var(--icon)) !important;
   fill: rgb(var(--icon)) !important;
+  stroke: rgb(var(--icon)) !important;
 }
 
 /* Search Button in Search Bar */
@@ -52,9 +52,9 @@
 /* Friend Search Bar Input */
 .friendSearchInput {
   background-color: rgb(var(--friendlist)) !important;
-  padding-left: 12px !important;
-  border-radius: 50px !important;
   background-image: none !important;
+  border-radius: 50px !important;
+  padding-left: 12px !important;
 }
 
 /* Center search close vertically in bar */

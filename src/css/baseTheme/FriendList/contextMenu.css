@@ -6,38 +6,37 @@
 
 /* align to the right of the friend and vertical centre */
 .friendlistListContainer .ContextMenuButton {
-  position: absolute;
-  width: auto;
   height: 100%;
+  padding-right: 6px;
+  position: absolute;
   right: 0;
   top: 0;
-  padding-right: 6px;
+  width: auto;
   z-index: 8 !important;
 }
 
 .ChatRoomListGroupItem .ContextMenuButton {
-  position: absolute;
-  width: auto;
   height: 42px;
+  padding-right: 6px;
+  position: absolute;
   right: 0;
   top: 0;
-  padding-right: 6px;
+  width: auto;
   z-index: 8 !important;
 }
 
 .friendlistListContainer .friend:hover .ContextMenuButton {
   background: rgb(var(--header));
-  padding-left: 6px;
   border-radius: var(--border-radius);
+  padding-left: 6px;
 }
 
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
-  padding-left: 0;
-  padding-top: 0;
-  height: 100%;
-
   /* Icon Colour */
   fill: rgb(var(--icon)) !important;
+  height: 100%;
+  padding-left: 0;
+  padding-top: 0;
 }
 
 .ContextMenuButton {
@@ -108,8 +107,8 @@
 }
 
 .contextMenuContents.ChatTabs.CompactFriendsList .friend .labelHolder {
-  margin-top: 20px !important;
   margin-left: -2px !important;
+  margin-top: 20px !important;
 }
 
 .contextMenuContents .chatTab .ChatTabContent {

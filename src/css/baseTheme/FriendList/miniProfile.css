@@ -8,9 +8,7 @@
 
 /* mini profile all edges */
 .miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfileGameContainer_2FyZH
-  .miniprofile_gameLogo_2B0di {
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH .miniprofile_gameLogo_2B0di {
   border-radius: var(--border-radius);
 }
 

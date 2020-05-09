@@ -6,18 +6,18 @@
 
 /* Apply to SingleWindowToggle, Minimize, Maximize, Close */
 .title-area-icon {
-  /* Sets icon sizes */
-  width: 22px !important;
-  height: 20px !important;
-
-  /* Give the actions some padding, makes the trigger areas larger */
-  padding: var(--padding-sm);
-
   /* Centre svg icons in the container */
   align-items: center;
 
   /* Change cursor to a hand */
   cursor: pointer;
+  height: 20px !important;
+
+  /* Give the actions some padding, makes the trigger areas larger */
+  padding: var(--padding-sm);
+
+  /* Sets icon sizes */
+  width: 22px !important;
 }
 
 /* Apply to Minimize, Maximize, Close */
@@ -36,8 +36,8 @@
 
 /* Attach Chat Toggle */
 .singleWindowToggle {
-  top: 0 !important;
   margin-right: 4px !important;
+  top: 0 !important;
 }
 
 /* Position all icons in centre of their container */

@@ -9,53 +9,42 @@
 /*  Select one of the following avatar shapes
 /*
 /*  == Squircle Avatar == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStyle/squircleAvatar.css);
 /*  == Square Avatar == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStyle/squareAvatar.css);
 /*  == Round Avatar == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStyle/roundAvatar.css);
-
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Avatar Status Style ====
 /*  Select one of the following avatar status types
 /*
 /*  == Outline Status == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStatus/outlineStatus.css);
 /*  == Discord Status == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarStatus/discordStatus.css);
-
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Theme Colour ====
 /*  Select one of the following themes
 /*
 /*  == Dark Theme == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/darkMode.css);
 /*  == Light Theme == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/lightMode.css);
 /*  == Steam like Theme == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/steamColours.css);
 /*  == Discord Colours Theme == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/discordColours.css);
-
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Mini Profile ====
 /*  Small window that shows when hover over a friend
 /*
 /*  == Mini profile solid == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/miniProfile/miniProfileSolid.css);
 /*  == Mini profile blur == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/miniProfile/miniProfileBlur.css);
-
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Status Glow ====
@@ -63,11 +52,9 @@
 /*    import nothing for stock steam, other wise choose one of the following options
 /*
 /*  == No Glow == */
-
 /*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/statusGlow/noGlow.css);
 /*  == Themed Glow == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/statusGlow/themedGlow.css);
-
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Shadow Effects ====
@@ -75,13 +62,10 @@
 /*    import nothing for stock steam, otherwise choose one of the following options
 /*
 /*  == No Shadow == */
-
 /* @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/noShadow.css);
 */
-
 /*  == Better Shadows == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/improvedShadow.css);
-
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Fonts ====
@@ -90,7 +74,6 @@
 /*    - https://www.w3schools.com/cssref/css_websafe_fonts.asp
 /*    - https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
 */
-
 /*
 /* -- Remove this line to uncomment the font-family --
 * {

@@ -26,10 +26,10 @@
 
 .DialogButton.voicesettings_HotkeyClearButton_3Us-N {
   border-radius: var(--border-radius-round);
-  width: auto !important;
-  padding: var(--padding) !important;
-  min-width: unset !important;
   max-width: unset !important;
+  min-width: unset !important;
+  padding: var(--padding) !important;
+  width: auto !important;
 }
 
 .DialogButton.voicesettings_HotkeyButton_1bV2N {
@@ -37,9 +37,9 @@
 }
 
 .DialogButton.voicesettings_HotkeyClearButton_3Us-N:hover {
-  box-shadow: none !important;
-  border-radius: var(--border-radius-round);
   background: rgb(var(--closeButton)) !important;
+  border-radius: var(--border-radius-round);
+  box-shadow: none !important;
 }
 
 .DialogButton.voicesettings_HotkeyClearButton_3Us-N line {
@@ -54,16 +54,16 @@
 
 /** Advanced Settings */
 .VoiceSettings .advancedSettingsButton {
-  border-radius: var(--border-radius) !important;
   background: rgb(var(--header)) !important;
+  border-radius: var(--border-radius) !important;
   margin-left: var(--border-width-sm) !important;
   width: calc(100% - var(--border-radius)) !important;
 }
 
 /* Advanced Expanded background */
 .VoiceSettings .advancedSettings.showAdvanced {
-  border-radius: var(--border-radius) !important;
   background: rgb(var(--header)) !important;
+  border-radius: var(--border-radius) !important;
 }
 
 .VoiceSettings .advancedSettings {

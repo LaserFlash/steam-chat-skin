@@ -10,8 +10,8 @@ CHAT WINDOW
 }
 
 .ChatRoomSpeaker .speaker .speakerStatus {
-  margin: 0;
   align-self: auto;
+  margin: 0;
 }
 
 .speakerHoverArea {
@@ -21,8 +21,8 @@ CHAT WINDOW
 /* Group Chat icon */
 .ChatTabContent.ChatRoom .ChatRoomGroupAvatar,
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomGroupAvatar {
-  margin-top: 0 !important;
   margin-left: 0 !important;
+  margin-top: 0 !important;
 }
 
 /* Group Chat Labels */
@@ -33,12 +33,11 @@ CHAT WINDOW
 
 /* Chat Tab label area */
 .chattabs_ChatTab_1WfqA .chattabs_ChatTabContent_Friend_3m7Ps {
-  padding: var(--padding-sm) !important;
   align-items: center !important;
+  padding: var(--padding-sm) !important;
 }
 
-.ChatTabContextMenuItem
-  .personanameandstatus_richPresenceLabel_3Q6g1:not(.personanameandstatus_gameName_qvibF) {
+.ChatTabContextMenuItem .personanameandstatus_richPresenceLabel_3Q6g1:not(.personanameandstatus_gameName_qvibF) {
   display: none;
 }
 
@@ -52,8 +51,8 @@ CHAT WINDOW
 
 .MemberListColumn,
 .chatRoomGroupNavColumn {
-  z-index: 0;
   box-shadow: none;
+  z-index: 0;
 }
 
 .MemberListColumn {
@@ -66,14 +65,14 @@ CHAT WINDOW
 
 /* Select more friends */
 .chatTabSelector {
-  background: none !important;
-  border-radius: var(--border-radius-round) !important;
-  border: 0 !important;
-  width: 32px !important;
-  height: 32px !important;
-  display: flex;
   align-items: center;
+  background: none !important;
+  border: 0 !important;
+  border-radius: var(--border-radius-round) !important;
+  display: flex;
+  height: 32px !important;
   margin-left: var(--spacer);
+  width: 32px !important;
 }
 
 .chatTabSelector.UnreadMessages .SVGIcon_DownArrowContextMenu {
@@ -81,8 +80,8 @@ CHAT WINDOW
 }
 
 .compactView .chatTabSelector {
-  width: 32px !important;
   height: 32px !important;
+  width: 32px !important;
 }
 
 .chatTabSelector:hover {
@@ -95,9 +94,7 @@ CHAT WINDOW
   padding-top: var(--padding);
 }
 
-.CompactFriendsList
-  .friendGroup.gameGroup:not(.OtherGamesGroup)
-  .SteamPlayerGroupFooter {
+.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
   height: 0 !important;
 }
 
@@ -128,17 +125,17 @@ CHAT WINDOW
 
 .emoticon_StickerButton_3O95u:hover {
   background: none;
-  transform: scale(1.25);
-  box-shadow: none;
   border: none;
+  box-shadow: none;
+  transform: scale(1.25);
 }
 
 /* ============================ */
 
 /* Chat Scroll To Bottom Button */
 .ScrollToBottomButton > span {
-  border-radius: var(--border-radius-lg) !important;
   background: rgb(var(--footer)) !important;
+  border-radius: var(--border-radius-lg) !important;
 }
 
 .ScrollToBottomButton {
@@ -200,11 +197,11 @@ CHAT WINDOW
 
 .emoticon_NewEmoticonIndicator_3NVON {
   background: darkred !important;
-  top: 41px !important;
-  right: 0 !important;
-  left: 0 !important;
-  height: 1px !important;
   bottom: 0 !important;
+  height: 1px !important;
+  left: 0 !important;
+  right: 0 !important;
+  top: 41px !important;
 }
 
 .emoticon_NewEmoticonIndicator_3NVON .emoticon_NewEmoticonCircle_3mNrG {
@@ -213,10 +210,10 @@ CHAT WINDOW
 
 /* ?? not sure this still does anything */
 .ChatTabsBackButton {
+  background: rgb(var(--friendlist)) !important;
+  border: 0 !important;
   border-radius: var(--border-radius) !important;
   margin-left: var(--spacer-xs) !important;
-  border: 0 !important;
-  background: rgb(var(--friendlist)) !important;
 }
 
 .chatRoomGroupHeader {
@@ -224,10 +221,10 @@ CHAT WINDOW
 }
 
 .chatRoomMembers {
-  user-select: none;
-  height: auto !important;
   border-left: 0 solid #22252b !important;
   border-right: 0 solid rgba(34, 37, 43, 0) !important;
+  height: auto !important;
+  user-select: none;
 }
 
 .inputContainer {
@@ -244,8 +241,7 @@ CHAT WINDOW
   border-radius: var(--border-radius) !important;
 }
 
-.chatRoomVoiceChannel.ActiveVoiceChannel
-  .VoiceControlPanelButton.chatEndVoiceChat {
+.chatRoomVoiceChannel.ActiveVoiceChannel .VoiceControlPanelButton.chatEndVoiceChat {
   border-left: 0 !important;
   border-radius: var(--border-radius) !important;
 }
@@ -255,11 +251,9 @@ CHAT WINDOW
   border-radius: var(--border-radius);
 }
 
-.ChatRoomListGroupItem
-  .chatRoomVoiceChannel.ActiveVoiceChannel
-  .chatRoomTextChannel {
-  bottom: 1px !important;
+.ChatRoomListGroupItem .chatRoomVoiceChannel.ActiveVoiceChannel .chatRoomTextChannel {
   border-radius: var(--border-radius) !important;
+  bottom: 1px !important;
 }
 
 .chatRoomTextChannel,
@@ -269,12 +263,12 @@ CHAT WINDOW
 
 /* Chat Divider Fullscreen */
 .singleWindowDivider {
-  width: 1px !important;
   background-color: rgb(var(--header)) !important;
-  min-width: 1px !important;
   border: 0 !important;
-  border-top: 0 !important;
   border-bottom: 0 !important;
+  border-top: 0 !important;
+  min-width: 1px !important;
+  width: 1px !important;
 }
 
 .chatDialogs {
@@ -396,8 +390,8 @@ CHAT WINDOW
   background-color: transparent !important;
   border: 0 !important;
   margin: 0 !important;
-  padding: 0 !important;
   max-height: none !important;
+  padding: 0 !important;
 }
 
 .chatentry_chatSubmitButton_3VRfL:not(.chatentry_disabled_2p2vW):hover {
@@ -424,13 +418,13 @@ CHAT WINDOW
 /* Chat someone is typing a message */
 .FriendChatTypingNotification {
   background: rgb(var(--header));
+  border-radius: var(--border-radius-lg);
+  box-shadow: 0 0 var(--shadow) #0008;
   color: rgb(var(--text));
   font-size: 12px;
-  padding: var(--padding) var(--padding-lg) var(--padding) var(--padding-lg);
-  border-radius: var(--border-radius-lg);
   margin: var(--padding-lg);
+  padding: var(--padding) var(--padding-lg) var(--padding) var(--padding-lg);
   width: auto;
-  box-shadow: 0 0 var(--shadow) #0008;
 }
 
 /* Chat embedded link or file */
@@ -438,20 +432,22 @@ CHAT WINDOW
 /* ========================== */
 .msg div.ChatMessageOpenGraph,
 .msg div.SteamPublishedFile {
-  background: linear-gradient(
-    to right,
-    rgba(var(--header), 0.5) 40%,
-    rgba(var(--header), 1) 100%
-  );
+  background:
+    linear-gradient(
+      to right,
+      rgba(var(--header), 0.5) 40%,
+      rgba(var(--header), 1) 100%
+    );
 }
 
 .msg .OpenGraphMessageURL {
-  background: linear-gradient(
-    to right,
-    rgba(var(--header), 0.2) 0%,
-    rgba(var(--header), 0.5) 40%,
-    rgba(var(--header), 1) 100%
-  );
+  background:
+    linear-gradient(
+      to right,
+      rgba(var(--header), 0.2) 0%,
+      rgba(var(--header), 0.5) 40%,
+      rgba(var(--header), 1) 100%
+    );
 }
 
 .SVGIcon_Button.SVGIcon_CopyToClipboard {
@@ -485,8 +481,8 @@ CHAT WINDOW
 }
 
 .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar.Small {
-  margin-top: 6px;
   margin-left: 4px;
+  margin-top: 6px;
 }
 
 .ChatTabs.compactView .ChatTabContent.ChatRoom .ChatRoomMultiFriendAvatar,
@@ -494,9 +490,7 @@ CHAT WINDOW
   margin-top: 6px;
 }
 
-.MemberListViewCompact
-  .ReactVirtualized__Grid__innerScrollContainer
-  > *:not(.chatroomBucket_regular) {
+.MemberListViewCompact .ReactVirtualized__Grid__innerScrollContainer > *:not(.chatroomBucket_regular) {
   display: none;
   height: 0 !important;
 }

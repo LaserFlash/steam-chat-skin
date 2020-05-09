@@ -5,8 +5,8 @@ FRIENDLIST
 /* chat tab open friends list */
 .chatTabOpenFriendsList {
   background-color: rgb(var(--friendlist)) !important;
-  height: 44px !important;
   border-radius: var(--border-radius) !important;
+  height: 44px !important;
 }
 
 /* chat tab open friends list hover */
@@ -39,15 +39,14 @@ FRIENDLIST
 
 /* background friendlist */
 .friendlistListContainer {
-  min-height: 0 !important;
   background: rgb(var(--friendlist)) !important;
+  min-height: 0 !important;
   padding-top: 4px;
 }
 
 /* Fixes issue with compact friendlist collapsing */
 .personanameandstatus_compactView_2PCWF .personanameandstatus_playerName_1uxaf,
-.personanameandstatus_compactView_2PCWF
-  .personanameandstatus_playerNickname_3-32P {
+.personanameandstatus_compactView_2PCWF .personanameandstatus_playerNickname_3-32P {
   margin-bottom: 0;
 }
 
@@ -76,8 +75,8 @@ FRIENDLIST
 
 /* ================================== */
 .MemberListColumn .friend .chatMemberFriendIcon svg {
-  left: -5px;
   bottom: 0;
+  left: -5px;
   top: 9px;
 }
 
@@ -87,8 +86,8 @@ FRIENDLIST
 
 .ChatSpeaker.ChatRoomSpeaker .speaker .rankIcon > *,
 .MemberListColumn .friend .rankIcon > * {
-  margin-top: 0;
   left: -3px;
+  margin-top: 0;
   top: 0;
 }
 

@@ -21,8 +21,8 @@ button.DialogButton.Off,
 .FriendsSettingsChatFontSizeSection_ButtonRow,
 .FriendsSettingsFlashSection_ButtonRow,
 .DialogTwoColLayout {
-  padding: 0;
   background: rgb(var(--friendlist)) !important;
+  padding: 0;
 }
 
 .radio_Group_1Ma_m {

@@ -1,12 +1,12 @@
 /* Check Boxes */
 .DialogCheckbox {
-  border-radius: var(--border-radius);
   background-color: rgb(var(--friendlist));
+  border-radius: var(--border-radius);
 }
 
 .DialogCheckbox:hover:not(.Disabled) {
-  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) inset !important;
   background-color: rgb(var(--friendlist));
+  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) inset !important;
 }
 
 /* Tick */

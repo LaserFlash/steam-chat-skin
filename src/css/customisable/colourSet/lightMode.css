@@ -69,10 +69,11 @@
 }
 
 .miniprofile_miniProfileBackground_3gfFJ {
-  background: radial-gradient(
-    ellipse farthest-corner at 20% 30%,
-    #dfe3e6 0%,
-    #dfe3e6 50%,
-    #dfe3e6 100%
-  ) !important;
+  background:
+    radial-gradient(
+      ellipse farthest-corner at 20% 30%,
+      #dfe3e6 0%,
+      #dfe3e6 50%,
+      #dfe3e6 100%
+    ) !important;
 }

@@ -5,11 +5,11 @@
 /* Most of the following is to properly center things and have nice spacing */
 
 .chatWindow .chatEntry {
-  display: flex;
   border-radius: 16px;
+  display: flex;
+  margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
-  margin-bottom: 8px;
   padding: 0;
 }
 
@@ -25,8 +25,8 @@
 .chatentry_chatTextarea_3e__5 {
   box-shadow: none !important;
   box-sizing: border-box;
-  padding: 0;
   margin: auto;
+  padding: 0;
 }
 
 .chatentry_chatEntryControls_2O_X7 .chatentry_chatSubmitButton_3VRfL {
@@ -41,16 +41,16 @@
 /* Submit Button size */
 .chatentry_chatSubmitButton_3VRfL svg {
   height: 25px !important;
-  width: 25px !important;
   vertical-align: middle;
+  width: 25px !important;
 }
 
 /* Emoticon 'new' wrapper */
 .chatentry_EmoticonPickerButton_3fgX0 .shared_svg_library_EmoticonBow_2ly3o {
-  top: -2px;
-  right: unset;
   bottom: unset;
   left: unset;
+  right: unset;
+  top: -2px;
 }
 
 /* Hide the shadow between text input and viewing area */

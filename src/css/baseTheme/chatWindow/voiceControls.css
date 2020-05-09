@@ -2,12 +2,12 @@
 
 /* Voice Options Block / Containers */
 .ChatMessageEntryVoice {
-  padding: 0;
-  margin: 0;
-  border-left-color: rgb(var(--friendlist));
-  border-left-width: 1px;
-  border-left-style: solid;
   background: none !important;
+  border-left-color: rgb(var(--friendlist));
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin: 0;
+  padding: 0;
 }
 
 .ChatMessageEntryVoice .buttonsContainer {
@@ -64,10 +64,10 @@
 }
 
 .VoiceToggleIconCtn {
-  top: 0;
   left: 0;
-  position: relative;
   margin: auto;
+  position: relative;
+  top: 0;
 }
 
 html.client_chat_frame .chatWindow .chatEntry {

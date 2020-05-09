@@ -1,25 +1,25 @@
 /* unread message on friendlist */
 .unreadMessageViolator {
-  border: 0 !important;
-  line-height: 20px !important;
-  color: rgb(var(--unreadmessage)) !important;
   background: rgb(var(--header)) !important;
+  border: 0 !important;
   border-radius: 40px !important;
+  color: rgb(var(--unreadmessage)) !important;
   height: 20px !important;
-  margin-top: 5px !important;
+  line-height: 20px !important;
   margin-bottom: 4px !important;
+  margin-top: 5px !important;
   width: 150px !important;
 }
 
 /* unread message count */
 .unreadFriend .FriendMessageCount {
-  border-radius: 40px !important;
-  color: rgb(var(--unreadmessage)) !important;
-  background: transparent !important;
   animation-name: none !important;
+  background: transparent !important;
+  border-radius: 40px !important;
   box-shadow: 0 0 14px 1px rgba(var(--unreadmessage), 0.5);
-  top: 0;
+  color: rgb(var(--unreadmessage)) !important;
   padding: 0;
+  top: 0;
 }
 
 /* Trade offer message arrow */
@@ -29,8 +29,8 @@
 
 /* Trade offer message */
 .TradeOffer_NoteFromFriend {
-  border: 0 !important;
   background-color: rgb(var(--header)) !important;
+  border: 0 !important;
 }
 
 /* confirm friend request button */
@@ -68,13 +68,13 @@ Position of New Message Group Chat in the Footer
 Remove default effect
 */
 .ChatUnreadMessageIndicator {
-  top: 0 !important;
-  left: 0 !important;
-  height: 100% !important;
-  display: flex !important;
   align-items: center !important;
   background: none !important;
+  display: flex !important;
+  height: 100% !important;
+  left: 0 !important;
   padding-left: 3px;
+  top: 0 !important;
 }
 
 .ChatRoomList .ChatUnreadMessageIndicator {
@@ -84,20 +84,19 @@ Remove default effect
 /* Unread New Message Group Chat in the Footer */
 .chatUnreadCircle,
 .chattabs_UnreadCircle_2goOD {
-  position: relative;
-  width: 2px !important;
-  height: 2px !important;
-  display: block !important;
-  margin: 0;
-  color: transparent !important;
-  bottom: unset;
-  right: unset;
-
   /* Glowing icon */
   background: rgb(var(--unreadmessage)) !important;
   border: var(--border-width-sm) solid rgb(var(--unreadmessage)) !important;
   border-radius: 100% !important;
+  bottom: unset;
   box-shadow: 0 0 10px 3px rgb(var(--unreadmessage));
+  color: transparent !important;
+  display: block !important;
+  height: 2px !important;
+  margin: 0;
+  position: relative;
+  right: unset;
+  width: 2px !important;
 }
 
 .UnreadGlow {
@@ -106,31 +105,25 @@ Remove default effect
 
 .chatTab .chatTabUnreadBadge,
 .FriendMessageCount {
-  color: rgb(var(--unreadmessage));
   background: rgba(var(--unreadmessage), 0.2);
   border-radius: 50%;
-  text-align: center;
-  padding: 0;
+  color: rgb(var(--unreadmessage));
   height: 22px;
+  padding: 0;
+  text-align: center;
   width: 22px;
 }
 
-.ChatTabsContextMenu.compactView
-  .ChatTabContextMenuItem
-  .TabRightContainer
-  .chatTabUnreadBadge::before {
+.ChatTabsContextMenu.compactView .ChatTabContextMenuItem .TabRightContainer .chatTabUnreadBadge::before {
   background-color: rgb(var(--unreadmessage));
 }
 
-.ChatTabsContextMenu.compactView
-  .ChatTabContextMenuItem
-  .TabRightContainer
-  .chatTabUnreadBadge {
-  top: 50%;
+.ChatTabsContextMenu.compactView .ChatTabContextMenuItem .TabRightContainer .chatTabUnreadBadge {
   bottom: 50%;
   height: 16px;
-  margin-top: -8px;
   margin-right: 4px;
+  margin-top: -8px;
+  top: 50%;
 }
 
 .ScrollToBottomButton.UnreadMessages > span {
@@ -139,9 +132,9 @@ Remove default effect
 
 .chattabs_UnreadGlow_30PFd {
   background: none;
-  position: absolute;
-  left: 0;
-  right: unset;
   bottom: unset;
   height: auto;
+  left: 0;
+  position: absolute;
+  right: unset;
 }

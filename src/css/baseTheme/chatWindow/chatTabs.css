@@ -5,8 +5,8 @@
 
 .chattabs_ChatTab_1WfqA {
   background: rgb(var(--header));
-  padding-right: var(--padding);
   border-radius: var(--border-radius);
+  padding-right: var(--padding);
 }
 
 .chatTabSetContainer .chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
@@ -19,10 +19,7 @@
 
 /* Offline avatar filter */
 .chattabs_ChatTab_1WfqA:hover .friend.offline .avatarHolder img.avatar,
-.chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI
-  .friend.offline
-  .avatarHolder
-  img.avatar {
+.chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI .friend.offline .avatarHolder img.avatar {
   filter: none;
 }
 
@@ -34,8 +31,8 @@
 }
 
 .chattabs_CloseButton_SzByZ:hover {
-  border-radius: var(--border-radius-round) !important;
   background: rgb(var(--closeButton)) !important;
+  border-radius: var(--border-radius-round) !important;
 }
 
 .chattabs_ChatTabContent_Friend_3m7Ps {
@@ -76,8 +73,8 @@
 }
 
 .ChatTabsContextMenu .chattabs_CloseButton_SzByZ {
-  width: 10px;
   height: 10px;
+  width: 10px;
 }
 
 .ChatTabsContextMenu .chattabs_ChatTab_1WfqA {
@@ -87,15 +84,11 @@
 .ChatTabsContextMenu.CompactFriendsList .friend,
 .ChatTabsContextMenu.CompactFriendsList .friendGroup .friend,
 .ChatTabsContextMenu.CompactFriendsList .friendGroup .SteamPlayerGroupFooter,
-.ChatTabsContextMenu.CompactFriendsList
-  .friendGroup.gameGroup:not(.OtherGamesGroup)
-  .friend {
+.ChatTabsContextMenu.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
   padding: 0;
 }
 
-.ChatTabsContextMenu
-  .chattabs_Active_3sMSI
-  .chattabs_ChatTabContent_ChatRoomName_2avXT {
+.ChatTabsContextMenu .chattabs_Active_3sMSI .chattabs_ChatTabContent_ChatRoomName_2avXT {
   color: rgb(var(--listtext));
 }
 

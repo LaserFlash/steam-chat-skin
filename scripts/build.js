@@ -1,18 +1,18 @@
-var mkdirp = require("mkdirp");
-var fs = require("fs");
-var getDirName = require("path").dirname;
-var CleanCSS = require("clean-css");
-var dir = "./dist/";
+var mkdirp = require('mkdirp');
+var fs = require('fs');
+var getDirName = require('path').dirname;
+var CleanCSS = require('clean-css');
+var dir = './dist/';
 
 var filesToMinify = [
   {
-    fileOrPath: "./src/baseTheme.dev.css",
-    output: dir + "src/baseTheme.css"
+    fileOrPath: './src/baseTheme.dev.css',
+    output: dir + 'src/baseTheme.css',
   },
   {
-    fileOrPath: "./src/css/customisable",
-    output: dir + "src/css/customisable"
-  }
+    fileOrPath: './src/css/customisable',
+    output: dir + 'src/css/customisable',
+  },
 ];
 
 const setup = () => {
@@ -25,7 +25,7 @@ const setup = () => {
 
 const cssFinder = (path, outputPath, first) => {
   if (fs.statSync(path).isFile()) {
-    if (path.endsWith(".css")) {
+    if (path.endsWith('.css')) {
       // minify css
       minifyCSS(loadFile(path), path, outputPath);
     }
@@ -34,7 +34,7 @@ const cssFinder = (path, outputPath, first) => {
 
   // asume directory
   fs.readdirSync(path).forEach(fileOrDirectory => {
-    cssFinder(path + "/" + fileOrDirectory, outputPath + "/" + fileOrDirectory);
+    cssFinder(path + '/' + fileOrDirectory, outputPath + '/' + fileOrDirectory);
   });
 };
 
@@ -42,7 +42,7 @@ const loadFile = path =>
   fs
     .readFileSync(path)
     .toString()
-    .replace(/css\//g, "src/css/");
+    .replace(/css\//g, 'src/css/');
 
 const minifyCSS = (loadedFile, path, outputPath) =>
   new CleanCSS({ level: { 2: { all: true } }, returnPromise: true })
@@ -64,5 +64,5 @@ filesToMinify.forEach(file => {
   cssFinder(file.fileOrPath, file.output, true);
 });
 // move gh-pages files
-fs.copyFileSync("README.md", dir + "README.md");
-fs.copyFileSync("_config.yml", dir + "_config.yml");
+fs.copyFileSync('README.md', dir + 'README.md');
+fs.copyFileSync('_config.yml', dir + '_config.yml');

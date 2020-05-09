@@ -10,6 +10,6 @@
 
 /* Slider Background */
 .DialogSlider_Slider {
-  border: 0 !important;
   background: rgb(var(--buttonOff)) !important;
+  border: 0 !important;
 }

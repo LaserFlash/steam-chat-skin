@@ -11,9 +11,9 @@
 
 /* Dialog Toggle Button Style */
 .DialogOnOffToggle_Option {
-  width: 30px;
-  margin-left: var(--spacer-sm);
   border-radius: var(--border-radius-round);
+  margin-left: var(--spacer-sm);
+  width: 30px;
 }
 
 /* Dialog OFF Button */

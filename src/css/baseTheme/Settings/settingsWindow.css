@@ -15,9 +15,9 @@
 ._DialogInputContainer,
 .FriendsSettingsNotificationRow,
 .voiceMicTestContainer {
-  color: rgb(var(--text));
-  border-radius: var(--border-radius);
   background: rgb(var(--header));
+  border-radius: var(--border-radius);
+  color: rgb(var(--text));
 }
 
 /* Text Colour */

@@ -4,10 +4,10 @@ SCROLLBAR
 
 /* makes scrollbar wider & not highlighted by default */
 ::-webkit-scrollbar {
-  height: 10px;
-  width: 10px;
   background: transparent;
+  height: 10px;
   overflow: visible;
+  width: 10px;
 }
 
 /* button arrows scroll bar */
@@ -20,13 +20,13 @@ SCROLLBAR
 
 /* thumb normal state */
 ::-webkit-scrollbar-thumb {
-  width: 14px;
+  background-color: transparent;
   border-radius: var(--border-radius-lg);
+  border-width: var(--border-width-sm);
   margin: 4px;
   min-height: 32px;
   min-width: 32px;
-  background-color: transparent;
-  border-width: var(--border-width-sm);
+  width: 14px;
 }
 
 .chatRoomListContainer:hover::-webkit-scrollbar-thumb,

@@ -18,9 +18,9 @@ SETTINGS PANEL
 /* Menus color */
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
-  color: rgb(var(--text)) !important;
   border: none !important;
   border-radius: var(--border-radius) !important;
+  color: rgb(var(--text)) !important;
 }
 
 /* Text Colour */
@@ -32,8 +32,8 @@ SETTINGS PANEL
 
 /* Selected Button */
 button.DialogButton.Primary {
-  border-radius: var(--border-radius) !important;
   background: rgb(var(--buttonOn)) !important;
+  border-radius: var(--border-radius) !important;
   color: rgb(var(--text)) !important;
 }
 
@@ -54,8 +54,8 @@ button.DialogButton.Primary {
 
 /* notification Check Boxes */
 .DialogCheckbox {
-  border-radius: var(--border-radius) !important;
   background-color: rgb(var(--friendlist)) !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* changes background color for buttons */
@@ -79,8 +79,8 @@ button.DialogButton.Primary {
 
 /* Slider Background */
 .DialogSlider_Slider {
-  border: 0 !important;
   background: rgb(var(--buttonOff)) !important;
+  border: 0 !important;
 }
 
 /* Removes Voice Transmission Type background */
@@ -118,8 +118,8 @@ button.DialogButton::before {
 
 /* Advanced Expanded background */
 .VoiceSettings .advancedSettings.showAdvanced {
-  border-radius: var(--border-radius) !important;
   background: rgb(var(--header)) !important;
+  border-radius: var(--border-radius) !important;
 }
 
 /* copy voice clipboard button */
@@ -183,42 +183,42 @@ button.DialogButton.copyVoiceLogsButton {
 
 /* Dialog OFF Button active */
 .DialogOnOffToggle_Option.Off.Active {
-  border-radius: 20px !important;
   background: rgb(var(--buttonOff)) !important;
+  border-radius: 20px !important;
 }
 
 /* Dialog Button active */
 .DialogOnOffToggle_Option.Active {
-  width: 30px !important;
-  margin-left: 5px !important;
-  color: white !important;
   background: rgb(var(--buttonOn)) !important;
   border-radius: 20px !important;
+  color: white !important;
+  margin-left: 5px !important;
+  width: 30px !important;
 }
 
 /* Dialog Button */
 .DialogOnOffToggle_Option {
-  width: 30px !important;
-  margin-left: 5px !important;
   border-radius: 20px !important;
+  margin-left: 5px !important;
+  width: 30px !important;
 }
 
 /* Dialog OFF Button hover */
 .DialogOnOffToggle_Option.Off:hover {
-  width: 30px !important;
-  margin-left: 5px !important;
-  color: white !important;
   background: rgb(var(--buttonOff)) !important;
   border-radius: 20px !important;
+  color: white !important;
+  margin-left: 5px !important;
+  width: 30px !important;
 }
 
 /* Dialog ON Button hover */
 .DialogOnOffToggle_Option.On:hover {
-  width: 30px !important;
-  margin-left: 5px !important;
-  color: white !important;
   background: rgb(var(--buttonOn)) !important;
   border-radius: 20px !important;
+  color: white !important;
+  margin-left: 5px !important;
+  width: 30px !important;
 }
 
 /* Slider grabber */
@@ -265,8 +265,8 @@ button.DialogButton.Off {
 
 /* hover selected buttons */
 button.DialogButton:hover {
-  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
   border-radius: var(--border-radius) !important;
+  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
 }
 
 .DialogTextInputBase,

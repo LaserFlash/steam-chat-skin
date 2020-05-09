@@ -19,9 +19,9 @@
 }
 
 .friendGroup .friend {
+  border-radius: var(--border-radius) !important;
   margin-left: 8px !important;
   padding-left: 4px !important;
-  border-radius: var(--border-radius) !important;
 }
 
 /* Group name in friendlist */
@@ -33,13 +33,11 @@
 /* Fixes issue with friendlist collapsing */
 .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter,
 .friendGroup.gameGroup:not(.OtherGamesGroup) .friend {
-  padding: 6px 0 6px 12px !important;
   margin-left: 8px;
+  padding: 6px 0 6px 12px !important;
 }
 
-.CompactFriendsList
-  .friendGroup.gameGroup:not(.OtherGamesGroup)
-  .SteamPlayerGroupFooter {
+.CompactFriendsList .friendGroup.gameGroup:not(.OtherGamesGroup) .SteamPlayerGroupFooter {
   margin-left: 0;
 }
 
@@ -63,10 +61,11 @@
 }
 
 .groupName {
-  -webkit-mask: linear-gradient(
-    to right,
-    black calc(100% - 6px),
-    rgba(0, 0, 0, 0.15) 100%
-  ) !important;
   color: rgb(var(--text)) !important;
+  -webkit-mask:
+    linear-gradient(
+      to right,
+      black calc(100% - 6px),
+      rgba(0, 0, 0, 0.15) 100%
+    ) !important;
 }

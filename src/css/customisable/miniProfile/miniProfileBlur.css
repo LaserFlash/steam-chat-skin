@@ -4,15 +4,14 @@
 }
 
 /* mini profile Background */
-.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2
-  .miniprofile_miniProfileBottom_3Agb6,
-.miniprofile_miniProfileContent_25Sge
-  .miniprofile_miniProfileGameContainer_2FyZH {
-  background: linear-gradient(
-    to bottom,
-    rgba(var(--header), 0.7) 5%,
-    rgba(var(--header), 0.4) 95%
-  ) !important;
+.miniprofile_miniProfileContent_25Sge.miniprofile_notInOrWatchingGame_3AIC2 .miniprofile_miniProfileBottom_3Agb6,
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileGameContainer_2FyZH {
+  background:
+    linear-gradient(
+      to bottom,
+      rgba(var(--header), 0.7) 5%,
+      rgba(var(--header), 0.4) 95%
+    ) !important;
 }
 
 /* mini profile Blur */

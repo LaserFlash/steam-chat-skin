@@ -6,28 +6,28 @@ DISCORD STATUS (DEFAULT)
 
 /* QuickAccess avatar status  */
 .avatarStatus {
-  height: 33% !important;
-  width: 33% !important;
-  border-radius: 50% !important;
-  margin-top: 0 !important;
-  margin-left: 0 !important;
-  box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
   background: rgb(var(--friendlist));
-  z-index: 4 !important;
-  position: absolute;
-  top: auto !important;
-  left: auto !important;
+  border-radius: 50% !important;
   bottom: 0 !important;
-  right: 0 !important;
-  opacity: 1 !important;
+  box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
   display: block !important;
+  height: 33% !important;
+  left: auto !important;
+  margin-left: 0 !important;
+  margin-top: 0 !important;
+  opacity: 1 !important;
+  position: absolute;
+  right: 0 !important;
+  top: auto !important;
+  width: 33% !important;
+  z-index: 4 !important;
 }
 
 .voiceSelfDirections .avatarStatus {
   height: 16px !important;
-  width: 16px !important;
-  right: auto !important;
   left: 35px !important;
+  right: auto !important;
+  width: 16px !important;
 }
 
 .friendStatusHover:hover .avatarStatus {
@@ -36,15 +36,15 @@ DISCORD STATUS (DEFAULT)
 
 .quickAccessFriends .avatarStatus,
 .miniProfileHover .avatarStatus {
-  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
   background: rgb(var(--header));
+  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
 }
 
 .FriendPicker .friend:not(:hover) .avatarStatus,
 .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .avatarStatus {
-  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
   background-color: rgb(var(--header));
+  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
 }
 
 .speaker .speakerStatus {
@@ -53,15 +53,15 @@ DISCORD STATUS (DEFAULT)
 
 /* QuickAcces Game Icon */
 .FavoriteFriend_GameIcon {
-  height: 33% !important;
-  width: 33% !important;
   border-radius: 100% !important;
+  bottom: 0 !important;
   box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
-  z-index: 4 !important;
+  height: 33% !important;
+  left: 0 !important;
   position: absolute;
   top: auto !important;
-  left: 0 !important;
-  bottom: 0 !important;
+  width: 33% !important;
+  z-index: 4 !important;
 }
 
 .FavoriteFriend_GameIcon img {
@@ -92,8 +92,8 @@ DISCORD STATUS (DEFAULT)
 
 .awayOrSnooze .avatarStatus {
   background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDEwIDEwIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6IG5ldyAwIDAgMTAgMTA7IiB4bWw6c3BhY2U9InByZXNlcnZlIj48bWFzayBpZD0ic3ZnLW1hc2stc3RhdHVzLWlkbGUiIG1hc2tDb250ZW50VW5pdHM9Im9iamVjdEJvdW5kaW5nQm94IiB2aWV3Qm94PSIwIDAgMSAxIj48Y2lyY2xlIGZpbGw9IndoaXRlIiBjeD0iMC41IiBjeT0iMC41IiByPSIwLjUiPjwvY2lyY2xlPjxjaXJjbGUgZmlsbD0iYmxhY2siIGN4PSIwLjI1IiBjeT0iMC4yNSIgcj0iMC4zNzUiPjwvY2lyY2xlPjwvbWFzaz48cmVjdCB3aWR0aD0iMTAiIGhlaWdodD0iMTAiIHg9IjAiIHk9IjAiIGZpbGw9IiNmYWE2MWEiIG1hc2s9InVybCgjc3ZnLW1hc2stc3RhdHVzLWlkbGUpIj48L3JlY3Q+PC9zdmc+) !important;
-  -webkit-mask: none !important;
   background-repeat: no-repeat;
+  -webkit-mask: none !important;
 }
 
 .friendlistListContainer .awayOrSnooze .avatarStatus,
@@ -122,12 +122,13 @@ DISCORD STATUS (DEFAULT)
 
 /* Golden status */
 .miniProfileHover .golden .avatarStatus {
-  background: linear-gradient(
-    to bottom,
-    #d5bf6a 0%,
-    #ffe2a9 40%,
-    #ba995c 52%,
-    #ba995c 61%,
-    #d5bf6a 85%
-  );
+  background:
+    linear-gradient(
+      to bottom,
+      #d5bf6a 0%,
+      #ffe2a9 40%,
+      #ba995c 52%,
+      #ba995c 61%,
+      #d5bf6a 85%
+    );
 }
