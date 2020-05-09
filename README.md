@@ -1,4 +1,4 @@
-![Deploy](https://github.com/LaserFlash/steam-chat-skin/workflows/Build%20and%20Deploy/badge.svg)
+![Lint](https://github.com/LaserFlash/steam-chat-skin/workflows/Lint/badge.svg)![Deploy](https://github.com/LaserFlash/steam-chat-skin/workflows/Build%20and%20Deploy/badge.svg)
 
 # Steam Friends Skin
 
