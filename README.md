@@ -1,3 +1,5 @@
+![Deploy](https://github.com/LaserFlash/steam-chat-skin/workflows/Build%20and%20Deploy/badge.svg)
+
 # Steam Friends Skin
 
 Can be played with and customised at <https://steamchatskinning.tk>
@@ -30,15 +32,19 @@ If on Windows running the installer script will automatically download and insta
 [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/src/friends.custom.css) can be customised to apply different styles to the theme. Read the instructions in that file for more information.
 
 ### Options:
+
 #### Theme Colour:
-- Dark Theme 
+
+- Dark Theme
 - Light Theme
 
 #### Status Styles:
+
 - Discord status or dot status
 - Border status (outline around the avatar)
 
 #### Avatar Styles:
+
 - Round Avatar
 - Square Avatar
 - Squircle Avatar
@@ -49,14 +55,15 @@ You can change the font used, either read the comment block in friends.custom.cs
 
 ```css
 * {
-   font-family: <Replace me with your font> !important;
+  font-family: <Replace me with your font> !important;
 }
 ```
 
 Just make sure you either use a web safe font or one that is installed on your system
 
-- https://www.w3schools.com/cssref/css_websafe_fonts.asp 
+- https://www.w3schools.com/cssref/css_websafe_fonts.asp
 - https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
+
 # Credits
 
 - PhantomGamers <https://github.com/PhantomGamers> for their work on the patcher.
