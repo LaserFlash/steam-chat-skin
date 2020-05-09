@@ -1,3 +1,4 @@
 # Dependency directories
 node_modules/
-friends.custom.css
+# Build directory
+dist
