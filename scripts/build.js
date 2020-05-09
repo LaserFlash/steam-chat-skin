@@ -20,6 +20,7 @@ const setup = () => {
   if (fs.existsSync(dir)) {
     fs.rmdirSync(dir, { recursive: true });
   }
+  fs.mkdirSync(dir);
 };
 
 const cssFinder = (path, outputPath, first) => {
@@ -62,3 +63,6 @@ setup();
 filesToMinify.forEach(file => {
   cssFinder(file.fileOrPath, file.output, true);
 });
+// move gh-pages files
+fs.copyFileSync("README.md", dir + "README.md");
+fs.copyFileSync("_config.yml", dir + "_config.yml");
