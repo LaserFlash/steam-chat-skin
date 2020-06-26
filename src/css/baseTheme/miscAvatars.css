@@ -1,0 +1,7 @@
+.avatarHolder:not(.awayOrSnooze) :nth-last-child(2).avatar {
+  border-radius: 0 !important;
+}
+
+.avatarHolder.awayOrSnooze :nth-last-child(3).avatar {
+  border-radius: 0 !important;
+}
