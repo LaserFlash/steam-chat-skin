@@ -1,7 +1,9 @@
-.avatarHolder:not(.awayOrSnooze) :nth-last-child(2).avatar {
+.avatarHolder:not(.awayOrSnooze) :nth-last-child(2).avatar,
+.avatarHolder.awayOrSnooze :nth-last-child(3).avatar {
+  border: 0 !important;
   border-radius: 0 !important;
 }
 
-.avatarHolder.awayOrSnooze :nth-last-child(3).avatar {
-  border-radius: 0 !important;
+.avatarFrame {
+  transform: scale(1.111) !important;
 }
