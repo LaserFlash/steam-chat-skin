@@ -15,28 +15,51 @@
   border: var(--border-width-sm) solid !important;
 }
 
-/* === Status Colours === */
-.online .avatar {
-  color: rgb(var(--online));
+.avatarFrame img,
+.miniprofile_Frame_3MZRj {
+  border-radius: var(--border-radius-sm);
+  box-shadow: inset 0 0 4px var(--border-width-sm) currentColor;
 }
 
-.watchingbroadcast .avatar {
-  color: rgb(var(--watching));
+/* === Status Colours === */
+.online .avatar,
+.online .avatarFrame img,
+.online .miniprofile_Frame_3MZRj {
+  color: rgb(var(--online)) !important;
+}
+
+.watchingbroadcast .avatar,
+.watchingbroadcast .avatarFrame img,
+.watchingbroadcast .miniprofile_Frame_3MZRj {
+  color: rgb(var(--watching)) !important;
 }
 
 /* Golden status */
-.golden .avatar {
-  color: #d5bf6a;
+.golden .avatar,
+.golden .avatarFrame img,
+.golden .miniprofile_Frame_3MZRj {
+  color: #d5bf6a !important;
 }
 
-.ingame .avatar {
-  color: rgb(var(--ingame));
+.ingame .avatar,
+.ingame .avatarFrame img,
+.ingame .miniprofile_Frame_3MZRj {
+  color: rgb(var(--ingame)) !important;
 }
 
-.awayOrSnooze .avatar {
-  color: rgb(var(--away));
+.awayOrSnooze .avatar,
+.awayOrSnooze .avatarFrame img,
+.awayOrSnooze .miniprofile_Frame_3MZRj {
+  color: rgb(var(--away)) !important;
 }
 
-.offline .avatar {
-  color: rgb(var(--offline));
+.offline .avatar,
+.offline .avatarFrame img,
+.offline .miniprofile_Frame_3MZRj {
+  color: rgb(var(--offline)) !important;
+}
+
+.avatarHolder:not(.awayOrSnooze) :last-child.avatar,
+.avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
+  margin: calc(-1 * var(--border-width-sm));
 }
