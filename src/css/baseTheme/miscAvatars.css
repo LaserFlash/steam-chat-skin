@@ -1,5 +1,9 @@
-.avatarHolder:not(.awayOrSnooze) :nth-last-child(2).avatar,
-.avatarHolder.awayOrSnooze :nth-last-child(3).avatar {
+.avatarHolder:not(.awayOrSnooze):not(.ingame) :nth-last-child(2).avatar,
+.avatarHolder.awayOrSnooze :nth-last-child(3).avatar,
+.friendlistListContainer :nth-last-child(2).avatar,
+.quickAccessFriend .avatarHolder.ingame :nth-last-child(3).avatar,
+.miniprofile_miniProfilePlayer_3cN6K .avatarHolder.ingame :nth-last-child(2).avatar,
+.miniprofile_miniProfilePlayer_3cN6K .avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
   border: 0 !important;
   border-radius: 0 !important;
 }
