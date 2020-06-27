@@ -11,3 +11,8 @@
 .avatarFrame {
   transform: scale(1.111) !important;
 }
+
+/* better custom frame position */
+.friendlistListContainer .friend .avatarHolder {
+  padding-bottom: 2px;
+}
