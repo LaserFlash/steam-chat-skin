@@ -17,8 +17,7 @@
   margin-bottom: 0;
 }
 
-.chatentry_chatEntryActionsContainer_WZNUD,
-.chatentry_chatEntryActionsGroup_15mWd {
+.chatentry_chatEntryActionsContainer_WZNUD {
   margin: auto !important;
 }
 
@@ -83,4 +82,59 @@
 .chatentry_chatEntryActionsGroup_15mWd,
 .ChatMessageEntryVoice {
   box-shadow: none;
+}
+
+/** Emoticon Picker button */
+.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon {
+  background-image: url("data:image/svg+xml,%3Csvg id='emoji' viewBox='0 0 72 72' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='color'%3E%3Ccircle cx='36' cy='36' r='23' fill='%23fcea2b'/%3E%3Cpath fill='%23fff' d='M50.595,41.64a11.5554,11.5554,0,0,1-.87,4.49c-12.49,3.03-25.43.34-27.49-.13a11.4347,11.4347,0,0,1-.83-4.36h.11s14.8,3.59,28.89.07Z'/%3E%3Cpath fill='%23ea5a47' d='M49.7251,46.13c-1.79,4.27-6.35,7.23-13.69,7.23-7.41,0-12.03-3.03-13.8-7.36C24.2951,46.47,37.235,49.16,49.7251,46.13Z'/%3E%3C/g%3E%3Cg id='hair'/%3E%3Cg id='skin'/%3E%3Cg id='skin-shadow'/%3E%3Cg id='line'%3E%3Ccircle cx='36' cy='36' r='23' fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3Cellipse cx='28.5684' cy='30.818' rx='3' ry='5.4038'/%3E%3Cellipse cx='43.4316' cy='30.8216' rx='3' ry='5.4038'/%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M50.595,41.64a11.5554,11.5554,0,0,1-.87,4.49c-12.49,3.03-25.43.34-27.49-.13a11.4347,11.4347,0,0,1-.83-4.36h.11s14.8,3.59,28.89.07Z'/%3E%3Cpath fill='none' stroke='%23000' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' d='M49.7251,46.13c-1.79,4.27-6.35,7.23-13.69,7.23-7.41,0-12.03-3.03-13.8-7.36C24.2951,46.47,37.235,49.16,49.7251,46.13Z'/%3E%3C/g%3E%3C/svg%3E%0A") !important;
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  /* Override svg style */
+  filter: grayscale() !important;
+  height: 100% !important;
+  transition: filter 0.2s linear;
+  width: 100% !important;
+}
+
+.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon circle,
+.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon path,
+.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon line {
+  display: none;
+}
+
+.chatentry_EmoticonPickerButton_3fgX0:hover .SVGIcon_Emoticon {
+  filter: none !important;
+}
+
+/* New emoticon */
+.emoticon_NewEmoticonIndicator_3NVON {
+  background: none !important;
+}
+
+.emoticon_NewEmoticonCircle_3mNrG {
+  background-color: rgb(var(--unreadmessage)) !important;
+}
+
+/** Add file button */
+.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip {
+  background-image: url("data:image/svg+xml,%3Csvg id='emoji' viewBox='0 0 72 72' xmlns='http://www.w3.org/2000/svg'%3E%3Cg id='color'%3E%3Ccircle cx='36.0731' cy='35.9518' r='22.7702' fill='%23B1CC33' stroke='none'/%3E%3C/g%3E%3Cg id='hair'/%3E%3Cg id='skin'/%3E%3Cg id='skin-shadow'/%3E%3Cg id='line'%3E%3Cline x1='36.0731' x2='36.0731' y1='22.3267' y2='49.5769' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Cline x1='49.6982' x2='22.4479' y1='35.9518' y2='35.9518' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3Ccircle cx='36.0731' cy='35.9518' r='23' fill='none' stroke='%23000000' stroke-linecap='round' stroke-linejoin='round' stroke-miterlimit='10' stroke-width='2'/%3E%3C/g%3E%3C/svg%3E%0A");
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  /* Override svg style */
+  filter: grayscale() !important;
+  height: 100% !important;
+  transition: filter 0.2s linear;
+  width: 100% !important;
+}
+
+.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip circle,
+.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip path,
+.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip line {
+  display: none;
+}
+
+.chatentry_EmbedButton_1vvRh:hover .SVGIcon_Paperclip {
+  filter: none !important;
 }
