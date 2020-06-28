@@ -204,10 +204,6 @@ CHAT WINDOW
   top: 41px !important;
 }
 
-.emoticon_NewEmoticonIndicator_3NVON .emoticon_NewEmoticonCircle_3mNrG {
-  display: none !important;
-}
-
 /* ?? not sure this still does anything */
 .ChatTabsBackButton {
   background: rgb(var(--friendlist)) !important;
@@ -343,7 +339,6 @@ CHAT WINDOW
   background: none !important;
 }
 
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0,
 .chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh,
 .VoiceToggle,
 .VoiceToggle.Active {
