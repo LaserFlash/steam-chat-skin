@@ -57,6 +57,18 @@
   display: none;
 }
 
+.chatentry_chatSubmitButton_3VRfL .SVGIcon_Submit {
+  transition: 0.2s linear;
+}
+
+.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW .SVGIcon_Submit {
+  opacity: 0;
+}
+
+.chatentry_chatSubmitButton_3VRfL .SVGIcon_Submit path {
+  stroke-width: 6px;
+}
+
 /* Use proper colours for submit button icon */
 .chatentry_chatSubmitButton_3VRfL:hover .SVGIcon_Button.SVGIcon_Submit path {
   fill: rgb(var(--icon)) !important;
