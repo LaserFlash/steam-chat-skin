@@ -6,9 +6,9 @@
   },
   "devDependencies": {
     "clean-css": "^4.2.3",
-    "stylelint": "^13.3.3",
-    "stylelint-config-prettier": "^8.0.1",
+    "stylelint": "^13.6.1",
+    "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",
-    "stylelint-order": "^4.0.0"
+    "stylelint-order": "^4.1.0"
   }
 }
