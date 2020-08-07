@@ -1,0 +1,73 @@
+name: CI
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  Install:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Load node_modules cache
+        uses: actions/cache@v2
+        id: cache-node_modules
+        with:
+          path: node_modules
+          key: ${{hashFiles('package-lock.json')}}
+      - name: Install
+        if: steps.cache-node_modules.outputs.cache-hit != 'true'
+        run: npm ci
+
+  Lint:
+    runs-on: ubuntu-latest
+    needs: Install
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Load /node_modules/ cache
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{hashFiles('package-lock.json')}}
+      - name: CSS Lint
+        run: npm run lint
+
+  Build Minify CSS:
+    runs-on: ubuntu-latest
+    needs: [Install, Lint]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Load /node_modules/ cache
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{hashFiles('package-lock.json')}}
+      - name: Build
+        run: npm run build
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: minified-css
+          path: dist/
+
+  Deploy Minified CSS:
+    runs-on: ubuntu-latest
+    needs: Build Minify CSS
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: minified-css
+          path: dist
+      - name: Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@3.5.9
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-pages
+          FOLDER: dist
+          CLEAN: true
