@@ -1,0 +1,55 @@
+/**
+ * Search Input
+ */
+.addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover,
+.addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+.addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm {
+  background-color: rgb(var(--header)) !important;
+  border-radius: var(--border-radius-lg);
+}
+
+/**
+ * Tabs
+ */
+.addonpicker_Tab_10fDn.addonpicker_Active_2J8Y1 {
+  border-bottom-color: rgb(var(--buttonOn));
+}
+
+.addonpicker_Tab_10fDn:hover {
+  border-bottom-color: rgb(var(--buttonOff));
+}
+
+.emoticon_PickerTab_1tnGG circle,
+.emoticon_PickerTab_1tnGG:not(.emoticon_Clock_340rx) path,
+.emoticon_PickerTab_1tnGG line {
+  stroke: rgb(var(--icon)) !important;
+}
+
+.emoticon_PickerTab_1tnGG:hover circle,
+.emoticon_PickerTab_1tnGG:not(.emoticon_Clock_340rx):hover path,
+.emoticon_PickerTab_1tnGG:hover line {
+  stroke: rgb(var(--iconhover)) !important;
+}
+
+/**
+ * Picker Item
+ *
+ */
+.addonpicker_ItemList_275Oe .addonpicker_Item_34KHH:hover {
+  background-color: rgb(var(--friendlist));
+  border-radius: var(--border-radius);
+}
+
+.emoticon_EmoticonHover_1ME8O {
+  background-color: rgb(var(--friendlist));
+}
+
+/**
+ * Animated stickers
+ */
+.emoticon_StickerButton_3O95u:hover {
+  transform: none;
+}

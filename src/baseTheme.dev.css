@@ -21,6 +21,7 @@
 @import url(css/baseTheme/chatWindow/voiceControls.css);
 @import url(css/baseTheme/chatWindow/discordStyleChatInput.css);
 @import url(css/baseTheme/chatWindow/dockedChat.css);
+@import url(css/baseTheme/chatWindow/emoticonPicker.css);
 
 /* Settings Window */
 @import url(css/baseTheme/Settings/settingsWindow.css);

@@ -102,34 +102,6 @@ CHAT WINDOW
   background: none !important;
 }
 
-/* emoticon picker hover in chat */
-.emoticon_hover_content {
-  background-color: rgb(var(--friendlist)) !important;
-  border: var(--border-width-sm) solid rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
-}
-
-/* emoticon picker hover in chat (removes arrow) */
-.emoticon_hover_arrow.right,
-.emoticon_hover_arrow.left {
-  display: none !important;
-}
-
-.emoticon_EmoticonSelector_177nw {
-  max-width: 375px !important;
-}
-
-.emoticon_StickerButton_3O95u {
-  background: none;
-}
-
-.emoticon_StickerButton_3O95u:hover {
-  background: none;
-  border: none;
-  box-shadow: none;
-  transform: scale(1.25);
-}
-
 /* ============================ */
 
 /* Chat Scroll To Bottom Button */
