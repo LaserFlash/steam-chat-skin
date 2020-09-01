@@ -18,7 +18,7 @@
   border-bottom-color: rgb(var(--buttonOn));
 }
 
-.addonpicker_Tab_10fDn:hover {
+.addonpicker_Tab_10fDn:not(.addonpicker_Active_2J8Y1):hover {
   border-bottom-color: rgb(var(--buttonOff));
 }
 
@@ -28,10 +28,19 @@
   stroke: rgb(var(--icon)) !important;
 }
 
-.emoticon_PickerTab_1tnGG:hover circle,
-.emoticon_PickerTab_1tnGG:not(.emoticon_Clock_340rx):hover path,
-.emoticon_PickerTab_1tnGG:hover line {
+.addonpicker_Tab_10fDn:hover,
+.addonpicker_Tab_10fDn:hover .addonpicker_TabContent_1oDFo {
+  background-color: rgb(var(--friendlist)) !important;
+}
+
+.addonpicker_Tab_10fDn:hover .emoticon_PickerTab_1tnGG circle,
+.addonpicker_Tab_10fDn:hover .emoticon_PickerTab_1tnGG line {
+  fill: rgb(var(--iconhover)) !important;
   stroke: rgb(var(--iconhover)) !important;
+}
+
+.addonpicker_Tab_10fDn:hover .emoticon_PickerTab_1tnGG path {
+  fill: rgb(var(--iconhover)) !important;
 }
 
 /**
