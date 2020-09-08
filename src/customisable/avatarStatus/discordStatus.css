@@ -86,12 +86,12 @@ DISCORD STATUS (DEFAULT)
 
 /* status images are base64 encoded with http://b64.io/ */
 .avatarHolder.offline .avatarStatus {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 10 10' style='enable-background: new 0 0 10 10;' xml:space='preserve'%3E%3Cmask id='svg-mask-status-offline' maskContentUnits='objectBoundingBox' viewBox='0 0 1 1'%3E%3Ccircle fill='white' cx='0.5' cy='0.5' r='0.5'%3E%3C/circle%3E%3Ccircle fill='black' cx='0.5' cy='0.5' r='0.25'%3E%3C/circle%3E%3C/mask%3E%3Crect width='10' height='10' x='0' y='0' fill='%23747F8D' mask='url(%23svg-mask-status-offline)'%3E%3C/rect%3E%3C/svg%3E%0A") !important;
+  background-image: url("./offline.svg") !important;
   background-repeat: no-repeat;
 }
 
 .avatarHolder.awayOrSnooze .avatarStatus {
-  background-image: url("data:image/svg+xml,%3Csvg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' viewBox='0 0 10 10' style='enable-background: new 0 0 10 10;' xml:space='preserve'%3E%3Cmask id='svg-mask-status-idle' maskContentUnits='objectBoundingBox' viewBox='0 0 1 1'%3E%3Ccircle fill='white' cx='0.5' cy='0.5' r='0.5'%3E%3C/circle%3E%3Ccircle fill='black' cx='0.25' cy='0.25' r='0.375'%3E%3C/circle%3E%3C/mask%3E%3Crect width='10' height='10' x='0' y='0' fill='%23faa61a' mask='url(%23svg-mask-status-idle)'%3E%3C/rect%3E%3C/svg%3E%0A") !important;
+  background-image: url("./half-moon.svg") !important;
   background-repeat: no-repeat;
   -webkit-mask: none !important;
 }

@@ -1,0 +1,41 @@
+/* Standard variobles */
+@import url(baseTheme/variables.css);
+
+/* Friend List */
+@import url(baseTheme/FriendList/titleBar.css);
+@import url(baseTheme/FriendList/currentUser.css);
+@import url(baseTheme/FriendList/friendsSearchBar.css);
+@import url(baseTheme/FriendList/quickAccess.css);
+@import url(baseTheme/FriendList/friendsFooter.css);
+@import url(baseTheme/FriendList/groupChatSection.css);
+@import url(baseTheme/FriendList/statusColours.css);
+@import url(baseTheme/FriendList/miniProfile.css);
+@import url(baseTheme/FriendList/friendGroup.css);
+@import url(baseTheme/FriendList/contextMenu.css);
+@import url(baseTheme/FriendList/notifications.css);
+@import url(baseTheme/FriendList/miscFriendlist.css);
+
+/* Chat Window */
+@import url(baseTheme/chatWindow/chatWindow.css);
+@import url(baseTheme/chatWindow/chatTabs.css);
+@import url(baseTheme/chatWindow/voiceControls.css);
+@import url(baseTheme/chatWindow/discordStyleChatInput.css);
+@import url(baseTheme/chatWindow/dockedChat.css);
+@import url(baseTheme/chatWindow/emoticonPicker.css);
+
+/* Settings Window */
+@import url(baseTheme/Settings/settingsWindow.css);
+@import url(baseTheme/Settings/createChatDialog.css);
+@import url(baseTheme/Settings/voice.css);
+@import url(baseTheme/Settings/onOffToggle.css);
+@import url(baseTheme/Settings/checkbox.css);
+@import url(baseTheme/Settings/button.css);
+@import url(baseTheme/Settings/dialogSlider.css);
+@import url(baseTheme/Settings/dropDown.css);
+
+/* Scrollbar */
+@import url(baseTheme/Scrollbar.css);
+
+/* Other */
+@import url(baseTheme/credits.css);
+@import url(baseTheme/miscAvatars.css);

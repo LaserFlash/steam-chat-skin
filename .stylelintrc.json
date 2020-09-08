@@ -9,6 +9,6 @@
   "ignoreFiles": [
     "node_modules",
     "src/friends.custom.css",
-    "src/friends.custom.dev.css"
+    "friends.custom.dev.css"
   ]
 }
