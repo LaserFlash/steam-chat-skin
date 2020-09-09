@@ -1,5 +1,5 @@
 /* ==== Improves Friendlist top & bottom shadow === */
-.insetshadow_FriendListInsetShadowTop_1mEmL {
+[class^='insetshadow_FriendListInsetShadowTop'] {
   background:
     linear-gradient(
       to bottom,
@@ -7,10 +7,10 @@
       rgba(0, 0, 0, 0.1) 25%,
       rgba(0, 0, 0, 0) 100%
     );
-  height: 20px !important;
+  height: 20px;
 }
 
-.insetshadow_FriendListInsetShadowBottom_3cl4u {
+[class^='insetshadow_FriendListInsetShadowBottom'] {
   background:
     linear-gradient(
       to top,
@@ -18,7 +18,7 @@
       rgba(0, 0, 0, 0.1) 25%,
       rgba(0, 0, 0, 0) 100%
     );
-  height: 20px !important;
+  height: 20px;
 }
 
 /* ================================================ */
@@ -32,16 +32,15 @@ button.DialogButton::before,
 button.DialogButton,
 .DialogSlider_Grabber,
 .DialogSlider_Slider,
-.radio_Group_1Ma_m,
+[class^="radio_Group"],
 /* Avatar Shadows */
 .avatar,
 .currentUserAvatar,
-.miniprofile_playerAvatar_1dzWG,
+[class^="miniprofile_playerAvatar"],
 .ChatRoomGroupAvatar,
 /* Chat Window Controls*/
-.chatentry_chatEntryActionsGroup_15mWd,
 .ChatMessageEntryVoice,
-.chatentry_chatEntryControls_2O_X7,
+[class^="chatentry_chatEntryControls"],
 .chatTabOpenFriendsList,
 /* Chat Window tabs */
 .chatTabList .chatTab,
@@ -52,7 +51,7 @@ button.DialogButton,
 }
 
 /* End of friendlist shadow */
-.ChatRoomListContainerParent .insetshadow_FriendsListInsetShadowCtn_1S167,
+.ChatRoomListContainerParent [class^="insetshadow_FriendsListInsetShadowCtn"],
 /* Shadow in group creator */
 .insetShadow {
   display: none !important;
@@ -65,7 +64,7 @@ button.DialogButton,
 
 /* ================================================ */
 
-.chatentry_chatTextarea_3e__5 {
+[class^='chatentry_chatTextarea'] {
   border-radius: var(--border-radius);
   margin-right: 0 !important;
 }
@@ -87,6 +86,6 @@ button.DialogButton,
 }
 
 /* Chat text input box */
-html.client_chat_frame .chatWindow .chatEntry {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3) !important;
+.chatWindow .chatEntry {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
 }
