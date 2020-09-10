@@ -7,7 +7,7 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 module.exports = {
   devtool: 'source-map',
   entry: () =>
-    glob.sync('./src/customisable/**/*.css').reduce(
+    glob.sync('./src/customisable/**/*.+(scss|css)').reduce(
       (acc, file) => {
         acc[
           file.replace(/src\//, 'src/css/').replace(/\.(scss|css)/gi, '')
