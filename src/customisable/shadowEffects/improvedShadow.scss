@@ -1,23 +1,21 @@
 /* ==== Improves Friendlist top & bottom shadow === */
-[class^='insetshadow_FriendListInsetShadowTop'] {
-  background:
-    linear-gradient(
-      to bottom,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.1) 25%,
-      rgba(0, 0, 0, 0) 100%
-    );
+[class*='insetshadow_FriendListInsetShadowTop'] {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
   height: 20px;
 }
 
-[class^='insetshadow_FriendListInsetShadowBottom'] {
-  background:
-    linear-gradient(
-      to top,
-      rgba(0, 0, 0, 0.5) 0%,
-      rgba(0, 0, 0, 0.1) 25%,
-      rgba(0, 0, 0, 0) 100%
-    );
+[class*='insetshadow_FriendListInsetShadowBottom'] {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
   height: 20px;
 }
 
@@ -32,15 +30,15 @@ button.DialogButton::before,
 button.DialogButton,
 .DialogSlider_Grabber,
 .DialogSlider_Slider,
-[class^="radio_Group"],
+[class*="radio_Group"],
 /* Avatar Shadows */
 .avatar,
 .currentUserAvatar,
-[class^="miniprofile_playerAvatar"],
+[class*="miniprofile_playerAvatar"],
 .ChatRoomGroupAvatar,
 /* Chat Window Controls*/
 .ChatMessageEntryVoice,
-[class^="chatentry_chatEntryControls"],
+[class*="chatentry_chatEntryControls"],
 .chatTabOpenFriendsList,
 /* Chat Window tabs */
 .chatTabList .chatTab,
@@ -51,7 +49,7 @@ button.DialogButton,
 }
 
 /* End of friendlist shadow */
-.ChatRoomListContainerParent [class^="insetshadow_FriendsListInsetShadowCtn"],
+.ChatRoomListContainerParent [class*="insetshadow_FriendsListInsetShadowCtn"],
 /* Shadow in group creator */
 .insetShadow {
   display: none !important;
@@ -64,7 +62,7 @@ button.DialogButton,
 
 /* ================================================ */
 
-[class^='chatentry_chatTextarea'] {
+[class*='chatentry_chatTextarea'] {
   border-radius: var(--border-radius);
   margin-right: 0 !important;
 }

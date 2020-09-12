@@ -2,3 +2,5 @@
 node_modules/
 # Build directory
 dist
+# VS Code
+.vscode
