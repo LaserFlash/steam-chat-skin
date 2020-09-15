@@ -1,0 +1,45 @@
+.friends_loading_error {
+  .TitleBar {
+    border: none;
+  }
+
+  .AvatarAndUser {
+    padding-bottom: var(--padding-xl);
+
+    .statusAndName {
+      color: rgb(var(--offline)) !important;
+    }
+
+    .richPresenceLabel {
+      color: rgb(var(--nickname)) !important;
+    }
+  }
+
+  &,
+  .friendlist {
+    background: rgb(var(--friendlist));
+  }
+
+  .friendlist {
+    .currentUserContainer {
+      border: none;
+      height: auto;
+    }
+
+    .summaryText {
+      color: rgb(var(--online)) !important;
+      margin: var(--padding-xl) auto;
+    }
+
+    .detailText {
+      border-top: var(--border-width-sm) rgb(var(--online)) solid;
+      color: rgb(var(--text)) !important;
+      margin: 0;
+      padding: var(--padding-lg) var(--padding-lg);
+    }
+
+    .retryButton {
+      color: white !important;
+    }
+  }
+}
