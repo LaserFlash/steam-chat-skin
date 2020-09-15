@@ -98,7 +98,7 @@
 
 /** Emoticon Picker button */
 .chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon {
-  background-image: url('./emojiIcon.svg');
+  background-image: url('assets/emojiIcon.svg');
   background-repeat: no-repeat;
   background-size: auto;
 
@@ -130,7 +130,7 @@
 
 /** Add file button */
 .chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip {
-  background-image: url('./attachIcon.svg');
+  background-image: url('assets/attachIcon.svg');
   background-repeat: no-repeat;
   background-size: auto;
 

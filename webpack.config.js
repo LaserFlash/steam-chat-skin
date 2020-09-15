@@ -16,15 +16,37 @@ module.exports = {
       },
       {
         'src/baseTheme': './src/baseTheme.dev.scss',
+        ...glob
+          .sync('./src/offlineFriends/customisable/**/*.+(scss|css)')
+          .reduce(
+            (acc, file) => {
+              acc[
+                file
+                  .replace(
+                    /src\/offlineFriends\/customisable/,
+                    'offlineFriends'
+                  )
+                  .replace(/\.(scss|css)/gi, '')
+              ] = file;
+              return acc;
+            },
+            {
+              'offlineFriends/offlineFriends':
+                './src/offlineFriends/offlineFriends.dev.scss',
+            }
+          ),
       }
     ),
+  resolve: {
+    modules: [path.resolve(__dirname, 'src'), 'node_modules'],
+  },
   module: {
     rules: [
       {
-        test: /\.(scss|css)$/,
+        test: /\.s?[ac]ss$/i,
         use: [
           MiniCssExtractPlugin.loader,
-          { loader: 'css-loader' },
+          'css-loader',
           {
             loader: 'sass-loader',
             options: {

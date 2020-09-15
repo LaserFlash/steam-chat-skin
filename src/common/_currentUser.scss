@@ -1,0 +1,28 @@
+/* ================================= Layout ================================= */
+
+/* Spacing from window controls */
+.AvatarAndUser {
+  padding-top: var(--padding-xl) !important;
+}
+
+/* Hide current user status marker */
+.AvatarAndUser .avatarStatus {
+  display: none !important;
+}
+
+/* Improved Positioning */
+.currentUserContainer .labelHolder {
+  margin: auto 0 auto var(--padding-lg) !important;
+}
+
+.currentUserContainer .avatar {
+  z-index: 0 !important;
+}
+
+/* ============================ Background Colour ============================ */
+
+/* Header background */
+.friendListHeaderContainer {
+  background-color: rgb(var(--header)) !important;
+  border-bottom: 0 !important;
+}

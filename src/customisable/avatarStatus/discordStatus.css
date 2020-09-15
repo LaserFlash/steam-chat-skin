@@ -86,12 +86,12 @@ DISCORD STATUS (DEFAULT)
 
 /* status images are base64 encoded with http://b64.io/ */
 .avatarHolder.offline .avatarStatus {
-  background-image: url("./offline.svg") !important;
+  background-image: url('assets/offline.svg') !important;
   background-repeat: no-repeat;
 }
 
 .avatarHolder.awayOrSnooze .avatarStatus {
-  background-image: url("./half-moon.svg") !important;
+  background-image: url('assets/half-moon.svg') !important;
   background-repeat: no-repeat;
   -webkit-mask: none !important;
 }
@@ -122,13 +122,12 @@ DISCORD STATUS (DEFAULT)
 
 /* Golden status */
 .miniProfileHover .golden .avatarStatus {
-  background:
-    linear-gradient(
-      to bottom,
-      #d5bf6a 0%,
-      #ffe2a9 40%,
-      #ba995c 52%,
-      #ba995c 61%,
-      #d5bf6a 85%
-    );
+  background: linear-gradient(
+    to bottom,
+    #d5bf6a 0%,
+    #ffe2a9 40%,
+    #ba995c 52%,
+    #ba995c 61%,
+    #d5bf6a 85%
+  );
 }

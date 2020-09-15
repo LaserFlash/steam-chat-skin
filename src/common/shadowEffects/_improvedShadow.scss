@@ -1,0 +1,30 @@
+/* All Text Shadow is bad */
+* {
+  text-shadow: none !important;
+}
+
+/* Improves Friendlist top & bottom shadow */
+[class*='insetshadow_FriendListInsetShadowTop'] {
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 20px;
+}
+
+[class*='insetshadow_FriendListInsetShadowBottom'] {
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.5) 0%,
+    rgba(0, 0, 0, 0.1) 25%,
+    rgba(0, 0, 0, 0) 100%
+  );
+  height: 20px;
+}
+
+/* Avatars */
+.currentUserAvatar {
+  box-shadow: none !important;
+}
