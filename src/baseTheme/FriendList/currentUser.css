@@ -5,27 +5,6 @@
   border-bottom: 0 !important;
 }
 
-/* ================================= Layout ================================= */
-
-/* Spacing from window controls */
-.AvatarAndUser {
-  padding-top: 16px;
-}
-
-/* Hide current user status marker */
-.AvatarAndUser .avatarStatus {
-  display: none !important;
-}
-
-/* Improved Positioning */
-.currentUserContainer .labelHolder {
-  margin: 0 0 5px 8px !important;
-}
-
-.currentUserContainer .avatar {
-  z-index: 0 !important;
-}
-
 /* ============================== DnD alignment ============================== */
 
 /* Reverse order: Label -> check Box */
@@ -57,12 +36,4 @@
 /* Active status item in Current User Context menu */
 .contextMenuItem.menuChecked {
   color: rgb(var(--buttonOn));
-}
-
-/* ============================ Background Colour ============================ */
-
-/* Header background */
-.friendListHeaderContainer {
-  background-color: rgb(var(--header)) !important;
-  border-bottom: 0 !important;
 }

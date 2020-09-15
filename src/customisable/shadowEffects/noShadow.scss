@@ -1,7 +1,4 @@
-* {
-  box-shadow: none !important;
-  text-shadow: none !important;
-}
+@import 'common/shadowEffects/noShadow';
 
 .activeVoiceButtons .SVGIcon_Shadow {
   display: none !important;

@@ -1,41 +1,44 @@
 /* Standard variobles */
-@import url(baseTheme/variables.css);
+@import 'common/variables';
+
+/* Common Parts */
+@import 'common/titleBar';
+@import 'common/friendsFooter';
+@import 'common/currentUser';
 
 /* Friend List */
-@import url(baseTheme/FriendList/titleBar.css);
-@import url(baseTheme/FriendList/currentUser.css);
-@import url(baseTheme/FriendList/friendsSearchBar.css);
-@import url(baseTheme/FriendList/quickAccess.css);
-@import url(baseTheme/FriendList/friendsFooter.css);
-@import url(baseTheme/FriendList/groupChatSection.css);
-@import url(baseTheme/FriendList/statusColours.css);
-@import url(baseTheme/FriendList/miniProfile.css);
-@import url(baseTheme/FriendList/friendGroup.css);
-@import url(baseTheme/FriendList/contextMenu.css);
-@import url(baseTheme/FriendList/notifications.css);
-@import url(baseTheme/FriendList/miscFriendlist.css);
+@import 'baseTheme/FriendList/currentUser';
+@import 'baseTheme/FriendList/friendsSearchBar';
+@import 'baseTheme/FriendList/quickAccess';
+@import 'baseTheme/FriendList/groupChatSection';
+@import 'baseTheme/FriendList/statusColours';
+@import 'baseTheme/FriendList/miniProfile';
+@import 'baseTheme/FriendList/friendGroup';
+@import 'baseTheme/FriendList/contextMenu';
+@import 'baseTheme/FriendList/notifications';
+@import 'baseTheme/FriendList/miscFriendlist';
 
 /* Chat Window */
-@import url(baseTheme/chatWindow/chatWindow.css);
-@import url(baseTheme/chatWindow/chatTabs.css);
-@import url(baseTheme/chatWindow/voiceControls.css);
-@import url(baseTheme/chatWindow/discordStyleChatInput.css);
-@import url(baseTheme/chatWindow/dockedChat.css);
-@import url(baseTheme/chatWindow/emoticonPicker.css);
+@import 'baseTheme/chatWindow/chatWindow';
+@import 'baseTheme/chatWindow/chatTabs';
+@import 'baseTheme/chatWindow/voiceControls';
+@import 'baseTheme/chatWindow/discordStyleChatInput';
+@import 'baseTheme/chatWindow/dockedChat';
+@import 'baseTheme/chatWindow/emoticonPicker';
 
 /* Settings Window */
-@import url(baseTheme/Settings/settingsWindow.css);
-@import url(baseTheme/Settings/createChatDialog.css);
-@import url(baseTheme/Settings/voice.css);
-@import url(baseTheme/Settings/onOffToggle.css);
-@import url(baseTheme/Settings/checkbox.css);
-@import url(baseTheme/Settings/button.css);
-@import url(baseTheme/Settings/dialogSlider.css);
-@import url(baseTheme/Settings/dropDown.css);
+@import 'baseTheme/Settings/settingsWindow';
+@import 'baseTheme/Settings/createChatDialog';
+@import 'baseTheme/Settings/voice';
+@import 'baseTheme/Settings/onOffToggle';
+@import 'baseTheme/Settings/checkbox';
+@import 'baseTheme/Settings/button';
+@import 'baseTheme/Settings/dialogSlider';
+@import 'baseTheme/Settings/dropDown';
 
 /* Scrollbar */
-@import url(baseTheme/Scrollbar.css);
+@import 'baseTheme/Scrollbar';
 
 /* Other */
-@import url(baseTheme/credits.css);
-@import url(baseTheme/miscAvatars.css);
+@import 'baseTheme/credits';
+@import 'baseTheme/miscAvatars';
