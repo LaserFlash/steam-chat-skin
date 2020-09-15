@@ -1,0 +1,28 @@
+
+/* ==== Avatar Shape ====
+/*  == Squircle Avatar == */
+/*  @import url(dist/offlineFriends/avatarStyle/squircleAvatar.css);
+/*  == Square Avatar == */
+/*  @import url(dist/offlineFriends/avatarStyle/squareAvatar.css);
+/*  == Round Avatar == */
+@import url(dist/offlineFriends/avatarStyle/roundAvatar.css);
+/*
+/*  ----------------------------------------------------------------------------
+/* ==== Theme Colour ====
+/*  == Dark Theme == */
+/*  @import url(dist/src/css/customisable/colourSet/darkMode.css);
+/*  == Light Theme == */
+/*  @import url(dist/src/css/customisable/colourSet/lightMode.css);
+/*  == Steam like Theme == */
+/*  @import url(dist/src/css/customisable/colourSet/steamColours.css);
+/*  == Discord Colours Theme == */
+@import url(dist/src/css/customisable/colourSet/discordColours.css);
+/*
+/*  ----------------------------------------------------------------------------
+/*  == No Shadow == */
+/* @import url(dist/offlineFriends/shadowEffects/shadowEffects/noShadow.css);
+*/
+/*  == Better Shadows == */
+@import url(dist/offlineFriends/shadowEffects/improvedShadow.css);
+
+@import url(dist/offlineFriends/offlineFriends.css);
