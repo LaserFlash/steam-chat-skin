@@ -3,27 +3,31 @@ const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
+const GlobImporter = require('node-sass-glob-importer');
 
 module.exports = {
   devtool: 'source-map',
   entry: () =>
-    glob.sync('./src/customisable/**/*.+(scss|css)').reduce(
+    glob.sync('./src/friendsChatClient/customisable/**/*.+(scss|css)').reduce(
       (acc, file) => {
         acc[
-          file.replace(/src\//, 'src/css/').replace(/\.(scss|css)/gi, '')
+          file
+            .replace(/src\//, 'src/css/')
+            .replace(/\.(scss|css)/gi, '')
+            .replace(/friendsChatClient\//, '')
         ] = file;
         return acc;
       },
       {
-        'src/baseTheme': './src/baseTheme.dev.scss',
+        'src/baseTheme': './src/friendsChatClient/friendsChat.dev.scss',
         ...glob
-          .sync('./src/offlineFriends/customisable/**/*.+(scss|css)')
+          .sync('./src/offlineFriendsClient/customisable/**/*.+(scss|css)')
           .reduce(
             (acc, file) => {
               acc[
                 file
                   .replace(
-                    /src\/offlineFriends\/customisable/,
+                    /src\/offlineFriendsClient\/customisable/,
                     'offlineFriends'
                   )
                   .replace(/\.(scss|css)/gi, '')
@@ -32,7 +36,7 @@ module.exports = {
             },
             {
               'offlineFriends/offlineFriends':
-                './src/offlineFriends/offlineFriends.dev.scss',
+                './src/offlineFriendsClient/offlineFriends.dev.scss',
             }
           ),
       }
@@ -51,6 +55,7 @@ module.exports = {
             loader: 'sass-loader',
             options: {
               sassOptions: {
+                importer: GlobImporter(),
                 includePaths: [path.resolve(__dirname, 'src')],
               },
             },

@@ -1,0 +1,18 @@
+extends:
+  - stylelint-config-standard
+  - stylelint-config-sass-guidelines
+  - stylelint-config-prettier
+plugins:
+  - stylelint-order
+rules:
+  order/order: ['custom-properties', 'declarations']
+  order/properties-alphabetical-order: true
+  no-descending-specificity: null
+  selector-attribute-operator-allowed-list: ['=', '*=', '~=']
+  selector-class-pattern: null
+  selector-max-compound-selectors: 5
+  max-nesting-depth: 5
+ignoreFiles:
+  - node_modules
+  - src/friends.custom.css
+  - friends.custom.dev.css

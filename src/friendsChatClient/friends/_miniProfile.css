@@ -1,0 +1,56 @@
+/* MINI PROFILES */
+
+/* mini profile */
+.miniprofile_miniProfile_s5zcg {
+  border: 0 !important;
+  border-radius: 0 !important;
+}
+
+/* mini profile all edges */
+.miniprofile_miniProfileContent_25Sge .miniprofile_miniProfileHeader_3oBIW,
+.miniprofile_miniProfileContent_25Sge
+  .miniprofile_miniProfileGameContainer_2FyZH
+  .miniprofile_gameLogo_2B0di {
+  border-radius: var(--border-radius);
+}
+
+/* mini profile PersonaName */
+.online .miniprofile_personaNameLabel_390p4,
+.online .miniprofile_awayStatusLabel_2UzRy {
+  color: rgb(var(--online)) !important;
+}
+
+.ingame .miniprofile_personaNameLabel_390p4,
+.miniprofile_ingame_3H2mq .miniprofile_gameState_2Va3_,
+.miniprofile_ingame_3H2mq,
+.miniprofile_ingame_3H2mq .miniprofile_richPresence_1rud4 {
+  color: rgb(var(--ingame)) !important;
+}
+
+.awayOrSnooze .miniprofile_personaNameLabel_390p4,
+.awayOrSnooze .miniprofile_awayStatusLabel_2UzRy {
+  color: rgb(var(--away)) !important;
+}
+
+.offline .miniprofile_personaName_W3QjS {
+  color: rgb(var(--offline)) !important;
+}
+
+.watchingbroadcast .miniprofile_personaNameLabel_390p4,
+.miniprofile_watchingbroadcast_24vwG .miniprofile_gameState_2Va3_,
+.miniprofile_watchingbroadcast_24vwG .miniprofile_richPresence_1rud4 {
+  color: rgb(var(--watching)) !important;
+}
+
+.miniprofile_hasNickname_dgG-l .miniprofile_personaNameLabel_390p4 {
+  color: rgb(var(--listtext)) !important;
+}
+
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG {
+  height: 90px !important;
+}
+
+.miniProfileHoverInner .watchingbroadcastThumbnail,
+.miniProfileHoverInner .watchingbroadcastThumbnail .crossfade {
+  border-radius: var(--border-radius);
+}

@@ -31,10 +31,12 @@ jobs:
         with:
           path: node_modules
           key: ${{hashFiles('package-lock.json')}}
-      - name: CSS Lint
-        run: npm run lint
+      - name: SCSS/CSS Lint
+        run: npm run stylelint
       - name: JS Lint
-        run: npm run jslint
+        run: npm run lint
+      - name: Prettier
+        run: npm run prettier
 
   Build-Minified-CSS:
     runs-on: ubuntu-latest
