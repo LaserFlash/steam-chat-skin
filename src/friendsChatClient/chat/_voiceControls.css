@@ -1,0 +1,126 @@
+/* ================================ */
+
+/* Voice Options Block / Containers */
+.ChatMessageEntryVoice {
+  background: none !important;
+  border-left-color: rgb(var(--friendlist));
+  border-left-style: solid;
+  border-left-width: 1px;
+  margin: 0;
+  padding: 0;
+}
+
+.ChatMessageEntryVoice .buttonsContainer {
+  margin: auto;
+  padding-right: 12px;
+}
+
+.buttonsContainer,
+.VoiceToggle,
+.activeVoiceControls {
+  background: none !important;
+  border: 0 !important;
+}
+
+.ChatMessageEntryVoice.Active {
+  padding-right: 24px;
+}
+
+/* =============== */
+
+/* Disabled Styles */
+.ChatMessageEntryVoice.Disabled {
+  border: 0;
+  outline: 0;
+}
+
+.ChatMessageEntryVoice.Inactive .activeVoiceControls {
+  display: none;
+}
+
+/* =============================== */
+
+/* Voice Settings button from chat */
+
+/* Icon size */
+.activeVoiceButtons .friendSettingsButton .SVGIcon_Settings,
+.activeVoiceButtons .friendSettingsButton {
+  height: 15px;
+  width: 15px;
+}
+
+/* Button Position */
+.activeVoiceButtons .friendSettingsButton {
+  margin: auto 0 auto var(--spacer-xs);
+}
+
+/* ============================== */
+
+/* Voice Control Button alignment */
+.VoiceControlPanelButton.ToggleVoiceOutputButton .SVGIcon_Headphones,
+.VoiceControlPanelButton.ToggleMicrophoneButton .SVGIcon_Microphone {
+  padding-top: 0;
+  vertical-align: middle;
+}
+
+.VoiceToggleIconCtn {
+  left: 0;
+  margin: auto;
+  position: relative;
+  top: 0;
+}
+
+.client_chat_frame .chatWindow .chatEntry {
+  padding-right: 0;
+}
+
+/* ================= */
+
+/* Misc Icon Effects */
+
+/* Hide strange blur shadow */
+.SVGIcon_Button.SVGIcon_Shadow {
+  display: none !important;
+}
+
+.VoiceToggleIconCtn .SVGIcon_VoiceRoom .Microphone {
+  fill: rgb(var(--icon));
+}
+
+/* Hover icon colour */
+.VoiceControlPanelButton:hover .SVGIcon_Button {
+  fill: rgb(var(--iconhover)) !important;
+}
+
+/* In Voice chat top bar */
+
+.OneOnOneVoiceRoomControls .VoiceToggleIconCtn {
+  top: 0;
+}
+
+.OneOnOneVoice-anim-enter-done,
+.WaitingForPartner,
+.OneOnOneVoiceRoomControls {
+  background: rgb(var(--header));
+}
+
+.OneOnOneVoiceRoomControls {
+  box-shadow: none;
+}
+
+.OneOnOneVoiceRoomControls .friend .avatarHolder .avatar {
+  border: 0 !important;
+}
+
+.OneOnOneVoiceClose {
+  background-color: rgb(var(--friendlist));
+}
+
+.OneOnOneVoiceClose:hover {
+  background-color: rgb(var(--closeButton));
+}
+
+.inviteAnotherFriendButton {
+  margin-top: 4px;
+  top: unset;
+}

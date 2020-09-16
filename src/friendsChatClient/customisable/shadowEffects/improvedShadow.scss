@@ -1,0 +1,55 @@
+@import 'common/shadowEffects/improvedShadow';
+
+/* ======== Looks better without box-shadow ======= */
+
+/* Between logged in and quickaccess */
+.activeTab,
+.DialogButton::before,
+.DialogButton,
+.DialogSlider_Grabber,
+.DialogSlider_Slider,
+[class*='radio_Group'],
+.avatar,
+[class*='miniprofile_playerAvatar'],
+.ChatRoomGroupAvatar,
+.ChatMessageEntryVoice,
+[class*='chatentry_chatEntryControls'],
+.chatTabOpenFriendsList,
+.chatTabList .chatTab,
+.chatTabSelector,
+.friendSearchInput {
+  box-shadow: none !important;
+}
+
+/* End of friendlist shadow */
+.ChatRoomListContainerParent [class*='insetshadow_FriendsListInsetShadowCtn'],
+.insetShadow {
+  display: none !important;
+}
+
+/* ================================================ */
+
+[class*='chatentry_chatTextarea'] {
+  border-radius: var(--border-radius);
+  margin-right: 0 !important;
+}
+
+/* chat invite message */
+.ChatMessageInvite {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+  margin: 4px;
+}
+
+/* Shadows */
+.ModalDialogPopup .DialogContentTransition .DialogBody {
+  mask: none !important;
+}
+
+.DialogTextInputBase:focus {
+  box-shadow: none;
+}
+
+/* Chat text input box */
+.chatWindow .chatEntry {
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}

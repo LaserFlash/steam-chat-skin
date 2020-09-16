@@ -1,2 +1,5 @@
 friends.custom.*
 ofriends.custom.*
+.*ignore
+dist
+assets

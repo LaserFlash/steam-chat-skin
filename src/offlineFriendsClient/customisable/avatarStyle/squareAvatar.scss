@@ -1,0 +1,5 @@
+@use 'common/avatarStyle/squareAvatar';
+
+.currentUserAvatar {
+  @extend %square-avatar;
+}

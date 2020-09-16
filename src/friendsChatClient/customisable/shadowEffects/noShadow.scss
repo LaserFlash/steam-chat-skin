@@ -1,0 +1,26 @@
+@import 'common/shadowEffects/noShadow';
+
+.activeVoiceButtons .SVGIcon_Shadow {
+  display: none !important;
+}
+
+/* Shadows */
+.ModalDialogPopup .DialogContentTransition .DialogBody {
+  mask: none !important;
+}
+
+/* End of friendlist shadow */
+[class*='insetshadow_FriendsListInsetShadowCtn'],
+/* Shadow in group creator */
+.insetShadow {
+  display: none !important;
+}
+
+.DialogButton::before,
+.DialogButton.Secondary.Off {
+  box-shadow: none;
+}
+
+.DialogTextInputBase:focus {
+  box-shadow: none;
+}

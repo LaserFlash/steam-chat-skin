@@ -1,0 +1,103 @@
+/* Footer "Group Chats" Text Color */
+.friendsListSectionTitle.chatSectionTitle .groupChatSectionTitle {
+  color: rgb(var(--text));
+  padding-left: 12px !important;
+}
+
+/* changes color of background of groups button */
+.friendsListSectionTitle {
+  background-color: rgb(var(--footer)) !important;
+  border-top-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+}
+
+/* Emulate expansion arrow over entire bar */
+.ToggleGroupChatList {
+  bottom: 0;
+  display: inline-block !important;
+  height: 90% !important;
+  position: absolute !important;
+  width: 100% !important;
+  z-index: 11 !important;
+}
+
+/* Hide the actual expansion arrow */
+.ToggleGroupChatList svg {
+  display: none !important;
+}
+
+/* Place create chat room button on top layer */
+.createChatRoomButton {
+  z-index: 12;
+}
+
+/* Group Chats Background */
+.chatRoomListContainer {
+  background: rgb(var(--footer)) !important;
+  width: 100% !important;
+  z-index: 20;
+}
+
+/* Group label text colour */
+.ChatRoomListGroupItem .groupNameStatusContainer .chatRoomName {
+  color: rgb(var(--text)) !important;
+}
+
+/* icon new chat group line */
+.friendsListSectionTitle .SVGIcon_NewChatGroup line {
+  stroke: rgb(var(--footer)) !important;
+}
+
+/* icon new chat group line */
+.friendsListSectionTitle .SVGIcon_NewChatGroup .Bubble {
+  fill: rgb(var(--icon));
+}
+
+.friendsListSectionTitle .SVGIcon_NewChatGroup .Bubble:hover {
+  fill: rgb(var(--iconhover));
+}
+
+/* Notifications */
+.chatRoomTextChannel .chatUnreadCircle {
+  left: 8px !important;
+  top: auto !important;
+}
+
+.ChatRoomListGroupItemChatRooms {
+  margin-left: 16px;
+}
+
+.chatRoomVoiceChannel {
+  background: transparent;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.chatRoomVoiceChannel,
+.ChatRoomListGroupItem .detailsView,
+.chatRoomVoiceChannel.ActiveVoiceChannel,
+.chatRoomVoiceChannel.ActiveVoiceChannel .activeVoiceButtons {
+  background: none !important;
+}
+
+/* Changes Group Chats Groups Hover Color */
+.ChatRoomListGroupItem:hover {
+  background: rgb(var(--friendlist)) !important;
+  border-radius: var(--border-radius);
+}
+
+.ChatRoomListGroupItem {
+  margin-left: 8px;
+  padding: var(--padding-sm) 0 var(--padding-sm) 0;
+}
+
+.ChatRoomListGroupItem_header {
+  padding: 0;
+}
+
+/* InVoice avatars */
+.ChatRoomListGroupItem .membersInVoice .voiceChatGroup {
+  background: none;
+  border: 0;
+  box-shadow: none;
+}

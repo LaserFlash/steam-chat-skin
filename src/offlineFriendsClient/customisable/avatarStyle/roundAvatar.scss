@@ -1,0 +1,5 @@
+@use 'common/avatarStyle/roundAvatar';
+
+.currentUserAvatar {
+  @extend %round-avatar;
+}
