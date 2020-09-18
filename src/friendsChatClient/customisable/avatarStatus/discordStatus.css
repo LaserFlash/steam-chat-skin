@@ -92,7 +92,7 @@ DISCORD STATUS (DEFAULT)
 .avatarHolder.awayOrSnooze .avatarStatus {
   background-image: url('assets/half-moon.svg') !important;
   background-repeat: no-repeat;
-  mask: none !important;
+  -webkit-mask: none !important;
 }
 
 .friendlistListContainer .awayOrSnooze .avatarStatus,
