@@ -1,45 +1,48 @@
+@use 'common/functions' as *;
+@use 'common/variables-sass' as *;
+
 :root {
   /* Body Background Colours */
-  --header: 224, 224, 224;
-  --friendlist: 255, 255, 255;
+  --header: #{hex-to-rgb($light-primary)};
+  --friendlist: #{hex-to-rgb($light-secondary)};
   --footer: var(--header);
 
   /* Text */
-  --text: 0, 0, 0;
-  --listtext: 0, 0, 0;
-  --unreadmessage: 0, 255, 0;
+  --text: #{hex-to-rgb($black)};
+  --listtext: #{hex-to-rgb($black)};
+  --unreadmessage: #{hex-to-rgb($notification)};
 
   /* Nickname Colour */
-  --nickname: 102, 102, 102;
+  --nickname: #{hex-to-rgb($gray-600)};
 
   /* Icon colours */
-  --icon: 79, 86, 96;
-  --iconhover: 0, 0, 0;
+  --icon: #{hex-to-rgb($gray-700)};
+  --iconhover: #{hex-to-rgb($black)};
 
   /* Title Icon Background */
-  --titleiconbg: 222, 222, 222;
+  --titleiconbg: #{hex-to-rgb($gray-400)};
   --titleiconhover: var(--iconhover);
 
   /* Status Colours */
-  --ingame: 0, 112, 26;
-  --online: 0, 92, 178;
-  --away: 250, 166, 26;
-  --offline: 0, 0, 0;
-  --watching: 149, 117, 205;
+  --ingame: #{hex-to-rgb($light-ingame)};
+  --online: #{hex-to-rgb($light-online)};
+  --away: #{hex-to-rgb($light-away)};
+  --watching: #{hex-to-rgb($light-watching)};
+  --offline: #{hex-to-rgb($light-offline)};
 
   /* Buttons */
-  --buttonOn: 114, 137, 218;
-  --buttonOff: 117, 117, 117;
+  --buttonOn: #{hex-to-rgb($light-accent)};
+  --buttonOff: #{hex-to-rgb($gray-700)};
 
   /* Scroll Bar */
-  --scrollbarPrimary: 189, 189, 189;
-  --scrollbarPrimaryHover: 141, 141, 141;
+  --scrollbarPrimary: #{hex-to-rgb($gray-600)};
+  --scrollbarPrimaryHover: #{hex-to-rgb($gray-700)};
   --scrollbarSecondary: var(--scrollbarPrimary);
   --scrollbarSecondaryHover: var(--scrollbarPrimaryHover);
 
   /* Close Button */
-  --closeButton: 240, 71, 71;
-  --closeIconHover: 255, 255, 255;
+  --closeButton: #{hex-to-rgb($red-close)};
+  --closeIconHover: #{hex-to-rgb($white)};
 }
 
 .client_chat_frame * {

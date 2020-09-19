@@ -1,35 +1,38 @@
+@use 'common/functions' as *;
+@use 'common/variables-sass' as *;
+
 :root {
   /* Body Background Colours */
-  --header: 32, 34, 37;
-  --friendlist: 47, 49, 54;
-  --footer: 32, 34, 37;
+  --header: #{hex-to-rgb($discord-primary)};
+  --friendlist: #{hex-to-rgb($discord-secondary)};
+  --footer: var(--header);
 
   /* Text */
-  --text: 255, 255, 255;
-  --listtext: 145, 145, 145;
-  --unreadmessage: 0, 255, 0;
+  --text: #{hex-to-rgb($white)};
+  --listtext: #{hex-to-rgb($gray-600)};
+  --unreadmessage: #{hex-to-rgb($notification)};
 
   /* Nickname Colour */
-  --nickname: 102, 102, 102;
+  --nickname: #{hex-to-rgb($gray-700)};
 
   /* Icon colours */
-  --icon: 185, 187, 190;
-  --iconhover: 255, 255, 255;
+  --icon: #{hex-to-rgb($gray-500)};
+  --iconhover: #{hex-to-rgb($white)};
 
   /* Title Icon Background */
-  --titleiconbg: 43, 45, 48;
+  --titleiconbg: #{hex-to-rgb($gray-900)};
   --titleiconhover: var(--iconhover);
 
   /* Status Colours */
-  --ingame: 130, 186, 0;
-  --online: 93, 178, 254;
-  --away: 250, 166, 26;
-  --offline: 145, 145, 145;
-  --watching: 149, 117, 205;
+  --ingame: #{hex-to-rgb($discord-ingame)};
+  --online: #{hex-to-rgb($discord-online)};
+  --away: #{hex-to-rgb($discord-away)};
+  --watching: #{hex-to-rgb($discord-watching)};
+  --offline: #{hex-to-rgb($discord-offline)};
 
   /* Buttons */
-  --buttonOn: 45, 115, 255;
-  --buttonOff: 46, 46, 47;
+  --buttonOn: #{hex-to-rgb($accent)};
+  --buttonOff: #{hex-to-rgb($gray-700)};
 
   /* Scroll Bar */
   --scrollbarPrimary: var(--header);
@@ -38,6 +41,6 @@
   --scrollbarSecondaryHover: var(--friendlist);
 
   /* Close Button */
-  --closeButton: 240, 71, 71;
-  --closeIconHover: 255, 255, 255;
+  --closeButton: #{hex-to-rgb($red-close)};
+  --closeIconHover: #{hex-to-rgb($white)};
 }

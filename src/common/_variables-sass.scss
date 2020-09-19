@@ -1,8 +1,68 @@
 /* Colours */
 $white: #fff;
+$gray-100: #f8f9fa !default;
+$gray-200: #e9ecef !default;
+$gray-300: #dee2e6 !default;
+$gray-400: #ced4da !default;
+$gray-500: #adb5bd !default;
+$gray-600: #6c757d !default;
+$gray-700: #495057 !default;
+$gray-800: #343a40 !default;
+$gray-900: #212529 !default;
 $black: #000;
-$dark-red: #c62828;
+$red-dark: #c62828;
+$red-close: #f04747;
 $green: #087f23;
+$blue: #005cb2;
+$orange: #faa61a;
+$purple: #9575cd;
+
+$accent: #2d73ff;
+
+// dark theme
+$dark-primary: #151515;
+$dark-secondary: #1e1e1e;
+$dark-ingame: #82ba00;
+$dark-online: #5db2fe;
+$dark-away: #faa61a;
+$dark-watching: #9575cd;
+$dark-offline: #919191;
+$dark-accent: $accent;
+$dark-scrollbar: $gray-800;
+
+// discord theme
+$discord-primary: #202225;
+$discord-secondary: #2f3136;
+$discord-ingame: #82ba00;
+$discord-online: #5db2fe;
+$discord-away: #faa61a;
+$discord-watching: #9575cd;
+$discord-offline: #919191;
+$discord-accent: $accent;
+
+// steam theme
+$steam-primary: #23262c;
+$steam-secondary: #1e2025;
+$steam-ingame: #91c257;
+$steam-online: #6dcff6;
+$steam-away: $steam-online;
+$steam-watching: #8277b1;
+$steam-offline: $gray-600;
+$steam-accent: $accent;
+$steam-scrollbar: #434953;
+
+// light theme
+$light-primary: #e0e0e0;
+$light-secondary: #fff;
+$light-ingame: $green;
+$light-online: $blue;
+$light-away: $orange;
+$light-watching: $purple;
+$light-offline: $black;
+$light-accent: #7289da;
+
+// notification colour
+$notification: $green;
 
 /* Border  Width */
 $border-width-sm: 2px;
