@@ -1,1 +1,1 @@
-.avatarHolder .avatar,.ChatMsgSlashEmote .speaker .speakerAvatar,.ChatRoomGroupAvatar,.ChatRoomSpeaker .speaker .speakerAvatar,.currentUserAvatar,.Dialog_ChangePersonaName .friend .avatarMedium,.Dialog_EditNickName .friend .avatarMedium,.groupName .gameGroupContainer .groupIcon,.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG,.voiceChatGroup{border-radius:30%!important}
+:root{--avatar-radius:33%}
