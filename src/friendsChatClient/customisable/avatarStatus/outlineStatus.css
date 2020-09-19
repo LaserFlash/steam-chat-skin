@@ -3,6 +3,9 @@
 /*                      BORDER STATUS                          */
 
 /* =========================================================== */
+:root {
+  --avatar-border: solid var(--border-width-sm) currentColor;
+}
 
 /* === Hide Normal Status Block === */
 .avatarStatus,
@@ -12,7 +15,7 @@
 
 /* Apply border to avatar to show status */
 .avatarHolder .avatar {
-  border: var(--border-width-sm) solid !important;
+  border: var(--avatar-border) !important;
 }
 
 .avatarFrame img,
@@ -59,6 +62,7 @@
   color: rgb(var(--offline)) !important;
 }
 
+/* Apply margin to avatars without frame for better positioning */
 .avatarHolder:not(.awayOrSnooze) :last-child.avatar,
 .avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
   margin: calc(-1 * var(--border-width-sm));

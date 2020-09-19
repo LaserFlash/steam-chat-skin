@@ -19,9 +19,8 @@
   --padding-lg: 8px;
   --padding-xl: 16px;
   --shadow: 8px;
-}
 
-$white: #fff;
-$black: #000;
-$dark-red: #c62828;
-$green: #087f23;
+  /* Avatar vars */
+  --avatar-radius: #{$avatar-round};
+  --avatar-border: 0;
+}

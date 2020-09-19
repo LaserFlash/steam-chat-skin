@@ -1,5 +1,5 @@
-@use 'common/avatarStyle/squircleAvatar';
+@use 'common/variables-sass' as *;
 
-.currentUserAvatar {
-  @extend %squircle-avatar;
+:root {
+  --avatar-radius: #{$avatar-square};
 }

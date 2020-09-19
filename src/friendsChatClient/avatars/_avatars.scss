@@ -1,0 +1,15 @@
+@import 'common/avatar/avatarShape';
+
+.avatarHolder .avatar,
+.ChatRoomGroupAvatar,
+.currentUserAvatar,
+.ChatRoomSpeaker .speaker .speakerAvatar,
+.ChatMsgSlashEmote .speaker .speakerAvatar,
+.Dialog_EditNickName .friend .avatarMedium,
+.Dialog_ChangePersonaName .friend .avatarMedium,
+.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG,
+.voiceChatGroup,
+/* round game icon for group names */
+.groupName .gameGroupContainer .groupIcon {
+  @extend %avatar;
+}

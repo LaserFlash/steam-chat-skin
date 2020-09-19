@@ -3,6 +3,9 @@
 /*  In general an option should be choosen - however if an import is not used the steam defaults will be
 /*  To choose an option remove the "/*" that is in front of the "@import"
 /*
+/*  ----------------------------------------------------------------------------
+/* ======== Base Theme - the only required import ======== */
+@import url(https://laserflash.tk/steam-chat-skin/src/baseTheme.css);
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Avatar Shape ====
@@ -63,9 +66,14 @@
 /*
 /*  == No Shadow == */
 /* @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/noShadow.css);
-*/
 /*  == Better Shadows == */
 @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/shadowEffects/improvedShadow.css);
+/*
+/*  ----------------------------------------------------------------------------
+/* ==== Avatar Frames ====
+/*  Steam introduced avatar frames, if you don't like them use this
+/*  == Disable Frames == */
+/* @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/avatarFrame/disable.css);
 /*
 /*  ----------------------------------------------------------------------------
 /* ==== Fonts ====
@@ -89,6 +97,4 @@
 /*
 /*  Community:   -  https://discord.gg/UZvkvkh
 /*  ----------------------------------------------------------------------------
-/*
-/* ======== Base Theme - the only required import ======== */
-@import url(https://laserflash.tk/steam-chat-skin/src/baseTheme.css);
+

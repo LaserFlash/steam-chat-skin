@@ -1,16 +1,5 @@
-@use 'common/avatarStyle/squircleAvatar';
+@use 'common/variables-sass' as *;
 
-/* Squircle Avatars */
-.avatarHolder .avatar,
-.ChatRoomGroupAvatar,
-.currentUserAvatar,
-.ChatRoomSpeaker .speaker .speakerAvatar,
-.ChatMsgSlashEmote .speaker .speakerAvatar,
-.Dialog_EditNickName .friend .avatarMedium,
-.Dialog_ChangePersonaName .friend .avatarMedium,
-.miniprofile_miniProfileContent_25Sge .miniprofile_playerAvatar_1dzWG,
-.voiceChatGroup,
-/* squircle game icon for group names */
-.groupName .gameGroupContainer .groupIcon {
-  @extend %squircle-avatar;
+:root {
+  --avatar-radius: #{$avatar-squircle};
 }

@@ -5,6 +5,11 @@
     To choose an option remove the "/*" that is in front of the "@import"
 */
 
+/* ======== Base Theme - the only required import ========
+    This one is required will not work well without it
+*/
+@import url(https://laserflash.tk/steam-chat-skin/offlineFriends/offlineFriends.css)
+
 /*  ---------------------------------------------------------------------------- */
 
 /*  ==== Avatar Shape ====
@@ -69,7 +74,3 @@
 /*  ----------------------------------------------------------------------------
 */
 
-/* ======== Base Theme - the only required import ========
-    This one is required will not work well without it
-*/
-@import url(https://laserflash.tk/steam-chat-skin/offlineFriends/offlineFriends.css)

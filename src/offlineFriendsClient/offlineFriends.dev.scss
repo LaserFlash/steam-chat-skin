@@ -1,5 +1,8 @@
-@import 'common/variables';
+@import 'common/variables-sass';
+@import 'common/variables-css';
 @import 'common/titleBar';
 @import 'common/friendsFooter';
 @import 'common/currentUser';
-@import './offlineFriends';
+
+@import './avatar';
+@import './offline-friends';
