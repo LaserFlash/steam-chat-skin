@@ -5,7 +5,7 @@ FRIENDLIST
 /* chat tab open friends list */
 .chatTabOpenFriendsList {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
   height: 44px !important;
 }
 

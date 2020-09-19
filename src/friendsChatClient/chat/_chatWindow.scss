@@ -6,7 +6,7 @@ CHAT WINDOW
 
 /* Chat speaker name */
 .ChatRoomSpeaker .speaker .speakerName {
-  margin: auto 0 auto var(--padding-lg);
+  margin: auto 0 auto $padding-lg;
 }
 
 .ChatRoomSpeaker .speaker .speakerStatus {
@@ -69,10 +69,10 @@ CHAT WINDOW
   align-items: center;
   background: none !important;
   border: 0 !important;
-  border-radius: var(--border-radius-round) !important;
+  border-radius: $border-radius-round !important;
   display: flex;
   height: 32px !important;
-  margin-left: var(--spacer);
+  margin-left: $spacer;
   width: 32px !important;
 }
 
@@ -91,8 +91,8 @@ CHAT WINDOW
 
 .chatTabSelector .SVGIcon_DownArrowContextMenu {
   margin: 0 auto !important;
-  padding-left: var(--padding);
-  padding-top: var(--padding);
+  padding-left: $padding;
+  padding-top: $padding;
 }
 
 .CompactFriendsList
@@ -110,12 +110,12 @@ CHAT WINDOW
 /* Chat Scroll To Bottom Button */
 .ScrollToBottomButton > span {
   background: rgb(var(--footer)) !important;
-  border-radius: var(--border-radius-lg) !important;
+  border-radius: $border-radius-lg !important;
 }
 
 .ScrollToBottomButton {
   color: rgb(var(--listtext));
-  padding: var(--padding-lg);
+  padding: $padding-lg;
 }
 
 .ScrollToBottomButton:hover {
@@ -135,7 +135,7 @@ CHAT WINDOW
 
 .titleBarContainer.ChatTabs {
   background: rgb(var(--header)) !important;
-  padding: var(--spacer-sm);
+  padding: $spacer-sm;
 }
 
 .speakerTimeStamp {
@@ -183,8 +183,8 @@ CHAT WINDOW
 .ChatTabsBackButton {
   background: rgb(var(--friendlist)) !important;
   border: 0 !important;
-  border-radius: var(--border-radius) !important;
-  margin-left: var(--spacer-xs) !important;
+  border-radius: $border-radius !important;
+  margin-left: $spacer-xs !important;
 }
 
 .chatRoomGroupHeader {
@@ -199,7 +199,7 @@ CHAT WINDOW
 }
 
 .inputContainer {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
   overflow: visible !important;
 }
 
@@ -209,24 +209,24 @@ CHAT WINDOW
 }
 
 .ChatRoomListGroupItemChatRooms .chatRoomVoiceChannel.ActiveVoiceChannel {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .chatRoomVoiceChannel.ActiveVoiceChannel
   .VoiceControlPanelButton.chatEndVoiceChat {
   border-left: 0 !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .chatRoomVoiceChannel .chatRoomTextChannel {
   border-left: 0 !important;
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 
 .ChatRoomListGroupItem
   .chatRoomVoiceChannel.ActiveVoiceChannel
   .chatRoomTextChannel {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
   bottom: 1px !important;
 }
 
@@ -252,7 +252,7 @@ CHAT WINDOW
 /* Avatar Background */
 .AssignCategoriesDialog_Friend {
   background: #2e2e2f !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Full brightness of active avatar even if offline */
@@ -263,7 +263,7 @@ CHAT WINDOW
 /* Group active text channel */
 .ActiveTextChannel {
   background-color: rgb(var(--header)) !important;
-  border-radius: var(--border-radius-sm) !important;
+  border-radius: $border-radius-sm !important;
   margin-left: 4px !important;
 }
 
@@ -322,7 +322,7 @@ CHAT WINDOW
 .VoiceToggle.Active {
   background: none !important;
   border: 0 !important;
-  border-radius: var(--border-radius-round);
+  border-radius: $border-radius-round;
 }
 
 .chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0:hover,
@@ -391,12 +391,12 @@ CHAT WINDOW
 /* Chat someone is typing a message */
 .FriendChatTypingNotification {
   background: rgb(var(--header));
-  border-radius: var(--border-radius-lg);
-  box-shadow: 0 0 var(--shadow) #0008;
+  border-radius: $border-radius-lg;
+  box-shadow: 0 0 $shadow #0008;
   color: rgb(var(--text));
   font-size: 12px;
-  margin: var(--padding-lg);
-  padding: var(--padding) var(--padding-lg) var(--padding) var(--padding-lg);
+  margin: $padding-lg;
+  padding: $padding $padding-lg $padding $padding-lg;
   width: auto;
 }
 

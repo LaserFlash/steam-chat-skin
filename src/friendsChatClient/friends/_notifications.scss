@@ -35,27 +35,27 @@
 
 /* confirm friend request button */
 .confirmInviteRequestContainer .confirmInviteButton {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* cancel addfriend button */
 .confirmInviteRequestContainer .cancelAddFriends {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* icon cancel addfriends polyline */
 .confirmInviteRequestContainer .cancelAddFriends .SVGIcon_Arrow polyline {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* icon cancel addfriends hover polyline */
 .confirmInviteRequestContainer .cancelAddFriends:hover .SVGIcon_Arrow polyline {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Confirm invite request container */
 .confirmInviteRequestContainer {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* add hover effect when hovering group invites */
@@ -86,7 +86,7 @@ Remove default effect
 .chattabs_UnreadCircle_2goOD {
   /* Glowing icon */
   background: rgb(var(--unreadmessage)) !important;
-  border: var(--border-width-sm) solid rgb(var(--unreadmessage)) !important;
+  border: $border-width-sm solid rgb(var(--unreadmessage)) !important;
   border-radius: 100% !important;
   bottom: unset;
   box-shadow: 0 0 10px 3px rgb(var(--unreadmessage));

@@ -2,7 +2,7 @@
 
 /* Spacing from window controls */
 .AvatarAndUser {
-  padding-top: var(--padding-xl) !important;
+  padding-top: $padding-xl !important;
 }
 
 /* Hide current user status marker */
@@ -12,7 +12,7 @@
 
 /* Improved Positioning */
 .currentUserContainer .labelHolder {
-  margin: auto 0 auto var(--padding-lg) !important;
+  margin: auto 0 auto $padding-lg !important;
 }
 
 .currentUserContainer .avatar {

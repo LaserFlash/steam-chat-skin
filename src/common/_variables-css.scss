@@ -1,25 +1,4 @@
 :root {
-  /* Border */
-  --border-width-sm: 2px;
-  --border-width: 4px;
-
-  /* Border Radius */
-  --border-radius-sm: 2px;
-  --border-radius: 4px;
-  --border-radius-lg: 8px;
-  --border-radius-round: 50%;
-
-  /* Spacer */
-  --spacer-xs: 2px;
-  --spacer-sm: 4px;
-  --spacer: 12px;
-  --spacer-lg: 24px;
-  --padding-sm: 2px;
-  --padding: 4px;
-  --padding-lg: 8px;
-  --padding-xl: 16px;
-  --shadow: 8px;
-
   /* Avatar vars */
   --avatar-radius: #{$avatar-round};
   --avatar-border: 0;

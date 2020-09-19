@@ -19,7 +19,7 @@ SETTINGS PANEL
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
   border: 0 !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
   color: rgb(var(--text)) !important;
 }
 
@@ -33,14 +33,14 @@ SETTINGS PANEL
 /* Selected Button */
 .DialogButton.Primary {
   background: rgb(var(--buttonOn)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
   color: rgb(var(--text)) !important;
 }
 
 /* Friend Settings Notifications Row */
 .FriendsSettingsNotificationRow {
   background-color: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Puch To Talk Option Background */
@@ -55,13 +55,13 @@ SETTINGS PANEL
 /* notification Check Boxes */
 .DialogCheckbox {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* changes background color for buttons */
 .FriendsSettingsFlashSection_ButtonRow {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .FriendsSettingsChatFontSizeSection_ButtonRow button,
@@ -74,7 +74,7 @@ SETTINGS PANEL
 /* removes overlapping background on voice */
 .voiceMicTestContainer {
   background-color: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Slider Background */
@@ -102,60 +102,60 @@ SETTINGS PANEL
 /* none button for voice */
 ._DialogSection.pushToTalkSection .pushToKeyAssignContainer .DialogButton,
 ._DialogSection.pushToTalkSection .pushtoTalkKeyAssignContainer .DialogButton {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .DialogButton::before {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Advanced Button */
 .VoiceSettings .advancedSettingsButton {
-  border-radius: var(--border-radius) !important;
-  margin-left: var(--spacer-xs) !important;
+  border-radius: $border-radius !important;
+  margin-left: $spacer-xs !important;
   width: calc(100% - 4px) !important;
 }
 
 /* Advanced Expanded background */
 .VoiceSettings .advancedSettings.showAdvanced {
   background: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* copy voice clipboard button */
 .DialogButton.copyVoiceLogsButton {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* EDIT NICKNAME */
 
 /* Buttons Shape */
 .DialogTwoColLayout > ._DialogLayout {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Search */
 ._DialogTextInputBase:focus {
   background: rgb(var(--footer)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Search Hover */
 ._DialogTextInputBase:not(:disabled):hover {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Search Input Box */
 ._DialogTextInputBase,
 ._DialogInputContainer {
   background: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* CATEGORIZE */
 .DialogCheckbox_Container:hover .DialogCheckbox,
 .DialogCheckbox:hover:not(.Disabled) {
-  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
+  box-shadow: 0 0 0 $border-width-sm rgb(var(--buttonOn)) !important;
 }
 
 /* CATAGORY MANAGE/CREATE */
@@ -163,12 +163,12 @@ SETTINGS PANEL
 /* Friend Picker Background */
 .FriendPicker_Suggestions {
   background-color: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Friend hover background */
 .FriendPicker_SuggestedFriend {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .FriendPicker_SuggestedFriend.Focus {
@@ -239,7 +239,7 @@ SETTINGS PANEL
 
 .DialogDropDownMenu_Item:hover {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Inner voice setup box */
@@ -256,7 +256,7 @@ SETTINGS PANEL
 .DialogButton,
 .DialogButton.Off {
   background: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .DialogButton line {
@@ -265,8 +265,8 @@ SETTINGS PANEL
 
 /* hover selected buttons */
 .DialogButton:hover {
-  border-radius: var(--border-radius) !important;
-  box-shadow: 0 0 0 var(--border-width-sm) rgb(var(--buttonOn)) !important;
+  border-radius: $border-radius !important;
+  box-shadow: 0 0 0 $border-width-sm rgb(var(--buttonOn)) !important;
 }
 
 .DialogTextInputBase,
@@ -279,10 +279,10 @@ SETTINGS PANEL
 }
 
 .CreateChatDialog ._DialogColLayout {
-  margin-left: var(--spacer-xs);
+  margin-left: $spacer-xs;
   width: calc(100% - 4px);
 }
 
 .VoiceSettings .advancedSettings {
-  margin: var(--spacer-xs) !important;
+  margin: $spacer-xs !important;
 }

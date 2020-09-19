@@ -1,12 +1,12 @@
 /* Friend Picker Background */
 .FriendPicker_Suggestions {
   background-color: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Friend hover background */
 .FriendPicker_SuggestedFriend {
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .FriendPicker_SuggestedFriend.Focus {
@@ -19,6 +19,6 @@
 }
 
 .CreateChatDialog ._DialogColLayout {
-  margin-left: var(--border-width-sm);
-  width: calc(100% - var(--border-width));
+  margin-left: $border-width-sm;
+  width: calc(100% - #{$border-width});
 }

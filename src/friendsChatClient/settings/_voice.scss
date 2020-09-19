@@ -6,13 +6,13 @@
 /* Outer Box */
 .voiceMicTestContainer {
   background-color: rgb(var(--header));
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 
 /* Inner Box  */
 .voiceSelfDirections {
   background-color: rgb(var(--friendlist));
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 
 /* ===== */
@@ -21,14 +21,14 @@
 .voicesettings_TransmissionTypeSettings_2wcxX {
   background-color: rgb(var(--header));
   border: 0;
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 
 .DialogButton.voicesettings_HotkeyClearButton_3Us-N {
-  border-radius: var(--border-radius-round);
+  border-radius: $border-radius-round;
   max-width: unset !important;
   min-width: unset !important;
-  padding: var(--padding) !important;
+  padding: $padding !important;
   width: auto !important;
 }
 
@@ -38,7 +38,7 @@
 
 .DialogButton.voicesettings_HotkeyClearButton_3Us-N:hover {
   background: rgb(var(--closeButton)) !important;
-  border-radius: var(--border-radius-round);
+  border-radius: $border-radius-round;
   box-shadow: none !important;
 }
 
@@ -55,17 +55,17 @@
 /** Advanced Settings */
 .VoiceSettings .advancedSettingsButton {
   background: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
-  margin-left: var(--border-width-sm) !important;
-  width: calc(100% - var(--border-radius)) !important;
+  border-radius: $border-radius !important;
+  margin-left: $border-width-sm !important;
+  width: calc(100% - #{$border-radius}) !important;
 }
 
 /* Advanced Expanded background */
 .VoiceSettings .advancedSettings.showAdvanced {
   background: rgb(var(--header)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 .VoiceSettings .advancedSettings {
-  margin: var(--border-width-sm) !important;
+  margin: $border-width-sm !important;
 }

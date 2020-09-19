@@ -16,7 +16,7 @@
 .FriendsSettingsNotificationRow,
 .voiceMicTestContainer {
   background: rgb(var(--header));
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
   color: rgb(var(--text));
 }
 

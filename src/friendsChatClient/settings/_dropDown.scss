@@ -6,5 +6,5 @@
 
 .DialogDropDownMenu_Item:hover {
   background-color: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }

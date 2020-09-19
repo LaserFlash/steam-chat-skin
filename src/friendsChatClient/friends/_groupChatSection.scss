@@ -83,7 +83,7 @@
 /* Changes Group Chats Groups Hover Color */
 .ChatRoomListGroupItem:hover {
   background: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 
 .ChatRoomListGroupItem {

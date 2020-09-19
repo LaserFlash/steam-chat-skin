@@ -11,8 +11,8 @@
 
 /* Dialog Toggle Button Style */
 .DialogOnOffToggle_Option {
-  border-radius: var(--border-radius-round);
-  margin-left: var(--spacer-sm);
+  border-radius: $border-radius-round;
+  margin-left: $spacer-sm;
   width: 30px;
 }
 

@@ -21,8 +21,8 @@ SCROLLBAR
 /* thumb normal state */
 ::-webkit-scrollbar-thumb {
   background-color: transparent;
-  border-radius: var(--border-radius-lg);
-  border-width: var(--border-width-sm);
+  border-radius: $border-radius-lg;
+  border-width: $border-width-sm;
   margin: 4px;
   min-height: 32px;
   min-width: 32px;

@@ -8,7 +8,7 @@
 
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm {
   background-color: rgb(var(--header)) !important;
-  border-radius: var(--border-radius-lg);
+  border-radius: $border-radius-lg;
 }
 
 /**
@@ -49,7 +49,7 @@
  */
 .addonpicker_ItemList_275Oe .addonpicker_Item_34KHH:hover {
   background-color: rgb(var(--friendlist));
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
 }
 
 .emoticon_EmoticonHover_1ME8O {

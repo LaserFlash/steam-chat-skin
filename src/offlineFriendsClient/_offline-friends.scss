@@ -4,7 +4,7 @@
   }
 
   .AvatarAndUser {
-    padding-bottom: var(--padding-xl);
+    padding-bottom: $padding-xl;
 
     .statusAndName {
       color: rgb(var(--offline)) !important;
@@ -28,14 +28,14 @@
 
     .summaryText {
       color: rgb(var(--online)) !important;
-      margin: var(--padding-xl) auto;
+      margin: $padding-xl auto;
     }
 
     .detailText {
-      border-top: var(--border-width-sm) rgb(var(--online)) solid;
+      border-top: $border-width-sm rgb(var(--online)) solid;
       color: rgb(var(--text)) !important;
       margin: 0;
-      padding: var(--padding-lg) var(--padding-lg);
+      padding: $padding-lg $padding-lg;
     }
 
     .retryButton {

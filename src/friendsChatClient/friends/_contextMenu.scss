@@ -27,7 +27,7 @@
 
 .friendlistListContainer .friend:hover .ContextMenuButton {
   background: rgb(var(--header));
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
   padding-left: 6px;
 }
 
@@ -78,7 +78,7 @@
 .contextMenuItem:hover,
 .contextMenuItem.contextmenu_active_3vYUp {
   background: rgb(var(--friendlist)) !important;
-  border-radius: var(--border-radius) !important;
+  border-radius: $border-radius !important;
 }
 
 /* Icon Hover */

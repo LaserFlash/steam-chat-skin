@@ -84,7 +84,7 @@
   }
 
   .chatentry_chatEntryControls_2O_X7 {
-    border-bottom: var(--border-width-sm) solid rgb(var(--friendlist));
+    border-bottom: $border-width-sm solid rgb(var(--friendlist));
   }
 }
 
@@ -103,7 +103,7 @@
   background-size: auto;
 
   /* Override svg style */
-  filter: grayscale() !important;
+  filter: grayscale(1) !important;
   height: 100% !important;
   transition: filter 0.2s linear;
   width: 100% !important;
@@ -135,7 +135,7 @@
   background-size: auto;
 
   /* Override svg style */
-  filter: grayscale() !important;
+  filter: grayscale(1) !important;
   height: 100% !important;
   transition: filter 0.2s linear;
   width: 100% !important;

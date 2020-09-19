@@ -1,10 +1,7 @@
-/* =========================================================== */
+@use 'common/variables-sass' as *;
 
-/*                      BORDER STATUS                          */
-
-/* =========================================================== */
 :root {
-  --avatar-border: solid var(--border-width-sm) currentColor;
+  --avatar-border: #{$border-width-sm} currentColor solid;
 }
 
 /* === Hide Normal Status Block === */
@@ -20,8 +17,8 @@
 
 .avatarFrame img,
 .miniprofile_Frame_3MZRj {
-  border-radius: var(--border-radius-sm);
-  box-shadow: inset 0 0 4px var(--border-width-sm) currentColor;
+  border-radius: $border-radius-sm;
+  box-shadow: inset 0 0 4px $border-width-sm currentColor;
 }
 
 /* === Status Colours === */
@@ -65,5 +62,5 @@
 /* Apply margin to avatars without frame for better positioning */
 .avatarHolder:not(.awayOrSnooze) :last-child.avatar,
 .avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
-  margin: calc(-1 * var(--border-width-sm));
+  margin: calc(-1 * #{$border-width-sm});
 }

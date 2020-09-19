@@ -1,3 +1,4 @@
+@use 'common/variables-sass' as *;
 @import 'common/shadowEffects/improvedShadow';
 
 /* ======== Looks better without box-shadow ======= */
@@ -30,7 +31,7 @@
 /* ================================================ */
 
 [class*='chatentry_chatTextarea'] {
-  border-radius: var(--border-radius);
+  border-radius: $border-radius;
   margin-right: 0 !important;
 }
 

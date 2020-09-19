@@ -5,8 +5,8 @@
 
 .chattabs_ChatTab_1WfqA {
   background: rgb(var(--header));
-  border-radius: var(--border-radius);
-  padding-right: var(--padding);
+  border-radius: $border-radius;
+  padding-right: $padding;
 }
 
 .chatTabSetContainer .chattabs_ChatTab_1WfqA.chattabs_Active_3sMSI {
@@ -35,11 +35,11 @@
 
 .chattabs_CloseButton_SzByZ:hover {
   background: rgb(var(--closeButton)) !important;
-  border-radius: var(--border-radius-round) !important;
+  border-radius: $border-radius-round !important;
 }
 
 .chattabs_ChatTabContent_Friend_3m7Ps {
-  margin-right: var(--spacer-sm);
+  margin-right: $spacer-sm;
 }
 
 /* Group chat tab text colour */
@@ -81,7 +81,7 @@
 }
 
 .ChatTabsContextMenu .chattabs_ChatTab_1WfqA {
-  padding-left: var(--spacer-sm);
+  padding-left: $spacer-sm;
 }
 
 .ChatTabsContextMenu.CompactFriendsList .friend,
