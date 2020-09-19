@@ -1,4 +1,6 @@
 
+@import url(dist/offlineFriends/offlineFriends.css);
+
 /* ==== Avatar Shape ====
 /*  == Squircle Avatar == */
 /*  @import url(dist/offlineFriends/avatarStyle/squircleAvatar.css);
@@ -24,5 +26,3 @@
 */
 /*  == Better Shadows == */
 @import url(dist/offlineFriends/shadowEffects/improvedShadow.css);
-
-@import url(dist/offlineFriends/offlineFriends.css);

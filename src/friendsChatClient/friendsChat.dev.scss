@@ -1,10 +1,14 @@
 /* Standard variables */
-@import 'common/variables';
+@import 'common/variables-sass';
+@import 'common/variables-css';
 
 /* Common Parts */
 @import 'common/titleBar';
 @import 'common/friendsFooter';
 @import 'common/currentUser';
+
+/* Avatars */
+@import './avatars/avatars';
 
 /* Friend List */
 @import './friends/currentUser';
