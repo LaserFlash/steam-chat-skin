@@ -5,13 +5,14 @@ extends:
 plugins:
   - stylelint-order
 rules:
-  order/order: ["custom-properties", "declarations"]
+  order/order: ['custom-properties', 'declarations']
   order/properties-alphabetical-order: true
   no-descending-specificity: null
-  selector-attribute-operator-allowed-list: ["=", "*=", "~="]
+  selector-attribute-operator-allowed-list: ['=', '*=', '~=']
   selector-class-pattern: null
   selector-max-compound-selectors: 5
   max-nesting-depth: 5
-  property-no-vendor-prefix: [true, ignoreProperties: ["mask"]]
+  property-no-vendor-prefix: [true, ignoreProperties: ['mask']]
+  scss/at-import-partial-extension-blacklist: null
 ignoreFiles:
   - node_modules

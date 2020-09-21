@@ -4,15 +4,18 @@
     .playerNameQuickAccessContainer {
       display: none !important;
     }
+
     /* Away or snooze is never transparent */
     &.awayOrSnooze .avatarHolder img {
       opacity: 1 !important;
     }
+
     /* Enlarge on hover */
     .avatarHolder:hover {
       transform: scale(1.05, 1.05);
     }
   }
+
   /* Adjust removal of name */
   .favoriteElement {
     height: auto !important;

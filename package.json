@@ -4,8 +4,8 @@
     "build:watch": "webpack --watch --mode development",
     "stylelint": "stylelint src/**",
     "stylelint:fix": "stylelint src/** --fix",
-    "lint": "eslint **.js",
-    "lint:fix": "eslint **.js --fix",
+    "lint": "eslint",
+    "lint:fix": "eslint  --fix",
     "prettier": "prettier --check **",
     "prettier:fix": "prettier --write **"
   },
