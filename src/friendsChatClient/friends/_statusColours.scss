@@ -1,84 +1,69 @@
 /* color for ingame status */
-.ingame .personanameandstatus_playerName_1uxaf,
-.ingame .personanameandstatus_gameName_qvibF,
-.ingame .personanameandstatus_richPresenceLabel_3Q6g1,
-.ingame.personastatusicons_PersonaStatusIcon_2rP7f path {
+.ingame [class*='personanameandstatus'] {
   color: rgb(var(--ingame)) !important;
   fill: rgb(var(--ingame)) !important;
 }
 
 /* color for online status */
-.online .personanameandstatus_playerName_1uxaf,
-.online .personanameandstatus_gameName_qvibF,
-.online .personanameandstatus_richPresenceLabel_3Q6g1,
-.online.personastatusicons_PersonaStatusIcon_2rP7f path {
+.online [class*='personanameandstatus'] {
   color: rgb(var(--online)) !important;
   fill: rgb(var(--online)) !important;
 }
 
 /* color for offline status */
-.offline.personanameandstatus_playerName_1uxaf,
-.offline .personanameandstatus_gameName_qvibF,
-.offline .personanameandstatus_richPresenceLabel_3Q6g1,
-.offline.personastatusicons_PersonaStatusIcon_2rP7f path {
+.offline [class*='personanameandstatus'] {
   color: rgb(var(--offline)) !important;
   fill: rgb(var(--offline)) !important;
 }
 
 /* color for away status */
-.awayOrSnooze .personanameandstatus_playerName_1uxaf,
-.awayOrSnooze .personanameandstatus_gameName_qvibF,
-.awayOrSnooze .personanameandstatus_richPresenceLabel_3Q6g1,
-.awayOrSnooze.personastatusicons_PersonaStatusIcon_2rP7f path {
+.awayOrSnooze [class*='personanameandstatus'],
+/* zzz icon */
+ [class*='friendsnooze_SnoozeZ'] {
   color: rgb(var(--away)) !important;
   fill: rgb(var(--away)) !important;
 }
 
-/* zzz icon */
-.friendsnooze_SnoozeZ_29fyi {
-  color: rgb(var(--away)) !important;
-}
-
 /* color for watching status */
-.watchingbroadcast .personanameandstatus_playerName_1uxaf,
-.watchingbroadcast .personanameandstatus_gameName_qvibF,
-.watchingbroadcast .personanameandstatus_richPresenceLabel_3Q6g1,
-.watchingbroadcast .personastatusicons_PersonaStatusIcon_2rP7f path {
+.watchingbroadcast [class*='personanameandstatus'] {
   color: rgb(var(--watching)) !important;
   fill: rgb(var(--watching)) !important;
 }
 
-/* all other icons colors */
-.friendRequestButton .SVGIcon_FriendRequest .friendBodyFull,
-.friendRequestButton .SVGIcon_FriendRequest .friendHead,
-.friendRequestButton .SVGIcon_FriendRequest .friendArm,
-.friendRequestButton .SVGIcon_FriendRequest .friendBody {
-  fill: rgb(var(--icon)) !important;
+/* friend request icon */
+.friendRequestButton {
+  .SVGIcon_FriendRequest {
+    .friendBodyFull,
+    .friendHead,
+    .friendArm,
+    .friendBody {
+      fill: rgb(var(--icon)) !important;
+    }
+  }
+
+  &:hover .SVGIcon_FriendRequest {
+    .friendBodyFull,
+    .friendHead,
+    .friendArm,
+    .friendBody {
+      fill: rgb(var(--iconhover)) !important;
+    }
+  }
 }
 
-.friendRequestButton:hover .SVGIcon_FriendRequest .friendBodyFull,
-.friendRequestButton:hover .SVGIcon_FriendRequest .friendHead,
-.friendRequestButton:hover .SVGIcon_FriendRequest .friendArm,
-.friendRequestButton:hover .SVGIcon_FriendRequest .friendBody {
-  fill: rgb(var(--iconhover)) !important;
-}
-
-.recentChatsGroup .friendGroup .groupName,
-.friendGroup.taggedGroup .groupName,
-.friendGroup.gameGroup .groupName {
-  color: rgb(var(--text)) !important;
-}
-
-.friendStatusHover:not(.quickAccessFriend):hover,
-.friendStatusHover.Friend_ContextMenuActive {
-  background-color: rgb(var(--header)) !important;
-}
-
-.personanameandstatus_playerNickname_3-32P {
+/* nickname color */
+[class*='personanameandstatus_playerNickname'] {
   color: rgb(var(--nickname)) !important;
 }
 
-/* Makes away player name normal colour */
+.friendStatusHover {
+  &:not(.quickAccessFriend):hover,
+  &.Friend_ContextMenuActive {
+    background-color: rgb(var(--header)) !important;
+  }
+}
+
+/* remove steam opacity on away user */
 .friend.awayOrSnooze .labelHolder {
   opacity: 1 !important;
 }
