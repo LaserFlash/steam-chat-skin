@@ -1,6 +1,6 @@
 .PagedSettingsDialog_PageList::after {
   content: 'Themed by: \A Bryn Bennett \A       "aka" LaserFlash';
-  display: block;
-  line-height: 1.25em;
   white-space: pre;
+  position: absolute;
+  bottom: $spacer;
 }

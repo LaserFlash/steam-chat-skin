@@ -27,6 +27,18 @@
   color: rgb(var(--text));
 }
 
+.PagedSettingsDialog_PageList {
+  overflow-x: hidden;
+
+  .PagedSettingsDialog_PageListItem {
+    transition: 0.3s;
+
+    &.Active {
+      transform: translateX($spacer);
+    }
+  }
+}
+
 /* Fake friend - nickname option */
 .friendSettingsFakeFriend .fakeFriendAvatar {
   transform: scale(1, 1);

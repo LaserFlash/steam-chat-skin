@@ -8,38 +8,16 @@
 @import 'common/currentUser';
 
 /* Avatars */
-@import './avatars/avatars';
+@import './avatars/*.scss';
 
 /* Friend List */
-@import './friends/currentUser';
-@import './friends/friendsSearchBar';
-@import './friends/quickAccess';
-@import './friends/groupChatSection';
-@import './friends/statusColours';
-@import './friends/miniProfile';
-@import './friends/friendGroup';
-@import './friends/contextMenu';
-@import './friends/notifications';
-@import './friends/miscFriendlist';
+@import './friends/*.scss';
 
 /* Chat Window */
-@import './chat/chatWindow';
-@import './chat/chatTabs';
-@import './chat/voiceControls';
-@import './chat/discordStyleChatInput';
-@import './chat/dockedChat';
-@import './chat/emoticonPicker';
+@import './chat/*.scss';
 
 /* Settings Window */
-@import './settings/settingsWindow';
-@import './settings/createChatDialog';
-@import './settings/voice';
-@import './settings/onOffToggle';
-@import './settings/checkbox';
-@import './settings/button';
-@import './settings/dialogSlider';
-@import './settings/dropDown';
-@import './settings/settings';
+@import './settings/*.scss';
 
 /* Scrollbar */
 @import './scrollbar';
