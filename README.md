@@ -1,4 +1,4 @@
-![CI/CD](https://github.com/LaserFlash/steam-chat-skin/workflows/CI/badge.svg)
+[![CI/CD](https://github.com/LaserFlash/steam-chat-skin/workflows/CI/badge.svg)](https://github.com/LaserFlash/steam-chat-skin/actions)
 
 # Steam Friends / Chat Skin
 
