@@ -13,7 +13,6 @@
 
 /* unread message count */
 .unreadFriend .FriendMessageCount {
-  animation-name: none !important;
   background: transparent !important;
   border-radius: 40px !important;
   box-shadow: 0 0 14px 1px rgba(var(--unreadmessage), 0.5);

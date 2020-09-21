@@ -1,44 +1,30 @@
-/* Hide name in QuickAccess as generally does not fit */
-.friend.quickAccessFriend .playerNameQuickAccessContainer {
-  display: none !important;
-}
+.quickAccessFriends {
+  .quickAccessFriend {
+    /* Hide name in QuickAccess as generally does not fit */
+    .playerNameQuickAccessContainer {
+      display: none !important;
+    }
+    /* Away or snooze is never transparent */
+    &.awayOrSnooze .avatarHolder img {
+      opacity: 1 !important;
+    }
+    /* Enlarge on hover */
+    .avatarHolder:hover {
+      transform: scale(1.05, 1.05);
+    }
+  }
+  /* Adjust removal of name */
+  .favoriteElement {
+    height: auto !important;
+  }
 
-/* Away or snooze is never transparent */
-.quickAccessFriends .friend.friend.awayOrSnooze .avatarHolder img {
-  opacity: 1 !important;
-}
-
-/* Enlarge on hover */
-.quickAccessFriends .favoriteElement:hover .friend .avatarHolder {
-  transform: scale(1.05, 1.05) translateX(0);
-}
-
-/* Never scale avatar down */
-.quickAccessFriend .avatarHolder {
-  padding: 0 !important;
-  transform: scale(1, 1) translateX(0);
-}
-
-/* Adjust for content & removal of name */
-.favoriteElement {
-  height: auto !important;
-}
-
-.friend.quickAccessFriend .avatarHolder .avatar {
-  width: 42px;
-}
-
-.friend.quickAccessFriend {
-  margin-bottom: 4px;
-  margin-top: 4px;
-}
-
-.quickAccessFriends .ChatUnreadMessageIndicator .chatUnreadCircle {
-  bottom: -60% !important;
-  box-shadow: 0 0 14px 1px rgb(var(--unreadmessage)),
-    0 0 32px 1px rgb(var(--unreadmessage));
-  margin: 0 auto;
-  position: relative;
-  right: 0 !important;
-  z-index: 3;
+  .ChatUnreadMessageIndicator .chatUnreadCircle {
+    bottom: -60% !important;
+    box-shadow: 0 0 14px 1px rgb(var(--unreadmessage)),
+      0 0 32px 1px rgb(var(--unreadmessage));
+    margin: 0 auto;
+    position: relative;
+    right: 0 !important;
+    z-index: 3;
+  }
 }
