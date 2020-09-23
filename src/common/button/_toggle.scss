@@ -1,0 +1,20 @@
+@use 'common/variables-sass' as *;
+
+@mixin toggle {
+  [class*='toggle_Toggle'] {
+    [class*='ToggleRail'] {
+      background-color: rgb(var(--friendlist));
+    }
+    [class*='Highlight'] {
+      background-color: rgb(var(--buttonOn)) !important;
+    }
+    [class*='ToggleSwitch'] {
+      &[class*='toggle_On'] {
+        background: rgb(var(--buttonOn)) !important;
+      }
+      &[class*='toggle_Off'] {
+        background: rgb(var(--buttonOff)) !important;
+      }
+    }
+  }
+}

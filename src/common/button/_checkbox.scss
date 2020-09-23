@@ -1,0 +1,31 @@
+@use 'common/variables-sass' as *;
+@use './button';
+
+@mixin base {
+  background-color: rgb(var(--friendlist)) !important;
+  border-radius: $border-radius-sm !important;
+}
+
+@mixin active {
+  .SVGIcon_DialogCheck path {
+    stroke: rgb(var(--buttonOn)) !important;
+  }
+}
+
+@mixin hover {
+  @include button.outline-hover;
+}
+
+@mixin checkbox {
+  .DialogCheckbox {
+    @include base;
+
+    &.Active {
+      @include active;
+    }
+
+    &:hover {
+      @include hover;
+    }
+  }
+}

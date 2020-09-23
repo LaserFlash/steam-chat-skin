@@ -4,15 +4,6 @@
   border-radius: $border-radius !important;
 }
 
-/* Friend hover background */
-.FriendPicker_SuggestedFriend {
-  border-radius: $border-radius !important;
-}
-
-.FriendPicker_SuggestedFriend.Focus {
-  background-color: rgb(var(--friendlist)) !important;
-}
-
 .DialogTextInputBase,
 ._DialogInputContainer {
   background-color: rgb(var(--header)) !important;
@@ -21,4 +12,14 @@
 .CreateChatDialog ._DialogColLayout {
   margin-left: $border-width-sm;
   width: calc(100% - #{$border-width});
+}
+
+.FriendPicker_SuggestedFriend {
+  border-radius: $border-radius !important;
+  &.Focus {
+    background-color: rgb(var(--friendlist)) !important;
+  }
+  [class*='personanameandstatus_richPresenceLabel']:not([class*='gameName']) {
+    display: none;
+  }
 }

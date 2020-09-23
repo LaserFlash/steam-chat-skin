@@ -1,0 +1,46 @@
+.PagedSettingsDialog_PageListColumn,
+._DialogInputContainer,
+.FriendsSettingsNotificationRow,
+.voiceMicTestContainer,
+.voiceSelfDirections,
+[class*='toggle_ToggleRow'] {
+  background: rgb(var(--header)) !important;
+}
+
+._DialogInputContainer,
+.FriendsSettingsNotificationRow,
+.voiceMicTestContainer,
+.voiceSelfDirections {
+  border-radius: $border-radius;
+}
+
+.FriendsSettingsNotificationRow_Header {
+  margin-bottom: $spacer-sm !important;
+}
+
+.DialogContent,
+.Shared_Radio_Group,
+._DialogColLayout,
+.advancedSettings {
+  background: rgb(var(--friendlist)) !important;
+}
+
+[class*='voicesettings_TransmissionTypeSettings'] {
+  border: 0;
+}
+
+/* active tab */
+.PagedSettingsDialog_PageList {
+  overflow-x: hidden;
+  .PagedSettingsDialog_PageListItem {
+    transition: 0.3s;
+    &.Active {
+      transform: translateX($spacer);
+    }
+  }
+}
+
+/* Fake friend - nickname option */
+.friendSettingsFakeFriend .fakeFriendAvatar {
+  transform: scale(1, 1);
+}

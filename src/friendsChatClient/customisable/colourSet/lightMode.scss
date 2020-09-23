@@ -20,7 +20,7 @@
   --iconhover: #{hex-to-rgb($black)};
 
   /* Title Icon Background */
-  --titleiconbg: #{hex-to-rgb($gray-400)};
+  --titleiconbg: #{hex-to-rgb($gray-300)};
   --titleiconhover: var(--iconhover);
 
   /* Status Colours */
@@ -32,7 +32,7 @@
 
   /* Buttons */
   --buttonOn: #{hex-to-rgb($light-accent)};
-  --buttonOff: #{hex-to-rgb($gray-700)};
+  --buttonOff: #{hex-to-rgb(lighten($light-accent, 20%))};
 
   /* Scroll Bar */
   --scrollbarPrimary: #{hex-to-rgb($gray-600)};
@@ -66,8 +66,7 @@
 .activeVoiceControls path,
 .activeVoiceControls polyline,
 .chatRoomTextChannel line,
-.chatRoomTextChannel path,
-.SVGIcon_Button line {
+.chatRoomTextChannel path {
   stroke: rgb(var(--icon)) !important;
 }
 

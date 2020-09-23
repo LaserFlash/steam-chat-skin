@@ -1,0 +1,32 @@
+/* Side bar */
+.PagedSettingsDialog_PageListItem,
+/* Tab heading*/
+.DialogHeader,
+/*Most setting text*/
+._DialogInputContainer,
+.DialogLabel,
+.DialogToggle_Description,
+.DialogLabelExplainer,
+/* Notifications */
+.FriendsSettingsNotificationRow,
+.FriendsSettingsNotificationRow_Label,
+.FriendsSettingsNotificationRow_Checkbox,
+/* Voice - hotkeys */
+[class*="voicesettings_HotkeySettingDescription"],
+/* Voice - advanced settings */ 
+[class*="toggle_Label"] {
+  color: rgb(var(--text)) !important;
+}
+
+.PagedSettingsDialog_Title {
+  color: rgb(var(--buttonOn)) !important;
+}
+
+/* Links */
+.DialogBody a {
+  color: rgb(var(--buttonOn)) !important;
+
+  &:hover {
+    color: rgb(var(--text)) !important;
+  }
+}

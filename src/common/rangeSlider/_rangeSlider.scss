@@ -1,0 +1,18 @@
+@mixin slider {
+  /* Slider grabber */
+  .DialogSlider_Grabber {
+    background: rgb(var(--buttonOn)) !important;
+    box-shadow: 0 0 3px #000a;
+  }
+
+  /* Slider value */
+  .DialogSlider_Value {
+    background: rgb(var(--buttonOn)) !important;
+  }
+
+  /* Slider Background */
+  .DialogSlider_Slider {
+    background: rgb(var(--buttonOff)) !important;
+    border: 0 !important;
+  }
+}
