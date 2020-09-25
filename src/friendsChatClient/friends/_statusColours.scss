@@ -5,7 +5,8 @@
 }
 
 /* color for online status */
-.online [class*='personanameandstatus'] {
+.online [class*='personanameandstatus'],
+.online [class*='personanameandstatus'] path {
   color: rgb(var(--online)) !important;
   fill: rgb(var(--online)) !important;
 }
@@ -18,8 +19,9 @@
 
 /* color for away status */
 .awayOrSnooze [class*='personanameandstatus'],
+.awayOrSnooze [class*='personanameandstatus'] path,
 /* zzz icon */
- [class*='friendsnooze_SnoozeZ'] {
+[class*='friendsnooze_SnoozeZ'] {
   color: rgb(var(--away)) !important;
   fill: rgb(var(--away)) !important;
 }
