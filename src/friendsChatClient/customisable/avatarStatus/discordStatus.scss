@@ -90,30 +90,50 @@ DISCORD STATUS (DEFAULT)
 }
 
 .avatarHolder.awayOrSnooze .avatarStatus {
-  background-image: url('assets/half-moon.svg') !important;
-  background-repeat: no-repeat;
+  background: rgb(var(--away)) !important;
   -webkit-mask: none !important;
+  overflow: hidden;
 }
 
-.friendlistListContainer .awayOrSnooze .avatarStatus,
-.ChatTabsContextMenu .awayOrSnooze .avatarStatus,
-.chatTabSetContainer .awayOrSnooze .avatarStatus,
-.FriendPicker .awayOrSnooze:hover .avatarStatus,
+.avatarHolder.awayOrSnooze.ingame .avatarStatus {
+  background: rgb(var(--awayIngame)) !important;
+}
+
+.avatarHolder.awayOrSnooze .avatarStatus::before {
+  background: rgb(var(--friendlist));
+  border-radius: 50%;
+  content: '';
+  display: block;
+  height: 75%;
+  margin-left: -12.5%;
+  margin-top: -12.5%;
+  width: 75%;
+}
+
+.friendlistListContainer .awayOrSnooze .avatarStatus::before,
+.ChatTabsContextMenu .awayOrSnooze .avatarStatus::before,
+.chatTabSetContainer .awayOrSnooze .avatarStatus::before,
+.FriendPicker .awayOrSnooze:hover .avatarStatus::before,
 .MemberListColumn .avatarStatus,
 .friendCategoryContainer .offline .avatarStatus,
 .ChatTabsContextMenu .offline .avatarStatus,
 .chatTabSetContainer .offline .avatarStatus,
 .FriendPicker .offline:hover .avatarStatus,
 .OneOnOneVoiceMembers .offline .avatarStatus,
-.OneOnOneVoiceMembers .awayOrSnooze .avatarStatus {
+.OneOnOneVoiceMembers .awayOrSnooze .avatarStatus::before {
   background-color: rgb(var(--friendlist)) !important;
 }
 
-.friendlistListContainer .awayOrSnooze:hover .avatarStatus,
-.miniProfileHover .awayOrSnooze .avatarStatus,
-.ChatTabsContextMenu .contextMenuItem:not(:hover) .awayOrSnooze .avatarStatus,
+.friendlistListContainer .awayOrSnooze:hover .avatarStatus::before,
+.miniProfileHover .awayOrSnooze .avatarStatus::before,
+.ChatTabsContextMenu
+  .contextMenuItem:not(:hover)
+  .awayOrSnooze
+  .avatarStatus::before,
 .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .offline .avatarStatus,
-.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .awayOrSnooze .avatarStatus,
+.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI)
+  .awayOrSnooze
+  .avatarStatus::before,
 .friendCategoryContainer .offline:hover .avatarStatus,
 .ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
   background-color: rgb(var(--header)) !important;
