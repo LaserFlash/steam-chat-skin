@@ -27,6 +27,7 @@
   --ingame: #{hex-to-rgb($steam-ingame)};
   --online: #{hex-to-rgb($steam-online)};
   --away: #{hex-to-rgb($steam-away)};
+  --awayIngame: var(--ingame);
   --watching: #{hex-to-rgb($steam-watching)};
   --offline: #{hex-to-rgb($steam-offline)};
 

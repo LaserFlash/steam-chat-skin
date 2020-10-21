@@ -4,6 +4,12 @@
   fill: rgb(var(--ingame)) !important;
 }
 
+/* color for ingame status */
+.ingame.awayOrSnooze [class*='personanameandstatus'] {
+  color: rgb(var(--awayIngame)) !important;
+  fill: rgb(var(--awayIngame)) !important;
+}
+
 /* color for online status */
 .online [class*='personanameandstatus'],
 .online [class*='personanameandstatus'] path {
