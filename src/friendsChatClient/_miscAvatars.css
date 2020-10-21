@@ -15,6 +15,9 @@
 .quickAccessFriend
   .avatarHolder:not(.offline).ingame.awayOrSnooze
   :nth-last-child(4).avatar,
+.quickAccessFriend
+  .avatarHolder:not(.ingame).awayOrSnooze
+  :nth-last-child(3).avatar,
 .miniProfileHover
   .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
   :nth-last-child(2).avatar,
