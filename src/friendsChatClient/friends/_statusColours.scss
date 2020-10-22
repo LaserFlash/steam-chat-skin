@@ -1,45 +1,52 @@
-/* color for ingame status */
-.ingame [class*='personanameandstatus'],
-.ingame [class*='personanameandstatus'] path {
-  color: rgb(var(--ingame)) !important;
-  fill: rgb(var(--ingame)) !important;
+// list friend name
+[class*='personanameandstatus'],
+// chat name
+.speakerName,
+// miniprofile status
+[class*='miniprofile_awayStatusLabel'],
+// miniprofile friend name
+[class*='miniprofile_personaNameLabel'],
+[class*='miniprofile_richPresence'],
+// zzz icon
+[class*='friendsnooze_SnoozeZ'],
+// mobile phone icon
+.SVGIcon_MobilePhone path,
+// other icons
+[class*='personanameandstatus'] path {
+  [class*='ingame'] & {
+    color: rgb(var(--ingame)) !important;
+    fill: rgb(var(--ingame)) !important;
+  }
+
+  .ingame[class*='away'] & {
+    color: rgb(var(--awayIngame)) !important;
+    fill: rgb(var(--awayIngame)) !important;
+  }
+
+  .online & {
+    color: rgb(var(--online)) !important;
+    fill: rgb(var(--online)) !important;
+  }
+
+  .offline & {
+    color: rgb(var(--offline)) !important;
+    fill: rgb(var(--offline)) !important;
+  }
+
+  [class*='away'] & {
+    color: rgb(var(--away)) !important;
+    fill: rgb(var(--away)) !important;
+  }
+
+  .watchingbroadcast & {
+    color: rgb(var(--watching)) !important;
+    fill: rgb(var(--watching)) !important;
+  }
 }
 
-/* color for ingame status */
-.ingame.awayOrSnooze [class*='personanameandstatus'],
-.ingame.awayOrSnooze [class*='personanameandstatus'] path,
-/* zzz icon */
-.ingame.awayOrSnooze [class*='friendsnooze_SnoozeZ'] {
-  color: rgb(var(--awayIngame)) !important;
-  fill: rgb(var(--awayIngame)) !important;
-}
-
-/* color for online status */
-.online [class*='personanameandstatus'],
-.online [class*='personanameandstatus'] path {
-  color: rgb(var(--online)) !important;
-  fill: rgb(var(--online)) !important;
-}
-
-/* color for offline status */
-.offline [class*='personanameandstatus'] {
-  color: rgb(var(--offline)) !important;
-  fill: rgb(var(--offline)) !important;
-}
-
-/* color for away status */
-.awayOrSnooze [class*='personanameandstatus'],
-.awayOrSnooze [class*='personanameandstatus'] path,
-/* zzz icon */
-[class*='friendsnooze_SnoozeZ'] {
-  color: rgb(var(--away)) !important;
-  fill: rgb(var(--away)) !important;
-}
-
-/* color for watching status */
-.watchingbroadcast [class*='personanameandstatus'] {
-  color: rgb(var(--watching)) !important;
-  fill: rgb(var(--watching)) !important;
+/* nickname color */
+[class*='personanameandstatus_playerNickname'] {
+  color: rgb(var(--nickname)) !important;
 }
 
 /* friend request icon */
@@ -61,11 +68,6 @@
       fill: rgb(var(--iconhover)) !important;
     }
   }
-}
-
-/* nickname color */
-[class*='personanameandstatus_playerNickname'] {
-  color: rgb(var(--nickname)) !important;
 }
 
 .friendStatusHover {

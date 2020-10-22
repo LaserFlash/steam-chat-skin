@@ -281,30 +281,6 @@ CHAT WINDOW
   background-color: none !important;
 }
 
-/* ==========================================================================
-                               Chat Name Colours                             */
-
-.messages_SpeakerName_InGame_1vaKy {
-  color: rgb(var(--ingame)) !important;
-}
-
-.ingame.away .speakerName {
-  color: rgb(var(--awayIngame)) !important;
-}
-
-.messages_SpeakerName_Online_2nKVN {
-  color: rgb(var(--online)) !important;
-}
-
-.away .messages_SpeakerName_Online_2nKVN,
-.away .messages_SpeakerName_InGame_1vaKy {
-  color: rgb(var(--away)) !important;
-}
-
-.messages_SpeakerName_Default_1Qo8j {
-  color: rgb(var(--offline)) !important;
-}
-
 .msgText {
   color: rgb(var(--text)) !important;
 }

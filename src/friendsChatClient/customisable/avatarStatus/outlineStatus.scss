@@ -22,49 +22,39 @@
 }
 
 /* === Status Colours === */
-.online .avatar,
-.online .avatarFrame img,
-.online .miniprofile_Frame_3MZRj {
-  color: rgb(var(--online)) !important;
-}
+.avatar,
+.avatarFrame img,
+.miniprofile_Frame_3MZRj {
+  .online & {
+    color: rgb(var(--online)) !important;
+  }
 
-.watchingbroadcast .avatar,
-.watchingbroadcast .avatarFrame img,
-.watchingbroadcast .miniprofile_Frame_3MZRj {
-  color: rgb(var(--watching)) !important;
-}
+  .watchingbroadcast & {
+    color: rgb(var(--watching)) !important;
+  }
 
-/* Golden status */
-.golden .avatar,
-.golden .avatarFrame img,
-.golden .miniprofile_Frame_3MZRj {
-  color: #d5bf6a !important;
-}
+  /* Golden status */
+  .golden & {
+    color: #d5bf6a !important;
+  }
 
-.ingame .avatar,
-.ingame .avatarFrame img,
-.ingame .miniprofile_Frame_3MZRj {
-  color: rgb(var(--ingame)) !important;
-}
+  .ingame & {
+    color: rgb(var(--ingame)) !important;
+  }
 
-/* color for ingame status */
-.ingame.awayOrSnooze .avatar,
-.ingame.awayOrSnooze .avatarFrame img,
-.ingame.awayOrSnooze .miniprofile_Frame_3MZRj {
-  color: rgb(var(--awayIngame)) !important;
-  fill: rgb(var(--awayIngame)) !important;
-}
+  /* color for ingame status */
+  .ingame.awayOrSnooze & {
+    color: rgb(var(--awayIngame)) !important;
+    fill: rgb(var(--awayIngame)) !important;
+  }
 
-.awayOrSnooze .avatar,
-.awayOrSnooze .avatarFrame img,
-.awayOrSnooze .miniprofile_Frame_3MZRj {
-  color: rgb(var(--away)) !important;
-}
+  .awayOrSnooze & {
+    color: rgb(var(--away)) !important;
+  }
 
-.offline .avatar,
-.offline .avatarFrame img,
-.offline .miniprofile_Frame_3MZRj {
-  color: rgb(var(--offline)) !important;
+  .offline & {
+    color: rgb(var(--offline)) !important;
+  }
 }
 
 /* Apply margin to avatars without frame for better positioning */
