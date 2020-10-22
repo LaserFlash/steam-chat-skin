@@ -1,11 +1,13 @@
 /* color for ingame status */
-.ingame [class*='personanameandstatus'] {
+.ingame [class*='personanameandstatus'],
+.ingame [class*='personanameandstatus'] path {
   color: rgb(var(--ingame)) !important;
   fill: rgb(var(--ingame)) !important;
 }
 
 /* color for ingame status */
 .ingame.awayOrSnooze [class*='personanameandstatus'],
+.ingame.awayOrSnooze [class*='personanameandstatus'] path,
 /* zzz icon */
 .ingame.awayOrSnooze [class*='friendsnooze_SnoozeZ'] {
   color: rgb(var(--awayIngame)) !important;

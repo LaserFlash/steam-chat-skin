@@ -16,8 +16,17 @@
 
 /* mini profile PersonaName */
 .online .miniprofile_personaNameLabel_390p4,
-.online .miniprofile_awayStatusLabel_2UzRy {
+.online .miniprofile_awayStatusLabel_2UzRy,
+.online .SVGIcon_MobilePhone path {
   color: rgb(var(--online)) !important;
+  fill: rgb(var(--online)) !important;
+}
+
+.ingame.awayOrSnooze .miniprofile_personaNameLabel_390p4,
+.ingame.awayOrSnooze .miniprofile_awayStatusLabel_2UzRy,
+.ingame.awayOrSnooze .SVGIcon_MobilePhone path {
+  color: rgb(var(--awayIngame)) !important;
+  fill: rgb(var(--awayIngame)) !important;
 }
 
 .ingame .miniprofile_personaNameLabel_390p4,
@@ -26,7 +35,6 @@
 .miniprofile_ingame_3H2mq .miniprofile_richPresence_1rud4 {
   color: rgb(var(--ingame)) !important;
 }
-
 .awayOrSnooze .miniprofile_personaNameLabel_390p4,
 .awayOrSnooze .miniprofile_awayStatusLabel_2UzRy {
   color: rgb(var(--away)) !important;
