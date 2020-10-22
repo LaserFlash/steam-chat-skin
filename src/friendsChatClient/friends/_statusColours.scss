@@ -5,7 +5,9 @@
 }
 
 /* color for ingame status */
-.ingame.awayOrSnooze [class*='personanameandstatus'] {
+.ingame.awayOrSnooze [class*='personanameandstatus'],
+/* zzz icon */
+.ingame.awayOrSnooze [class*='friendsnooze_SnoozeZ'] {
   color: rgb(var(--awayIngame)) !important;
   fill: rgb(var(--awayIngame)) !important;
 }

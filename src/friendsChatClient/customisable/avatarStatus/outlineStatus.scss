@@ -47,6 +47,14 @@
   color: rgb(var(--ingame)) !important;
 }
 
+/* color for ingame status */
+.ingame.awayOrSnooze .avatar,
+.ingame.awayOrSnooze .avatarFrame img,
+.ingame.awayOrSnooze .miniprofile_Frame_3MZRj {
+  color: rgb(var(--awayIngame)) !important;
+  fill: rgb(var(--awayIngame)) !important;
+}
+
 .awayOrSnooze .avatar,
 .awayOrSnooze .avatarFrame img,
 .awayOrSnooze .miniprofile_Frame_3MZRj {
