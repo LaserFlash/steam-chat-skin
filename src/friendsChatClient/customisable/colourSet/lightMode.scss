@@ -27,7 +27,7 @@
   --ingame: #{hex-to-rgb($light-ingame)};
   --online: #{hex-to-rgb($light-online)};
   --away: #{hex-to-rgb($light-away)};
-  --awayIngame: var(--ingame);
+  --awayIngame: var(--away);
   --watching: #{hex-to-rgb($light-watching)};
   --offline: #{hex-to-rgb($light-offline)};
 

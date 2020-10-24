@@ -27,7 +27,7 @@
   --ingame: #{hex-to-rgb($discord-ingame)};
   --online: #{hex-to-rgb($discord-online)};
   --away: #{hex-to-rgb($discord-away)};
-  --awayIngame: var(--ingame);
+  --awayIngame: var(--away);
   --watching: #{hex-to-rgb($discord-watching)};
   --offline: #{hex-to-rgb($discord-offline)};
 
