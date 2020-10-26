@@ -17,12 +17,16 @@
   .avatarHolder:not(.offline).ingame
   :nth-last-child(2).avatar,
 .friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2).avatar,
+.quickAccessFriend .avatarHolder.online:not(.ingame) :nth-last-child(2).avatar,
 .quickAccessFriend
   .avatarHolder.ingame:not(.offline):not(.awayOrSnooze)
   :nth-last-child(3).avatar,
 .quickAccessFriend
   .avatarHolder:not(.offline).ingame.awayOrSnooze
   :nth-last-child(4).avatar,
+.quickAccessFriend
+  .avatarHolder:not(.ingame).awayOrSnooze
+  :nth-last-child(3).avatar,
 .miniProfileHover
   .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
   :nth-last-child(2).avatar,
