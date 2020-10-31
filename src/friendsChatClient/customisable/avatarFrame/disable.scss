@@ -17,7 +17,9 @@
   .avatarHolder:not(.offline).ingame
   :nth-last-child(2).avatar,
 .friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2).avatar,
-.quickAccessFriend .avatarHolder.online:not(.ingame) :nth-last-child(2).avatar,
+.quickAccessFriend
+  .avatarHolder.online:not(.ingame):not(.awayOrSnooze)
+  :nth-last-child(2).avatar,
 .quickAccessFriend
   .avatarHolder.ingame:not(.offline):not(.awayOrSnooze)
   :nth-last-child(3).avatar,
