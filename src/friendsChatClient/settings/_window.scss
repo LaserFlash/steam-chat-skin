@@ -1,4 +1,4 @@
-.PagedSettingsDialog_PageListColumn,
+[class*='PagedSettingsDialog_PageListColumn'],
 ._DialogInputContainer,
 .FriendsSettingsNotificationRow,
 .voiceMicTestContainer,
@@ -30,11 +30,12 @@
 }
 
 /* active tab */
-.PagedSettingsDialog_PageList {
+[class*='PagedSettingsDialog_PageList'] {
   overflow-x: hidden;
-  .PagedSettingsDialog_PageListItem {
+  [class*='PagedSettingsDialog_PageListItem'] {
     transition: 0.3s;
-    &.Active {
+    &[class*='Active'],
+    &:hover {
       transform: translateX($spacer);
     }
   }

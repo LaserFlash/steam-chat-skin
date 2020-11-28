@@ -1,6 +1,6 @@
-.PagedSettingsDialog_PageList::after {
+[class*='PagedSettingsDialog_PageListColumn']::after {
   bottom: $spacer;
-  content: 'Themed by: \A Bryn Bennett \A       "aka" LaserFlash';
+  content: 'Themed by: \A LaserFlash (Bryn)';
   position: absolute;
   white-space: pre;
 }

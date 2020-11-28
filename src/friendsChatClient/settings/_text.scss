@@ -1,5 +1,5 @@
 /* Side bar */
-.PagedSettingsDialog_PageListItem,
+[class*="PagedSettingsDialog_PageListItem"],
 /* Tab heading*/
 .DialogHeader,
 /*Most setting text*/
@@ -18,7 +18,7 @@
   color: rgb(var(--text)) !important;
 }
 
-.PagedSettingsDialog_Title {
+[class*='PagedSettingsDialog_Title'] {
   color: rgb(var(--buttonOn)) !important;
 }
 
