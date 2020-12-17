@@ -13,11 +13,13 @@
   .avatarHolder.online:not(.ingame):not(.awayOrSnooze)
   :nth-last-child(2).avatar,
 .quickAccessFriend
-  .avatarHolder.ingame:not(.offline):not(.awayOrSnooze)
+  .avatarHolder.ingame:not(.awayOrSnooze)
   :nth-last-child(3).avatar,
 .quickAccessFriend
-  .avatarHolder:not(.offline).ingame.awayOrSnooze
-  :nth-last-child(4).avatar,
+  .avatarHolder.ingame:not(.awayOrSnooze)
+  :nth-last-child(2).avatar,
+.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(4).avatar,
+.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(3).avatar,
 .quickAccessFriend
   .avatarHolder:not(.ingame).awayOrSnooze
   :nth-last-child(3).avatar,
