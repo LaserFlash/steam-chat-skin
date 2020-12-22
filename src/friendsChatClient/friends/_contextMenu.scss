@@ -34,9 +34,9 @@
 .ContextMenuButton .SVGIcon_DownArrowContextMenu {
   /* Icon Colour */
   fill: rgb(var(--icon)) !important;
-  height: 100%;
-  padding-left: 0;
-  padding-top: 0;
+  height: 100% !important;
+  padding-left: 0 !important;
+  padding-top: 0 !important;
 }
 
 .ContextMenuButton {

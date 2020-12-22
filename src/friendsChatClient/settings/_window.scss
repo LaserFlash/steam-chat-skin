@@ -31,17 +31,17 @@
 
 /* active tab */
 [class*='PagedSettingsDialog_PageList'] {
-  overflow-x: hidden;
+  overflow: visible;
   [class*='PagedSettingsDialog_PageListItem'] {
     transition: 0.3s;
     &[class*='Active'],
     &:hover {
-      transform: translateX($spacer);
+      padding-left: $spacer;
     }
   }
 }
 
 /* Fake friend - nickname option */
 .friendSettingsFakeFriend .fakeFriendAvatar {
-  transform: scale(1, 1);
+  transform: scale(1, 1) !important;
 }
