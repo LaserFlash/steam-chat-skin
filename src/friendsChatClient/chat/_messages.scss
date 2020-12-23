@@ -13,8 +13,8 @@
   }
 
   [class*='messages_Addons'] {
-    border: 1px solid rgb(var(--friendlist)) !important;
     background-color: rgb(var(--header)) !important;
+    border: 1px solid rgb(var(--friendlist)) !important;
 
     [class*='messages_Emoticon'] {
       stroke: rgb(var(--icon));
