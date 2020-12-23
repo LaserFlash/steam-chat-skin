@@ -1,0 +1,71 @@
+@import 'common/card/card';
+
+// partner event cards (game updates, etc)
+[class*='appactivityday_AppActivityDay'] [class*='appactivityday_Event'] {
+  // partner event
+  &[class*='appactivityday_PartnerEvent'] {
+    @include card();
+    @include cardSections(
+      'appactivityday_PartnerEventMediumImage_TextColumn',
+      'appactivityday_PartnerEventMediumImage_Container',
+      'appactivityday_PartnerEventMediumImage_Summary_Ru7OB',
+      'appactivityday_PartnerEventMediumImage_Title_1gljE',
+      'appactivityday_PartnerEventType_1ujzu',
+      ''
+    );
+    @include cardLeftImage('appactivityday_PartnerEventMediumImage_Image');
+
+    // reset default padding
+    [class*='appactivityday_PartnerEventMediumImage_Contents'] {
+      padding: 0;
+    }
+
+    [class*='appactivityday_PartnerEventMediumImage_TextColumn'] {
+      padding-top: $spacer;
+    }
+
+    // Post comments
+
+    // remove manual spacer
+    [class*='comment_thread_ButtonSpacer'] {
+      display: none;
+    }
+  }
+
+  [class*='comment_thread_RatingBar'] {
+    width: fit-content;
+    margin-left: auto;
+    background: rgb(var(--friendlist));
+    border-radius: 0 0 $border-radius $border-radius;
+
+    [class*='Count'] {
+      color: rgb(var(--text)) !important;
+    }
+
+    [class*='Button'][class*='CanClick'] {
+      [class*='comment_thread_RatingIcon'] {
+        fill: rgb(var(--icon));
+        stroke: rgb(var(--icon));
+      }
+
+      &:hover {
+        background: rgb(var(--header));
+
+        [class*='comment_thread_RatingIcon'] {
+          fill: rgb(var(--iconhover));
+          stroke: rgb(var(--iconhover));
+        }
+      }
+    }
+
+    [class*='comment_thread_ButtonSpacer'] {
+      display: none;
+    }
+  }
+
+  &:hover {
+    & [class*='appactivityday_PartnerEvent'] {
+      border-bottom-right-radius: 0;
+    }
+  }
+}
