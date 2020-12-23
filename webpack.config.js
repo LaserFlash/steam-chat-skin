@@ -39,6 +39,19 @@ module.exports = {
                 './src/offlineFriendsClient/offlineFriends.dev.scss',
             }
           ),
+        ...glob.sync('./src/library/customisable/**/*.+(scss|css)').reduce(
+          (acc, file) => {
+            acc[
+              file
+                .replace(/src\/library\/customisable/, 'library')
+                .replace(/\.(scss|css)/gi, '')
+            ] = file;
+            return acc;
+          },
+          {
+            'library/library': './src/libraryClient/library.dev.scss',
+          }
+        ),
       }
     ),
   resolve: {
