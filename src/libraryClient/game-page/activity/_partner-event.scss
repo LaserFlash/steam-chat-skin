@@ -5,7 +5,7 @@
   // partner event
   &[class*='appactivityday_PartnerEvent'] {
     @include card();
-    @include cardSections(
+    @include card-sections(
       'appactivityday_PartnerEventMediumImage_TextColumn',
       'appactivityday_PartnerEventMediumImage_Container',
       'appactivityday_PartnerEventMediumImage_Summary_Ru7OB',
@@ -13,7 +13,7 @@
       'appactivityday_PartnerEventType_1ujzu',
       ''
     );
-    @include cardLeftImage('appactivityday_PartnerEventMediumImage_Image');
+    @include card-left-image('appactivityday_PartnerEventMediumImage_Image');
 
     // reset default padding
     [class*='appactivityday_PartnerEventMediumImage_Contents'] {
@@ -33,10 +33,10 @@
   }
 
   [class*='comment_thread_RatingBar'] {
-    width: fit-content;
-    margin-left: auto;
     background: rgb(var(--friendlist));
     border-radius: 0 0 $border-radius $border-radius;
+    margin-left: auto;
+    width: fit-content;
 
     [class*='Count'] {
       color: rgb(var(--text)) !important;
@@ -63,9 +63,7 @@
     }
   }
 
-  &:hover {
-    & [class*='appactivityday_PartnerEvent'] {
-      border-bottom-right-radius: 0;
-    }
+  &:hover [class*='appactivityday_PartnerEvent'] {
+    border-bottom-right-radius: 0;
   }
 }

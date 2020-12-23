@@ -2,11 +2,11 @@
 
 [class*='appdetailscommunityfeed_CommunityItem'] {
   @include card();
-  @include cardSections(
+  @include card-sections(
     'appdetailscommunityfeed_ChildItem',
     'appdetailscommunityfeed_AuthorSection'
   );
-  @include cardTopImage('appdetailscommunityfeed_PreviewContainer');
+  @include card-top-image('appdetailscommunityfeed_PreviewContainer');
 
   // card menu button (settings)
   [class*='appdetailscommunityfeed_MenuButton'] {
@@ -17,8 +17,8 @@
   // card reactions (like, comment)
   [class*='appdetailscommunityfeed_Controls'] {
     [class*='appdetailscommunityfeed_Control'] {
-      color: rgb(var(--text));
       background-color: rgb(var(--header));
+      color: rgb(var(--text));
 
       [class*='appdetailscommunityfeed_Count'] {
         color: rgb(var(--text));
@@ -37,11 +37,11 @@
     // Treat top section of guide card as another card
     [class*='appdetailscommunityfeed_TopSectionInner'] {
       @include card(rgb(var(--header)));
-      @include cardSections(
+      @include card-sections(
         'appdetailscommunityfeed_PreviewContainer',
         'appdetailscommunityfeed_Header'
       );
-      @include cardRightImage('appdetailscommunityfeed_PreviewContainer');
+      @include card-right-image('appdetailscommunityfeed_PreviewContainer');
 
       [class*='appdetailscommunityfeed_Title'] {
         color: rgb(var(--text));

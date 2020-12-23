@@ -5,13 +5,13 @@
 
 @mixin card($background-color: rgb(var(--friendlist))) {
   background: #{$background-color} !important;
-  color: rgb(var(--text)) !important;
-  box-shadow: none !important;
   border: 0 !important;
   border-radius: $border-radius;
+  box-shadow: none !important;
+  color: rgb(var(--text)) !important;
 }
 
-@mixin cardSections($sections...) {
+@mixin card-sections($sections...) {
   @each $section in $sections {
     [class*='#{$section}'] {
       @extend %card-section;
@@ -19,7 +19,7 @@
   }
 }
 
-@mixin cardTopImage($topImages...) {
+@mixin card-top-image($topImages...) {
   @each $topImage in $topImages {
     [class*='#{$topImage}'] {
       border-radius: $border-radius $border-radius 0 0 !important;
@@ -27,7 +27,7 @@
   }
 }
 
-@mixin cardBottomImage($bottomImages...) {
+@mixin card-bottom-image($bottomImages...) {
   @each $bottomImage in $bottomImages {
     [class*='#{$bottomImage}'] {
       border-radius: 0 0 $border-radius $border-radius !important;
@@ -35,7 +35,7 @@
   }
 }
 
-@mixin cardLeftImage($leftImages...) {
+@mixin card-left-image($leftImages...) {
   @each $leftImage in $leftImages {
     [class*='#{$leftImage}'] {
       border-radius: $border-radius 0 0 $border-radius !important;
@@ -43,7 +43,7 @@
   }
 }
 
-@mixin cardRightImage($rightImages...) {
+@mixin card-right-image($rightImages...) {
   @each $rightImage in $rightImages {
     [class*='#{$rightImage}'] {
       border-radius: 0 $border-radius $border-radius 0 !important;
