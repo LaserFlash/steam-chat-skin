@@ -1,64 +1,72 @@
-/**
+[class*='addonpicker_Picker'] {
+  /**
  * Search Input
  */
-.addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover,
-.addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
-  background-color: rgb(var(--friendlist)) !important;
-}
+  [class*='addonpicker_FilterInputContainer'] {
+    [class*='addonpicker_FilterInput'] {
+      background-color: rgb(var(--header)) !important;
+      border-radius: $border-radius-lg;
 
-.addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm {
-  background-color: rgb(var(--header)) !important;
-  border-radius: $border-radius-lg;
-}
+      &:hover,
+      &:focus {
+        background-color: rgb(var(--friendlist)) !important;
+      }
+    }
+  }
 
-/**
+  /**
  * Tabs
  */
-.addonpicker_Tab_10fDn.addonpicker_Active_2J8Y1 {
-  border-bottom-color: rgb(var(--buttonOn));
-}
+  [class*='addonpicker_Tabs'] [class*='addonpicker_Tab'] {
+    [class*='emoticon_PickerTab'] {
+      &:not([class*='emoticon_Clock']) path,
+      circle,
+      line {
+        stroke: rgb(var(--icon)) !important;
+      }
+    }
 
-.addonpicker_Tab_10fDn:not(.addonpicker_Active_2J8Y1):hover {
-  border-bottom-color: rgb(var(--buttonOff));
-}
+    &[class*='addonpicker_Active'] {
+      border-bottom-color: rgb(var(--buttonOn));
+    }
 
-.emoticon_PickerTab_1tnGG circle,
-.emoticon_PickerTab_1tnGG:not(.emoticon_Clock_340rx) path,
-.emoticon_PickerTab_1tnGG line {
-  stroke: rgb(var(--icon)) !important;
-}
+    &:not([class*='addonpicker_Active']):hover {
+      border-bottom-color: rgb(var(--buttonOff));
+    }
 
-.addonpicker_Tab_10fDn:hover,
-.addonpicker_Tab_10fDn:hover .addonpicker_TabContent_1oDFo {
-  background-color: rgb(var(--friendlist)) !important;
-}
+    &:hover {
+      [class*='addonpicker_TabContent'] {
+        background-color: rgb(var(--friendlist)) !important;
+      }
+      [class*='emoticon_PickerTab'] circle,
+      [class*='emoticon_PickerTab'] line {
+        fill: rgb(var(--iconhover)) !important;
+        stroke: rgb(var(--iconhover)) !important;
+      }
 
-.addonpicker_Tab_10fDn:hover .emoticon_PickerTab_1tnGG circle,
-.addonpicker_Tab_10fDn:hover .emoticon_PickerTab_1tnGG line {
-  fill: rgb(var(--iconhover)) !important;
-  stroke: rgb(var(--iconhover)) !important;
-}
+      [class*='emoticon_PickerTab'] path {
+        fill: rgb(var(--iconhover)) !important;
+      }
+    }
+  }
 
-.addonpicker_Tab_10fDn:hover .emoticon_PickerTab_1tnGG path {
-  fill: rgb(var(--iconhover)) !important;
-}
-
-/**
+  /**
  * Picker Item
  *
  */
-.addonpicker_ItemList_275Oe .addonpicker_Item_34KHH:hover {
-  background-color: rgb(var(--friendlist));
-  border-radius: $border-radius;
-}
+  [class*='addonpicker_ItemList'] [class*='addonpicker_Item']:hover {
+    background-color: rgb(var(--friendlist));
+    border-radius: $border-radius;
+  }
 
-.emoticon_EmoticonHover_1ME8O {
-  background-color: rgb(var(--friendlist));
-}
+  [class*='emoticon_EmoticonHover'] {
+    background-color: rgb(var(--friendlist)) !important;
+  }
 
-/**
+  /**
  * Animated stickers
  */
-.emoticon_StickerButton_3O95u:hover {
-  transform: none;
+  [class*='emoticon_StickerButton']:hover {
+    transform: none;
+  }
 }

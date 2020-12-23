@@ -1,0 +1,41 @@
+[class*='messages_MsgWithAddons'] {
+  background-color: rgb(var(--friendlist)) !important;
+
+  [class*='reactions_MessageReactions'] {
+    [class*='reactions_MessageReaction'] {
+      background-color: rgb(var(--friendlist)) !important;
+      border: 0;
+
+      &:hover {
+        border: 2px solid rgb(var(--closeButton)) !important;
+      }
+    }
+  }
+
+  [class*='messages_Addons'] {
+    border: 1px solid rgb(var(--friendlist)) !important;
+    background-color: rgb(var(--header)) !important;
+
+    [class*='messages_Emoticon'] {
+      stroke: rgb(var(--icon));
+
+      path {
+        stroke: rgb(var(--icon));
+      }
+      ellipse {
+        fill: rgb(var(--icon));
+      }
+
+      &:hover {
+        stroke: rgb(var(--iconhover));
+
+        path {
+          stroke: rgb(var(--iconhover));
+        }
+        ellipse {
+          fill: rgb(var(--iconhover));
+        }
+      }
+    }
+  }
+}
