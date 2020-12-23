@@ -1,0 +1,8 @@
+@import 'common/variables-sass';
+@import 'common/variables-css';
+
+/* Common Parts */
+@import 'common/titleBar';
+
+@import './game-page/*/*.scss';
+@import './activity/*/*.scss';

@@ -1,0 +1,12 @@
+[class*='appdetailscommunityfeed_CommunityContentContainer'] {
+  // Community section header
+  [class*='appdetailscommunityfeed_HeaderStyles'] {
+    background: rgb(var(--friendlist));
+    color: rgb(var(--text));
+    font-weight: bold;
+
+    [class*='infoicon_MoreInfoIcon'] {
+      color: rgb(var(--text));
+    }
+  }
+}
