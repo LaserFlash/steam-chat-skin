@@ -1,0 +1,5 @@
+@import 'common/card/card';
+
+[class*='spotlight_AppDetailsSpotlightContainer'] {
+  @extend %card-shadow;
+}

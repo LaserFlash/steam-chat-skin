@@ -1,0 +1,21 @@
+/**
+* Major event card
+*   e.g. Steam award vote
+**/
+
+[class*='spotlight_MajorEventBackground'] {
+  display: none;
+}
+
+[class*='spotlight_MajorEventImageContainer'] {
+  -webkit-mask-image: none;
+}
+
+[class*='spotlight_MajorEventHeader'] {
+  color: rgb(var(--text));
+  font-weight: normal;
+  [class*='spotlight_EventType'] {
+    color: rgb(var(--text));
+    font-weight: bold;
+  }
+}

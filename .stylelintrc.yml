@@ -11,8 +11,8 @@ rules:
   selector-attribute-operator-allowed-list: ['=', '*=', '~=']
   selector-class-pattern: null
   selector-max-compound-selectors: 8
-  max-nesting-depth: 5
-  property-no-vendor-prefix: [true, ignoreProperties: ['mask']]
+  max-nesting-depth: 8
+  property-no-vendor-prefix: [true, ignoreProperties: ['mask','mask-image']]
   value-no-vendor-prefix: [true, ignoreValues: ['fill-available']]
   scss/at-import-partial-extension-blacklist: null
 ignoreFiles:
