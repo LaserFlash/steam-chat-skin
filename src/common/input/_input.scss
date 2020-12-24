@@ -1,0 +1,18 @@
+@mixin input($bg: rgb(var(--header)), $bg-hover: rgb(var(--friendlist))) {
+  background: $bg !important;
+  border: 0 !important;
+  border-radius: $border-radius !important;
+  box-shadow: none !important;
+  color: rgb(var(--text)) !important;
+  padding: $padding-lg !important;
+  width: fill-available !important;
+
+  &:hover,
+  &:focus {
+    background: $bg-hover !important;
+  }
+
+  &::placeholder {
+    color: rgb(var(--text)) !important;
+  }
+}

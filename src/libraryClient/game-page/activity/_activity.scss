@@ -1,1 +1,117 @@
 @import 'common/card/card';
+@import 'common/rating-bar/rating-bar';
+
+// partner event cards (game updates, etc)
+[class*='appactivityday_AppActivityDay'] [class*='appactivityday_Event'] {
+  @include rating-bar(
+    'comment_thread_RatingBar',
+    (
+      'appactivityday_PartnerEvent',
+      'appactivityday_ActivityAchievementUnlocked'
+    )
+  );
+
+  // partner event
+  &[class*='appactivityday_PartnerEvent'] {
+    @include card();
+    @include card-sections(
+      'appactivityday_PartnerEventMediumImage_TextColumn',
+      'appactivityday_PartnerEventMediumImage_Container',
+      'appactivityday_PartnerEventMediumImage_Summary',
+      'appactivityday_PartnerEventMediumImage_Title',
+      'appactivityday_PartnerEventType',
+      'appactivityday_PartnerEventTextOnly_Title',
+      'appactivityday_PartnerEventLargeImage_TextColumn',
+      'appactivityday_PartnerEventLargeImage_Container',
+      'appactivityday_PartnerEventLargeImage_Summary',
+      'appactivityday_PartnerEventLargeImage_Title'
+    );
+
+    @include card-left-image(
+      'appactivityday_PartnerEventMediumImage_Image',
+      'appactivityday_PartnerEventLargeImage_Image'
+    );
+
+    // reset default padding
+    [class*='appactivityday_PartnerEventMediumImage_Contents'],
+    [class*=' appactivityday_PartnerEventLargeImage_Contents'] {
+      padding: 0;
+    }
+
+    [class*='appactivityday_PartnerEventMediumImage_TextColumn'],
+    [class*='appactivityday_PartnerEventLargeImage_TextColumn'] {
+      padding-top: $spacer;
+    }
+
+    [class*='appactivityday_PartnerEventLargeImage_Image_'][class*='appactivityday_Blur'] {
+      display: none;
+    }
+    // Update / tool icon
+    [class*='appactivityday_PartnerEventTextOnly_Icon'] svg path {
+      fill: rgb(var(--icon)) !important;
+    }
+  }
+
+  [class*='appactivityday_ActivityAchievementUnlocked'] {
+    @include card();
+    @include card-sections(
+      'appdetailsachievementssection_Desc',
+      'appdetailsachievementssection_Name'
+    );
+  }
+
+  [class*='appactivityday_EventBody'] {
+    background: none !important;
+    box-shadow: none !important;
+    padding-left: $spacer;
+  }
+
+  [class*='comment_thread_CommentThread'] {
+    padding-left: $spacer;
+
+    [class*='comment_thread_ActivityCommentThread'] {
+      background: none;
+    }
+
+    [class*='comment_thread_Comment_'] {
+      @include card();
+      @include card-sections(
+        'appdetailsachievementssection_Desc',
+        'appdetailsachievementssection_Name'
+      );
+
+      margin-top: $spacer-xs;
+      width: auto;
+
+      [class*='comment_thread_CommentAvatar'] {
+        padding: 0 $padding;
+      }
+
+      [class*='comment_thread_CommentRatingButton'],
+      [class*='comment_thread_DeleteButton'] {
+        [class*='comment_thread_ThumbsUpComment'],
+        [class*='comment_thread_DeleteUserNews'] {
+          fill: rgb(var(--icon)) !important;
+          stroke: rgb(var(--icon)) !important;
+        }
+
+        &:hover {
+          background: none !important;
+
+          [class*='comment_thread_ThumbsUpComment'] {
+            fill: rgb(var(--iconhover)) !important;
+            stroke: rgb(var(--iconhover)) !important;
+          }
+          [class*='comment_thread_DeleteUserNews'] {
+            fill: rgb(var(--closeButton)) !important;
+            stroke: rgb(var(--closeButton)) !important;
+          }
+        }
+      }
+    }
+
+    [class*='posttextentry_PostTextEntry_'] {
+      padding: $spacer-sm 0 0 0 !important;
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@import 'common/input/input';
+@import 'common/button/button';
+@import 'common/button/emoticon';
+
+[class*='posttextentry_PostTextEntryArea'] {
+  @include input();
+}
+
+[class*='posttextentry_PostButton_2JSyA'] {
+  @include base();
+  @include bg-hover('posttextentry_Enabled', $text: rgb(var(--text)));
+}
+
+[class*='posttextentry_EmoticonButton_bACIu'] {
+  @include emoticon-button();
+
+  background-color: rgb(var(--buttonOff)) !important;
+}

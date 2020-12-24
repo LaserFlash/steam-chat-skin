@@ -1,0 +1,58 @@
+@mixin rating-bar(
+  $rating-bar,
+  $attached-threads,
+  $background-color: rgb(var(--friendlist))
+) {
+  [class*='#{$rating-bar}'] {
+    background: rgb(var(--friendlist));
+    border-radius: 0 0 $border-radius $border-radius;
+    margin-left: auto;
+    width: fit-content;
+
+    [class*='comment_thread_RatingDetails_2lY7z'] {
+      padding: 0 $padding;
+
+      &:empty {
+        display: none;
+      }
+    }
+
+    [class*='Count'] {
+      color: rgb(var(--text)) !important;
+    }
+
+    [class*='Button'][class*='CanClick'] {
+      [class*='comment_thread_RatingIcon'] {
+        fill: rgb(var(--icon));
+        stroke: rgb(var(--icon));
+      }
+
+      &:hover {
+        background: rgb(var(--header));
+
+        [class*='comment_thread_RatingIcon'] {
+          fill: rgb(var(--iconhover));
+          stroke: rgb(var(--iconhover));
+        }
+      }
+    }
+
+    [class*='comment_thread_ButtonSpacer'] {
+      display: none;
+    }
+  }
+
+  // reset unwanted padding
+  [class*='comment_thread_ActivityCommentThreadMinimized'],
+  [class*='comment_thread_RatingContainer'],
+  [class*='comment_thread_ActivityCommentThread'] {
+    padding: 0;
+  }
+
+  // attach to parent card on hover
+  @each $attached-thread in $attached-threads {
+    &:hover [class*='#{$attached-thread}'] {
+      border-bottom-right-radius: 0;
+    }
+  }
+}

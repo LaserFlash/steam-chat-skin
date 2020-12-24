@@ -1,0 +1,43 @@
+/** Emoticon Picker button */
+@mixin emoticon-button(
+  $button-size: 40px,
+  $button-radius: $border-radius-round
+) {
+  border-radius: $button-radius !important;
+  height: $button-size !important;
+  max-height: $button-size !important;
+  max-width: $button-size !important;
+  min-height: $button-size !important;
+  min-width: $button-size !important;
+  padding: 0 !important;
+  width: $button-size !important;
+
+  .SVGIcon_Emoticon {
+    background-image: url('assets/emojiIcon.svg') !important;
+    background-repeat: no-repeat !important;
+    background-size: auto !important;
+    filter: grayscale(1) !important;
+    height: 100%;
+    transition: filter 0.2s linear !important;
+    width: 100%;
+
+    * {
+      display: none;
+    }
+
+    &:hover {
+      filter: none !important;
+    }
+  }
+
+  [class*='emoticon_NewEmoticonIndicator'] {
+    background: none !important;
+    bottom: 1px !important;
+    left: unset !important;
+    right: unset !important;
+    top: unset !important;
+    [class*='emoticon_NewEmoticonCircle'] {
+      background-color: rgb(var(--unreadmessage));
+    }
+  }
+}
