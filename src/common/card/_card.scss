@@ -3,11 +3,16 @@
   color: rgb(var(--text)) !important;
 }
 
-@mixin card($background-color: rgb(var(--friendlist))) {
-  background: #{$background-color} !important;
-  border: 0 !important;
-  border-radius: $border-radius;
+%card-shadow {
   box-shadow: none !important;
+}
+
+@mixin card($background-color: rgb(var(--friendlist))) {
+  @extend %card-shadow;
+
+  background: #{$background-color} !important;
+  border: 0;
+  border-radius: $border-radius;
   color: rgb(var(--text)) !important;
 }
 
