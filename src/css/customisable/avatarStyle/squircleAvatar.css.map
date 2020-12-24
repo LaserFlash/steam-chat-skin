@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///src/friendsChatClient/customisable/avatarStyle/squircleAvatar.scss"],"names":[],"mappings":"AAEA,MACE","file":"./src/css/customisable/avatarStyle/squircleAvatar.css","sourcesContent":["@use 'common/variables-sass' as *;\n\n:root {\n  --avatar-radius: #{$avatar-squircle};\n}\n"],"sourceRoot":""}

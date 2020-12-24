@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack:///src/offlineFriendsClient/customisable/avatarStyle/squircleAvatar.scss"],"names":[],"mappings":"AAEA,MACE","file":"./offlineFriends/avatarStyle/squircleAvatar.css","sourcesContent":["@use 'common/variables-sass' as *;\n\n:root {\n  --avatar-radius: #{$avatar-square};\n}\n"],"sourceRoot":""}
