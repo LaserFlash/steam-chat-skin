@@ -5,7 +5,7 @@
   box-shadow: none !important;
   color: rgb(var(--text)) !important;
   padding: $padding-lg !important;
-  width: fill-available !important;
+  width: -webkit-fill-available !important;
 
   &:hover,
   &:focus {

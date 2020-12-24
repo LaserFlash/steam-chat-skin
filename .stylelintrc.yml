@@ -13,6 +13,7 @@ rules:
   selector-max-compound-selectors: 8
   max-nesting-depth: 5
   property-no-vendor-prefix: [true, ignoreProperties: ['mask']]
+  value-no-vendor-prefix: [true, ignoreValues: ['fill-available']]
   scss/at-import-partial-extension-blacklist: null
 ignoreFiles:
   - node_modules
