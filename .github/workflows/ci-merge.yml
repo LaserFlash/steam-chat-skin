@@ -34,9 +34,9 @@ jobs:
       - name: SCSS/CSS Lint
         run: npm run stylelint
       - name: JS Lint
-        run: npm run lint
+        run: npm run eslint
       - name: Prettier
-        run: npm run prettier
+        run: npm run format
 
   Build-Minified-CSS:
     runs-on: ubuntu-latest

@@ -4,10 +4,12 @@
     "build:watch": "webpack --watch --mode development",
     "stylelint": "stylelint src/**",
     "stylelint:fix": "stylelint src/** --fix",
-    "lint": "eslint",
-    "lint:fix": "eslint  --fix",
-    "prettier": "prettier --check **",
-    "prettier:fix": "prettier --write **"
+    "eslint": "eslint",
+    "eslint:fix": "eslint  --fix",
+    "format": "prettier --check **",
+    "format:fix": "prettier --write **",
+    "lint": "npm run eslint && npm run stylelint && npm run format",
+    "lint:fix": "npm run eslint:fix && npm run stylelint:fix && npm run format:fix "
   },
   "devDependencies": {
     "css-loader": "^4.3.0",
@@ -20,6 +22,7 @@
     "glob": "^7.1.6",
     "mini-css-extract-plugin": "^0.11.3",
     "node-sass-glob-importer": "^5.3.2",
+    "prettier": "2.2.1",
     "prettier-stylelint": "^0.4.2",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
