@@ -5,9 +5,29 @@
     [class*='reactions_MessageReaction'] {
       background-color: rgb(var(--friendlist)) !important;
       border: 0;
+      border-radius: 0;
 
       &:hover {
-        border: 2px solid rgb(var(--closeButton)) !important;
+        box-shadow: 0 $border-width-sm 0 0 rgb(var(--closeButton));
+      }
+    }
+    [class*='reactions_OpenPickerButton'] {
+      opacity: 1;
+
+      path {
+        stroke: rgb(var(--icon));
+      }
+      ellipse {
+        fill: rgb(var(--icon));
+      }
+
+      &:hover {
+        path {
+          stroke: rgb(var(--iconhover));
+        }
+        ellipse {
+          fill: rgb(var(--iconhover));
+        }
       }
     }
   }
