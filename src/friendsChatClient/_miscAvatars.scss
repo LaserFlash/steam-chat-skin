@@ -1,37 +1,29 @@
 /* Disable border shape when user has custom frame */
 .friend:not(.quickAccessFriend)
   .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
-  :nth-last-child(2).avatar,
+  :nth-last-child(2),
 .friend:not(.quickAccessFriend)
   .avatarHolder:not(.offline).awayOrSnooze
-  :nth-last-child(3).avatar,
+  :nth-last-child(3),
 .friend:not(.quickAccessFriend)
   .avatarHolder:not(.offline).ingame
-  :nth-last-child(2).avatar,
-.friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2).avatar,
+  :nth-last-child(2),
+.friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2),
 .quickAccessFriend
   .avatarHolder.online:not(.ingame):not(.awayOrSnooze)
-  :nth-last-child(2).avatar,
-.quickAccessFriend
-  .avatarHolder.ingame:not(.awayOrSnooze)
-  :nth-last-child(3).avatar,
-.quickAccessFriend
-  .avatarHolder.ingame:not(.awayOrSnooze)
-  :nth-last-child(2).avatar,
-.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(4).avatar,
-.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(3).avatar,
-.quickAccessFriend
-  .avatarHolder:not(.ingame).awayOrSnooze
-  :nth-last-child(3).avatar,
+  :nth-last-child(2),
+.quickAccessFriend .avatarHolder.ingame:not(.awayOrSnooze) :nth-last-child(3),
+.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(4),
+.quickAccessFriend .avatarHolder:not(.ingame).awayOrSnooze :nth-last-child(3),
 .miniProfileHover
   .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
-  :nth-last-child(2).avatar,
-.miniProfileHover .avatarHolder:not(.offline).ingame :nth-last-child(2).avatar,
-.miniProfileHover
-  .avatarHolder:not(.offline).awayOrSnooze
-  :nth-last-child(2).avatar {
-  border: 0 !important;
-  border-radius: 0 !important;
+  :nth-last-child(2),
+.miniProfileHover .avatarHolder:not(.offline).ingame :nth-last-child(2),
+.miniProfileHover .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2) {
+  &.avatar {
+    border: 0 !important;
+    border-radius: 0 !important;
+  }
 }
 
 /* Fix custom frame size */
