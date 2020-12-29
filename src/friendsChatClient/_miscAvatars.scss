@@ -26,6 +26,13 @@
   }
 }
 
+.quickAccessFriend .avatarHolder.ingame:not(.awayOrSnooze) :nth-child(3),
+.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-child(4) {
+  &.avatarFrame {
+    display: none;
+  }
+}
+
 /* Fix custom frame size */
 .avatarFrame {
   transform: scale(1.111) !important;
