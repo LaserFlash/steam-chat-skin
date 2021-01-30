@@ -1,0 +1,47 @@
+@use 'common/functions' as *;
+@use 'common/variables-sass' as *;
+
+:root {
+  /* Body Background Colours */
+  --header: #{hex-to-rgb($black-primary)};
+  --friendlist: #{hex-to-rgb($black-secondary)};
+  --footer: var(--header);
+
+  /* Text */
+  --text: #{hex-to-rgb($white)};
+  --listtext: #{hex-to-rgb($gray-600)};
+  --unreadmessage: #{hex-to-rgb($notification)};
+
+  /* Nickname Colour */
+  --nickname: #{hex-to-rgb($gray-700)};
+
+  /* Icon colours */
+  --icon: #{hex-to-rgb($gray-500)};
+  --iconhover: #{hex-to-rgb($white)};
+
+  /* Title Icon Background */
+  --titleiconbg: #{hex-to-rgb($gray-900)};
+  --titleiconhover: var(--iconhover);
+
+  /* Status Colours */
+  --ingame: #{hex-to-rgb($black-ingame)};
+  --online: #{hex-to-rgb($black-online)};
+  --away: #{hex-to-rgb($black-away)};
+  --awayIngame: var(--away);
+  --watching: #{hex-to-rgb($black-watching)};
+  --offline: #{hex-to-rgb($black-offline)};
+
+  /* Buttons */
+  --buttonOn: #{hex-to-rgb($accent)};
+  --buttonOff: #{hex-to-rgb($gray-700)};
+
+  /* Scroll Bar */
+  --scrollbarPrimary: #{hex-to-rgb($black-scrollbar)};
+  --scrollbarPrimaryHover: #{hex-to-rgb(lighten($black-scrollbar, 10%))};
+  --scrollbarSecondary: var(--scrollbarPrimary);
+  --scrollbarSecondaryHover: var(--scrollbarPrimaryHover);
+
+  /* Close Button */
+  --closeButton: #{hex-to-rgb($red-close)};
+  --closeIconHover: #{hex-to-rgb($white)};
+}
