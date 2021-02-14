@@ -9,11 +9,11 @@
 
   /* Text */
   --text: #{hex-to-rgb($white)};
-  --listtext: #{hex-to-rgb($gray-500)};
+  --listtext: #{hex-to-rgb($gray-400)};
   --unreadmessage: #{hex-to-rgb($notification)};
 
   /* Nickname Colour */
-  --nickname: #{hex-to-rgb($gray-700)};
+  --nickname: #{hex-to-rgb($gray-500)};
 
   /* Icon colours */
   --icon: #{hex-to-rgb($gray-500)};
