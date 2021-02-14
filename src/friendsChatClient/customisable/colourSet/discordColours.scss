@@ -9,7 +9,7 @@
 
   /* Text */
   --text: #{hex-to-rgb($white)};
-  --listtext: #{hex-to-rgb($gray-600)};
+  --listtext: #{hex-to-rgb($gray-500)};
   --unreadmessage: #{hex-to-rgb($notification)};
 
   /* Nickname Colour */
@@ -20,7 +20,7 @@
   --iconhover: #{hex-to-rgb($white)};
 
   /* Title Icon Background */
-  --titleiconbg: #{hex-to-rgb($gray-900)};
+  --titleiconbg: #{hex-to-rgb($gray-800)};
   --titleiconhover: var(--iconhover);
 
   /* Status Colours */
