@@ -27,7 +27,12 @@
   .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
   :nth-last-child(2),
 .miniProfileHover .avatarHolder:not(.offline).ingame :nth-last-child(2),
-.miniProfileHover .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2) {
+.miniProfileHover .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2),
+.currentUserAvatar
+  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
+  :nth-last-child(2),
+.currentUserAvatar .avatarHolder:not(.offline).ingame :nth-last-child(2),
+.currentUserAvatar .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2) {
   &.avatar {
     border: var(--avatar-border) !important;
     border-radius: var(--avatar-radius) !important;
