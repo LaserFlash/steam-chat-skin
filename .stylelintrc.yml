@@ -16,3 +16,4 @@ rules:
   scss/at-import-partial-extension-blacklist: null
 ignoreFiles:
   - node_modules
+  - '**/*.svg'

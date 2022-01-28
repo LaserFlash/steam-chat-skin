@@ -45,14 +45,15 @@
   }
 
   &:hover {
-    background: rgb(var(--closeButton)) !important;
+    background: rgb(var(--close-button)) !important;
+
     line {
-      stroke: rgb(var(--closeIconHover)) !important;
+      stroke: rgb(var(--close-icon-hover)) !important;
     }
   }
 }
 
 .DialogDropDown_Arrow .SVGIcon_DownArrowContextMenu,
 .DialogButton .SVGIcon_DownArrowContextMenu {
-  fill: rgb(var(--buttonOn));
+  fill: rgb(var(--button-on));
 }

@@ -3,9 +3,7 @@
 /* Voice Options Block / Containers */
 .ChatMessageEntryVoice {
   background: none !important;
-  border-left-color: rgb(var(--friendlist));
-  border-left-style: solid;
-  border-left-width: 1px;
+  border-left: solid rgb(var(--friendlist)) 1px;
   margin: 0;
   padding: 0;
 }
@@ -117,7 +115,7 @@
 }
 
 .OneOnOneVoiceClose:hover {
-  background-color: rgb(var(--closeButton));
+  background-color: rgb(var(--close-button));
 }
 
 .inviteAnotherFriendButton {

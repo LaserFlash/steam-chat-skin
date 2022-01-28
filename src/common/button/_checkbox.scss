@@ -8,7 +8,7 @@
 
 @mixin active {
   .SVGIcon_DialogCheck path {
-    stroke: rgb(var(--buttonOn)) !important;
+    stroke: rgb(var(--button-on)) !important;
   }
 }
 

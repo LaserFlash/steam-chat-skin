@@ -67,6 +67,6 @@
   mask: linear-gradient(
     to right,
     $black calc(100% - 6px),
-    rgba(0, 0, 0, 0.15) 100%
+    rgb(0 0 0 / 15%) 100%
   ) !important;
 }

@@ -18,7 +18,7 @@
 .avatarFrame img,
 .miniprofile_Frame_3MZRj {
   border-radius: $border-radius-sm;
-  box-shadow: inset 0 0 4px $border-width-sm currentColor;
+  box-shadow: inset 0 0 4px $border-width-sm currentcolor;
 }
 
 /* === Status Colours === */
@@ -44,8 +44,8 @@
 
   /* color for ingame status */
   .ingame.awayOrSnooze & {
-    color: rgb(var(--awayIngame)) !important;
-    fill: rgb(var(--awayIngame)) !important;
+    color: rgb(var(--away-in-game)) !important;
+    fill: rgb(var(--away-in-game)) !important;
   }
 
   .awayOrSnooze & {

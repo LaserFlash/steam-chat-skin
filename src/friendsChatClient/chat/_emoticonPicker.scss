@@ -27,17 +27,18 @@
     }
 
     &[class*='addonpicker_Active'] {
-      border-bottom-color: rgb(var(--buttonOn));
+      border-bottom-color: rgb(var(--button-on));
     }
 
     &:not([class*='addonpicker_Active']):hover {
-      border-bottom-color: rgb(var(--buttonOff));
+      border-bottom-color: rgb(var(--button-off));
     }
 
     &:hover {
       [class*='addonpicker_TabContent'] {
         background-color: rgb(var(--friendlist)) !important;
       }
+
       [class*='emoticon_PickerTab'] circle,
       [class*='emoticon_PickerTab'] line {
         fill: rgb(var(--iconhover)) !important;

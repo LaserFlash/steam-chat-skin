@@ -27,21 +27,21 @@
   --ingame: #{hex-to-rgb($steam-ingame)};
   --online: #{hex-to-rgb($steam-online)};
   --away: #{hex-to-rgb($steam-away)};
-  --awayIngame: var(--away);
+  --away-in-game: var(--away);
   --watching: #{hex-to-rgb($steam-watching)};
   --offline: #{hex-to-rgb($steam-offline)};
 
   /* Buttons */
-  --buttonOn: #{hex-to-rgb($accent)};
-  --buttonOff: #{hex-to-rgb($gray-700)};
+  --button-on: #{hex-to-rgb($accent)};
+  --button-off: #{hex-to-rgb($gray-700)};
 
   /* Scroll Bar */
-  --scrollbarPrimary: #{hex-to-rgb($steam-scrollbar)};
-  --scrollbarPrimaryHover: #{hex-to-rgb(lighten($steam-scrollbar, 10%))};
-  --scrollbarSecondary: var(--scrollbarPrimary);
-  --scrollbarSecondaryHover: var(--scrollbarPrimaryHover);
+  --scrollbar-primary: #{hex-to-rgb($steam-scrollbar)};
+  --scrollbar-primary-hover: #{hex-to-rgb(lighten($steam-scrollbar, 10%))};
+  --scrollbar-secondary: var(--scrollbar-primary);
+  --scrollbar-secondary-hover: var(--scrollbar-primary-hover);
 
   /* Close Button */
-  --closeButton: #{hex-to-rgb($red-dark)};
-  --closeIconHover: #{hex-to-rgb($white)};
+  --close-button: #{hex-to-rgb($red-dark)};
+  --close-icon-hover: #{hex-to-rgb($white)};
 }

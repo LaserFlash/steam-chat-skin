@@ -19,8 +19,8 @@
   }
 
   .ingame[class*='away'] & {
-    color: rgb(var(--awayIngame)) !important;
-    fill: rgb(var(--awayIngame)) !important;
+    color: rgb(var(--away-in-game)) !important;
+    fill: rgb(var(--away-in-game)) !important;
   }
 
   .online & {

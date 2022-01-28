@@ -188,12 +188,12 @@ CHAT WINDOW
 }
 
 .chatRoomGroupHeader {
-  border-bottom: 0 solid rgba(23, 24, 29, 0.75) !important;
+  border-bottom: 0 solid rgb(23 24 29 / 75%) !important;
 }
 
 .chatRoomMembers {
   border-left: 0 solid #22252b !important;
-  border-right: 0 solid rgba(34, 37, 43, 0) !important;
+  border-right: 0 solid rgb(34 37 43 / 0%) !important;
   height: auto !important;
   user-select: none;
 }
@@ -387,17 +387,17 @@ CHAT WINDOW
 .msg .SteamPublishedFile {
   background: linear-gradient(
     to right,
-    rgba(var(--header), 0.5) 40%,
-    rgba(var(--header), 1) 100%
+    rgb(var(--header) 0.5) 40%,
+    rgb(var(--header) 1) 100%
   );
 }
 
 .msg .OpenGraphMessageURL {
   background: linear-gradient(
     to right,
-    rgba(var(--header), 0.2) 0%,
-    rgba(var(--header), 0.5) 40%,
-    rgba(var(--header), 1) 100%
+    rgb(var(--header) 0.2) 0%,
+    rgb(var(--header) 0.5) 40%,
+    rgb(var(--header) 1) 100%
   );
 }
 

@@ -32,8 +32,10 @@
 /* active tab */
 [class*='PagedSettingsDialog_PageList'] {
   overflow: visible;
+
   [class*='PagedSettingsDialog_PageListItem'] {
     transition: 0.3s;
+
     &[class*='Active'],
     &:hover {
       padding-left: $spacer;

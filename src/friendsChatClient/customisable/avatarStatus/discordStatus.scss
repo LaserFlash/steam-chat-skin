@@ -96,7 +96,7 @@ DISCORD STATUS (DEFAULT)
 }
 
 .avatarHolder.awayOrSnooze.ingame .avatarStatus {
-  background: rgb(var(--awayIngame)) !important;
+  background: rgb(var(--away-in-game)) !important;
 }
 
 .avatarHolder.awayOrSnooze .avatarStatus::before {

@@ -1,19 +1,19 @@
 @use 'common/variables-sass' as *;
 
 @mixin base {
-  background: rgb(var(--buttonOff)) !important;
+  background: rgb(var(--button-off)) !important;
   border-radius: $border-radius !important;
   color: rgb(var(--text)) !important;
 }
 
 @mixin active {
-  background: rgb(var(--buttonOn)) !important;
+  background: rgb(var(--button-on)) !important;
 }
 
 @mixin inset-hover {
-  box-shadow: 0 0 0 $border-width-sm rgb(var(--buttonOn)) inset !important;
+  box-shadow: 0 0 0 $border-width-sm rgb(var(--button-on)) inset !important;
 }
 
 @mixin outline-hover {
-  box-shadow: 0 0 0 $border-width-sm rgb(var(--buttonOn)) !important;
+  box-shadow: 0 0 0 $border-width-sm rgb(var(--button-on)) !important;
 }

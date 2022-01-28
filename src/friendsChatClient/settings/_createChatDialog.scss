@@ -16,9 +16,11 @@
 
 .FriendPicker_SuggestedFriend {
   border-radius: $border-radius !important;
+
   &.Focus {
     background-color: rgb(var(--friendlist)) !important;
   }
+
   [class*='personanameandstatus_richPresenceLabel']:not([class*='gameName']) {
     display: none;
   }

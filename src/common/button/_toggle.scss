@@ -5,15 +5,18 @@
     [class*='ToggleRail'] {
       background-color: rgb(var(--friendlist));
     }
+
     [class*='Highlight'] {
-      background-color: rgb(var(--buttonOn)) !important;
+      background-color: rgb(var(--button-on)) !important;
     }
+
     [class*='ToggleSwitch'] {
       &[class*='toggle_On'] {
-        background: rgb(var(--buttonOn)) !important;
+        background: rgb(var(--button-on)) !important;
       }
+
       &[class*='toggle_Off'] {
-        background: rgb(var(--buttonOff)) !important;
+        background: rgb(var(--button-off)) !important;
       }
     }
   }

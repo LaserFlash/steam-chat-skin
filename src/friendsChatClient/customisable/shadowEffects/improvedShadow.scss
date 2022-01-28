@@ -36,7 +36,7 @@
 
 /* chat invite message */
 .ChatMessageInvite {
-  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1) !important;
+  box-shadow: 0 0 6px rgb(0 0 0 / 10%) !important;
   margin: 4px;
 }
 
@@ -51,5 +51,5 @@
 
 /* Chat text input box */
 .chatWindow .chatEntry {
-  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
 }

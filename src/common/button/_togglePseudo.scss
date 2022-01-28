@@ -1,11 +1,11 @@
 @use 'common/variables-sass' as *;
 
 $slider-width: 36px;
-$slider-height: 10.66667px;
+$slider-height: 10.6667px;
 $switch-size: 16px;
 
 %slider {
-  background-color: rgb(var(--buttonOn)) !important;
+  background-color: rgb(var(--button-on)) !important;
   border-radius: 5.333px;
   box-shadow: inset 1px 1px 1px #0007;
   height: $slider-height;
@@ -15,7 +15,7 @@ $switch-size: 16px;
 }
 
 %switch {
-  background-color: rgb(var(--buttonOff)) !important;
+  background-color: rgb(var(--button-off)) !important;
   border-radius: 50%;
   box-shadow: 0 0 3px #000a;
   content: '';
@@ -49,12 +49,12 @@ $switch-size: 16px;
   }
 
   .DialogOnOffToggle_Option.On.Active {
-    background-color: rgb(var(--buttonOn)) !important;
+    background-color: rgb(var(--button-on)) !important;
     width: $slider-width;
   }
 
   .DialogOnOffToggle_Option.On.Active::before {
-    background-color: rgb(var(--buttonOn)) !important;
+    background-color: rgb(var(--button-on)) !important;
     transform: translate(25px);
   }
 

@@ -27,21 +27,21 @@
   --ingame: #{hex-to-rgb($discord-ingame)};
   --online: #{hex-to-rgb($discord-online)};
   --away: #{hex-to-rgb($discord-away)};
-  --awayIngame: var(--away);
+  --away-in-game: var(--away);
   --watching: #{hex-to-rgb($discord-watching)};
   --offline: #{hex-to-rgb($discord-offline)};
 
   /* Buttons */
-  --buttonOn: #{hex-to-rgb($accent)};
-  --buttonOff: #{hex-to-rgb($gray-700)};
+  --button-on: #{hex-to-rgb($accent)};
+  --button-off: #{hex-to-rgb($gray-700)};
 
   /* Scroll Bar */
-  --scrollbarPrimary: var(--header);
-  --scrollbarPrimaryHover: var(--header);
-  --scrollbarSecondary: var(--friendlist);
-  --scrollbarSecondaryHover: var(--friendlist);
+  --scrollbar-primary: var(--header);
+  --scrollbar-primary-hover: var(--header);
+  --scrollbar-secondary: var(--friendlist);
+  --scrollbar-secondary-hover: var(--friendlist);
 
   /* Close Button */
-  --closeButton: #{hex-to-rgb($red-close)};
-  --closeIconHover: #{hex-to-rgb($white)};
+  --close-button: #{hex-to-rgb($red-close)};
+  --close-icon-hover: #{hex-to-rgb($white)};
 }
