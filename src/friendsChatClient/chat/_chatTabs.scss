@@ -27,13 +27,13 @@
 }
 
 /* Tab Close Button */
-.chattabs_close-button_SzByZ {
+.chattabs_closeButton_SzByZ {
   margin: 0;
   padding: var(--padding-sm);
   transform: none;
 }
 
-.chattabs_close-button_SzByZ:hover {
+.chattabs_closeButton_SzByZ:hover {
   background: rgb(var(--close-button)) !important;
   border-radius: $border-radius-round !important;
 }
@@ -75,7 +75,7 @@
   margin-left: 90% !important;
 }
 
-.ChatTabsContextMenu .chattabs_close-button_SzByZ {
+.ChatTabsContextMenu .chattabs_closeButton_SzByZ {
   height: 10px;
   width: 10px;
 }
