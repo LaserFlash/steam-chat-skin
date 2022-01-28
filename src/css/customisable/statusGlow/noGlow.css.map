@@ -1,1 +1,1 @@
-{"version":3,"file":"./src/css/customisable/statusGlow/noGlow.css","mappings":"AACA,kBACE","sources":["webpack:///./src/friendsChatClient/customisable/statusGlow/noGlow.scss"],"sourcesContent":["/* Avatar Status Glow */\n.statusHeaderGlow {\n  display: none;\n}\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"./src/css/customisable/statusGlow/noGlow.css","mappings":"AAAA,kBAAkB,YAAY","sources":["webpack:///src/css/customisable/statusGlow/noGlow.css"],"sourcesContent":[".statusHeaderGlow{display:none}\n"],"names":[],"sourceRoot":""}

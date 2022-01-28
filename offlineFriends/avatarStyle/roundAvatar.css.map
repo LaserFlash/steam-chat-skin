@@ -1,1 +1,1 @@
-{"version":3,"file":"./offlineFriends/avatarStyle/roundAvatar.css","mappings":"AAEA,MACE","sources":["webpack:///./src/offlineFriendsClient/customisable/avatarStyle/roundAvatar.scss"],"sourcesContent":["@use 'common/variables-sass' as *;\n\n:root {\n  --avatar-radius: #{$avatar-round};\n}\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"./offlineFriends/avatarStyle/roundAvatar.css","mappings":"AAAA,MAAM,mBAAoB","sources":["webpack:///offlineFriends/avatarStyle/roundAvatar.css"],"sourcesContent":[":root{--avatar-radius: 50%}\n"],"names":[],"sourceRoot":""}
