@@ -78,7 +78,8 @@
 }
 
 /* remove steam opacity on away user */
-.friend.awayOrSnooze {
+.friend.awayOrSnooze,
+.friend.awayOrSnooze .labelHolder {
   filter: none !important;
   opacity: 1 !important;
 }
