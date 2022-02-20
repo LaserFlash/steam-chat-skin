@@ -53,3 +53,8 @@
 .avatarHolder.offline .miniprofile_Frame_3MZRj {
   display: none;
 }
+
+/* better frame position in chat */
+.ChatMessageBlock .avatarFrame img {
+  margin: 2px 0 0 2px;
+}
