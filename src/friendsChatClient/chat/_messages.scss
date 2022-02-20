@@ -1,5 +1,6 @@
 [class*='messages_MsgWithAddons'] {
   background-color: rgb(var(--friendlist)) !important;
+  margin-top: 2px;
 
   [class*='reactions_MessageReactions'] {
     [class*='reactions_MessageReaction'] {
