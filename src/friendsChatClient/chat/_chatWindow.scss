@@ -447,28 +447,3 @@ CHAT WINDOW
   display: none;
   height: 0 !important;
 }
-/* ========================== */
-/* Docked Chat controls */
-/* ========================== */
-.friendListCollapse {
-  margin-right: 4px;
-  margin-top: 2px;
-  transform: translateX(-50%);
-}
-
-/* chat tab open friends list */
-.chatTabOpenFriendsList {
-  background-color: rgb(var(--friendlist)) !important;
-  border-radius: $border-radius !important;
-  height: 44px !important;
-}
-
-/* chat tab open friends list hover */
-.chatTabOpenFriendsList:hover {
-  background-color: rgb(var(--button-on)) !important;
-
-  .SVGIcon_Button {
-    fill: rgb(var(--iconhover)) !important;
-  }
-}
-/* ========================== */
