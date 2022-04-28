@@ -32,7 +32,7 @@ $switch-size: 16px;
   .DialogOnOffToggle_Control {
     font-size: 0; // hide existing text
     margin-right: $spacer-sm;
-    margin-top: (18px - $slider-height)/2 !important;
+    margin-top: (18px - $slider-height) / 2 !important;
     overflow: visible;
     width: $slider-width;
   }

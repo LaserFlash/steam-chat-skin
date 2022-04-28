@@ -1,3 +1,4 @@
+@use 'sass:color';
 @use 'common/functions' as *;
 @use 'common/variables-sass' as *;
 
@@ -37,7 +38,9 @@
 
   /* Scroll Bar */
   --scrollbar-primary: #{hex-to-rgb($black-scrollbar)};
-  --scrollbar-primary-hover: #{hex-to-rgb(lighten($black-scrollbar, 10%))};
+  --scrollbar-primary-hover: #{hex-to-rgb(
+      color.scale($black-scrollbar, $lightness: 10%)
+    )};
   --scrollbar-secondary: var(--scrollbar-primary);
   --scrollbar-secondary-hover: var(--scrollbar-primary-hover);
 

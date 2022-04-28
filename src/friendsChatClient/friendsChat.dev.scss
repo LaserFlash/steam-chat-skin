@@ -8,13 +8,13 @@
 @import 'common/currentUser';
 
 /* Avatars */
-@import './avatars/*.scss';
+@import './avatars/*';
 
 /* Friend List */
-@import './friends/*.scss';
+@import './friends/*';
 
 /* Chat Window */
-@import './chat/*.scss';
+@import './chat/*';
 
 /* Settings Window */
 @import './settings/settings';
