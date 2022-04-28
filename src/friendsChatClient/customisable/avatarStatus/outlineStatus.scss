@@ -6,7 +6,8 @@
 
 /* === Hide Normal Status Block === */
 .avatarStatus,
-.speakerStatus {
+.speakerStatus,
+[class*='steamavatar_avatarHolder'] [class*='steamavatar_avatarStatus'].bottom {
   display: none !important;
 }
 
