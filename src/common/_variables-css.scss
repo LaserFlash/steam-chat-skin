@@ -2,4 +2,7 @@
   /* Avatar vars */
   --avatar-radius: #{$avatar-round};
   --avatar-border: 0;
+
+  /* Theme version */
+  --version: #{$VERSION};
 }

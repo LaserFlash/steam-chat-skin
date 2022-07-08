@@ -58,6 +58,7 @@ module.exports = {
                 importer: GlobImporter(),
                 includePaths: [path.resolve(__dirname, 'src')],
               },
+              additionalData: `$VERSION: ${process.env.npm_package_version};`,
             },
           },
         ],
