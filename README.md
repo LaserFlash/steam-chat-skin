@@ -15,8 +15,8 @@ This is required to apply the theme to the Steam Friends UI. Setting the patcher
 
 ### Theme Installation
 
-- Copy [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/friends.custom.css) to `Steam/clientui` and read it
-- Copy [`ofriends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/ofriends.custom.css) to `Steam/clientui` and read it
+- Copy [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/main/friends.custom.css) to `Steam/clientui` and read it
+- Copy [`ofriends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/main/ofriends.custom.css) to `Steam/clientui` and read it
 
 ## Preview
 
@@ -24,7 +24,7 @@ This is required to apply the theme to the Steam Friends UI. Setting the patcher
 
 ## Customisation
 
-[`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/friends.custom.css) can be customised to apply different styles to the theme. This customisation is performed in the that file
+[`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/main/friends.custom.css) can be customised to apply different styles to the theme. This customisation is performed in the that file
 
 ### Theme Options:
 
@@ -53,7 +53,7 @@ This is required to apply the theme to the Steam Friends UI. Setting the patcher
 
 #### Font Customisation
 
-You can change the font used, either read the comment block in [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/master/friends.custom.css) or add something like the following:
+You can change the font used, either read the comment block in [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/main/friends.custom.css) or add something like the following:
 
 ```css
 * {
