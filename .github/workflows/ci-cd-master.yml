@@ -13,7 +13,7 @@ jobs:
       - name: Load & Cache /node_modules/ cache
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
       - run: npm ci
 
@@ -26,7 +26,7 @@ jobs:
       - name: Load /node_modules/ cache
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
       - run: npm ci
       - name: SCSS/CSS Lint
@@ -45,7 +45,7 @@ jobs:
       - name: Load /node_modules/ cache
         uses: actions/setup-node@v2
         with:
-          node-version: '14'
+          node-version: '16'
           cache: 'npm'
       - run: npm ci
       - name: Build
