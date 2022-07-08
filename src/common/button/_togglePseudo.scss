@@ -1,3 +1,4 @@
+@use 'sass:math';
 @use 'common/variables-sass' as *;
 
 $slider-width: 36px;
@@ -22,7 +23,7 @@ $switch-size: 16px;
   height: $switch-size;
   left: -1px;
   position: absolute;
-  top: ($slider-height - $switch-size) / 2;
+  top: math.div($slider-height - $switch-size, 2);
   transition: 0.2s ease-in-out, background-color 0.2s ease-in-out;
   width: $switch-size;
 }
@@ -32,7 +33,7 @@ $switch-size: 16px;
   .DialogOnOffToggle_Control {
     font-size: 0; // hide existing text
     margin-right: $spacer-sm;
-    margin-top: (18px - $slider-height) / 2 !important;
+    margin-top: math.div(18px - $slider-height, 2) !important;
     overflow: visible;
     width: $slider-width;
   }

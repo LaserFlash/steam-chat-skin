@@ -39,7 +39,7 @@
   /* Scroll Bar */
   --scrollbar-primary: #{hex-to-rgb($dark-scrollbar)};
   --scrollbar-primary-hover: #{hex-to-rgb(
-      color.scale($dark-scrollbar, $lightness: 10%)
+      color.adjust($dark-scrollbar, $lightness: 10%)
     )};
   --scrollbar-secondary: var(--scrollbar-primary);
   --scrollbar-secondary-hover: var(--scrollbar-primary-hover);

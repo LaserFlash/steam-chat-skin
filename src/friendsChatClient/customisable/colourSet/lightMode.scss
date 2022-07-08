@@ -34,7 +34,7 @@
 
   /* Buttons */
   --button-on: #{hex-to-rgb($light-accent)};
-  --button-off: #{hex-to-rgb(color.scale($light-accent, $lightness: 20%))};
+  --button-off: #{hex-to-rgb(color.adjust($light-accent, $lightness: 20%))};
 
   /* Scroll Bar */
   --scrollbar-primary: #{hex-to-rgb($gray-600)};

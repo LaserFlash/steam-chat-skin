@@ -1,7 +1,7 @@
 const glob = require('glob');
 const path = require('path');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-const FixStyleOnlyEntriesPlugin = require('webpack-fix-style-only-entries');
+const RemoveEmptyScripts = require('webpack-remove-empty-scripts');
 const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const GlobImporter = require('node-sass-glob-importer');
 
@@ -72,5 +72,5 @@ module.exports = {
     minimize: true,
     minimizer: [new CssMinimizerPlugin()],
   },
-  plugins: [new FixStyleOnlyEntriesPlugin(), new MiniCssExtractPlugin()],
+  plugins: [new RemoveEmptyScripts(), new MiniCssExtractPlugin()],
 };
