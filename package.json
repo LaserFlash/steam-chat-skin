@@ -2,7 +2,7 @@
   "version": "0.1",
   "scripts": {
     "build": "webpack --mode production",
-    "build:watch": "webpack --watch --mode development",
+    "build:watch": "webpack --watch  --progress --mode development",
     "stylelint": "stylelint src/**",
     "stylelint:fix": "stylelint src/** --fix",
     "eslint": "eslint",

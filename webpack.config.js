@@ -6,6 +6,10 @@ const CssMinimizerPlugin = require('css-minimizer-webpack-plugin');
 const GlobImporter = require('node-sass-glob-importer');
 
 module.exports = {
+  watchOptions: {
+    poll: true,
+    ignored: '**/node_modules',
+  },
   devtool: 'source-map',
   entry: () =>
     glob.sync('./src/friendsChatClient/customisable/**/*.+(scss|css)').reduce(
