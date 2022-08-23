@@ -1,6 +1,6 @@
 /* Disable custom frame */
 .avatarHolder .avatarFrame,
-.avatarHolder .miniprofile_Frame_3MZRj {
+.avatarHolder [class*='miniprofile_Frame_'] {
   display: none;
 }
 
