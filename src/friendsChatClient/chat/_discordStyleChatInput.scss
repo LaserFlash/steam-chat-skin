@@ -1,152 +1,170 @@
-/* =========================== */
-
-/* Input area spacing/position */
-
-/* Most of the following is to properly center things and have nice spacing */
-
+/** Input area spacing/position
+ *  Most of the following is to properly center things and have nice spacing 
+ */
 .chatWindow .chatEntry {
   border-radius: 16px;
-  display: flex;
+  //   display: flex;
   margin-bottom: 8px;
   margin-left: 8px;
   margin-right: 8px;
   padding: 0;
 }
 
-.chatWindow .chatEntry > * {
-  margin-bottom: 0;
-}
-
-.chatentry_chatEntryActionsContainer_WZNUD {
+[class*='chatentry_chatEntryActionsContainer'] {
   margin: auto !important;
 }
 
-.chatentry_chatTextarea_3e__5 {
+[class*='chatentry_chatTextarea'] {
   box-shadow: none !important;
-  box-sizing: border-box;
-  margin: auto;
-  padding: 0;
+  //   box-sizing: border-box;
+  //   margin: auto;
+  //   padding: 0;
 }
 
-.chatentry_chatEntryControls_2O_X7 .chatentry_chatSubmitButton_3VRfL {
-  align-self: auto;
-}
+// [class*='chatentry_chatEntryControls'] [class*='chatentry_chatSubmitButton'] {
+//   align-self: auto;
+// }
 
-.chatentry_chatEntryControls_2O_X7 {
-  background-color: transparent !important;
+[class*='chatentry_chatEntryControls'] {
+  background-color: unset !important;
   padding: 10px;
 }
 
-/* Submit Button size */
-.chatentry_chatSubmitButton_3VRfL svg {
-  height: 25px !important;
-  vertical-align: middle;
-  width: 25px !important;
-}
-
-/* Emoticon 'new' wrapper */
-.chatentry_EmoticonPickerButton_3fgX0 .shared_svg_library_EmoticonBow_2ly3o {
-  bottom: unset;
-  left: unset;
-  right: unset;
-  top: -2px;
-}
-
-/* Hide the shadow between text input and viewing area */
-.chatStack .insetshadow_FriendListInsetShadowBottom_3cl4u {
+// /* Hide the shadow between text input and viewing area */
+.chatStack [class*='insetshadow_FriendListInsetShadowBottom'] {
   display: none;
 }
 
-.chatentry_chatSubmitButton_3VRfL .SVGIcon_Submit {
-  transition: 0.2s linear;
-}
-
-.chatentry_chatSubmitButton_3VRfL.chatentry_disabled_2p2vW .SVGIcon_Submit {
-  opacity: 0;
-}
-
-.chatentry_chatSubmitButton_3VRfL .SVGIcon_Submit path {
-  stroke-width: 6px;
-}
-
-/* Use proper colours for submit button icon */
-.chatentry_chatSubmitButton_3VRfL:hover .SVGIcon_Button.SVGIcon_Submit path {
-  fill: rgb(var(--icon)) !important;
-}
-
-/** Wrap content once window is small
-*   ensures entry area is still visible
-**/
-
-@media only screen and (max-width: 480px) {
-  .chatWindow .chatEntry {
-    flex-direction: column;
-  }
-
-  .chatentry_chatEntryControls_2O_X7 {
-    border-bottom: $border-width-sm solid rgb(var(--friendlist));
-  }
-}
-
-/* Ensure breaking defualt steam shadows are not present */
-
-.chatentry_chatEntryControls_2O_X7,
-.chatentry_chatEntryActionsGroup_15mWd,
+/* Ensure breaking default steam shadows are not present */
+[class*='chatentry_chatEntryControls'],
+[class*='chatentry_chatEntryActionsGroup'],
 .ChatMessageEntryVoice {
   box-shadow: none !important;
 }
 
 /** Emoticon Picker button */
-.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon {
-  background-image: url('assets/emojiIcon.svg');
-  background-repeat: no-repeat;
-  background-size: auto;
+[class*='chatentry_EmoticonPickerButton'] {
+  .SVGIcon_Emoticon {
+    background-image: url('assets/emojiIcon.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
 
-  /* Override svg style */
-  filter: grayscale(1) !important;
-  height: 100% !important;
-  transition: filter 0.2s linear;
-  width: 100% !important;
-}
+    /* Override svg style */
+    filter: grayscale(1) !important;
+    height: 100% !important;
+    transition: filter 0.2s linear;
+    width: 100% !important;
+  }
 
-.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon circle,
-.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon path,
-.chatentry_EmoticonPickerButton_3fgX0 .SVGIcon_Emoticon line {
-  display: none;
-}
+  circle,
+  path,
+  line {
+    display: none;
+  }
 
-.chatentry_EmoticonPickerButton_3fgX0:hover .SVGIcon_Emoticon {
-  filter: none !important;
+  &:hover .SVGIcon_Emoticon {
+    filter: none !important;
+  }
+
+  /* Emoticon 'new' wrapper */
+  [class*='shared_svg_library_EmoticonBow'] {
+    bottom: unset;
+    left: unset;
+    right: unset;
+    top: -2px;
+  }
 }
 
 /* New emoticon */
-.emoticon_NewEmoticonIndicator_3NVON {
+[class*='emoticon_NewEmoticonIndicator'] {
   background: none !important;
 }
 
-.emoticon_NewEmoticonCircle_3mNrG {
+[class*='emoticon_NewEmoticonCircle'] {
   background-color: rgb(var(--unreadmessage)) !important;
 }
 
 /** Add file button */
-.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip {
-  background-image: url('assets/attachIcon.svg');
-  background-repeat: no-repeat;
-  background-size: auto;
+[class*='chatentry_EmbedButton'] {
+  .SVGIcon_Paperclip {
+    background-image: url('assets/attachIcon.svg');
+    background-repeat: no-repeat;
+    background-size: auto;
 
-  /* Override svg style */
-  filter: grayscale(1) !important;
-  height: 100% !important;
-  transition: filter 0.2s linear;
-  width: 100% !important;
+    /* Override svg style */
+    filter: grayscale(1) !important;
+    height: 100% !important;
+    transition: filter 0.2s linear;
+    width: 100% !important;
+
+    circle,
+    path,
+    line {
+      display: none;
+    }
+  }
+
+  &:hover .SVGIcon_Paperclip {
+    filter: none !important;
+  }
 }
 
-.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip circle,
-.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip path,
-.chatentry_EmbedButton_1vvRh .SVGIcon_Paperclip line {
-  display: none;
+[class*='chatentry_EmbedButton']
+
+/**
+ * Chat Controls
+ */
+
+/* remove existing styles */
+[class*='chatentry_chatEntryActionsGroup'] {
+  background-color: unset !important;
 }
 
-.chatentry_EmbedButton_1vvRh:hover .SVGIcon_Paperclip {
-  filter: none !important;
+/* all controls are referred to as chatSubmitButton, regardless of what action they perform */
+[class*='chatentry_chatSubmitButton'] {
+  /* remove existing styles */
+  background-color: unset !important;
+  border: 0 !important;
+
+  /**
+   * Actual submit button 
+   */
+
+  /* Hide when disabled */
+  &[class*='chatentry_disabled'] .SVGIcon_Submit {
+    opacity: 0;
+  }
+
+  /* apply icon styles */
+  .SVGIcon_Submit {
+    transition: 0.2s linear;
+
+    path {
+      stroke: rgb(var(--icon)) !important;
+      stroke-width: 6px;
+    }
+  }
+
+  &:hover .SVGIcon_Submit path {
+    stroke: rgb(var(--iconhover)) !important;
+  }
+
+  svg {
+    vertical-align: middle;
+  }
+
+  /* ========== */
+}
+
+/** Wrap content once window is small
+ *  ensures entry area is still visible
+ */
+@media only screen and (max-width: 480px) {
+  .chatWindow .chatEntry {
+    flex-direction: column;
+  }
+
+  [class*='chatentry_chatEntryControl'] {
+    border-bottom: $border-width-sm solid rgb(var(--friendlist));
+  }
 }

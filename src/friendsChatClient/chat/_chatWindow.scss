@@ -32,13 +32,13 @@ CHAT WINDOW
 }
 
 /* Chat Tab label area */
-.chattabs_ChatTab_1WfqA .chattabs_ChatTabContent_Friend_3m7Ps {
+[class*='chattabs_ChatTab'] [class*='chattabs_ChatTabContent_Friend'] {
   align-items: center !important;
   padding: var(--padding-sm) !important;
 }
 
 .ChatTabContextMenuItem
-  .personanameandstatus_richPresenceLabel_3Q6g1:not(.personanameandstatus_gameName_qvibF) {
+  [class*='personanameandstatus_richPresenceLabel']:not([class*='personanameandstatus_gameName']) {
   display: none;
 }
 
@@ -293,11 +293,11 @@ CHAT WINDOW
                           Chat Actions / Controls                            */
 
 /* Chat Action Area */
-.chatentry_chatEntryActionsGroup_15mWd {
-  background: none !important;
+[class*='chatentry_chatEntryActionsGroup'] {
+  background: unset !important;
 }
 
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh,
+[class*='chatentry_chatSubmitButton'][class*='chatentry_EmbedButton'],
 .VoiceToggle,
 .VoiceToggle.Active {
   background: none !important;
@@ -305,25 +305,25 @@ CHAT WINDOW
   border-radius: $border-radius-round;
 }
 
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmoticonPickerButton_3fgX0:hover,
-.chatentry_chatSubmitButton_3VRfL.chatentry_EmbedButton_1vvRh:hover,
+[class*='chatentry_chatSubmitButton'][class*='chatentry_EmoticonPickerButton']:hover,
+[class*='chatentry_chatSubmitButton'][class*='chatentry_EmbedButton']:hover,
 .VoiceToggle:hover,
 .VoiceToggle.Inactive:hover {
   background-color: rgb(var(--friendlist));
 }
 
-.chatentry_chatSubmitButton_3VRfL circle,
-.chatentry_chatSubmitButton_3VRfL path,
-.chatentry_chatSubmitButton_3VRfL line,
+[class*='chatentry_chatSubmitButton'] circle,
+[class*='chatentry_chatSubmitButton'] path,
+[class*='chatentry_chatSubmitButton'] line,
 .VoiceToggleIconCtn path,
 .VoiceToggleIconCtn polyline,
 .ToggleMemberListView polyline {
   stroke: rgb(var(--icon)) !important;
 }
 
-.chatentry_chatSubmitButton_3VRfL:hover circle,
-.chatentry_chatSubmitButton_3VRfL:hover path,
-.chatentry_chatSubmitButton_3VRfL:hover line,
+[class*='chatentry_chatSubmitButton']:hover circle,
+[class*='chatentry_chatSubmitButton']:hover path,
+[class*='chatentry_chatSubmitButton']:hover line,
 .VoiceToggle:hover path,
 .VoiceToggle:hover polyline,
 .ToggleMemberListView:hover polyline {
@@ -339,7 +339,7 @@ CHAT WINDOW
   display: none;
 }
 
-.chatentry_chatSubmitButton_3VRfL {
+[class*='chatentry_chatSubmitButton'] {
   background-color: transparent !important;
   border: 0 !important;
   margin: 0 !important;
@@ -347,7 +347,7 @@ CHAT WINDOW
   padding: 0 !important;
 }
 
-.chatentry_chatSubmitButton_3VRfL:not(.chatentry_disabled_2p2vW):hover {
+[class*='chatentry_chatSubmitButton']:not([class*='chatentry_disabled']):hover {
   background-color: rgb(var(--friendlist));
 }
 
