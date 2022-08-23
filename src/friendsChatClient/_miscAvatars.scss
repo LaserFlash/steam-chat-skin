@@ -1,6 +1,6 @@
 /* Disable border shape when user has custom frame */
 .friend:not(.quickAccessFriend)
-  .avatarHolder:not(.offline, .awayOrSnooze, .ingame)
+  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
   :nth-last-child(2),
 .friend:not(.quickAccessFriend)
   .avatarHolder:not(.offline).awayOrSnooze
@@ -10,18 +10,18 @@
   :nth-last-child(2),
 .friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2),
 .quickAccessFriend
-  .avatarHolder.online:not(.ingame, .awayOrSnooze)
+  .avatarHolder.online:not(.ingame):not(.awayOrSnooze)
   :nth-last-child(2),
 .quickAccessFriend .avatarHolder.ingame:not(.awayOrSnooze) :nth-last-child(3),
 .quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(4),
 .quickAccessFriend .avatarHolder:not(.ingame).awayOrSnooze :nth-last-child(3),
 .miniProfileHover
-  .avatarHolder:not(.offline, .awayOrSnooze, .ingame)
+  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
   :nth-last-child(2),
 .miniProfileHover .avatarHolder:not(.offline).ingame :nth-last-child(2),
 .miniProfileHover .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2),
 .currentUserAvatar
-  .avatarHolder:not(.offline, .awayOrSnooze, .ingame)
+  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
   :nth-last-child(2),
 .currentUserAvatar .avatarHolder:not(.offline).ingame :nth-last-child(2),
 .currentUserAvatar .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2) {
