@@ -3,6 +3,12 @@
   --avatar-radius: #{$avatar-round};
   --avatar-border: 0;
 
+  /* padding */
+  --padding: #{$padding};
+  --padding-sm: #{$padding-sm};
+  --padding-lg: #{$padding-lg};
+  --padding-xl: #{$padding-xl};
+
   /* Theme version */
   --version: #{$VERSION};
 }
