@@ -51,7 +51,7 @@
 /* ============ */
 
 /* Context Menu */
-.contextmenu_contextMenu_3_a2Z {
+[class*='contextmenu_contextMenu'] {
   background: rgb(var(--header)) !important;
   min-width: 9em !important;
 }
@@ -76,7 +76,7 @@
 
 /* Selected and Hover Styles */
 .contextMenuItem:hover,
-.contextMenuItem.contextmenu_active_3vYUp {
+.contextMenuItem[class*='contextmenu_active'] {
   background: rgb(var(--friendlist)) !important;
   border-radius: $border-radius !important;
 }
