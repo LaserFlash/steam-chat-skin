@@ -3,7 +3,8 @@
 @mixin toggle {
   [class*='toggle_Toggle'] {
     [class*='ToggleRail'] {
-      background-color: rgb(var(--friendlist));
+      background-color: rgb(var(--header));
+      box-shadow: none;
     }
 
     [class*='Highlight'] {
