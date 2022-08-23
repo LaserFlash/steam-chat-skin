@@ -9,9 +9,9 @@ Also provides a visual way to customise the appearance.
 
 ### Prerequisite
 
-**Steam Friends Patcher:** <https://github.com/PhantomGamers/SteamFriendsPatcher/releases>
+**SFP:** <https://github.com/PhantomGamers/SFP>
 
-This is required to apply the theme to the Steam Friends UI. Setting the patcher to run in the background will automatically patch the UI whenever Valve releases a new update for the Friends UI.
+This is required to apply the theme to the Steam Chat UI. Setting the patcher to run in the background will automatically patch the UI whenever Valve releases a new update for the Chat UI.
 
 ### Theme Installation
 
