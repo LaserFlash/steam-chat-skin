@@ -12,6 +12,7 @@ rules:
   selector-class-pattern: null
   selector-max-compound-selectors: 5
   max-nesting-depth: 5
+  selector-not-notation: 'simple'
   property-no-vendor-prefix: [true, ignoreProperties: ['mask']]
   scss/at-import-partial-extension-blacklist: null
 ignoreFiles:
