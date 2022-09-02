@@ -33,10 +33,11 @@ FRIENDLIST
 }
 
 /* Fixes issue with compact friendlist collapsing */
-.personanameandstatus_compactView_2PCWF .personanameandstatus_playerName_1uxaf,
-.personanameandstatus_compactView_2PCWF
-  .personanameandstatus_playerNickname_3-32P {
-  margin-bottom: 0;
+[class*='personanameandstatus_compactView_'] {
+  [class*='personanameandstatus_playerName_'],
+  [class*='personanameandstatus_playerNickname_'] {
+    margin-bottom: 0;
+  }
 }
 
 /* Friend Game Icon FriendList */
