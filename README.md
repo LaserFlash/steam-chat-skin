@@ -2,7 +2,7 @@
 
 # Steam Friends / Chat Skin
 
-Check out <https://steamchatskinning.tk> to see the skin in action.
+Check out <https://chat.lasr.skin> to see the skin in action.
 Also provides a visual way to customise the appearance.
 
 ## Installation
