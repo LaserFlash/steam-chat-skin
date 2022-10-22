@@ -1,0 +1,102 @@
+stages:
+  - install
+  - lint
+  - build
+  - deploy
+
+image: node:16-alpine
+
+# common config for all stages
+.base:
+  interruptible: true
+  tags:
+    - docker
+
+.lint-stage:
+  extends: .base
+  stage: lint
+  needs: [Install]
+  only:
+    - merge_requests
+    - main
+    - web
+    - schedules
+
+.build-stage:
+  extends: .base
+  stage: build
+  needs: [Install]
+  only:
+    - merge_requests
+    - main
+    - web
+    - schedules
+
+.deploy-stage:
+  extends: .base
+  stage: deploy
+  only:
+    - main
+    - web
+
+# Install
+Install:
+  extends: .base
+  script:
+    - npm ci --cache .npm --prefer-offline
+  stage: install
+  only:
+    - merge_requests
+    - main
+    - web
+    - schedules
+  cache:
+    - key:
+        files:
+          - package-lock.json
+      paths:
+        - .npm/
+    - key: '$CI_COMMIT_SHORT_SHA'
+  artifacts:
+    paths:
+      - node_modules
+    expire_in: 1 day
+
+# Linting
+Stylelint:
+  extends: .lint-stage
+  script:
+    - npm run stylelint
+Eslint:
+  extends: .lint-stage
+  script:
+    - npm run eslint
+Prettier:
+  extends: .lint-stage
+  script:
+    - npm run format
+
+# Build check
+Build Site:
+  extends: .build-stage
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist
+    expire_in: 7 days
+
+# Pre Deploy
+pages:
+  extends: .deploy-stage
+  needs: [Build Site]
+  script:
+    - rm -rf public
+    - mkdir public
+    - mv dist/ public/steam-chat-skin
+  environment:
+    name: Gitlab Pages
+    url: https://laserflash.tk
+  artifacts:
+    paths:
+      - public
