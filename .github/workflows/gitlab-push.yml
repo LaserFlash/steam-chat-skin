@@ -1,0 +1,20 @@
+name: Gitlab Mirror
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Push To Gitlab
+        run: |
+          echo Starting to push repo to gitlab
+          git remote add gitlab "https://oauth2:${{secrets.GITLAB_ACCESS_TOKEN}}@gitlab.com/LaserFlash/steam-skin-chat.git"
+          git push -f gitlab main
+          echo Finished push to gitlab
