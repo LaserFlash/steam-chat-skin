@@ -8,7 +8,7 @@
 /* ======== Base Theme - the only required import ========
     This one is required will not work well without it
 */
-@import url(https://laserflash.tk/steam-chat-skin/offlineFriends/offlineFriends.css)
+@import "https://ccss.lasr.dev/offlineFriends/offlineFriends.css"
 
 /*  ---------------------------------------------------------------------------- */
 
@@ -16,11 +16,11 @@
     Select one of the following avatar shapes
 
 /*  == Squircle Avatar == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/avatarStyle/squircleAvatar.css);
+/*  @import url(https://ccss.lasr.dev/offlineFriends/avatarStyle/squircleAvatar.css);
 /*  == Square Avatar === */
-/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/avatarStyle/squareAvatar.css);
+/*  @import url(https://ccss.lasr.dev/offlineFriends/avatarStyle/squareAvatar.css);
 /*  == Round Avatar == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/avatarStyle/roundAvatar.css);
+/*  @import url(https://ccss.lasr.dev/offlineFriends/avatarStyle/roundAvatar.css);
 
 /*  ---------------------------------------------------------------------------- */
 
@@ -29,13 +29,13 @@
     Select one of the following themes
     
 /*  == Dark Theme == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/darkMode.css);
+/*  @import url(https://ccss.lasr.dev/src/css/customisable/colourSet/darkMode.css);
 /*  == Light Theme == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/lightMode.css);
+/*  @import url(https://ccss.lasr.dev/src/css/customisable/colourSet/lightMode.css);
 /*  == Steam like Theme == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/steamColours.css);
+/*  @import url(https://ccss.lasr.dev/src/css/customisable/colourSet/steamColours.css);
 /*  == Discord Colours Theme == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/src/css/customisable/colourSet/discordColours.css);
+/*  @import url(https://ccss.lasr.dev/src/css/customisable/colourSet/discordColours.css);
 
 /*  ---------------------------------------------------------------------------- */
 
@@ -45,9 +45,9 @@
     import nothing for stock steam, otherwise choose one of the following options
 
 /*  == No Shadow == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/shadowEffects/noShadow.css);
+/*  @import url(https://ccss.lasr.dev/offlineFriends/shadowEffects/noShadow.css);
 /*  == Better Shadows == */
-/*  @import url(https://laserflash.tk/steam-chat-skin/offlineFriends/shadowEffects/improvedShadow.css);
+/*  @import url(https://ccss.lasr.dev/offlineFriends/shadowEffects/improvedShadow.css);
 
 /*  ---------------------------------------------------------------------------- */
 
