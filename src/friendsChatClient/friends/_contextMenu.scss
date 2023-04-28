@@ -52,7 +52,7 @@
 
 /* Context Menu */
 [class*='contextmenu_contextMenu'] {
-  background: rgb(var(--header)) !important;
+  background: rgb(var(--header));
   min-width: 9em !important;
 }
 
