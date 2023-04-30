@@ -1,55 +1,58 @@
 @use 'common/variables-sass' as *;
-@use 'common/shadowEffects/improvedShadow';
 
-/* ======== Looks better without box-shadow ======= */
+.friendsui-container {
+  @import 'common/shadowEffects/improvedShadow';
 
-/* Between logged in and quickaccess */
-.activeTab,
-.DialogButton::before,
-.DialogButton,
-.DialogSlider_Slider,
-[class*='radio_Group'],
-.avatar,
-[class*='miniprofile_playerAvatar'],
-.ChatRoomGroupAvatar,
-.ChatMessageEntryVoice,
-[class*='chatentry_chatEntryControls'],
-.chatTabOpenFriendsList,
-.chatTabList .chatTab,
-.chatTabSelector,
-.friendSearchInput {
-  box-shadow: none !important;
-}
+  /* ======== Looks better without box-shadow ======= */
 
-/* End of friendlist shadow */
-.ChatRoomListContainerParent [class*='insetshadow_FriendsListInsetShadowCtn'],
-.insetShadow {
-  display: none !important;
-}
+  /* Between logged in and quickaccess */
+  .activeTab,
+  .DialogButton::before,
+  .DialogButton,
+  .DialogSlider_Slider,
+  [class*='radio_Group'],
+  .avatar,
+  [class*='miniprofile_playerAvatar'],
+  .ChatRoomGroupAvatar,
+  .ChatMessageEntryVoice,
+  [class*='chatentry_chatEntryControls'],
+  .chatTabOpenFriendsList,
+  .chatTabList .chatTab,
+  .chatTabSelector,
+  .friendSearchInput {
+    box-shadow: none !important;
+  }
 
-/* ================================================ */
+  /* End of friendlist shadow */
+  .ChatRoomListContainerParent [class*='insetshadow_FriendsListInsetShadowCtn'],
+  .insetShadow {
+    display: none !important;
+  }
 
-[class*='chatentry_chatTextarea'] {
-  border-radius: $border-radius;
-  margin-right: 0 !important;
-}
+  /* ================================================ */
 
-/* chat invite message */
-.ChatMessageInvite {
-  box-shadow: 0 0 6px rgb(0 0 0 / 10%) !important;
-  margin: 4px;
-}
+  [class*='chatentry_chatTextarea'] {
+    border-radius: $border-radius;
+    margin-right: 0 !important;
+  }
 
-/* Shadows */
-.ModalDialogPopup .DialogContentTransition .DialogBody {
-  mask: none !important;
-}
+  /* chat invite message */
+  .ChatMessageInvite {
+    box-shadow: 0 0 6px rgb(0 0 0 / 10%) !important;
+    margin: 4px;
+  }
 
-.DialogTextInputBase:focus {
-  box-shadow: none;
-}
+  /* Shadows */
+  .ModalDialogPopup .DialogContentTransition .DialogBody {
+    mask: none !important;
+  }
 
-/* Chat text input box */
-.chatWindow .chatEntry {
-  box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  .DialogTextInputBase:focus {
+    box-shadow: none;
+  }
+
+  /* Chat text input box */
+  .chatWindow .chatEntry {
+    box-shadow: 0 0 8px rgb(0 0 0 / 30%);
+  }
 }

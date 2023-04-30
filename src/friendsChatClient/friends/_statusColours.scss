@@ -1,47 +1,36 @@
-// list friend name
-[class*='personanameandstatus'],
-// chat name
-.speakerName,
-// miniprofile status
-[class*='miniprofile_awayStatusLabel'],
-// miniprofile friend name
-[class*='miniprofile_personaNameLabel'],
-[class*='miniprofile_richPresence'],
-// zzz icon
-[class*='friendsnooze_SnoozeZ'],
-// mobile phone icon
-.SVGIcon_MobilePhone path,
-// other icons
-[class*='personanameandstatus'] path {
-  [class*='ingame'] & {
-    color: rgb(var(--ingame)) !important;
-    fill: rgb(var(--ingame)) !important;
-  }
+$selectors: (
+  "[class*='personanameandstatus' ]",
+  "[class*='miniprofile_awayStatusLabel' ]",
+  "[class*='miniprofile_personaNameLabel' ]",
+  "[class*='miniprofile_richPresence' ]",
+  "[class*='friendsnooze_SnoozeZ' ]",
+  "[class*='personanameandstatus' ] path",
+  '.speakerName',
+  '.SVGIcon_MobilePhone path'
+);
 
-  .ingame[class*='away'] & {
-    color: rgb(var(--away-in-game)) !important;
-    fill: rgb(var(--away-in-game)) !important;
+@mixin style-with-parent($parent, $selector, $color) {
+  #{$parent} #{$selector} {
+    color: rgb(var(#{$color})) !important;
+    fill: rgb(var(#{$color})) !important;
   }
+}
 
-  .online & {
-    color: rgb(var(--online)) !important;
-    fill: rgb(var(--online)) !important;
-  }
-
-  .offline & {
-    color: rgb(var(--offline)) !important;
-    fill: rgb(var(--offline)) !important;
-  }
-
-  [class*='away'] & {
-    color: rgb(var(--away)) !important;
-    fill: rgb(var(--away)) !important;
-  }
-
-  .watchingbroadcast & {
-    color: rgb(var(--watching)) !important;
-    fill: rgb(var(--watching)) !important;
-  }
+@each $selector in $selectors {
+  @include style-with-parent("[class*='ingame']", $selector, --ingame);
+  @include style-with-parent("[class*='online']", $selector, --online);
+  @include style-with-parent("[class*='offline']", $selector, --offline);
+  @include style-with-parent("[class*='away']", $selector, --away);
+  @include style-with-parent(
+    "[class*='watchingbroadcast']",
+    $selector,
+    --watching
+  );
+  @include style-with-parent(
+    ".ingame[class*='away']",
+    $selector,
+    --away-in-game
+  );
 }
 
 /* nickname color */

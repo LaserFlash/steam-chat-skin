@@ -4,62 +4,56 @@
   --avatar-border: #{$border-width-sm} currentColor solid;
 }
 
-/* === Hide Normal Status Block === */
-.avatarStatus,
-.speakerStatus,
-[class*='steamavatar_avatarHolder'] [class*='steamavatar_avatarStatus'].bottom {
-  display: none !important;
-}
-
-/* Apply border to avatar to show status */
-.avatarHolder .avatar {
-  border: var(--avatar-border) !important;
-}
-
-.avatarFrame img,
-.miniprofile_Frame_3MZRj {
-  border-radius: $border-radius-sm;
-  box-shadow: inset 0 0 4px $border-width-sm currentcolor;
-}
-
-/* === Status Colours === */
-.avatar,
-.avatarFrame img,
-.miniprofile_Frame_3MZRj {
-  .online & {
-    color: rgb(var(--online)) !important;
+.friendsui-container {
+  /* === Hide Normal Status Block === */
+  .avatarStatus,
+  .speakerStatus,
+  [class*='steamavatar_avatarHolder']
+    [class*='steamavatar_avatarStatus'].bottom {
+    display: none !important;
   }
 
-  .watchingbroadcast & {
-    color: rgb(var(--watching)) !important;
+  /* Apply border to avatar to show status */
+  .avatarHolder .avatar {
+    border: var(--avatar-border) !important;
   }
 
-  /* Golden status */
-  .golden & {
-    color: #d5bf6a !important;
+  .avatarFrame img,
+  .miniprofile_Frame_3MZRj {
+    border-radius: $border-radius-sm;
+    box-shadow: inset 0 0 4px $border-width-sm currentcolor;
   }
 
-  .ingame & {
-    color: rgb(var(--ingame)) !important;
+  /* === Status Colours === */
+  $selectors: ('.avatar', '.avatarFrame img', "[class*='miniprofile_Frame_']");
+
+  @mixin style-with-parent($parent, $selector, $color) {
+    #{$parent} #{$selector} {
+      color: rgb(var(#{$color})) !important;
+      fill: rgb(var(#{$color})) !important;
+    }
   }
 
-  /* color for ingame status */
-  .ingame.awayOrSnooze & {
-    color: rgb(var(--away-in-game)) !important;
-    fill: rgb(var(--away-in-game)) !important;
+  @each $selector in $selectors {
+    @include style-with-parent("[class*='ingame']", $selector, --ingame);
+    @include style-with-parent("[class*='online']", $selector, --online);
+    @include style-with-parent("[class*='offline']", $selector, --offline);
+    @include style-with-parent("[class*='away']", $selector, --away);
+    @include style-with-parent(
+      "[class*='watchingbroadcast']",
+      $selector,
+      --watching
+    );
+    @include style-with-parent(
+      ".ingame[class*='away']",
+      $selector,
+      --away-in-game
+    );
   }
 
-  .awayOrSnooze & {
-    color: rgb(var(--away)) !important;
+  /* Apply margin to avatars without frame for better positioning */
+  .avatarHolder:not(.awayOrSnooze) :last-child.avatar,
+  .avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
+    margin: calc(-1 * #{$border-width-sm});
   }
-
-  .offline & {
-    color: rgb(var(--offline)) !important;
-  }
-}
-
-/* Apply margin to avatars without frame for better positioning */
-.avatarHolder:not(.awayOrSnooze) :last-child.avatar,
-.avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
-  margin: calc(-1 * #{$border-width-sm});
 }
