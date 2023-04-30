@@ -1,7 +1,6 @@
 extends:
   - stylelint-config-standard
   - stylelint-config-recommended-scss
-  - stylelint-config-prettier
   - stylelint-config-prettier-scss
 plugins:
   - stylelint-order
@@ -17,6 +16,7 @@ rules:
   property-no-vendor-prefix: [true, ignoreProperties: ['mask']]
   scss/at-import-partial-extension-blacklist: null
   no-invalid-position-at-import-rule: null
+  import-notation: 'string'
 ignoreFiles:
   - node_modules
   - '**/*.svg'
