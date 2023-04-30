@@ -12,26 +12,26 @@ module.exports = {
   },
   devtool: 'source-map',
   entry: () =>
-    glob.sync('./src/friendsChatClient/customisable/**/*.+(scss|css)').reduce(
+    glob.sync('./src/friends-client/customisable/**/*.+(scss|css)').reduce(
       (acc, file) => {
         acc[
           file
             .replace(/src\//, 'src/css/')
             .replace(/\.(scss|css)/gi, '')
-            .replace(/friendsChatClient\//, '')
+            .replace(/friends-client\//, '')
         ] = file;
         return acc;
       },
       {
-        'src/baseTheme': './src/friendsChatClient/friendsChat.dev.scss',
+        'src/baseTheme': './src/friends-client/friendsChat.dev.scss',
         ...glob
-          .sync('./src/offlineFriendsClient/customisable/**/*.+(scss|css)')
+          .sync('./src/friends-offline-client/customisable/**/*.+(scss|css)')
           .reduce(
             (acc, file) => {
               acc[
                 file
                   .replace(
-                    /src\/offlineFriendsClient\/customisable/,
+                    /src\/friends-offline-client\/customisable/,
                     'offlineFriends'
                   )
                   .replace(/\.(scss|css)/gi, '')
@@ -40,7 +40,7 @@ module.exports = {
             },
             {
               'offlineFriends/offlineFriends':
-                './src/offlineFriendsClient/offlineFriends.dev.scss',
+                './src/friends-offline-client/offlineFriends.dev.scss',
             }
           ),
       }
