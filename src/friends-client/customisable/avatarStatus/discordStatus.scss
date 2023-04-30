@@ -7,17 +7,14 @@ DISCORD STATUS (DEFAULT)
   .avatarStatus {
     background: rgb(var(--friendlist)) !important;
     border-radius: 50% !important;
-    bottom: 0 !important;
     box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
     display: block !important;
     height: 33% !important;
-    left: auto !important;
+    inset: auto 0 0 auto !important;
     margin-left: 0 !important;
     margin-top: 0 !important;
     opacity: 1 !important;
     position: absolute;
-    right: 0 !important;
-    top: auto !important;
     width: 33% !important;
     z-index: 4 !important;
   }

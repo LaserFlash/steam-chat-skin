@@ -159,7 +159,7 @@
 /** Wrap content once window is small
  *  ensures entry area is still visible
  */
-@media only screen and (max-width: 480px) {
+@media only screen and (480px >= width) {
   .chatWindow .chatEntry {
     flex-direction: column;
   }

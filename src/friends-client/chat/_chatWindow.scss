@@ -38,7 +38,9 @@ CHAT WINDOW
 }
 
 .ChatTabContextMenuItem
-  [class*='personanameandstatus_richPresenceLabel']:not([class*='personanameandstatus_gameName']) {
+  [class*='personanameandstatus_richPresenceLabel']:not(
+    [class*='personanameandstatus_gameName']
+  ) {
   display: none;
 }
 
@@ -172,11 +174,8 @@ CHAT WINDOW
 
 .emoticon_NewEmoticonIndicator_3NVON {
   background: $red-dark !important;
-  bottom: 0 !important;
   height: 1px !important;
-  left: 0 !important;
-  right: 0 !important;
-  top: 41px !important;
+  inset: 41px 0 0 !important;
 }
 
 /* ?? not sure this still does anything */
