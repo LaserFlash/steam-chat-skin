@@ -1,8 +1,10 @@
-@import 'common/variables-sass';
-@import 'common/variables-css';
-@import 'common/titleBar';
-@import 'common/friendsFooter';
-@import 'common/currentUser';
+.friendsui-container {
+  @import 'common/variables-sass';
+  @import 'common/variables-css';
+  @import 'common/titleBar';
+  @import 'common/friendsFooter';
+  @import 'common/currentUser';
 
-@import './avatar';
-@import './offline-friends';
+  @import './avatar';
+  @import './offline-friends';
+}

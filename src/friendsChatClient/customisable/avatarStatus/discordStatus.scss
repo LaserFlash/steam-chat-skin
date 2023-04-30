@@ -1,152 +1,152 @@
-/* ===== DO NOT CHANGE THIS ===== */
-
-/* --------------------------------------------------------------
+.friendsui-container {
+  /* --------------------------------------------------------------
 DISCORD STATUS (DEFAULT)
 -------------------------------------------------------------- */
 
-/* QuickAccess avatar status  */
-.avatarStatus {
-  background: rgb(var(--friendlist)) !important;
-  border-radius: 50% !important;
-  bottom: 0 !important;
-  box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
-  display: block !important;
-  height: 33% !important;
-  left: auto !important;
-  margin-left: 0 !important;
-  margin-top: 0 !important;
-  opacity: 1 !important;
-  position: absolute;
-  right: 0 !important;
-  top: auto !important;
-  width: 33% !important;
-  z-index: 4 !important;
-}
+  /* QuickAccess avatar status  */
+  .avatarStatus {
+    background: rgb(var(--friendlist)) !important;
+    border-radius: 50% !important;
+    bottom: 0 !important;
+    box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
+    display: block !important;
+    height: 33% !important;
+    left: auto !important;
+    margin-left: 0 !important;
+    margin-top: 0 !important;
+    opacity: 1 !important;
+    position: absolute;
+    right: 0 !important;
+    top: auto !important;
+    width: 33% !important;
+    z-index: 4 !important;
+  }
 
-.voiceSelfDirections .avatarStatus {
-  height: 16px !important;
-  left: 35px !important;
-  right: auto !important;
-  width: 16px !important;
-}
+  .voiceSelfDirections .avatarStatus {
+    height: 16px !important;
+    left: 35px !important;
+    right: auto !important;
+    width: 16px !important;
+  }
 
-.friendStatusHover:hover .avatarStatus {
-  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
-}
+  .friendStatusHover:hover .avatarStatus {
+    box-shadow: 0 0 0 4px rgb(var(--header)) !important;
+  }
 
-.quickAccessFriends .avatarStatus,
-.miniProfileHover .avatarStatus {
-  background: rgb(var(--header));
-  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
-}
+  .quickAccessFriends .avatarStatus,
+  .miniProfileHover .avatarStatus {
+    background: rgb(var(--header));
+    box-shadow: 0 0 0 4px rgb(var(--header)) !important;
+  }
 
-.FriendPicker .friend:not(:hover) .avatarStatus,
-.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .avatarStatus,
-.ChatTabsContextMenu .contextMenuItem:not(:hover) .avatarStatus {
-  background-color: rgb(var(--header));
-  box-shadow: 0 0 0 4px rgb(var(--header)) !important;
-}
+  .FriendPicker .friend:not(:hover) .avatarStatus,
+  .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .avatarStatus,
+  .ChatTabsContextMenu .contextMenuItem:not(:hover) .avatarStatus {
+    background-color: rgb(var(--header));
+    box-shadow: 0 0 0 4px rgb(var(--header)) !important;
+  }
 
-.speaker .speakerStatus {
-  display: none !important;
-}
+  .speaker .speakerStatus {
+    display: none !important;
+  }
 
-/* QuickAcces Game Icon */
-.FavoriteFriend_GameIcon {
-  border-radius: 100% !important;
-  bottom: 0 !important;
-  box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
-  height: 33% !important;
-  left: 0 !important;
-  position: absolute;
-  top: auto !important;
-  width: 33% !important;
-  z-index: 4 !important;
-}
+  /* QuickAcces Game Icon */
+  .FavoriteFriend_GameIcon {
+    border-radius: 100% !important;
+    bottom: 0 !important;
+    box-shadow: 0 0 0 4px rgb(var(--friendlist)) !important;
+    height: 33% !important;
+    left: 0 !important;
+    position: absolute;
+    top: auto !important;
+    width: 33% !important;
+    z-index: 4 !important;
+  }
 
-.FavoriteFriend_GameIcon img {
-  transform: scale(140%, 140%) !important;
-}
+  .FavoriteFriend_GameIcon img {
+    transform: scale(140%, 140%) !important;
+  }
 
-.compactQuickAccess .FavoriteFriend_GameIcon {
-  display: none !important;
-}
+  .compactQuickAccess .FavoriteFriend_GameIcon {
+    display: none !important;
+  }
 
-.avatarHolder.online:not(.awayOrSnooze) .avatarStatus {
-  background: rgb(var(--online)) !important;
-}
+  .avatarHolder.online:not(.awayOrSnooze) .avatarStatus {
+    background: rgb(var(--online)) !important;
+  }
 
-.avatarHolder.watchingbroadcast:not(.awayOrSnooze) .avatarStatus {
-  background: rgb(var(--watching)) !important;
-}
+  .avatarHolder.watchingbroadcast:not(.awayOrSnooze) .avatarStatus {
+    background: rgb(var(--watching)) !important;
+  }
 
-.avatarHolder.ingame:not(.awayOrSnooze) .avatarStatus {
-  background: rgb(var(--ingame)) !important;
-}
+  .avatarHolder.ingame:not(.awayOrSnooze) .avatarStatus {
+    background: rgb(var(--ingame)) !important;
+  }
 
-.avatarHolder.offline .avatarStatus {
-  background-image: url('assets/offline.svg') !important;
-  background-repeat: no-repeat;
-}
+  .avatarHolder.offline .avatarStatus {
+    background-image: url('assets/offline.svg') !important;
+    background-repeat: no-repeat;
+  }
 
-.avatarHolder.awayOrSnooze .avatarStatus {
-  background: rgb(var(--away)) !important;
-  -webkit-mask: none !important;
-  overflow: hidden;
-}
+  .avatarHolder.awayOrSnooze .avatarStatus {
+    background: rgb(var(--away)) !important;
+    -webkit-mask: none !important;
+    overflow: hidden;
+  }
 
-.avatarHolder.awayOrSnooze.ingame .avatarStatus {
-  background: rgb(var(--away-in-game)) !important;
-}
+  .avatarHolder.awayOrSnooze.ingame .avatarStatus {
+    background: rgb(var(--away-in-game)) !important;
+  }
 
-.avatarHolder.awayOrSnooze .avatarStatus::before {
-  background: rgb(var(--friendlist));
-  border-radius: 50%;
-  content: '';
-  display: block;
-  height: 75%;
-  margin-left: -12.5%;
-  margin-top: -12.5%;
-  width: 75%;
-}
+  .avatarHolder.awayOrSnooze .avatarStatus::before {
+    background: rgb(var(--friendlist));
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: 75%;
+    margin-left: -12.5%;
+    margin-top: -12.5%;
+    width: 75%;
+  }
 
-.friendlistListContainer .awayOrSnooze .avatarStatus::before,
-.ChatTabsContextMenu .awayOrSnooze .avatarStatus::before,
-.chatTabSetContainer .awayOrSnooze .avatarStatus::before,
-.FriendPicker .awayOrSnooze:hover .avatarStatus::before,
-.MemberListColumn .avatarStatus,
-.friendCategoryContainer .offline .avatarStatus,
-.ChatTabsContextMenu .offline .avatarStatus,
-.chatTabSetContainer .offline .avatarStatus,
-.FriendPicker .offline:hover .avatarStatus,
-.OneOnOneVoiceMembers .offline .avatarStatus,
-.OneOnOneVoiceMembers .awayOrSnooze .avatarStatus::before {
-  background-color: rgb(var(--friendlist)) !important;
-}
+  .friendlistListContainer .awayOrSnooze .avatarStatus::before,
+  .ChatTabsContextMenu .awayOrSnooze .avatarStatus::before,
+  .chatTabSetContainer .awayOrSnooze .avatarStatus::before,
+  .FriendPicker .awayOrSnooze:hover .avatarStatus::before,
+  .MemberListColumn .avatarStatus,
+  .friendCategoryContainer .offline .avatarStatus,
+  .ChatTabsContextMenu .offline .avatarStatus,
+  .chatTabSetContainer .offline .avatarStatus,
+  .FriendPicker .offline:hover .avatarStatus,
+  .OneOnOneVoiceMembers .offline .avatarStatus,
+  .OneOnOneVoiceMembers .awayOrSnooze .avatarStatus::before {
+    background-color: rgb(var(--friendlist)) !important;
+  }
 
-.friendlistListContainer .awayOrSnooze:hover .avatarStatus::before,
-.miniProfileHover .awayOrSnooze .avatarStatus::before,
-.ChatTabsContextMenu
-  .contextMenuItem:not(:hover)
-  .awayOrSnooze
-  .avatarStatus::before,
-.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .offline .avatarStatus,
-.chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI)
-  .awayOrSnooze
-  .avatarStatus::before,
-.friendCategoryContainer .offline:hover .avatarStatus,
-.ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
-  background-color: rgb(var(--header)) !important;
-}
+  .friendlistListContainer .awayOrSnooze:hover .avatarStatus::before,
+  .miniProfileHover .awayOrSnooze .avatarStatus::before,
+  .ChatTabsContextMenu
+    .contextMenuItem:not(:hover)
+    .awayOrSnooze
+    .avatarStatus::before,
+  .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI) .offline .avatarStatus,
+  .chattabs_ChatTab_1WfqA:not(.chattabs_Active_3sMSI)
+    .awayOrSnooze
+    .avatarStatus::before,
+  .friendCategoryContainer .offline:hover .avatarStatus,
+  .ChatTabsContextMenu .contextMenuItem:not(:hover) .offline .avatarStatus {
+    background-color: rgb(var(--header)) !important;
+  }
 
-/* Golden status */
-.miniProfileHover .golden .avatarStatus {
-  background: linear-gradient(
-    to bottom,
-    #d5bf6a 0%,
-    #ffe2a9 40%,
-    #ba995c 52%,
-    #ba995c 61%,
-    #d5bf6a 85%
-  );
+  /* Golden status */
+  .miniProfileHover .golden .avatarStatus {
+    background: linear-gradient(
+      to bottom,
+      #d5bf6a 0%,
+      #ffe2a9 40%,
+      #ba995c 52%,
+      #ba995c 61%,
+      #d5bf6a 85%
+    );
+  }
 }

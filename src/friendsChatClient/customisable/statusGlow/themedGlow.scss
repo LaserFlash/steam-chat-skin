@@ -1,48 +1,28 @@
-/* Avatar Status Glow */
-.statusHeaderGlow {
-  opacity: 0.4;
+.friendsui-container {
+  /* Avatar Status Glow */
+  .statusHeaderGlow {
+    opacity: 0.4;
+  }
 
-  .online & {
-    stop:first-child {
-      stop-color: rgb(var(--online));
-      stop-opacity: 0.4;
-    }
+  $selectors: ('.statusHeaderGlow');
 
-    stop:last-child {
-      stop-color: rgb(var(--online));
+  @mixin style-with-parent($parent, $selector, $color) {
+    #{$parent} #{$selector} {
+      stop:first-child {
+        stop-color: rgb(var(#{$color}));
+        stop-opacity: 0.4;
+      }
+
+      stop:last-child {
+        stop-color: rgb(var(#{$color}));
+      }
     }
   }
 
-  .ingame & {
-    stop:first-child {
-      stop-color: rgb(var(--ingame));
-      stop-opacity: 0.4;
-    }
-
-    stop:last-child {
-      stop-color: rgb(var(--ingame));
-    }
-  }
-
-  .awayOrSnooze & {
-    stop:first-child {
-      stop-color: rgb(var(--away));
-      stop-opacity: 0.4;
-    }
-
-    stop:last-child {
-      stop-color: rgb(var(--away));
-    }
-  }
-
-  .offline & {
-    stop:first-child {
-      stop-color: rgb(var(--offline));
-      stop-opacity: 0.4;
-    }
-
-    stop:last-child {
-      stop-color: rgb(var(--offline));
-    }
+  @each $selector in $selectors {
+    @include style-with-parent("[class*='ingame']", $selector, --ingame);
+    @include style-with-parent("[class*='online']", $selector, --online);
+    @include style-with-parent("[class*='offline']", $selector, --offline);
+    @include style-with-parent("[class*='away']", $selector, --away);
   }
 }

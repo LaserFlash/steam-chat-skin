@@ -1,49 +1,53 @@
-/* Disable custom frame */
-.avatarHolder .avatarFrame,
-.avatarHolder [class*='miniprofile_Frame_'] {
-  display: none;
-}
+.friendsui-container {
+  /* Disable custom frame */
+  .avatarHolder .avatarFrame,
+  .avatarHolder [class*='miniprofile_Frame_'] {
+    display: none;
+  }
 
-/** Disable border shape when user has custom frame 
+  /** Disable border shape when user has custom frame 
 *     targeting avatar img that does not have a frame 
 */
-.friend:not(.quickAccessFriend)
-  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
-  :nth-last-child(2),
-.friend:not(.quickAccessFriend)
-  .avatarHolder:not(.offline).awayOrSnooze
-  :nth-last-child(3),
-.friend:not(.quickAccessFriend)
-  .avatarHolder:not(.offline).ingame
-  :nth-last-child(2),
-.friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2),
-.quickAccessFriend
-  .avatarHolder.online:not(.ingame):not(.awayOrSnooze)
-  :nth-last-child(2),
-.quickAccessFriend .avatarHolder.ingame:not(.awayOrSnooze) :nth-last-child(3),
-.quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(4),
-.quickAccessFriend .avatarHolder:not(.ingame).awayOrSnooze :nth-last-child(3),
-.miniProfileHover
-  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
-  :nth-last-child(2),
-.miniProfileHover .avatarHolder:not(.offline).ingame :nth-last-child(2),
-.miniProfileHover .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2),
-.currentUserAvatar
-  .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
-  :nth-last-child(2),
-.currentUserAvatar .avatarHolder:not(.offline).ingame :nth-last-child(2),
-.currentUserAvatar .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2) {
-  &.avatar {
-    border: var(--avatar-border) !important;
-    border-radius: var(--avatar-radius) !important;
+  .friend:not(.quickAccessFriend)
+    .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
+    :nth-last-child(2),
+  .friend:not(.quickAccessFriend)
+    .avatarHolder:not(.offline).awayOrSnooze
+    :nth-last-child(3),
+  .friend:not(.quickAccessFriend)
+    .avatarHolder:not(.offline).ingame
+    :nth-last-child(2),
+  .friendlistListContainer .avatarHolder:not(.offline) :nth-last-child(2),
+  .quickAccessFriend
+    .avatarHolder.online:not(.ingame):not(.awayOrSnooze)
+    :nth-last-child(2),
+  .quickAccessFriend .avatarHolder.ingame:not(.awayOrSnooze) :nth-last-child(3),
+  .quickAccessFriend .avatarHolder.ingame.awayOrSnooze :nth-last-child(4),
+  .quickAccessFriend .avatarHolder:not(.ingame).awayOrSnooze :nth-last-child(3),
+  .miniProfileHover
+    .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
+    :nth-last-child(2),
+  .miniProfileHover .avatarHolder:not(.offline).ingame :nth-last-child(2),
+  .miniProfileHover .avatarHolder:not(.offline).awayOrSnooze :nth-last-child(2),
+  .currentUserAvatar
+    .avatarHolder:not(.offline):not(.awayOrSnooze):not(.ingame)
+    :nth-last-child(2),
+  .currentUserAvatar .avatarHolder:not(.offline).ingame :nth-last-child(2),
+  .currentUserAvatar
+    .avatarHolder:not(.offline).awayOrSnooze
+    :nth-last-child(2) {
+    &.avatar {
+      border: var(--avatar-border) !important;
+      border-radius: var(--avatar-radius) !important;
+    }
   }
-}
 
-/**
+  /**
 * Incase of outline status
 *   remove margin applied to non-framed avatars
 */
-.avatarHolder:not(.awayOrSnooze) :last-child.avatar,
-.avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
-  margin: 0;
+  .avatarHolder:not(.awayOrSnooze) :last-child.avatar,
+  .avatarHolder.awayOrSnooze :nth-last-child(2).avatar {
+    margin: 0;
+  }
 }

@@ -1,26 +1,28 @@
 /* Standard variables */
-@import 'common/variables-sass';
-@import 'common/variables-css';
+.friendsui-container {
+  @import 'common/variables-sass';
+  @import 'common/variables-css';
 
-/* Common Parts */
-@import 'common/titleBar';
-@import 'common/friendsFooter';
-@import 'common/currentUser';
+  /* Common Parts */
+  @import 'common/titleBar';
+  @import 'common/friendsFooter';
+  @import 'common/currentUser';
 
-/* Avatars */
-@import './avatars/*';
+  /* Avatars */
+  @import './avatars/*';
 
-/* Friend List */
-@import './friends/*';
+  /* Friend List */
+  @import './friends/*';
 
-/* Chat Window */
-@import './chat/*';
+  /* Chat Window */
+  @import './chat/*';
 
-/* Settings Window */
-@import './settings/settings';
+  /* Settings Window */
+  @import './settings/settings';
 
-/* Scrollbar */
-@import './scrollbar';
+  /* Scrollbar */
+  @import './scrollbar';
 
-/* Other */
-@import './miscAvatars';
+  /* Other */
+  @import './miscAvatars';
+}

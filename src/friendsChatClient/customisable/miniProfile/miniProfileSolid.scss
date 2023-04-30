@@ -1,14 +1,16 @@
-[class*='miniprofile_miniProfileContent'] {
-  /* mini profile Background */
-  &,
-  [class*='miniprofile_miniProfileHeader'],
-  [class*='miniprofile_miniProfileBottom'] {
-    background: rgb(var(--header)) !important;
-  }
+.friendsui-container {
+  [class*='miniprofile_miniProfileContent'] {
+    /* mini profile Background */
+    &,
+    [class*='miniprofile_miniProfileHeader'],
+    [class*='miniprofile_miniProfileBottom'] {
+      background: rgb(var(--header)) !important;
+    }
 
-  /* mini profile Blur */
-  [class*='miniprofile_miniProfileVideoBackgroundContainer'],
-  [class*='miniprofile_miniProfileBackgroundBlur'] {
-    display: none;
+    /* mini profile Blur */
+    [class*='miniprofile_miniProfileVideoBackgroundContainer'],
+    [class*='miniprofile_miniProfileBackgroundBlur'] {
+      display: none;
+    }
   }
 }
