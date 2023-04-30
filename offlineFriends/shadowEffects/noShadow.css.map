@@ -1,1 +1,1 @@
-{"version":3,"file":"./offlineFriends/shadowEffects/noShadow.css","mappings":"AAAA,EAAE,yBAA0B,CAAC,0BAA2B","sources":["webpack:///offlineFriends/shadowEffects/noShadow.css"],"sourcesContent":["*{box-shadow:none !important;text-shadow:none !important}\n"],"names":[],"sourceRoot":""}
+{"version":3,"file":"offlineFriends/shadowEffects/noShadow.css","mappings":"AAAA,EACE,0BACA","sources":["webpack:///./src/common/shadowEffects/_noShadow.scss"],"sourcesContent":["* {\n  box-shadow: none !important;\n  text-shadow: none !important;\n}\n"],"names":[],"sourceRoot":""}
