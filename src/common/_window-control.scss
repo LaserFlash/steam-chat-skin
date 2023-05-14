@@ -1,0 +1,62 @@
+& {
+  --window-control-icon-color: #67707b;
+  --window-control-icon-color-hover: #fff;
+  --window-control-bg-color: transparent;
+  --window-control-bg-color-hover: #3d4450;
+  --window-control-exit-bg-color: transparent;
+  --window-control-exit-bg-color-hover: #e22a27;
+  --window-control-exit-icon-color-hover: var(
+    --window-control-icon-color-hover
+  );
+}
+
+$window-control-button-size: 22px;
+
+/* main window controls */
+.TitleBar.title-area {
+  .title-bar-actions {
+    margin: 1px;
+    max-height: $window-control-button-size + $padding-sm * 2;
+
+    .title-area-icon {
+      align-items: center;
+      background-color: var(--window-control-bg-color);
+      border-radius: 2px;
+      color: var(--window-control-icon-color);
+      cursor: pointer;
+      display: flex;
+      height: $window-control-button-size;
+      margin: 0;
+      padding: $padding-sm;
+      width: $window-control-button-size;
+
+      .SVGIcon_Button {
+        display: block;
+        margin: 0 auto;
+
+        line,
+        rect {
+          stroke: currentcolor;
+          stroke-width: 24px;
+        }
+      }
+
+      &:hover {
+        background-color: var(--window-control-bg-color-hover);
+        color: var(--window-control-icon-color-hover);
+      }
+
+      &.closeButton {
+        &:hover {
+          background-color: var(--window-control-exit-bg-color-hover);
+          color: var(--window-control-icon-color-hover);
+        }
+      }
+    }
+  }
+
+  .title-area-highlight,
+  .title-area-children {
+    display: none;
+  }
+}

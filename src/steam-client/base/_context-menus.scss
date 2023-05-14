@@ -1,0 +1,25 @@
+& {
+  --context-text-color: #dcdedf;
+  --context-bg-color: #171d25;
+  --context-bg-color-hover: #3d4450;
+  --context-separator-color: #67707b;
+}
+
+/** Context menus **/
+[class*='contextmenu_contextMenu_'] .contextMenuItem {
+  color: var(--context-text-color);
+
+  &:hover {
+    background: var(--context-bg-color-hover);
+  }
+}
+
+[class*='contextmenu_contextMenuContents'] {
+  background: var(--context-bg-color);
+}
+
+[class*='menu_MenuItem_'][class*='menu_Separator_'] {
+  border-color: var(--context-separator-color);
+  margin: 0 auto;
+  width: 90%;
+}

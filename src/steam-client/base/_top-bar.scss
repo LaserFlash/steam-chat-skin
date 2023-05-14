@@ -1,0 +1,74 @@
+& {
+  --root-menu-bg-color: black;
+  --root-menu-text-color: #8b929a;
+  --root-menu-text-color-hover: #fff;
+  --nav-bg-color: #171d25;
+  --nav-text-color: #dcdedf;
+  --nav-text-color-hover: #1a9fff;
+  --nav-text-color-active: #fff;
+  --nav-text-underline-color-active: #1a9fff;
+  --nav-arrow-color-enabled: #67707b;
+  --nav-arrow-color-disabled: #3d4450;
+  --nav-arrow-color-hover: #dcdedf;
+}
+
+/** Root menu/toolbar **/
+[class*='steamdesktop_TitleBar'] {
+  background-color: var(--root-menu-bg-color);
+
+  [class*='rootmenu_RootMenuBar'] {
+    [class*='rootmenu_SteamButton'],
+    [class*='rootmenu_RootMenuButton'] {
+      color: var(--root-menu-text-color);
+
+      &:hover {
+        color: var(--root-menu-text-color-hover);
+      }
+    }
+  }
+}
+
+/** =================================== **/
+
+/** Nav toolbar **/
+[class*='steamdesktop_SuperNavBar'] {
+  /** Navigation arrows **/
+  [class*='supernav_Arrow_'] {
+    [class*='supernav_Disabled_'] {
+      color: var(--nav-arrow-color-disabled);
+    }
+
+    [class*='supernav_Enabled_'] {
+      color: var(--nav-arrow-color-enabled);
+
+      &:hover {
+        color: var(--nav-arrow-color-hover);
+      }
+    }
+  }
+
+  /** Navigation tabs - Store, Library, etc **/
+  [class*='supernav_SuperNavMenu'] {
+    [class*='supernav_MenuButton'] {
+      color: var(--nav-text-color);
+
+      &:hover {
+        color: var(--nav-text-color-hover);
+      }
+    }
+
+    /* the active / selected tab */
+    &[class*='supernav_Selected'] [class*='supernav_MenuButton'] {
+      color: var(--nav-text-color-active);
+
+      &::after {
+        background: var(--nav-text-underline-color-active);
+      }
+    }
+  }
+}
+
+/* acts as nav background color */
+[class*='steamdesktop_TopBar_'] {
+  background: var(--nav-bg-color);
+}

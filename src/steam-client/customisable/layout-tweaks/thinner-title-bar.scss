@@ -1,0 +1,22 @@
+.DesktopUI {
+  --bottom-bar-top-margin: 4px;
+
+  [class*='steamdesktop_TitleBar_'] {
+    height: 30px;
+  }
+
+  [class*='steamdesktop_TitleBarControls'] {
+    margin-top: 1px;
+  }
+
+  [class*='steamdesktop_SuperNavBar_'] {
+    height: 36px;
+    min-height: 36px;
+  }
+
+  [class*='steamdesktop_LocalContentContainer_'],
+  [class*='steamdesktop_URLBarReplacement_'] {
+    height: min-content;
+    min-height: 0;
+  }
+}

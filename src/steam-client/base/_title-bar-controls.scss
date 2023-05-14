@@ -1,0 +1,47 @@
+& {
+  --title-bar-control-text-color: ;
+  --title-bar-control-text-color-hover: ;
+  --title-bar-control-bg-color: rgb(103 112 123 / 20%);
+  --title-bar-control-bg-color-hover: #3d4450;
+  --title-bar-control-icon-color: #8b929a;
+  --title-bar-control-icon-color-hover: #b8bcbf;
+  --title-bar-control-icon-alert-color: #fff;
+  --title-bar-control-bg-alert-color: #5c7e10;
+  --title-bar-control-bg-alert-color-hover: #7ea64b;
+}
+
+[class*='steamdesktop_TitleBarControls'] {
+  margin-top: 8px;
+
+  [class*='titlebarcontrols_AccountMenu_'] {
+    background-color: var(--title-bar-control-bg-color);
+  }
+
+  [class*='titlebarcontrols_Button_'] {
+    background-color: var(--title-bar-control-bg-color);
+
+    [class*='titlebarcontrols_Icon_'] {
+      color: var(--title-bar-control-icon-color);
+    }
+
+    &:hover {
+      background-color: var(--title-bar-control-bg-color-hover);
+
+      [class*='titlebarcontrols_Icon_'] {
+        color: var(--title-bar-control-icon-color-hover);
+      }
+    }
+  }
+
+  [class*='titlebarcontrols_Button_'][class*='HasNew'] {
+    background-color: var(--title-bar-control-bg-alert-color);
+
+    [class*='titlebarcontrols_Icon_'] {
+      color: var(--title-bar-control-icon-alert-color);
+    }
+
+    &:hover {
+      background-color: var(--title-bar-control-bg-alert-color-hover);
+    }
+  }
+}
