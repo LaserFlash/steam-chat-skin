@@ -1,0 +1,23 @@
+:root {
+  --window-control-width: 0px;
+  --bottom-bar-top-margin: 36px; // height of titlebar
+}
+
+.DesktopUI {
+  [class*='steamdesktop_TitleBarControls_'] {
+    position: fixed;
+    margin-top: 0;
+    right: 0;
+    top: var(--bottom-bar-top-margin);
+
+    [class*='titlebarcontrols_GamepadUIToggle_'] {
+      position: fixed;
+      right: 80px;
+      top: 1px;
+    }
+  }
+
+  [class*='steamdesktop_SuperNavBar_'] {
+    -webkit-app-region: none;
+  }
+}

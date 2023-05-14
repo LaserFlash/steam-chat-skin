@@ -1,0 +1,43 @@
+@import 'common/window-control';
+
+[class*='steamdesktop_TitleBar_'] {
+  [class*='steamdesktop_WindowControls_'] {
+    flex-basis: 78px;
+  }
+  /*
+    BigPicture toggle
+      steam tries to make this into a window toggle, 
+      so we will finish that work
+*/
+  [class*='steamdesktop_TitleBarControls_'] {
+    margin-right: 0;
+
+    [class*='titlebarcontrols_GamepadUIToggle_'] {
+      background-color: var(--window-control-bg-color);
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      padding: $padding-sm;
+      height: $window-control-button-size;
+      width: $window-control-button-size;
+      min-width: $window-control-button-size;
+      min-height: $window-control-button-size;
+      margin-top: -4px;
+
+      [class*='titlebarcontrols_Icon'] {
+        width: 15px;
+        height: 15px;
+        position: unset;
+        color: var(--window-control-icon-color) !important;
+      }
+
+      &:hover {
+        background-color: var(--window-control-bg-color-hover) !important;
+
+        [class*='titlebarcontrols_Icon'] {
+          color: var(--window-control-icon-color-hover) !important;
+        }
+      }
+    }
+  }
+}
