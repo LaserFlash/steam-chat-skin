@@ -1,0 +1,27 @@
+@use 'common/button/button';
+
+[class*='friendslist_OfflineContainer_'] {
+  background: rgb(var(--friendlist));
+
+  [class*='summaryText'] {
+    border-bottom: $border-width-sm rgb(var(--away)) solid;
+    color: rgb(var(--away)) !important;
+    font-size: 12px;
+    font-weight: bold;
+  }
+
+  [class*='detailText'] {
+    color: rgb(var(--text)) !important;
+    text-align: center;
+  }
+
+  [class*='retryButton'] {
+    @include button.base;
+
+    box-shadow: none;
+
+    &:hover {
+      @include button.inset-hover;
+    }
+  }
+}

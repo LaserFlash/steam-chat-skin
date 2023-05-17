@@ -22,28 +22,7 @@ module.exports = {
         ] = file;
         return acc;
       },
-      {
-        'src/baseTheme': './src/friends-client/friendsChat.dev.scss',
-        ...glob
-          .sync('./src/friends-offline-client/customisable/**/*.+(scss|css)')
-          .reduce(
-            (acc, file) => {
-              acc[
-                file
-                  .replace(
-                    /src\/friends-offline-client\/customisable/,
-                    'offlineFriends'
-                  )
-                  .replace(/\.(scss|css)/gi, '')
-              ] = file;
-              return acc;
-            },
-            {
-              'offlineFriends/offlineFriends':
-                './src/friends-offline-client/offlineFriends.dev.scss',
-            }
-          ),
-      }
+      { 'src/baseTheme': './src/friends-client/friendsChat.dev.scss' }
     ),
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
