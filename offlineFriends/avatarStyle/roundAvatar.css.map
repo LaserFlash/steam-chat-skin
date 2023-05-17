@@ -1,1 +1,0 @@
-{"version":3,"file":"offlineFriends/avatarStyle/roundAvatar.css","mappings":"AAGA,MACE","sources":["webpack:///./src/friends-offline-client/customisable/avatarStyle/roundAvatar.scss"],"sourcesContent":["$VERSION: 0.1;\n@use 'common/variables-sass' as *;\n\n:root {\n  --avatar-radius: #{$avatar-round};\n}\n"],"names":[],"sourceRoot":""}

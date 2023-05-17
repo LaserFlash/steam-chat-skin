@@ -1,1 +1,0 @@
-{"version":3,"file":"offlineFriends/shadowEffects/noShadow.css","mappings":"AAAA,EACE,0BACA","sources":["webpack:///./src/common/shadowEffects/_noShadow.scss"],"sourcesContent":["* {\n  box-shadow: none !important;\n  text-shadow: none !important;\n}\n"],"names":[],"sourceRoot":""}
