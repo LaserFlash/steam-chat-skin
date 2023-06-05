@@ -29,7 +29,24 @@ module.exports = {
         }
       );
 
-    return { ...friendsClient };
+    const steamClient = glob
+      .sync('./src/steam-client/customisable/**/*.+(scss|css)')
+      .reduce(
+        (acc, file) => {
+          acc[
+            file
+              .replace(/src\/steam-client\/customisable/, 'steam-client')
+              .replace(/\.(scss|css)/gi, '')
+          ] = file;
+          return acc;
+        },
+        {
+          'steam-client/steam-client':
+            './src/steam-client/steam-client.dev.scss',
+        }
+      );
+
+    return { ...friendsClient, ...steamClient };
   },
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
