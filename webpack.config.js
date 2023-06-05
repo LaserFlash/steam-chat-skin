@@ -18,13 +18,15 @@ module.exports = {
         (acc, file) => {
           acc[
             file
-              .replace(/src\//, 'src/css/')
+              .replace(/src\/friends-client\/customisable/, 'friends-client')
               .replace(/\.(scss|css)/gi, '')
-              .replace(/friends-client\//, '')
           ] = file;
           return acc;
         },
-        { 'src/baseTheme': './src/friends-client/friendsChat.dev.scss' }
+        {
+          'friends-client/friends-client':
+            './src/friends-client/friendsChat.dev.scss',
+        }
       );
 
     return { ...friendsClient };

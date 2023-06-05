@@ -1,49 +1,60 @@
-@import url(dist/src/baseTheme.css);
+@import "dist/friends-client/friends-client.css";
+
 /*  ----------------------------------------------------------------------------
 /*  == Squircle Avatar == */
-/*  @import url(dist/src/css/customisable/avatarStyle/squircleAvatar.css);
+
+/*  @import url(dist/friends-client/avatarStyle/squircleAvatar.css);
 /*  == Square Avatar == */
-/*  @import url(dist/src/css/customisable/avatarStyle/squareAvatar.css);
+
+/*  @import url(dist/friends-client/avatarStyle/squareAvatar.css);
 /*  == Round Avatar == */
-@import url(dist/src/css/customisable/avatarStyle/roundAvatar.css);
+@import "dist/friends-client/avatarStyle/roundAvatar.css";
 
 /*  ----------------------------------------------------------------------------
 /*  == Outline Status == */
+
 /*  @import url(css/customisable/avatarStatus/outlineStatus.css);
 /*  == Discord Status == */
-@import url(dist/src/css/customisable/avatarStatus/discordStatus.css);
+@import "dist/friends-client/avatarStatus/discordStatus.css";
 
 /*  ----------------------------------------------------------------------------
 /*  == Dark Theme == */
-/*  @import url(dist/src/css/customisable/colourSet/darkMode.css);
+
+/*  @import url(dist/friends-client/colourSet/darkMode.css);
 /*  == Light Theme == */
-/*  @import url(dist/src/css/customisable/colourSet/lightMode.css);
+
+/*  @import url(dist/friends-client/colourSet/lightMode.css);
 /*  == Steam like Theme == */
-/*  @import url(dist/src/css/customisable/colourSet/steamColours.css);
+
+/*  @import url(dist/friends-client/colourSet/steamColours.css);
 /*  == Discord Colours Theme == */
-@import url(dist/src/css/customisable/colourSet/discordColours.css);
+@import "dist/friends-client/colourSet/discordColours.css";
 
 /*  ----------------------------------------------------------------------------
 /*  == Mini profile solid == */
-/*  @import url(dist/src/css/customisable/miniProfile/miniProfileSolid.css);
+
+/*  @import url(dist/friends-client/miniProfile/miniProfileSolid.css);
 /*  == Mini profile blur == */
-@import url(dist/src/css/customisable/miniProfile/miniProfileBlur.css);
+@import "dist/friends-client/miniProfile/miniProfileBlur.css";
 
 /*  ----------------------------------------------------------------------------
 /*  == No Glow == */
-/*  @import url(dist/src/css/customisable/statusGlow/noGlow.css);
+
+/*  @import url(dist/friends-client/statusGlow/noGlow.css);
 /*  == Themed Glow == */
-@import url(dist/src/css/customisable/statusGlow/themedGlow.css);
+@import "dist/friends-client/statusGlow/themedGlow.css";
 
 /*  ----------------------------------------------------------------------------
 /*  == No Shadow == */
-/* @import url(dist/src/css/customisable/shadowEffects/noShadow.css);
+
+/* @import url(dist/friends-client/shadowEffects/noShadow.css);
 /*  == Better Shadows == */
-@import url(dist/src/css/customisable/shadowEffects/improvedShadow.css);
+@import "dist/friends-client/shadowEffects/improvedShadow.css";
 
 /*  ----------------------------------------------------------------------------
 /*  == No Frames == */
-/* @import url(dist/src/css/customisable/avatarFrame/disable.css);
+
+/* @import url(dist/friends-client/avatarFrame/disable.css);
 
 /*  ----------------------------------------------------------------------------
 /* ==== Fonts ====
@@ -52,6 +63,7 @@
 /*    - https://www.w3schools.com/cssref/css_websafe_fonts.asp
 /*    - https://fonts.google.com/?selection.family=Big+Shoulders+Text (also a good resource, use the @IMPORT option)
 */
+
 /*
 /* -- Remove this line to uncomment the font-family --
 * {
