@@ -1,0 +1,1 @@
+{"version":3,"file":"src/css/customisable/avatarStyle/squareAvatar.css","mappings":"AAGA,MACE,mB","sources":["webpack:///./src/friends-client/customisable/avatarStyle/squareAvatar.scss"],"sourcesContent":["$VERSION: 0.1;\n@use 'common/variables-sass' as *;\n\n:root {\n  --avatar-radius: #{$avatar-square};\n}\n"],"names":[],"sourceRoot":""}
