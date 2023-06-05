@@ -11,19 +11,24 @@ module.exports = {
     ignored: '**/node_modules',
   },
   devtool: 'source-map',
-  entry: () =>
-    glob.sync('./src/friends-client/customisable/**/*.+(scss|css)').reduce(
-      (acc, file) => {
-        acc[
-          file
-            .replace(/src\//, 'src/css/')
-            .replace(/\.(scss|css)/gi, '')
-            .replace(/friends-client\//, '')
-        ] = file;
-        return acc;
-      },
-      { 'src/baseTheme': './src/friends-client/friendsChat.dev.scss' }
-    ),
+  entry: () => {
+    const friendsClient = glob
+      .sync('./src/friends-client/customisable/**/*.+(scss|css)')
+      .reduce(
+        (acc, file) => {
+          acc[
+            file
+              .replace(/src\//, 'src/css/')
+              .replace(/\.(scss|css)/gi, '')
+              .replace(/friends-client\//, '')
+          ] = file;
+          return acc;
+        },
+        { 'src/baseTheme': './src/friends-client/friendsChat.dev.scss' }
+      );
+
+    return { ...friendsClient };
+  },
   resolve: {
     modules: [path.resolve(__dirname, 'src'), 'node_modules'],
     preferRelative: true,
@@ -60,7 +65,7 @@ module.exports = {
     ],
   },
   optimization: {
-    minimize: true,
+    minimize: false,
     minimizer: [new CssMinimizerPlugin()],
   },
   plugins: [new RemoveEmptyScripts(), new MiniCssExtractPlugin()],
