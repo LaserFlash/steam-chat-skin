@@ -1,3 +1,0 @@
-.friendsui-container [class*=miniprofile_miniProfileContent] [class*=miniprofile_miniProfileHeader]{background:rgb(var(--friendlist) 0.5) !important}.friendsui-container [class*=miniprofile_miniProfileContent][class*=miniprofile_notInOrWatchingGame] [class*=miniprofile_miniProfileBottom],.friendsui-container [class*=miniprofile_miniProfileContent] [class*=miniprofile_miniProfileGameContainer]{background:linear-gradient(to bottom, rgb(var(--header) 0.7) 5%, rgb(var(--header) 0.4) 95%) !important}
-
-/*# sourceMappingURL=miniProfileBlur.css.map*/
