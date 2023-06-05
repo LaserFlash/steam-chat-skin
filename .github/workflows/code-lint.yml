@@ -1,0 +1,22 @@
+name: Code Linting
+on:
+  workflow_call:
+
+jobs:
+  Lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Load /node_modules/ cache
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+          cache: 'npm'
+      - run: npm ci
+      - name: SCSS/CSS Lint
+        run: npm run stylelint
+      - name: JS Lint
+        run: npm run eslint
+      - name: Prettier
+        run: npm run format

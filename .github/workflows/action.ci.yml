@@ -1,0 +1,15 @@
+name: CI
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  Setup:
+    uses: ./.github/workflows/code-install.yml
+  Lint:
+    needs: [Setup]
+    uses: ./.github/workflows/code-lint.yml
+  Deploy:
+    needs: [Setup]
+    uses: ./.github/workflows/code-deploy.yml

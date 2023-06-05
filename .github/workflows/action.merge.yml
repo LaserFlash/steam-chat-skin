@@ -1,0 +1,12 @@
+name: Lint Merge Request
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  Install:
+    uses: ./.github/workflows/code-install.yml
+  Lint:
+    needs: [Install]
+    uses: ./.github/workflows/code-lint.yml
