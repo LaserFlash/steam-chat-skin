@@ -1,0 +1,3 @@
+:root{--header: 35, 38, 44;--friendlist: 30, 32, 37;--footer: var(--header);--text: 255, 255, 255;--listtext: 173, 181, 189;--unreadmessage: 8, 127, 35;--nickname: 108, 117, 125;--icon: 173, 181, 189;--iconhover: 255, 255, 255;--titleiconbg: 30, 30, 31;--titleiconhover: var(--iconhover);--ingame: 145, 194, 87;--online: 109, 207, 246;--away: 109, 207, 246;--away-in-game: var(--away);--watching: 130, 119, 177;--offline: 108, 117, 125;--button-on: 45, 115, 255;--button-off: 73, 80, 87;--scrollbar-primary: 67, 73, 83;--scrollbar-primary-hover: 90, 98, 111;--scrollbar-secondary: var(--scrollbar-primary);--scrollbar-secondary-hover: var(--scrollbar-primary-hover);--close-button: 198, 40, 40;--close-icon-hover: 255, 255, 255}
+
+/*# sourceMappingURL=steamColours.css.map*/
