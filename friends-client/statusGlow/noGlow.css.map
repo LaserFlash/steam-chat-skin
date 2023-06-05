@@ -1,0 +1,1 @@
+{"version":3,"file":"friends-client/statusGlow/noGlow.css","mappings":"AAGE,uCACE,a","sources":["webpack:///./src/friends-client/customisable/statusGlow/noGlow.scss"],"sourcesContent":["$VERSION: 0.1;\n.friendsui-container {\n  /* Avatar Status Glow */\n  .statusHeaderGlow {\n    display: none;\n  }\n}\n"],"names":[],"sourceRoot":""}
