@@ -16,7 +16,7 @@ This is required to apply the theme to the Steam Chat UI. Setting the patcher to
 ### Theme Installation
 
 - Copy [`friends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/main/friends.custom.css) to `Steam/clientui` and read it
-- Copy [`ofriends.custom.css`](https://raw.githubusercontent.com/LaserFlash/steam-chat-skin/main/ofriends.custom.css) to `Steam/clientui` and read it
+  `Steam/clientui` and read it
 
 ## Preview
 
