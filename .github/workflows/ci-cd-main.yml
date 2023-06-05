@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Load & Cache /node_modules/ cache
         uses: actions/setup-node@v2
         with:
@@ -22,7 +22,7 @@ jobs:
     needs: Install
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Load /node_modules/ cache
         uses: actions/setup-node@v2
         with:
@@ -41,7 +41,7 @@ jobs:
     needs: [Install, Lint]
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Load /node_modules/ cache
         uses: actions/setup-node@v2
         with:
@@ -61,7 +61,7 @@ jobs:
     needs: Build-Minified-CSS
     steps:
       - name: Checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
       - name: Download artifact
         uses: actions/download-artifact@v2
         with:
