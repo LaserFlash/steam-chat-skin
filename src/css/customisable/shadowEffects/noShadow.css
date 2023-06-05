@@ -1,0 +1,3 @@
+.friendsui-container *{box-shadow:none !important;text-shadow:none !important}.friendsui-container .activeVoiceButtons .SVGIcon_Shadow{display:none !important}.friendsui-container .ModalDialogPopup .DialogContentTransition .DialogBody{-webkit-mask:none !important;mask:none !important}.friendsui-container [class*=insetshadow_FriendsListInsetShadowCtn],.friendsui-container .insetShadow{display:none !important}.friendsui-container .DialogButton::before,.friendsui-container .DialogButton.Secondary.Off{box-shadow:none}.friendsui-container .DialogTextInputBase:focus{box-shadow:none}
+
+/*# sourceMappingURL=noShadow.css.map*/
