@@ -2,7 +2,7 @@
 @use 'common/functions' as *;
 @use 'common/variables-sass' as *;
 
-:root {
+.friendsui-container {
   /* Body Background Colours */
   --header: #{hex-to-rgb($dark-primary)};
   --friendlist: #{hex-to-rgb($dark-secondary)};
@@ -19,10 +19,6 @@
   /* Icon colours */
   --icon: #{hex-to-rgb($gray-500)};
   --iconhover: #{hex-to-rgb($white)};
-
-  /* Title Icon Background */
-  --titleiconbg: #{hex-to-rgb($gray-800)};
-  --titleiconhover: var(--iconhover);
 
   /* Status Colours */
   --ingame: #{hex-to-rgb($dark-ingame)};
@@ -44,7 +40,10 @@
   --scrollbar-secondary: var(--scrollbar-primary);
   --scrollbar-secondary-hover: var(--scrollbar-primary-hover);
 
-  /* Close Button */
-  --close-button: #{hex-to-rgb($red-close)};
-  --close-icon-hover: #{hex-to-rgb($white)};
+  /* Window Controls */
+  --window-control-icon-color: var(--icon);
+  --window-control-icon-color-hover: var(--iconhover);
+  --window-control-bg-color-hover: #{$gray-800};
+  --window-control-exit-bg-color-hover: #{$red-close};
+  --window-control-exit-icon-color-hover: #{$white};
 }

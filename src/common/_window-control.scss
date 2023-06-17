@@ -49,7 +49,7 @@ $window-control-button-size: 22px;
       &.closeButton {
         &:hover {
           background-color: var(--window-control-exit-bg-color-hover);
-          color: var(--window-control-icon-color-hover);
+          color: var(--window-control-exit-icon-color-hover);
         }
       }
     }
