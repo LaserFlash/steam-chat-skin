@@ -6,6 +6,10 @@
   color: rgb(var(--text)) !important;
 }
 
+@mixin disabled {
+  background: rgb(var(--friendlist)) !important;
+}
+
 @mixin active {
   background: rgb(var(--button-on)) !important;
 }

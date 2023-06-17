@@ -1,0 +1,35 @@
+@use 'common/button/button';
+
+.PopupFullWindow {
+  .TitleBar {
+    height: fit-content !important;
+  }
+
+  .DialogContent {
+    background: rgb(var(--header));
+
+    .DialogTextInputBase {
+      background: rgb(var(--friendlist));
+
+      &:focus,
+      &:focus-within {
+        box-shadow: unset;
+      }
+    }
+
+    .DialogFooter {
+      .DialogButton {
+        @include button.base;
+
+        &.Disabled {
+          @include button.disabled;
+        }
+
+        &:hover,
+        &:focus {
+          @include button.active;
+        }
+      }
+    }
+  }
+}
