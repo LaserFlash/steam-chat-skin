@@ -1,0 +1,3 @@
+.DesktopUI{--bottom-bar-top-margin: 4px}.DesktopUI [class*=steamdesktop_TitleBar_]{height:30px}.DesktopUI [class*=steamdesktop_TitleBarControls]{margin-top:1px}.DesktopUI [class*=steamdesktop_SuperNavBar_]{height:36px;min-height:36px}.DesktopUI [class*=steamdesktop_LocalContentContainer_],.DesktopUI [class*=steamdesktop_URLBarReplacement_]{height:min-content;min-height:0}
+
+/*# sourceMappingURL=thinner-title-bar.css.map*/
