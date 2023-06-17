@@ -29,6 +29,7 @@ SCROLLBAR
   width: 14px;
 }
 
+[class*='scrollpanel_ScrollPanel']:hover::-webkit-scrollbar-thumb,
 .chatRoomListContainer:hover::-webkit-scrollbar-thumb,
 .friendlistListContainer:hover::-webkit-scrollbar-thumb,
 .DialogBody:hover::-webkit-scrollbar-thumb,

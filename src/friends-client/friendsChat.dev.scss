@@ -5,24 +5,14 @@
 
   /* Common Parts */
   @import 'common/window-control';
+  @import 'common/dialog-window';
   @import 'common/friendsFooter';
   @import 'common/currentUser';
 
-  /* Avatars */
-  @import './avatars/*';
-
-  /* Friend List */
-  @import './friends/*';
-
-  /* Chat Window */
-  @import './chat/*';
-
-  /* Settings Window */
-  @import './settings/settings';
-
-  /* Scrollbar */
-  @import './scrollbar';
-
-  /* Other */
-  @import './miscAvatars';
+  @import './base/avatars/*'; /* Avatars */
+  @import './base/friends/*'; /* Friend List */
+  @import './base/chat/*'; /* Chat Window */
+  @import './base/dialog/*'; /* Settings Window */
+  @import './base/scrollbar'; /* Scrollbar */
+  @import './base/miscAvatars'; /* Other */
 }

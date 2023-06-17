@@ -1,0 +1,19 @@
+.FriendPicker_ChosenFriend {
+  background: rgb(var(--button-off));
+
+  &:hover,
+  &:focus {
+    background: rgb(var(--button-on));
+  }
+
+  .SVGIcon_X_Line line {
+    stroke: rgb(var(--icon));
+  }
+}
+
+.FriendPickerScrollPanel {
+  background: rgb(var(--friendlist));
+  border-radius: $border-radius;
+  mask-image: unset;
+  padding: $padding;
+}
