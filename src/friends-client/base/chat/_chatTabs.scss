@@ -27,13 +27,16 @@
 
 /* Tab Close Button */
 [class*='chattabs_CloseButton'] {
-  padding: var(--padding-sm);
-  transform: none;
-}
+  margin-left: 2px;
+  margin-right: 2px;
 
-[class*='chattabs_CloseButton']:hover {
-  background: rgb(var(--close-button)) !important;
-  border-radius: $border-radius-round !important;
+  &:hover .SVGIcon_Button {
+    background: var(--window-control-exit-bg-color-hover);
+    border-radius: $border-radius-round;
+  }
+  .SVGIcon_Button {
+    padding: 1px;
+  }
 }
 
 [class*='chattabs_ChatTabContent_Friend'] {
@@ -72,11 +75,6 @@
 
 .ChatTabsContextMenu .ChatUnreadMessageIndicator {
   margin-left: 90% !important;
-}
-
-.ChatTabsContextMenu [class*='chattabs_CloseButton'] {
-  height: 10px;
-  width: 10px;
 }
 
 .ChatTabsContextMenu [class*='chattabs_ChatTab_'] {
