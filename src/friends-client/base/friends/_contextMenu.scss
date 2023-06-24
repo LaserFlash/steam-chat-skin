@@ -51,7 +51,7 @@
 /* ============ */
 
 /* Context Menu */
-[class*='contextmenu_contextMenuContent'] {
+[class*='contextmenu_contextMenu_'] {
   background: rgb(var(--header));
   min-width: 9em !important;
 }
